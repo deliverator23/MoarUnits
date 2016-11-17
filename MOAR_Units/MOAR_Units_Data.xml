@@ -868,7 +868,7 @@
 		<Row>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_WARRIOR</RequirementId>
 			<Name>UnitType</Name>
-			<Value>UNIT_ROMAN_LEGION</Value>
+			<Value>UNIT_WARRIOR</Value>
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_LEGION</RequirementId>
