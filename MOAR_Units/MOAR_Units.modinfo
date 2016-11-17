@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c5cbb14e-d424-4960-89dd-3e4c9d3790Za">
+	<Properties>
+		<Name>LOC_MOAR_UNITS_NAME</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>LOC_MOAR_UNITS_TEASER</Teaser>
+		<Description>LOC_MOAR_UNITS_DESCRIPTION</Description>
+		<Authors>LOC_MOAR_UNITS_AUTHORS</Authors>
+		<SpecialThanks>LOC_MOAR_UNITS_SPECIAL_THANKS</SpecialThanks>
+	</Properties>
+	<Files>
+		<File>MOAR_Units_Data.xml</File>
+		<File>MOAR_Units_Text.xml</File>
+		<File>MOAR_Units.sql</File>
+	</Files>
+  <Components>
+		<UpdateDatabase id="MOAR_Units_Component">
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>
+				<File>MOAR_Units_Data.xml</File>
+				<File>MOAR_Units.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText>
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>	
+				<File>MOAR_Units_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<LocalizedText>
+		<Text id="LOC_MOAR_UNITS_AUTHORS">
+			<en_US>Deliverator</en_US>
+		</Text>
+		<Text id="LOC_MOAR_UNITS_SPECIAL_THANKS">
+			<en_US>Thanks to Firaxis for making a great game!</en_US>
+		</Text>
+		<Text id="LOC_MOAR_UNITS_DESCRIPTION">
+			<en_US>Adds Rifleman, Cuirassier and 19 new Unique Units.</en_US>
+		</Text>
+		<Text id="LOC_MOAR_UNITS_TEASER">
+			<en_US>Adds Rifleman, Cuirassier and 19 new Unique Units.</en_US>
+		</Text>
+		<Text id="LOC_MOAR_UNITS_NAME">
+			<en_US>Moar Units!</en_US>
+		</Text>
+	</LocalizedText>
+</Mod>
