@@ -86,13 +86,13 @@ Kongolese unique Information era melee unit that replaces Mechanized Infantry. +
 
 If you don't see the new art assets in the game then you probably haven't copied the files from MOAR_Units_Assets correctly. The files that need to be in place within the game directory for the current version of Moar Units are:
 
-../Sid Meier's Civilization VI/Base/Civ6.dep (overwrite)
-../Sid Meier's Civilization VI/Base/ArtDefs/Units.artdef(overwrite)
-../Sid Meier's Civilization VI/Base/ArtDefs/Units_Moar.artdef(new)
-../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_Units.xml (overwrite)
-../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_UnitPortraits.xml (overwrite)
-../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_UnitFlags.xml (overwrite)
-../Sid Meier's Civilization VI/Base/Assets/Text/en_US/MOAR_Units_GameplayText.xml (new)
+../Sid Meier's Civilization VI/Base/Civ6.dep (overwrite)   
+../Sid Meier's Civilization VI/Base/ArtDefs/Units.artdef(overwrite)   
+../Sid Meier's Civilization VI/Base/ArtDefs/Units_Moar.artdef(new)   
+../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_Units.xml (overwrite)   
+../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_UnitPortraits.xml (overwrite)   
+../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_UnitFlags.xml (overwrite)   
+../Sid Meier's Civilization VI/Base/Assets/Text/en_US/MOAR_Units_GameplayText.xml (new)   
 
 ## Known Issues
 Due to the current incompleteness of mod support you will need to restart the game between each new game or reloaded savegame for game text to display correctly.
