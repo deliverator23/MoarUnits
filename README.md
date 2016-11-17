@@ -3,12 +3,12 @@ A mod that adds more units to Civilization 6
 
 This Civilization VI mod adds Rifleman and Cuirassier units and 19 new Unique Units: the American Minuteman, Arabian Camel Archer, Chinese Cho-Ko-Nu, German Hussar, Greek Hetairoi (Companion Cavalry), Spanish Jinete, Roman Equite, Russian Druzhina Cavalry, Norweigian Hirdman, English Longbowman and Indian Mughal Sowar, Sumerian Phalanx, Japanese Sohei, Scythian Amazon Cavalry, Brazilian Bandeirante and Fatherland Volunteer, Egyptian Hyksos Bowman, French Gendarme and Kongolese Garde Republicaine.
 
-(http://forums.civfanatics.com/attachments/moar1-png.456456/)
-(http://forums.civfanatics.com/attachments/moar2-png.456457/)
-(http://forums.civfanatics.com/attachments/moar3-png.456458/)
-(http://forums.civfanatics.com/attachments/moar2-jpg.456888/)
-(http://forums.civfanatics.com/attachments/moar0-3-jpg.458225/)
-(http://forums.civfanatics.com/attachments/pedia-jpg.458226/)
+![](http://forums.civfanatics.com/attachments/moar1-png.456456/)
+![](http://forums.civfanatics.com/attachments/moar2-png.456457/)
+![](http://forums.civfanatics.com/attachments/moar3-png.456458/)
+![](http://forums.civfanatics.com/attachments/moar2-jpg.456888/)
+![](http://forums.civfanatics.com/attachments/moar0-3-jpg.458225/)
+![](http://forums.civfanatics.com/attachments/pedia-jpg.458226/)
 
 ## Rifleman Info
 
