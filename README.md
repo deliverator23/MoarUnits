@@ -20,61 +20,61 @@ Knight now upgrades to Cuirassier and Cuirassier upgrades to Tank.
 
 ## Unique Unit Info
 
-Minuteman (America)
+#### Minuteman (America)
 American unique Industrial era unit that replaces Musketman. Slightly stronger than Musketman, and gains +5 Combat Strength when fighting in or adjacent to its home territory. Also gains additional +5 is fighting in Forest or Jungle.
 
-Camel Archer (Arabia)
+#### Camel Archer (Arabia)
 Arabian unique Classical era unit. Gains additional +8 Combat Strength when fighting on Desert or Plains.
 
-Hussar (Germany)
+#### Hussar (Germany)
 German unique Industrial era unit that replaces Cavalry. Slightly cheaper than Cavalry and has +1 sight, +50% flanking bonus and +5 Combat Strength when attacking ranged and siege units.
 
-Hetairoi (Greece)
+#### Hetairoi (Greece)
 Greek unique cavalry unit that replaces Horseman. Uses Heavy Cavalry promotion tree. Slightly stronger than Horseman, and gains +5 Combat Strength when fighting outside home territory.
 
-Phalanx (Sumeria)
+#### Phalanx (Sumeria)
 Sumerian unique Ancient era unit that replaces the Spearman. The Phalanx is available with the discovery of the Mining technology. +8 Combat Strength if fighting within 8 tiles of a Ziggurat improvement.
 
-Cho-ko-nu (China)
+#### Cho-ko-nu (China)
 Chinese unique Medieval era ranged unit that replaces Crossbowman. Slightly less strong than the Crossbowman, but can attack twice per turn.
 
-Jinete (Spain)
+#### Jinete (Spain)
 Spanish unique ranged unit that replaces Horseman. Yields 50% of defeated units' Combat Strength as Faith on combat victory if fighting on same continent as capital.
 
-Equite (Rome)
+#### Equite (Rome)
 Roman unique cavalry unit that replaces Horseman. +5  Combat Strength when fighting next to Legion or Warrior unit. Yields 33% of defeated units' as Gold on combat victory.
 
-Druzhina Cavalry (Russia)
+#### Druzhina Cavalry (Russia)
 Russian unique cavalry unit that replaces Horseman. +5 Combat Strength versus damaged units and +4 Combat Strength against Melee units.
 
-Hirdman (Norway)
+#### Hirdman (Norway)
 Norweigian unique Classical era unit that replaces Swordsman. +5 Combat Strength and yields 50% of defeated units' Combat Strength as Culture on combat victory if fighting on same continent as capital.
 
-Mughal Sowar (India)
+#### Mughal Sowar (India)
 Indian unique Medieval era heavy cavalry unit that replaces Knight. Stronger than the Knight and does not require Iron.
 
-Longbowman (England)
+#### Longbowman (England)
 English unique Medieval era ranged unit that replaces the Crossbowman. +4 Combat Strength against Melee and Cavalry units with a further +4 Combat Strength if adjacent to another Longbowman unit.
 
-Sohei (Japan)
+#### Sohei (Japan)
 Japanese unique unit available with the Feudalism Civic. Can be purchased with Faith. +10 Combat Strength when defending.
 
-Amazon Cavalry (Scythia)
+#### Amazon Cavalry (Scythia)
 Scythian unique Medieval era heavy cavalry unit that replaces Knight. +1 movement over Knight and can attack twice per turn.
 
-Bandeirante (Brazil)
+#### Bandeirante (Brazil)
 Brazilian unique Renaissance era recon unit that replaces the Ranger. Available earlier than the Ranger at Gunpowder. Can build forts. Yields 25% of defeated units' combat strength as Gold and 25% of defeated units' combat strength as Culture.
 
-Fatherland Volunteer (Brazil)
+#### Fatherland Volunteer (Brazil)
 Brazilian unique Industrial era melee unit that replaces the Rifleman. Cheaper than the Rifleman and costs less maintenance.
 
-Hyksos Bowman (Egypt)
+#### Hyksos Bowman (Egypt)
 Egyptian unique ranged unit that it stronger than the Archer it replaces.
 
-Gendarme (France)
+#### Gendarme (France)
 French unique Medieval era heavy cavalry unit that replaces Knight. +5 Combat Strength when attacking.
 
-Garde Republicaine (Kongo)
+#### Garde Republicaine (Kongo)
 Kongolese unique Information era melee unit that replaces Mechanized Infantry. +10 Combat Strength when attacking or defending districts.
 
 ## Installation Instructions
