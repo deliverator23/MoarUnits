@@ -87,8 +87,8 @@ Kongolese unique Information era melee unit that replaces Mechanized Infantry. +
 If you don't see the new art assets in the game then you probably haven't copied the files from MOAR_Units_Assets correctly. The files that need to be in place within the game directory for the current version of Moar Units are:
 
 ../Sid Meier's Civilization VI/Base/Civ6.dep (overwrite)   
-../Sid Meier's Civilization VI/Base/ArtDefs/Units.artdef(overwrite)   
-../Sid Meier's Civilization VI/Base/ArtDefs/Units_Moar.artdef(new)   
+../Sid Meier's Civilization VI/Base/ArtDefs/Units.artdef (overwrite)   
+../Sid Meier's Civilization VI/Base/ArtDefs/Units_Moar.artdef (new)   
 ../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_Units.xml (overwrite)   
 ../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_UnitPortraits.xml (overwrite)   
 ../Sid Meier's Civilization VI/Base/Assets/UI/Icons/Icons_UnitFlags.xml (overwrite)   
