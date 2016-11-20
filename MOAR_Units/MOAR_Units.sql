@@ -24,7 +24,7 @@ WHERE  UnitType = 'UNIT_T34';
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_TIGER_I';
+WHERE  UnitType = 'UNIT_PANZER';
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'

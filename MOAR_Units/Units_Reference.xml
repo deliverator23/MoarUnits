@@ -76,16 +76,38 @@
              Description="LOC_UNIT_SCOUT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
              PromotionClass="PROMOTION_CLASS_RECON" Combat="10"/>
 
+        <Row UnitType="UNIT_GALLEY" BaseMoves="3" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_GALLEY_NAME"
+             Description="LOC_UNIT_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+             PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="1" Combat="25" PrereqTech="TECH_SAILING"
+             MandatoryObsoleteTech="TECH_STEAM_POWER"/>
+
+        <Row UnitType="UNIT_MUSKETMAN" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MUSKETMAN_NAME"
+             Description="LOC_UNIT_MUSKETMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4"
+             Combat="55" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_SATELLITES"/>
+
+        <Row UnitType="UNIT_SPANISH_CONQUISTADOR" BaseMoves="2" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+             ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+             Name="LOC_UNIT_SPANISH_CONQUISTADOR_NAME" Description="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+             PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="55" TraitType="TRAIT_CIVILIZATION_UNIT_SPANISH_CONQUISTADOR"
+             PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_SATELLITES"/>
+
+        <Row UnitType="UNIT_MODERN_ARMOR" BaseMoves="4" Cost="680" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MODERN_ARMOR_NAME"
+             Description="LOC_UNIT_MODERN_ARMOR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="8" Combat="90" PrereqTech="TECH_COMPOSITES" StrategicResource="RESOURCE_URANIUM"/>
+
         <Row UnitType="UNIT_BATTLESHIP" BaseMoves="5" Cost="430" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_BATTLESHIP_NAME"
              Description="LOC_UNIT_BATTLESHIP_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
              PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="6" Combat="60" RangedCombat="70" Range="3" PrereqTech="TECH_STEEL"
              StrategicResource="RESOURCE_COAL" AntiAirCombat="65"/>
 
-        <Row UnitType="UNIT_GALLEY" BaseMoves="3" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
-             Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_GALLEY_NAME"
-             Description="LOC_UNIT_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
-             PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="1" Combat="25" PrereqTech="TECH_SAILING"
-             MandatoryObsoleteTech="TECH_STEAM_POWER"/>
+        <Row UnitType="UNIT_MISSILE_CRUISER" BaseMoves="4" Cost="680" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
+             Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_MISSILE_CRUISER_NAME"
+             Description="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+             PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="8" Combat="70" Range="3" PrereqTech="TECH_LASERS" RangedCombat="85"
+             CanTargetAir="TRUE" AntiAirCombat="85"/>
     </Units>
 </GameData>

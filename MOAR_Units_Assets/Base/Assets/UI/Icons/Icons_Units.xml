@@ -29,6 +29,7 @@
         <Row Name="ICON_UNIT_SPY" Atlas="ICON_ATLAS_UNITS" Index="17"/>
         <Row Name="ICON_UNIT_NATURALIST" Atlas="ICON_ATLAS_UNITS" Index="18"/>
         <Row Name="ICON_UNIT_SCOUT" Atlas="ICON_ATLAS_UNITS" Index="19"/>
+        <Row Name="ICON_UNIT_AMAZON_SCOUT" Atlas="ICON_ATLAS_UNITS" Index="19"/>
         <Row Name="ICON_UNIT_WARRIOR" Atlas="ICON_ATLAS_UNITS" Index="20"/>
         <Row Name="ICON_UNIT_SLINGER" Atlas="ICON_ATLAS_UNITS" Index="21"/>
         <Row Name="ICON_UNIT_BARBARIAN_HORSEMAN" Atlas="ICON_ATLAS_UNITS" Index="22"/>
@@ -46,6 +47,7 @@
         <Row Name="ICON_UNIT_BATTERING_RAM" Atlas="ICON_ATLAS_UNITS" Index="32"/>
         <Row Name="ICON_UNIT_GREEK_HOPLITE" Atlas="ICON_ATLAS_UNITS" Index="33"/>
         <Row Name="ICON_UNIT_SWORDSMAN" Atlas="ICON_ATLAS_UNITS" Index="34"/>
+        <Row Name="ICON_UNIT_VULTURE" Atlas="ICON_ATLAS_UNITS" Index="34"/>
         <Row Name="ICON_UNIT_HIRDMAN" Atlas="ICON_ATLAS_UNITS" Index="34"/>
         <Row Name="ICON_UNIT_HORSEMAN" Atlas="ICON_ATLAS_UNITS" Index="35"/>
         <Row Name="ICON_UNIT_DRUZHINA" Atlas="ICON_ATLAS_UNITS" Index="35"/>
@@ -57,7 +59,9 @@
         <Row Name="ICON_UNIT_ROMAN_LEGION" Atlas="ICON_ATLAS_UNITS" Index="37"/>
         <Row Name="ICON_UNIT_KONGO_SHIELD_BEARER" Atlas="ICON_ATLAS_UNITS" Index="38"/>
         <Row Name="ICON_UNIT_CATAPULT" Atlas="ICON_ATLAS_UNITS" Index="39"/>
+        <Row Name="ICON_UNIT_ONAGER" Atlas="ICON_ATLAS_UNITS" Index="39"/>
         <Row Name="ICON_UNIT_SIEGE_TOWER" Atlas="ICON_ATLAS_UNITS" Index="40"/>
+        <Row Name="ICON_UNIT_WAR_GALLEY" Atlas="ICON_ATLAS_UNITS" Index="41"/>
         <Row Name="ICON_UNIT_QUADRIREME" Atlas="ICON_ATLAS_UNITS" Index="41"/>
         <Row Name="ICON_UNIT_EGYPTIAN_CHARIOT_ARCHER" Atlas="ICON_ATLAS_UNITS" Index="42"/>
         <Row Name="ICON_UNIT_JAPANESE_SAMURAI" Atlas="ICON_ATLAS_UNITS" Index="43"/>
@@ -76,10 +80,12 @@
         <Row Name="ICON_UNIT_CHINESE_CROUCHING_TIGER" Atlas="ICON_ATLAS_UNITS" Index="50"/>
         <Row Name="ICON_UNIT_MILITARY_ENGINEER" Atlas="ICON_ATLAS_UNITS" Index="51"/>
         <Row Name="ICON_UNIT_PIKEMAN" Atlas="ICON_ATLAS_UNITS" Index="52"/>
+        <Row Name="ICON_UNIT_TERCIO" Atlas="ICON_ATLAS_UNITS" Index="52"/>
         <Row Name="ICON_UNIT_SOHEI" Atlas="ICON_ATLAS_UNITS" Index="52"/>
         <Row Name="ICON_UNIT_MUSKETMAN" Atlas="ICON_ATLAS_UNITS" Index="53"/>
         <Row Name="ICON_UNIT_MINUTEMAN" Atlas="ICON_ATLAS_UNITS" Index="53"/>
         <Row Name="ICON_UNIT_RIFLEMAN" Atlas="ICON_ATLAS_UNITS" Index="53"/>
+        <Row Name="ICON_UNIT_SEPOY" Atlas="ICON_ATLAS_UNITS" Index="53"/>
         <Row Name="ICON_UNIT_FATHERLAND_VOLUNTEER" Atlas="ICON_ATLAS_UNITS" Index="53"/>
         <Row Name="ICON_UNIT_SPANISH_CONQUISTADOR" Atlas="ICON_ATLAS_UNITS" Index="54"/>
         <Row Name="ICON_UNIT_BANDEIRANTE" Atlas="ICON_ATLAS_UNITS" Index="54"/>
@@ -103,11 +109,14 @@
         <Row Name="ICON_UNIT_INFANTRY" Atlas="ICON_ATLAS_UNITS" Index="71"/>
         <Row Name="ICON_UNIT_ARTILLERY" Atlas="ICON_ATLAS_UNITS" Index="72"/>
         <Row Name="ICON_UNIT_BATTLESHIP" Atlas="ICON_ATLAS_UNITS" Index="73"/>
+        <Row Name="ICON_UNIT_YAMATO" Atlas="ICON_ATLAS_UNITS" Index="73"/>
         <Row Name="ICON_UNIT_BRAZILIAN_MINAS_GERAES" Atlas="ICON_ATLAS_UNITS" Index="74"/>
         <Row Name="ICON_UNIT_SUBMARINE" Atlas="ICON_ATLAS_UNITS" Index="75"/>
         <Row Name="ICON_UNIT_GERMAN_UBOAT" Atlas="ICON_ATLAS_UNITS" Index="76"/>
         <Row Name="ICON_UNIT_AT_CREW" Atlas="ICON_ATLAS_UNITS" Index="77"/>
         <Row Name="ICON_UNIT_TANK" Atlas="ICON_ATLAS_UNITS" Index="78"/>
+        <Row Name="ICON_UNIT_PANZER" Atlas="ICON_ATLAS_UNITS" Index="78"/>
+        <Row Name="ICON_UNIT_T34" Atlas="ICON_ATLAS_UNITS" Index="78"/>
         <Row Name="ICON_UNIT_FIGHTER" Atlas="ICON_ATLAS_UNITS" Index="79"/>
         <Row Name="ICON_UNIT_AMERICAN_P51" Atlas="ICON_ATLAS_UNITS" Index="80"/>
         <Row Name="ICON_UNIT_BOMBER" Atlas="ICON_ATLAS_UNITS" Index="81"/>

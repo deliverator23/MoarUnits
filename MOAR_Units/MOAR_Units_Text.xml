@@ -95,7 +95,7 @@
 			<Text>Amazon Cavalry</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_AMAZON_DESCRIPTION" Language="en_US">
-			<Text>Scythian unique Medieval era heavy cavalry unit that replaces Knight. +1 movement over Knight and can attack twice per turn.</Text>
+			<Text>Scythian unique Medieval era heavy cavalry unit that replaces Knight. Can move after attacking.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME" Language="en_US">
 			<Text>Fatherland Volunteer</Text>
@@ -131,7 +131,7 @@
 			<Text>Tercio</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TERCIO_DESCRIPTION" Language="en_US">
-			<Text>Tercio</Text>
+			<Text>Spanish unique Renaissance era anti-cavalry unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SEPOY_NAME" Language="en_US">
 			<Text>Sepoy</Text>
@@ -143,43 +143,43 @@
 			<Text>Amazon Scout</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" Language="en_US">
-			<Text>Amazon Scout</Text>
+			<Text>Scythian unique Ancient era recon unit that is stronger than the regular Scout.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TIGER_I_NAME" Language="en_US">
-			<Text>Tiger I</Text>
+		<Row Tag="LOC_UNIT_PANZER_NAME" Language="en_US">
+			<Text>Panzer</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TIGER_I_DESCRIPTION" Language="en_US">
-			<Text>Tiger I</Text>
+		<Row Tag="LOC_UNIT_PANZER_DESCRIPTION" Language="en_US">
+			<Text>German unique Tank replacement that has +5 [ICON_Strength] Combat Strength when attacking.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_T34_NAME" Language="en_US">
-			<Text>T34</Text>
+			<Text>T-34</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_T34_DESCRIPTION" Language="en_US">
-			<Text>T34</Text>
+			<Text>Russian unique Tank replacement that costs less to build and less maintenance. +5 [ICON_Strength] Combat Strength in or adjacent to own territory.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YAMATO_NAME" Language="en_US">
 			<Text>Yamato</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YAMATO_DESCRIPTION" Language="en_US">
-			<Text>Yamato</Text>
+			<Text>Japanese unique naval ranged unit. Stronger than the Battleship it replaces.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_WAR_GALLEY_NAME" Language="en_US">
-			<Text>War Galley</Text>
+			<Text>Tessarakonteres</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION" Language="en_US">
-			<Text>War Galley</Text>
+			<Text>Egyptian unique naval ranged unit. Stronger than the Quadrireme it replaces.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_WAR_ONAGER_NAME" Language="en_US">
+		<Row Tag="LOC_UNIT_ONAGER_NAME" Language="en_US">
 			<Text>Onager</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_WAR_ONAGER_DESCRIPTION" Language="en_US">
-			<Text>Onager</Text>
+		<Row Tag="LOC_UNIT_ONAGER_DESCRIPTION" Language="en_US">
+			<Text>Roman unique siege unit. Stronger than the Catapult it replaces.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_WAR_VULTURE_NAME" Language="en_US">
-			<Text>Vulture</Text>
+		<Row Tag="LOC_UNIT_VULTURE_NAME" Language="en_US">
+			<Text>Sickle Swordsman</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_WAR_VULTURE_DESCRIPTION" Language="en_US">
-			<Text>Vulture</Text>
+		<Row Tag="LOC_UNIT_VULTURE_DESCRIPTION" Language="en_US">
+			<Text>Sumerian unique melee unit. +5 [ICON_Strength] Combat Strength versus damaged units.</Text>
 		</Row>
 		<Row Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>

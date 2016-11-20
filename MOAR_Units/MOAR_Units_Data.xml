@@ -25,7 +25,7 @@
 		<Row Type="UNIT_TERCIO" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_SEPOY" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_ONAGER" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_TIGER_I" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PANZER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_YAMATO" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_WAR_GALLEY" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_AMAZON_SCOUT" Kind="KIND_UNIT"/>
@@ -54,7 +54,7 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_TERCIO" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_SEPOY" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_ONAGER" Kind="KIND_TRAIT" />
-		<Row Type="TRAIT_CIVILIZATION_UNIT_TIGER_I" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_PANZER" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_YAMATO" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT" Kind="KIND_TRAIT" />
@@ -83,7 +83,7 @@
 		<Row Type="ABILITY_TERCIO" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_SEPOY" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_ONAGER" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_TIGER_I" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PANZER" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_YAMATO" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_WAR_GALLEY" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_AMAZON_SCOUT" Kind="KIND_ABILITY"/>
@@ -109,11 +109,10 @@
 		<Row CivUniqueUnitType="UNIT_GENDARME" ReplacesUnitType="UNIT_KNIGHT"/>
 		<Row CivUniqueUnitType="UNIT_GARDE_REPUBLICAINE" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
 		<Row CivUniqueUnitType="UNIT_BANDEIRANTE" ReplacesUnitType="UNIT_RANGER"/>
-		<Row CivUniqueUnitType="UNIT_TERCIO" ReplacesUnitType="UNIT_PIKEMAN"/>
 		<Row CivUniqueUnitType="UNIT_ONAGER" ReplacesUnitType="UNIT_CATAPULT"/>
-		<Row CivUniqueUnitType="UNIT_TIGER_I" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_PANZER" ReplacesUnitType="UNIT_TANK"/>
 		<Row CivUniqueUnitType="UNIT_YAMATO" ReplacesUnitType="UNIT_BATTLESHIP"/>
-		<Row CivUniqueUnitType="UNIT_WAR_GALLEY" ReplacesUnitType="UNIT_GALLEY"/>
+		<Row CivUniqueUnitType="UNIT_WAR_GALLEY" ReplacesUnitType="UNIT_QUADRIREME"/>
 		<Row CivUniqueUnitType="UNIT_AMAZON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
 		<Row CivUniqueUnitType="UNIT_VULTURE" ReplacesUnitType="UNIT_SWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_T34" ReplacesUnitType="UNIT_TANK"/>
@@ -161,7 +160,7 @@
              Maintenance="3" Combat="50" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
              MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_GENDARME"/>
 
-        <Row UnitType="UNIT_AMAZON" BaseMoves="5" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+        <Row UnitType="UNIT_AMAZON" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_AMAZON_NAME"
              Description="LOC_UNIT_AMAZON_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
              Maintenance="3" Combat="48" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
@@ -253,46 +252,46 @@
              Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
              TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE"/>
 
-        <Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+        <Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TERCIO_NAME"
              Description="LOC_UNIT_TERCIO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
-             Maintenance="3" Combat="41" PrereqTech="TECH_MILITARY_TACTICS" MandatoryObsoleteTech="TECH_COMPOSITES"
+             Maintenance="4" Combat="55" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_ROCKETRY"
              TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO"/>
 
-        <Row UnitType="UNIT_TIGER_I" BaseMoves="4" Cost="480" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
-             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TIGER_I_NAME"
-             Description="LOC_UNIT_TIGER_I_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
-             Maintenance="6" Combat="80" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"
-             TraitType="TRAIT_CIVILIZATION_UNIT_TIGER_I"/>
+        <Row UnitType="UNIT_PANZER" BaseMoves="4" Cost="540" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PANZER_NAME"
+             Description="LOC_UNIT_PANZER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="8" Combat="80" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"
+             TraitType="TRAIT_CIVILIZATION_UNIT_PANZER"/>
 
-        <Row UnitType="UNIT_T34" BaseMoves="4" Cost="480" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+        <Row UnitType="UNIT_T34" BaseMoves="4" Cost="460" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_T34_NAME"
              Description="LOC_UNIT_T34_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
-             Maintenance="6" Combat="80" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"
+             Maintenance="5" Combat="80" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"
              TraitType="TRAIT_CIVILIZATION_UNIT_T34"/>
 
         <Row UnitType="UNIT_AMAZON_SCOUT" BaseMoves="3" Cost="30" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_AMAZON_SCOUT_NAME"
              Description="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
-             PromotionClass="PROMOTION_CLASS_RECON" Combat="10" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT"/>
+             PromotionClass="PROMOTION_CLASS_RECON" Combat="15" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT"/>
 
         <Row UnitType="UNIT_ONAGER" BaseMoves="2" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
              Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ONAGER_NAME"
              Description="LOC_UNIT_ONAGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="2"
-             Combat="23" Range="2" PrereqTech="TECH_ENGINEERING" Bombard="35" MandatoryObsoleteTech="TECH_STEEL"
+             Combat="23" Range="2" PrereqTech="TECH_ENGINEERING" Bombard="40" MandatoryObsoleteTech="TECH_STEEL"
              TraitType="TRAIT_CIVILIZATION_UNIT_ONAGER"/>
 
-        <Row UnitType="UNIT_YAMATO" BaseMoves="5" Cost="430" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+        <Row UnitType="UNIT_YAMATO" BaseMoves="5" Cost="460" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_YAMATO_NAME"
              Description="LOC_UNIT_YAMATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
-             PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="6" Combat="60" RangedCombat="70" Range="3" PrereqTech="TECH_STEEL"
+             PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="7" Combat="65" RangedCombat="75" Range="3" PrereqTech="TECH_STEEL"
              StrategicResource="RESOURCE_COAL" AntiAirCombat="65" TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO"/>
 
-        <Row UnitType="UNIT_WAR_GALLEY" BaseMoves="3" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
-             Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_WAR_GALLEY_NAME"
-             Description="LOC_UNIT_WAR_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
-             PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="1" Combat="25" PrereqTech="TECH_SAILING"
-             MandatoryObsoleteTech="TECH_STEAM_POWER" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
+		<Row UnitType="UNIT_WAR_GALLEY" BaseMoves="3" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_WAR_GALLEY_NAME"
+			 Description="LOC_UNIT_WAR_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="25" RangedCombat="30" Range="2"
+			 PrereqTech="TECH_SHIPBUILDING" MandatoryObsoleteTech="TECH_STEEL" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
     </Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
@@ -317,9 +316,9 @@
 		<Row Unit="UNIT_TERCIO" UpgradeUnit="UNIT_AT_CREW"/>
 		<Row Unit="UNIT_SEPOY" UpgradeUnit="UNIT_INFANTRY"/>
 		<Row Unit="UNIT_ONAGER" UpgradeUnit="UNIT_BOMBARD"/>
-		<Row Unit="UNIT_TIGER_I" UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<Row Unit="UNIT_PANZER" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<Row Unit="UNIT_YAMATO" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
-		<Row Unit="UNIT_WAR_GALLEY" UpgradeUnit="UNIT_CARAVEL"/>
+		<Row Unit="UNIT_WAR_GALLEY" UpgradeUnit="UNIT_FRIGATE"/>
 		<Row Unit="UNIT_AMAZON_SCOUT" UpgradeUnit="UNIT_RANGER"/>
 		<Row Unit="UNIT_VULTURE" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_T34" UpgradeUnit="UNIT_MODERN_ARMOR"/>
@@ -429,10 +428,10 @@
         <Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_RANGED"/>
         <Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_SIEGE"/>
         <Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_LAND_COMBAT"/>
-        <Row UnitType="UNIT_TIGER_I" AiType="UNITAI_COMBAT"/>
-        <Row UnitType="UNIT_TIGER_I" AiType="UNITTYPE_MELEE"/>
-        <Row UnitType="UNIT_TIGER_I" AiType="UNITTYPE_CAVALRY"/>
-        <Row UnitType="UNIT_TIGER_I" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITTYPE_CAVALRY"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITTYPE_LAND_COMBAT"/>
         <Row UnitType="UNIT_YAMATO" AiType="UNITAI_COMBAT"/>
         <Row UnitType="UNIT_YAMATO" AiType="UNITTYPE_RANGED"/>
         <Row UnitType="UNIT_YAMATO" AiType="UNITTYPE_NAVAL"/>
@@ -456,7 +455,7 @@
 		<Row CivilizationType="CIVILIZATION_GREECE" TraitType="TRAIT_CIVILIZATION_UNIT_COMPANION_CAVALRY"/>
 		<Row CivilizationType="CIVILIZATION_AMERICA" TraitType="TRAIT_CIVILIZATION_UNIT_MINUTEMAN"/>
 		<Row CivilizationType="CIVILIZATION_GERMANY" TraitType="TRAIT_CIVILIZATION_UNIT_GERMAN_HUSSAR"/>
-		<Row CivilizationType="CIVILIZATION_GERMANY" TraitType="TRAIT_CIVILIZATION_UNIT_TIGER_I"/>
+		<Row CivilizationType="CIVILIZATION_GERMANY" TraitType="TRAIT_CIVILIZATION_UNIT_PANZER"/>
 		<Row CivilizationType="CIVILIZATION_SUMERIA" TraitType="TRAIT_CIVILIZATION_UNIT_PHALANX"/>
 		<Row CivilizationType="CIVILIZATION_SUMERIA" TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE"/>
 		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_UNIT_CHOKONU"/>
@@ -504,7 +503,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO" Name="LOC_UNIT_TERCIO_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SEPOY" Name="LOC_UNIT_SEPOY_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_ONAGER" Name="LOC_UNIT_ONAGER_NAME"/>
-		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TIGER_I" Name="LOC_UNIT_TIGER_I_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_PANZER" Name="LOC_UNIT_PANZER_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO" Name="LOC_UNIT_YAMATO_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY" Name="LOC_UNIT_WAR_GALLEY_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT" Name="LOC_UNIT_AMAZON_SCOUT_NAME"/>
@@ -534,7 +533,7 @@
         <Row Tag="CLASS_TERCIO" Vocabulary="ABILITY_CLASS"/>
         <Row Tag="CLASS_SEPOY" Vocabulary="ABILITY_CLASS"/>
         <Row Tag="CLASS_ONAGER" Vocabulary="ABILITY_CLASS"/>
-        <Row Tag="CLASS_TIGER_I" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_PANZER" Vocabulary="ABILITY_CLASS"/>
         <Row Tag="CLASS_YAMATO" Vocabulary="ABILITY_CLASS"/>
         <Row Tag="CLASS_WAR_GALLEY" Vocabulary="ABILITY_CLASS"/>
         <Row Tag="CLASS_AMAZON_SCOUT" Vocabulary="ABILITY_CLASS"/>
@@ -588,9 +587,9 @@
         <Row Type="UNIT_SEPOY" Tag="CLASS_SEPOY"/>
         <Row Type="UNIT_ONAGER" Tag="CLASS_SIEGE"/>
         <Row Type="UNIT_ONAGER" Tag="CLASS_ONAGER"/>
-        <Row Type="UNIT_TIGER_I" Tag="CLASS_HEAVY_CHARIOT"/>
-        <Row Type="UNIT_TIGER_I" Tag="CLASS_HEAVY_CAVALRY"/>
-        <Row Type="UNIT_TIGER_I" Tag="CLASS_TIGER_I"/>
+        <Row Type="UNIT_PANZER" Tag="CLASS_HEAVY_CHARIOT"/>
+        <Row Type="UNIT_PANZER" Tag="CLASS_HEAVY_CAVALRY"/>
+        <Row Type="UNIT_PANZER" Tag="CLASS_PANZER"/>
         <Row Type="UNIT_YAMATO" Tag="CLASS_NAVAL_RANGED"/>
         <Row Type="UNIT_YAMATO" Tag="CLASS_ANTI_AIR"/>
         <Row Type="UNIT_YAMATO" Tag="CLASS_YAMATO"/>
@@ -628,7 +627,7 @@
 		<Row Type="ABILITY_TERCIO" Tag="CLASS_TERCIO"/>
 		<Row Type="ABILITY_SEPOY" Tag="CLASS_SEPOY"/>
 		<Row Type="ABILITY_ONAGER" Tag="CLASS_ONAGER"/>
-		<Row Type="ABILITY_TIGER_I" Tag="CLASS_TIGER_I"/>
+		<Row Type="ABILITY_PANZER" Tag="CLASS_PANZER"/>
 		<Row Type="ABILITY_YAMATO" Tag="CLASS_YAMATO"/>
 		<Row Type="ABILITY_WAR_GALLEY" Tag="CLASS_WAR_GALLEY"/>
 		<Row Type="ABILITY_AMAZON_SCOUT" Tag="CLASS_AMAZON_SCOUT"/>
@@ -658,7 +657,7 @@
 		<Row UnitAbilityType="ABILITY_TERCIO" Name="LOC_ABILITY_TERCIO_NAME" Description="LOC_ABILITY_TERCIO_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_SEPOY" Name="LOC_ABILITY_SEPOY_NAME" Description="LOC_ABILITY_SEPOY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_ONAGER" Name="LOC_ABILITY_ONAGER_NAME" Description="LOC_ABILITY_ONAGER_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_TIGER_I" Name="LOC_ABILITY_TIGER_I_NAME" Description="LOC_ABILITY_TIGER_I_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PANZER" Name="LOC_ABILITY_PANZER_NAME" Description="LOC_ABILITY_PANZER_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_YAMATO" Name="LOC_ABILITY_YAMATO_NAME" Description="LOC_ABILITY_YAMATO_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_WAR_GALLEY" Name="LOC_ABILITY_WAR_GALLEY_NAME" Description="LOC_ABILITY_WAR_GALLEY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_AMAZON_SCOUT" Name="LOC_ABILITY_AMAZON_SCOUT_NAME" Description="LOC_ABILITY_AMAZON_SCOUT_DESCRIPTION"/>
@@ -684,7 +683,7 @@
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_AMAZON</UnitAbilityType>
-			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_PHALANX</UnitAbilityType>
@@ -761,6 +760,22 @@
 		<Row>
 			<UnitAbilityType>ABILITY_GARDE_REPUBLICAINE</UnitAbilityType>
 			<ModifierId>URBAN_WARFARE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SEPOY</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PANZER</UnitAbilityType>
+			<ModifierId>PLUS_5_WHEN_ATTACKING_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_T34</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_VULTURE</UnitAbilityType>
+			<ModifierId>VULTURE_BONUS_VS_DAMAGED</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>

@@ -1730,7 +1730,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Galley"/>
+							<m_ElementName text="Naval"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1738,11 +1738,11 @@
 							<m_ParamName text="Formation"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Galley"/>
+							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text="Units"/>
+							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -1806,15 +1806,15 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.800000</m_fValue>
+										<m_fValue>0.735000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>2</m_nValue>
+										<m_nValue>1</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Galley"/>
+										<m_ElementName text="Quadrireme"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1824,7 +1824,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Members1"/>
+							<m_Name text="Members001"/>
 						</Element>
 					</Element>
 					<Element>
@@ -1833,13 +1833,13 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::StringValue">
-										<m_Value text="Galley"/>
+										<m_Value text="Quadrireme"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="GALLEY"/>
+							<m_Name text="QUADRIREME"/>
 						</Element>
 					</Element>
 				</m_ChildCollections>
