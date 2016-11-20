@@ -127,8 +127,59 @@
 		<Row Tag="LOC_UNIT_BANDEIRANTE_DESCRIPTION" Language="en_US">
 			<Text>Brazilian unique Renaissance era recon unit that replaces the Ranger. Available earlier than the Hunter at Gunpowder. Can build forts. Yields 25% of defeated units' combat strength as [ICON_Gold] Gold and 25% of defeated units' combat strength as [ICON_Culture] Culture.</Text>
 		</Row>
-		<Row Tag="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS_DESC" Language="en_US">
-			<Text>+4 [ICON_Strength] Combat Strength against Melee units.</Text>
+		<Row Tag="LOC_UNIT_TERCIO_NAME" Language="en_US">
+			<Text>Tercio</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TERCIO_DESCRIPTION" Language="en_US">
+			<Text>Tercio</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEPOY_NAME" Language="en_US">
+			<Text>Sepoy</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEPOY_DESCRIPTION" Language="en_US">
+			<Text>Sepoy</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AMAZON_SCOUT_NAME" Language="en_US">
+			<Text>Amazon Scout</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" Language="en_US">
+			<Text>Amazon Scout</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TIGER_I_NAME" Language="en_US">
+			<Text>Tiger I</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TIGER_I_DESCRIPTION" Language="en_US">
+			<Text>Tiger I</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_T34_NAME" Language="en_US">
+			<Text>T34</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_T34_DESCRIPTION" Language="en_US">
+			<Text>T34</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YAMATO_NAME" Language="en_US">
+			<Text>Yamato</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YAMATO_DESCRIPTION" Language="en_US">
+			<Text>Yamato</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_GALLEY_NAME" Language="en_US">
+			<Text>War Galley</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION" Language="en_US">
+			<Text>War Galley</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_ONAGER_NAME" Language="en_US">
+			<Text>Onager</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_ONAGER_DESCRIPTION" Language="en_US">
+			<Text>Onager</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_VULTURE_NAME" Language="en_US">
+			<Text>Vulture</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_VULTURE_DESCRIPTION" Language="en_US">
+			<Text>Vulture</Text>
 		</Row>
 		<Row Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>

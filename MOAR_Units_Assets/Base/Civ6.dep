@@ -27,7 +27,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="Unit"/>
 				<Element text="VFX"/>
@@ -40,7 +39,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Foliage.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="Landmark"/>
 			</LibraryDependencies>
@@ -62,7 +60,6 @@
 				<Element text="Terrains.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="CityBuildings"/>
 				<Element text="TileBase"/>
@@ -87,7 +84,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="TileBase"/>
 				<Element text="CityBuildings"/>
@@ -99,7 +95,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="GameLighting.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="ColorKey"/>
 				<Element text="GameLighting"/>
@@ -112,7 +107,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -122,7 +116,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="StrategicView_Sprite"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -135,7 +128,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="StrategicView_Route"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -148,7 +140,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -163,7 +154,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -176,7 +166,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -200,7 +189,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="TerrainAsset"/>
 				<Element text="TerrainElement"/>
@@ -214,7 +202,6 @@
 				<Element text="WorldViewRoutes.artdef"/>
 				<Element text="Eras.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="RouteDecalMaterial"/>
 				<Element text="RouteDoodad"/>
@@ -226,7 +213,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="UserInterface.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="UITexture"/>
 			</LibraryDependencies>
@@ -237,7 +223,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="FOW.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="FOWSprite"/>
 				<Element text="FOWTexture"/>
@@ -250,7 +235,6 @@
 				<Element text="WonderMovie.artdef"/>
 				<Element text="GameLighting.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="WonderMovie"/>
 				<Element text="TileBase"/>
@@ -264,7 +248,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Overlay.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -276,7 +259,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Overlay.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -299,7 +281,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="VFX"/>
 				<Element text="Light"/>
@@ -311,7 +292,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Water.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="Water"/>
 			</LibraryDependencies>
@@ -322,7 +302,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="ColorKeys.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="ColorKey"/>
 			</LibraryDependencies>
@@ -333,7 +312,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="ScreenWashEffects.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="ColorKey"/>
 			</LibraryDependencies>
@@ -344,7 +322,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Camera.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -355,7 +332,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -374,7 +350,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -383,7 +358,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -393,7 +367,6 @@
 				<Element text="Cultures.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -412,7 +385,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -429,7 +401,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -451,7 +422,6 @@
 				<Element text="CityGenerators.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -474,7 +444,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -499,7 +468,6 @@
 				<Element text="CityGenerators.artdef"/>
 				<Element text="Appeal.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -508,7 +476,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Leaders.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
@@ -520,7 +487,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Leaders.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -533,7 +499,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="FallbackLeaders.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="LeaderFallback"/>
 			</LibraryDependencies>
@@ -544,7 +509,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Lenses.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -565,7 +529,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -574,14 +537,12 @@
 			<ArtDefDependencyPaths>
 				<Element text="GraphicsTweaks.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="GenericObject"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -590,7 +551,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Wave.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="Wave"/>
 			</LibraryDependencies>
@@ -602,7 +562,6 @@
 				<Element text="Walls.artdef"/>
 				<Element text="Eras.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="DynamicGeometry"/>
 			</LibraryDependencies>
@@ -613,7 +572,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="UIPreview.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -622,7 +580,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="SkyBox.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="SkyBoxTexture"/>
 			</LibraryDependencies>
@@ -633,7 +590,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Minimap.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -651,7 +607,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -660,7 +615,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="Overlay.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -678,8 +632,6 @@
 				<Element text="Eras.artdef"/>
 				<Element text="VFX.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Units.artdef"/>
@@ -689,21 +641,12 @@
 				<Element text="Eras.artdef"/>
 				<Element text="VFX.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Unit_Bins.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Units.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="units/units.blp"/>
-				<Element text="TEST_ASSETS_UNITS.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="Unit"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Units_Great_People.artdef"/>
@@ -712,34 +655,22 @@
 				<Element text="Cultures.artdef"/>
 				<Element text="Eras.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Eras.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Eras.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="UnitActivities.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Foliage.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Foliage.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="environment/clutter.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="Landmark"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Landmarks.artdef"/>
@@ -751,13 +682,6 @@
 				<Element text="Appeal.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="landmarks/tilebases.blp"/>
-				<Element text="landmarks/hero_buildings.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="TileBase"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="CityGenerators.artdef"/>
@@ -766,26 +690,14 @@
 				<Element text="Eras.artdef"/>
 				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="landmarks/city_buildings.blp"/>
-				<Element text="route_decal_materials.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="CityBuildings"/>
-				<Element text="RouteDecalMaterial"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Cultures.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Civilizations.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Improvements.artdef"/>
@@ -794,8 +706,6 @@
 				<Element text="Improvements.artdef"/>
 				<Element text="Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Resources.artdef"/>
@@ -803,8 +713,6 @@
 				<Element text="Features.artdef"/>
 				<Element text="Terrains.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Farms.artdef"/>
@@ -814,24 +722,10 @@
 				<Element text="Eras.artdef"/>
 				<Element text="Improvements.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="landmarks/tilebases.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="TileBase"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="GameLighting.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="lighting/default_lighting.blp"/>
-				<Element text="ColorKeys.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="GameLighting"/>
-				<Element text="ColorKey"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="StrategicView.artdef"/>
@@ -839,29 +733,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="strategicview/strategicview_terrainblends.blp"/>
-				<Element text="strategicview/strategicview_directedassets.blp"/>
-				<Element text="strategicview/strategicview_terrainblendcorners.blp"/>
-				<Element text="strategicview/strategicview_terrainsprites.blp"/>
-				<Element text="strategicview/strategicview_terraintypes.blp"/>
-				<Element text="strategicview/strategicview_features.blp"/>
-				<Element text="strategicview/strategicview_effects.blp"/>
-				<Element text="strategicview/strategicview_routes.blp"/>
-				<Element text="strategicview/strategicview_improvements.blp"/>
-				<Element text="strategicview/strategicview_districts.blp"/>
-				<Element text="strategicview/strategicview_buildings.blp"/>
-				<Element text="strategicview/strategicview_cities.blp"/>
-				<Element text="strategicview/strategicview_uilenses.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="StrategicView_TerrainBlend"/>
-				<Element text="StrategicView_DirectedAsset"/>
-				<Element text="StrategicView_TerrainBlendCorners"/>
-				<Element text="StrategicView_Sprite"/>
-				<Element text="StrategicView_TerrainType"/>
-				<Element text="StrategicView_Route"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="TerrainStyle.artdef"/>
@@ -870,74 +741,20 @@
 				<Element text="Foliage.artdef"/>
 				<Element text="TerrainStyle.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="terrain/TerrainMaterialSet_Base.blp"/>
-				<Element text="terrain/TerrainElementSet_Base.blp"/>
-				<Element text="terrain/TerrainAssetSet_Base.blp"/>
-				<Element text="Water.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="TerrainMaterial"/>
-				<Element text="TerrainElement"/>
-				<Element text="TerrainAsset"/>
-				<Element text="Water"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="WorldViewRoutes.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="WorldViewRoutes.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="route_decal_materials.blp"/>
-				<Element text="route_doodads.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="RouteDecalMaterial"/>
-				<Element text="RouteDoodad"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="UserInterface.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="UI/AdvisorTutorial.blp"/>
-				<Element text="UI/Icons.blp"/>
-				<Element text="UI/InWorld.blp"/>
-				<Element text="UI/Shell_Loading.blp"/>
-				<Element text="UI/UI_Civilopedia.blp"/>
-				<Element text="UI/UI_Controls.blp"/>
-				<Element text="UI/UI_Diplomacy.blp"/>
-				<Element text="UI/UI_EndGame.blp"/>
-				<Element text="UI/UI_Government.blp"/>
-				<Element text="UI/UI_GreatWorksArt.blp"/>
-				<Element text="UI/UI_HalfScreen.blp"/>
-				<Element text="UI/UI_HUD.blp"/>
-				<Element text="UI/UI_Leaders.blp"/>
-				<Element text="UI_LeaderScenes.blp"/>
-				<Element text="UI/UI_Religion.blp"/>
-				<Element text="UI/UI_Screens.blp"/>
-				<Element text="UI/UI_Shell.blp"/>
-				<Element text="UI/UI_Tree.blp"/>
-				<Element text="UI/UI_TreeBG.blp"/>
-				<Element text="UI/UITest.blp"/>
-				<Element text="UI/UI_Icons_Overflow.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="UITexture"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="FOW.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="FOWTextures.blp"/>
-				<Element text="FOWSprites.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="FOWTexture"/>
-				<Element text="FOWSprite"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="WonderMovie.artdef"/>
@@ -945,28 +762,12 @@
 				<Element text="WonderMovie.artdef"/>
 				<Element text="GameLighting.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="WonderMovie.blp"/>
-				<Element text="landmarks/tilebases.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="WonderMovie"/>
-				<Element text="TileBase"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Overlay.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Overlay.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="Overlay.blp"/>
-				<Element text="UILensAssets.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="OverlayTexture"/>
-				<Element text="UILensAsset"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="VFX.artdef"/>
@@ -975,57 +776,28 @@
 				<Element text="Terrains.artdef"/>
 				<Element text="Features.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="VFX.blp"/>
-				<Element text="VFX_A.blp"/>
-				<Element text="Light.blp"/>
-				<Element text="VFX_B.blp"/>
-				<Element text="VFX_C.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="VFX"/>
-				<Element text="Light"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Water.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="Water.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="Water"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="ColorKeys.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="ColorKeys.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="ColorKey"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="ScreenWashEffects.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Camera.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Terrains.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Features.artdef"/>
@@ -1035,8 +807,6 @@
 				<Element text="Resources.artdef"/>
 				<Element text="Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Districts.artdef"/>
@@ -1045,8 +815,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Buildings.artdef"/>
@@ -1054,14 +822,10 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Appeal.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Routes.artdef"/>
@@ -1069,8 +833,6 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Routes.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Cities.artdef"/>
@@ -1078,81 +840,32 @@
 				<Element text="StrategicView.artdef"/>
 				<Element text="Eras.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="GoodyHuts.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Leaders.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="leaders/light_rigs.blp"/>
-				<Element text="leaders/leader_cleopatra.blp"/>
-				<Element text="ColorKeys.blp"/>
-				<Element text="leaders/leader_t_roosevelt.blp"/>
-				<Element text="/leaders/leader_gilgamesh.blp"/>
-				<Element text="/leaders/leader_tomyris.blp"/>
-				<Element text="/leaders/leader_gorgo.blp"/>
-				<Element text="/leaders/leader_saladin.blp"/>
-				<Element text="leaders/leader_montezuma.blp"/>
-				<Element text="leaders/leader_pedro.blp"/>
-				<Element text="/leaders/leader_qin.blp"/>
-				<Element text="leaders/leader_victoria.blp"/>
-				<Element text="leaders/leader_catherine.blp"/>
-				<Element text="leaders/leader_barbarossa.blp"/>
-				<Element text="/leaders/leader_gandhi.blp"/>
-				<Element text="leaders/leader_hojo.blp"/>
-				<Element text="leaders/leader_mvemba.blp"/>
-				<Element text="leaders/leader_harald.blp"/>
-				<Element text="/leaders/leader_trajan.blp"/>
-				<Element text="leaders/leader_peter.blp"/>
-				<Element text="leaders/leader_phillip.blp"/>
-				<Element text="leaders/leader_pericles.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="LeaderLighting"/>
-				<Element text="Leader"/>
-				<Element text="ColorKey"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="FallbackLeaders.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="LeaderFallbackImages.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="LeaderFallback"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Lenses.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Lenses.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="GraphicsTweaks.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Wave.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="Wave.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="Wave"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Walls.artdef"/>
@@ -1160,40 +873,22 @@
 				<Element text="Walls.artdef"/>
 				<Element text="Eras.artdef"/>
 			</ArtDefDependencyPaths>
-			<PackageDependencies>
-				<Element text="landmarks/Walls.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="DynamicGeometry"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="UIPreview.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="SkyBox.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies>
-				<Element text="SkyBox.blp"/>
-			</PackageDependencies>
-			<LibraryDependencies>
-				<Element text="SkyBoxTexture"/>
-			</LibraryDependencies>
 		</Element>
 		<Element>
 			<ArtDefPath text="Minimap.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 		<Element>
 			<ArtDefPath text="UnitOperations.artdef"/>
 			<ArtDefDependencyPaths/>
-			<PackageDependencies/>
-			<LibraryDependencies/>
 		</Element>
 	</ArtDefDependencies>
 	<LibraryDependencies>

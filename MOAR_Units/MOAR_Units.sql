@@ -6,7 +6,46 @@ UPDATE UnitUpgrades
 SET    UpgradeUnit = 'UNIT_CUIRASSIER'
 WHERE  Unit = 'UNIT_KNIGHT';
 
-/*
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_RIFLEMAN';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_TERCIO';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_SEPOY';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_T34';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_TIGER_I';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_ONAGER';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_YAMATO';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_WAR_GALLEY';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_AMAZON_SCOUT';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_VULTURE';
+
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_SOHEI';
@@ -22,7 +61,7 @@ WHERE  UnitType = 'UNIT_FATHERLAND_VOLUNTEER';
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_BANDEIRANTE';
-
+/*
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_HYKSOS_BOWMAN';
