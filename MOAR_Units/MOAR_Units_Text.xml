@@ -167,7 +167,7 @@
 			<Text>Tessarakonteres</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION" Language="en_US">
-			<Text>Egyptian unique naval ranged unit. Stronger than the Quadrireme it replaces.</Text>
+			<Text>Egyptian unique naval ranged unit. Stronger than the Quadrireme it replaces and has range 2 instead of 1.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ONAGER_NAME" Language="en_US">
 			<Text>Onager</Text>
