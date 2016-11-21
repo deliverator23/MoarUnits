@@ -73,5 +73,35 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_2">
 			<Text>The São Paulo settlement served as the home base for the most famous bandeirantes. Most bandeirantes were descendants of first- and second-generation Portuguese who settled in São Paulo, but their numbers also included many people of mameluco background (people of both European and Native American ancestries). Though they originally aimed to capture and force Indigenous Americans into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver, and diamond mines. As they ventured into unmapped regions in search of profit and adventure, they expanded the effective borders of the Brazilian colony.</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_1">
+			<Text>A Tercio (Spanish for "third") was a Spanish infantry organization during the time that Habsburg Spain dominated Europe in the Early Modern era. The Tercio was an administrative unit with command of up to 3000 soldiers, subdivided originally into ten, later twelve compañías, made up of pikemen, swordsmen and arquebusiers or musketeers. These companies were deployed in battle and were further subdivided into units of thirty soldiers. These smaller units could be deployed individually or brought together to form what were sometimes called Spanish squares. These powerful infantry squares were also much used by other European powers, especially the Imperial Army of the Holy Roman Empire.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_2">
+			<Text>The care that was taken to maintain a high number of "old soldiers" (veterans) in the units, and their professional training, together with the particular personality imprinted on them by the proud hidalgos of the lower nobility that nurtured them, made the Tercios for a century and a half the best infantry in Europe. Moreover, the Tercios were the first to efficiently mix pikes and firearms. Tercio companies dominated European battlefields in the sixteenth century and the first half of the seventeenth century and are seen by historians as a major development of Early Modern combined arms warfare.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_1">
+			<Text>A Sepoy was formerly the designation given to an Indian soldier. The term "sepoy" is derived from the Persian word sepahi meaning "infantry soldier" in the Mughal Empire. In its most common application, sepoy was the term used in the British Indian Army, and earlier in that of the British East India Company, for an infantry private.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_1">
+			<Text>The Onager was a Roman siege engine that was a type of catapult that uses a torsional force, generally from twisted rope, to store energy for the shot. The Onager consisted of a large frame placed on the ground to whose front end a vertical frame of solid timber was rigidly fixed. A vertical spoke that passed through a rope bundle fastened to the frame had a sling attached which contained a projectile. To fire it, the spoke or arm was forced down, against the tension of twisted ropes or other springs, by a windlass, and then suddenly released. As the sling swung outwards, one end would release, as with a staff-sling, and the projectile would be hurled forward. The arm would then be caught by a padded beam or bed, when it could be winched back again.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
 	</BaseGameText>
 </GameData>

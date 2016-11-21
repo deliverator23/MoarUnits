@@ -92,7 +92,6 @@
 	</Types>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_COMPANION_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_CAMEL_ARCHER" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
 		<Row CivUniqueUnitType="UNIT_MINUTEMAN" ReplacesUnitType="UNIT_MUSKETMAN"/>
 		<Row CivUniqueUnitType="UNIT_GERMAN_HUSSAR" ReplacesUnitType="UNIT_CAVALRY"/>
 		<Row CivUniqueUnitType="UNIT_PHALANX" ReplacesUnitType="UNIT_SPEARMAN"/>
@@ -252,10 +251,10 @@
              Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
              TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE"/>
 
-        <Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+        <Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
              Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TERCIO_NAME"
              Description="LOC_UNIT_TERCIO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
-             Maintenance="4" Combat="55" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_ROCKETRY"
+             Maintenance="4" Combat="60" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_ROCKETRY"
              TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO"/>
 
         <Row UnitType="UNIT_PANZER" BaseMoves="4" Cost="540" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
