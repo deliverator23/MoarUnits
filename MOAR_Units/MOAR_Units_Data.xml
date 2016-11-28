@@ -115,6 +115,7 @@
 		<Row CivUniqueUnitType="UNIT_AMAZON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
 		<Row CivUniqueUnitType="UNIT_VULTURE" ReplacesUnitType="UNIT_SWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_T34" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_SEPOY" ReplacesUnitType="UNIT_RIFLEMAN"/>
 	</UnitReplaces>
 	<Units>
         <Row UnitType="UNIT_CUIRASSIER" BaseMoves="4" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
