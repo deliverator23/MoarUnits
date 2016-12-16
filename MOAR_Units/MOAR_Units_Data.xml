@@ -373,6 +373,11 @@
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
 	</Improvement_ValidBuildUnits>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS" NumSupported="1"/>
+		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_STABLE" NumSupported="1"/>
+		<Row Unit="UNIT_MEDICINE_MAN" PrereqBuilding="BUILDING_SHRINE" NumSupported="1"/>
+	</Unit_BuildingPrereqs>
 	<UnitAIInfos>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_EXPLORE"/>
@@ -685,7 +690,6 @@
 		<Row Type="UNIT_GHAZI" Tag="CLASS_GHAZI"/>
 		<Row Type="UNIT_FRENCH_MARINE" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_FRENCH_MARINE" Tag="CLASS_FRENCH_MARINE"/>
-		<Row Type="UNIT_SHIGONG" Tag="CLASS_SIEGE_TOWER"/>
 		<Row Type="UNIT_SHIGONG" Tag="CLASS_SHIGONG"/>
 		<Row Type="UNIT_MEDICINE_MAN" Tag="CLASS_MEDIC"/>
 		<Row Type="UNIT_MEDICINE_MAN" Tag="CLASS_MEDICINE_MAN"/>
@@ -724,6 +728,16 @@
 		<Row Type="ABILITY_GHAZI" Tag="CLASS_GHAZI"/>
 		<Row Type="ABILITY_FRENCH_MARINE" Tag="CLASS_FRENCH_MARINE"/>
 		<Row Type="ABILITY_MEDICINE_MAN" Tag="CLASS_MEDICINE_MAN"/>
+		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
 	</TypeTags>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_COMPANION_CAVALRY" Name="LOC_ABILITY_COMPANION_CAVALRY" Description="LOC_ABILITY_COMPANION_CAVALRY_DESCRIPTION"/>
@@ -873,6 +887,42 @@
 			<UnitAbilityType>ABILITY_VULTURE</UnitAbilityType>
 			<ModifierId>VULTURE_BONUS_VS_DAMAGED</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FRENCH_MARINE</UnitAbilityType>
+			<ModifierId>AMPHIBIOUS_BONUS_IGNORE_SHORES</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FRENCH_MARINE</UnitAbilityType>
+			<ModifierId>AMPHIBIOUS_BONUS_IGNORE_RIVERS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FRENCH_MARINE</UnitAbilityType>
+			<ModifierId>PLUS_5_FOREIGN_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ARMATOLOS</UnitAbilityType>
+			<ModifierId>ALPINE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ARMATOLOS</UnitAbilityType>
+			<ModifierId>PLUS_5_HILLS_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ARMATOLOS</UnitAbilityType>
+			<ModifierId>GHAZI_WAR_TYPE_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_MEDICINE_MAN_BONUS</UnitAbilityType>
+			<ModifierId>RECEIVE_MEDICINE_MAN_FAITH_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_SHIGONG_BONUS</UnitAbilityType>
+			<ModifierId>RECEIVE_SHIGONG_XP_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_SHIGONG_BONUS</UnitAbilityType>
+			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
@@ -882,7 +932,7 @@
 		<Row>
 			<ModifierId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS</ModifierId>
@@ -892,12 +942,12 @@
 		<Row>
 			<ModifierId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_IS_WITHIN_8_OF_ZIGGURAT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS</ModifierId>
@@ -961,6 +1011,36 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>THRUST_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>PLUS_5_FOREIGN_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REDCOAT_PLOT_IS_FOREIGN_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_HILLS_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GHAZI_WAR_TYPE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>GHAZI_WAR_TYPE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ADJACENT_SHIGONG_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_SHIGONG_XP_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>ADJACENT_SHIGONG_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_MEDICINE_MAN_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+			<SubjectRequirementSetId>ADJACENT_MEDICINE_MAN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierStrings>
 		<Row ModifierId="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS" Context="Preview" Text="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC"/>
@@ -974,8 +1054,42 @@
 		<Row ModifierId="PLUS_8_DESERT_PLAINS_COMBAT_BONUS" Context="Preview" Text="PLUS_8_DESERT_PLAINS_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS" Context="Preview" Text="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS" Context="Preview" Text="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_FOREIGN_COMBAT_BONUS" Context="Preview" Text="PLUS_5_FOREIGN_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_HILLS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_HILLS_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="GHAZI_WAR_TYPE_COMBAT_BONUS" Context="Preview" Text="GHAZI_WAR_TYPE_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="RECEIVE_SHIGONG_COMBAT_BONUS" Context="Preview" Text="RECEIVE_SHIGONG_COMBAT_BONUS_DESC"/>
 	</ModifierStrings>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>RECEIVE_MEDICINE_MAN_FAITH_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_MEDICINE_MAN_FAITH_BONUS</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GHAZI_WAR_TYPE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_HILLS_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>		
+		<Row>
+			<ModifierId>PLUS_5_FOREIGN_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 		<Row>
 			<ModifierId>PLUS_10_WHEN_DEFENDING_COMBAT_BONUS</ModifierId>
 			<Name>Amount</Name>
@@ -1089,15 +1203,23 @@
 	</ModifierArguments>
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>GHAZI_WAR_TYPE_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_HILLS_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_WITHIN_8_OF_ZIGGURAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
@@ -1127,6 +1249,22 @@
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
+			<RequirementSetId>GHAZI_WAR_TYPE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_HOLY_WAR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GHAZI_WAR_TYPE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_COLONIAL_WAR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GHAZI_WAR_TYPE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_RECONQUEST_WAR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_HILLS_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
 			<RequirementSetId>PLAYER_IS_DEFENDER_REQUIREMENTS_SET</RequirementSetId>
 			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
 		</Row>
@@ -1147,31 +1285,31 @@
 			<RequirementId>ANTI_CAVALRY_OPPONENT_REQUIREMENT_HC</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_WITHIN_8_OF_ZIGGURAT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_PLAINS</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLOT_IS_FOREST_REQUIREMENT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT</RequirementId>
 		</Row>
 		<Row>
@@ -1190,8 +1328,32 @@
 			<RequirementSetId>PLOT_IS_NEXT_TO_LONGBOWMAN_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_LONGBOWMAN</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>ADJACENT_SHIGONG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_SHIGONG_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ADJACENT_MEDICINE_MAN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_MEDICINE_MAN_REQUIREMENT</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_HOLY_WAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_DECLARED_WAR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_COLONIAL_WAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_DECLARED_WAR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_RECONQUEST_WAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_DECLARED_WAR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_TERRITORIAL_WAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_DECLARED_WAR</RequirementType>
+		</Row>
 		<Row>
 			<RequirementId>UNIT_NOT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
 			<RequirementType>REQUIREMENT_UNIT_IN_OWNER_TERRITORY</RequirementType>
@@ -1221,8 +1383,46 @@
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_LONGBOWMAN</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
 		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_SHIGONG_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_MEDICINE_MAN_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_SHIGONG_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_SHIGONG</Value>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_MEDICINE_MAN_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_MEDICINE_MAN</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_HOLY_WAR</RequirementId>
+			<Name>WarType</Name>
+			<Value>HOLY_WAR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_COLONIAL_WAR</RequirementId>
+			<Name>WarType</Name>
+			<Value>COLONIAL_WAR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_TERRITORIAL_WAR</RequirementId>
+			<Name>WarType</Name>
+			<Value>TERRITORIAL_WAR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DECLARED_RECONQUEST_WAR</RequirementId>
+			<Name>WarType</Name>
+			<Value>RECONQUEST_WAR</Value>
+		</Row>
 		<Row>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_LONGBOWMAN</RequirementId>
 			<Name>UnitType</Name>
