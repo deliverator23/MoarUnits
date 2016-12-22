@@ -1,52 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="c5cbb14e-d424-4960-89dd-3e4c9d3790Za">
-	<Properties>
-		<Name>LOC_MOAR_UNITS_NAME</Name>
-		<Stability>Alpha</Stability>
-		<Teaser>LOC_MOAR_UNITS_TEASER</Teaser>
-		<Description>LOC_MOAR_UNITS_DESCRIPTION</Description>
-		<Authors>LOC_MOAR_UNITS_AUTHORS</Authors>
-		<SpecialThanks>LOC_MOAR_UNITS_SPECIAL_THANKS</SpecialThanks>
-	</Properties>
-	<Files>
-		<File>MOAR_Units_Data.xml</File>
-		<File>MOAR_Units_Text.xml</File>
-		<File>MOAR_Units.sql</File>
-	</Files>
-  <Components>
-		<UpdateDatabase id="MOAR_Units_Component">
-			<Properties>
-				<Ruleset>RULESET_STANDARD</Ruleset>
-			</Properties>
-			<Items>
-				<File>MOAR_Units_Data.xml</File>
-				<File>MOAR_Units.sql</File>
-			</Items>
-		</UpdateDatabase>
-		<LocalizedText>
-			<Properties>
-				<Ruleset>RULESET_STANDARD</Ruleset>
-			</Properties>
-			<Items>	
-				<File>MOAR_Units_Text.xml</File>
-			</Items>
-		</LocalizedText>
-	</Components>
-	<LocalizedText>
-		<Text id="LOC_MOAR_UNITS_AUTHORS">
-			<en_US>Deliverator</en_US>
-		</Text>
-		<Text id="LOC_MOAR_UNITS_SPECIAL_THANKS">
-			<en_US>Thanks to Firaxis for making a great game!</en_US>
-		</Text>
-		<Text id="LOC_MOAR_UNITS_DESCRIPTION">
-			<en_US>Adds Rifleman, Cuirassier and 19 new Unique Units.</en_US>
-		</Text>
-		<Text id="LOC_MOAR_UNITS_TEASER">
-			<en_US>Adds Rifleman, Cuirassier and 19 new Unique Units.</en_US>
-		</Text>
-		<Text id="LOC_MOAR_UNITS_NAME">
-			<en_US>Moar Units!</en_US>
-		</Text>
-	</LocalizedText>
+<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54">
+    <Properties>
+        <Name>LOC_MOAR_UNITS_NAME</Name>
+        <Teaser>LOC_MOAR_UNITS_TEASER</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_MOAR_UNITS_NAME">
+            <en_US>Moar Units!</en_US>
+        </Text>
+        <Text id="LOC_MOAR_UNITS_TEASER">
+            <en_US>Adds 28 new Unique Units plus Rifleman and Cuirassier.</en_US>
+        </Text>        
+    </LocalizedText>  
+    <Files>
+        <File>MOAR_Units.dep</File>
+        <File>Data/MOAR_Units_Data.xml</File>
+        <File>Data/MOAR_Units_Data.sql</File>
+        <File>Data/MOAR_Units_Icons.xml</File>        
+        <File>Text/MOAR_Units_Text.xml</File>      
+        <File>Text/en_US/MOAR_Units_GameplayText.xml</File>         
+    </Files>    
+    <Components>
+        <UpdateDatabase id="MOAR_UpdateDatabase">
+            <Items>
+                <File>Data/MOAR_Units_Data.xml</File>
+                <File>Data/MOAR_Units_Data.sql</File>
+            </Items>
+        </UpdateDatabase>
+        <LocalizedText id="MOAR_LocalizedText">
+            <Items>    
+                <File>Text/MOAR_Units_Text.xml</File>
+                <File>Text/en_US/MOAR_Units_GameplayText.xml</File> 
+            </Items>
+        </LocalizedText>
+        <Icons id="MOAR_Icons">
+            <Items>
+                <File>Data/MOAR_Units_Icons.xml</File>
+            </Items>
+        </Icons>
+        <ModArt id="MOAR_ModArt">
+            <Items>
+                <File>MOAR_Units.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
 </Mod>
