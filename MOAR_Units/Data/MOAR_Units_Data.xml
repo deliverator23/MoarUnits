@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_RIFLEMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_COMPANION_CAVALRY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CAMEL_ARCHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MINUTEMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GERMAN_HUSSAR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CHOKONU" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PHALANX" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MUGHAL_SOWAR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HIRDMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JINETE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_EQUITE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CUIRASSIER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_LONGBOWMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_DRUZHINA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SOHEI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_AMAZON" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FATHERLAND_VOLUNTEER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HYKSOS_BOWMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GENDARME" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GARDE_REPUBLICAINE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BANDEIRANTE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TERCIO" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SEPOY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ONAGER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PANZER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YAMATO" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WAR_GALLEY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_AMAZON_SCOUT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_VULTURE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_T34" Kind="KIND_UNIT"/>
+		
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CAMEL_ARCHER" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_COMPANION_CAVALRY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MINUTEMAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GERMAN_HUSSAR" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CHOKONU" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_PHALANX" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_JINETE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_EQUITE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MUGHAL_SOWAR" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_DRUZHINA" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_LONGBOWMAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HIRDMAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SOHEI" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_AMAZON" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_FATHERLAND_VOLUNTEER" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HYKSOS_BOWMAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GENDARME" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GARDE_REPUBLICAINE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_BANDEIRANTE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_TERCIO" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SEPOY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_ONAGER" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_PANZER" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_YAMATO" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_VULTURE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_T34" Kind="KIND_TRAIT" />
+		
+		<Row Type="ABILITY_COMPANION_CAVALRY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CAMEL_ARCHER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MINUTEMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GERMAN_HUSSAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CHOKONU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PHALANX" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_EQUITE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_JINETE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HIRDMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MUGHAL_SOWAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LONGBOWMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DRUZHINA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SOHEI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_AMAZON" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FATHERLAND_VOLUNTEER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HYKSOS_BOWMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GENDARME" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GARDE_REPUBLICAINE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BANDEIRANTE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TERCIO" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SEPOY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ONAGER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PANZER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YAMATO" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WAR_GALLEY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_AMAZON_SCOUT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VULTURE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_T34" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_COMPANION_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_MINUTEMAN" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_GERMAN_HUSSAR" ReplacesUnitType="UNIT_CAVALRY"/>
+		<Row CivUniqueUnitType="UNIT_PHALANX" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_CHOKONU" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_LONGBOWMAN" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_EQUITE" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_DRUZHINA" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_JINETE" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_MUGHAL_SOWAR" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_AMAZON" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_FATHERLAND_VOLUNTEER" ReplacesUnitType="UNIT_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_HYKSOS_BOWMAN" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_GENDARME" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_GARDE_REPUBLICAINE" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_BANDEIRANTE" ReplacesUnitType="UNIT_RANGER"/>
+		<Row CivUniqueUnitType="UNIT_ONAGER" ReplacesUnitType="UNIT_CATAPULT"/>
+		<Row CivUniqueUnitType="UNIT_PANZER" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_YAMATO" ReplacesUnitType="UNIT_BATTLESHIP"/>
+		<Row CivUniqueUnitType="UNIT_WAR_GALLEY" ReplacesUnitType="UNIT_QUADRIREME"/>
+		<Row CivUniqueUnitType="UNIT_AMAZON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_VULTURE" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_T34" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_SEPOY" ReplacesUnitType="UNIT_RIFLEMAN"/>
+	</UnitReplaces>
+	<Units>
+        <Row UnitType="UNIT_CUIRASSIER" BaseMoves="4" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CUIRASSIER_NAME"
+             Description="LOC_UNIT_CUIRASSIER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="3" Combat="66" PrereqTech="TECH_BALLISTICS" StrategicResource="RESOURCE_NITER"
+             MandatoryObsoleteTech="TECH_COMPOSITES"/>
+
+        <Row UnitType="UNIT_EQUITE" BaseMoves="4" Cost="80" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_EQUITE_NAME"
+             Description="LOC_UNIT_EQUITE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+             Maintenance="2" Combat="35" PrereqTech="TECH_HORSEBACK_RIDING" StrategicResource="RESOURCE_HORSES"
+             MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" TraitType="TRAIT_CIVILIZATION_UNIT_EQUITE"/>
+
+        <Row UnitType="UNIT_JINETE" BaseMoves="4" Cost="80" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_JINETE_NAME"
+             Description="LOC_UNIT_JINETE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+             Maintenance="2" Combat="33" RangedCombat="26" Range="1" PrereqTech="TECH_HORSEBACK_RIDING" StrategicResource="RESOURCE_HORSES"
+             MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" TraitType="TRAIT_CIVILIZATION_UNIT_JINETE"/>
+
+        <Row UnitType="UNIT_DRUZHINA" BaseMoves="4" Cost="80" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_DRUZHINA_NAME"
+             Description="LOC_UNIT_DRUZHINA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+             Maintenance="2" Combat="34" PrereqTech="TECH_HORSEBACK_RIDING" StrategicResource="RESOURCE_HORSES"
+             MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" TraitType="TRAIT_CIVILIZATION_UNIT_DRUZHINA"/>
+
+        <Row UnitType="UNIT_COMPANION_CAVALRY" BaseMoves="4" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+             ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_COMPANION_CAVALRY_NAME"
+             Description="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="2" Combat="38" PrereqTech="TECH_HORSEBACK_RIDING" StrategicResource="RESOURCE_HORSES"
+             MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_COMPANION_CAVALRY"/>
+
+        <Row UnitType="UNIT_MUGHAL_SOWAR" BaseMoves="4" Cost="190" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MUGHAL_SOWAR_NAME"
+             Description="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="2" Combat="53" PrereqTech="TECH_STIRRUPS" MandatoryObsoleteTech="TECH_COMPOSITES"
+             TraitType="TRAIT_CIVILIZATION_UNIT_MUGHAL_SOWAR"/>
+
+        <Row UnitType="UNIT_GENDARME" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GENDARME_NAME"
+             Description="LOC_UNIT_GENDARME_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="3" Combat="50" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
+             MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_GENDARME"/>
+
+        <Row UnitType="UNIT_AMAZON" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_AMAZON_NAME"
+             Description="LOC_UNIT_AMAZON_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="3" Combat="48" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
+             MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON"/>
+
+        <Row UnitType="UNIT_HIRDMAN" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HIRDMAN_NAME"
+             Description="LOC_UNIT_HIRDMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+             TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN"/>
+
+        <Row UnitType="UNIT_SOHEI" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SOHEI_NAME"
+             Description="LOC_UNIT_SOHEI_DESCRIPTION" PurchaseYield="YIELD_FAITH" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="1"
+             Combat="42" PrereqCivic="CIVIC_FEUDALISM" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_SOHEI"/>
+
+        <Row UnitType="UNIT_HYKSOS_BOWMAN" BaseMoves="2" Cost="50" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HYKSOS_BOWMAN_NAME"
+             Description="LOC_UNIT_HYKSOS_BOWMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED"
+             Maintenance="1" Combat="15" RangedCombat="30" Range="2" PrereqTech="TECH_ARCHERY" MandatoryObsoleteTech="TECH_BALLISTICS"
+             TraitType="TRAIT_CIVILIZATION_UNIT_HYKSOS_BOWMAN"/>
+
+        <Row UnitType="UNIT_LONGBOWMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_LONGBOWMAN_NAME"
+             Description="LOC_UNIT_LONGBOWMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED"
+             Maintenance="3" Combat="30" RangedCombat="40" Range="2" PrereqTech="TECH_MACHINERY"
+             MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" TraitType="TRAIT_CIVILIZATION_UNIT_LONGBOWMAN"/>
+
+        <Row UnitType="UNIT_CHOKONU" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CHOKONU_NAME"
+             Description="LOC_UNIT_CHOKONU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3"
+             Combat="30" RangedCombat="36" Range="2" PrereqTech="TECH_MACHINERY" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS"
+             TraitType="TRAIT_CIVILIZATION_UNIT_CHOKONU"/>
+
+        <Row UnitType="UNIT_CAMEL_ARCHER" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAMEL_ARCHER_NAME"
+             Description="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED"
+             Maintenance="2" Combat="13" RangedCombat="27" Range="1" PrereqTech="TECH_HORSEBACK_RIDING"
+             MandatoryObsoleteTech="TECH_BALLISTICS" TraitType="TRAIT_CIVILIZATION_UNIT_CAMEL_ARCHER"/>
+
+        <Row UnitType="UNIT_MINUTEMAN" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MINUTEMAN_NAME"
+             Description="LOC_UNIT_MINUTEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4"
+             Combat="58" TraitType="TRAIT_CIVILIZATION_UNIT_MINUTEMAN" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER"
+             MandatoryObsoleteTech="TECH_SATELLITES"/>
+
+        <Row UnitType="UNIT_BANDEIRANTE" BaseMoves="3" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BANDEIRANTE_NAME"
+             Description="LOC_UNIT_BANDEIRANTE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON"
+             Maintenance="4" Combat="46" RangedCombat="60" Range="1" PrereqTech="TECH_GUNPOWDER"
+             TraitType="TRAIT_CIVILIZATION_UNIT_BANDEIRANTE"/>
+
+        <Row UnitType="UNIT_GERMAN_HUSSAR" BaseMoves="5" Cost="310" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GERMAN_HUSSAR_NAME"
+             Description="LOC_UNIT_GERMAN_HUSSAR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+             Maintenance="5" Combat="62" PrereqTech="TECH_MILITARY_SCIENCE" StrategicResource="RESOURCE_HORSES"
+             TraitType="TRAIT_CIVILIZATION_UNIT_GERMAN_HUSSAR"/>
+
+        <Row UnitType="UNIT_PHALANX" BaseMoves="2" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PHALANX_NAME"
+             Description="LOC_UNIT_PHALANX_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="1"
+             Combat="25" PrereqTech="TECH_MINING" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_PHALANX"/>
+
+        <Row UnitType="UNIT_RIFLEMAN" BaseMoves="2" Cost="350" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_RIFLEMAN_NAME"
+             Description="LOC_UNIT_RIFLEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4"
+             Combat="64" PrereqTech="TECH_RIFLING" MandatoryObsoleteTech="TECH_SATELLITES"/>
+
+        <Row UnitType="UNIT_FATHERLAND_VOLUNTEER" BaseMoves="2" Cost="280" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+             ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+             Name="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME" Description="LOC_UNIT_FATHERLAND_VOLUNTEER_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+             PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="64" PrereqTech="TECH_RIFLING"
+             MandatoryObsoleteTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_FATHERLAND_VOLUNTEER"/>
+
+        <Row UnitType="UNIT_SEPOY" BaseMoves="2" Cost="350" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SEPOY_NAME"
+             Description="LOC_UNIT_SEPOY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4"
+             Combat="64" PrereqTech="TECH_RIFLING" MandatoryObsoleteTech="TECH_SATELLITES"
+             TraitType="TRAIT_CIVILIZATION_UNIT_SEPOY"/>
+
+        <Row UnitType="UNIT_GARDE_REPUBLICAINE" BaseMoves="3" Cost="660" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+             ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GARDE_REPUBLICAINE_NAME"
+             Description="LOC_UNIT_GARDE_REPUBLICAINE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE"
+             Maintenance="8" Combat="90" PrereqTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_GARDE_REPUBLICAINE"/>
+
+        <Row UnitType="UNIT_VULTURE" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_VULTURE_NAME"
+             Description="LOC_UNIT_VULTURE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+             Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+             TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE"/>
+
+        <Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TERCIO_NAME"
+             Description="LOC_UNIT_TERCIO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
+             Maintenance="4" Combat="60" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_ROCKETRY"
+             TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO"/>
+
+        <Row UnitType="UNIT_PANZER" BaseMoves="4" Cost="540" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PANZER_NAME"
+             Description="LOC_UNIT_PANZER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="8" Combat="80" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"
+             TraitType="TRAIT_CIVILIZATION_UNIT_PANZER"/>
+
+        <Row UnitType="UNIT_T34" BaseMoves="4" Cost="460" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_T34_NAME"
+             Description="LOC_UNIT_T34_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+             Maintenance="5" Combat="80" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"
+             TraitType="TRAIT_CIVILIZATION_UNIT_T34"/>
+
+        <Row UnitType="UNIT_AMAZON_SCOUT" BaseMoves="3" Cost="30" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_AMAZON_SCOUT_NAME"
+             Description="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
+             PromotionClass="PROMOTION_CLASS_RECON" Combat="15" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT"/>
+
+        <Row UnitType="UNIT_ONAGER" BaseMoves="2" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+             Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ONAGER_NAME"
+             Description="LOC_UNIT_ONAGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="2"
+             Combat="23" Range="2" PrereqTech="TECH_ENGINEERING" Bombard="40" MandatoryObsoleteTech="TECH_STEEL"
+             TraitType="TRAIT_CIVILIZATION_UNIT_ONAGER"/>
+
+        <Row UnitType="UNIT_YAMATO" BaseMoves="5" Cost="460" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+             Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_YAMATO_NAME"
+             Description="LOC_UNIT_YAMATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+             PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="7" Combat="65" RangedCombat="75" Range="3" PrereqTech="TECH_STEEL"
+             StrategicResource="RESOURCE_COAL" AntiAirCombat="65" TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO"/>
+
+		<Row UnitType="UNIT_WAR_GALLEY" BaseMoves="3" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_WAR_GALLEY_NAME"
+			 Description="LOC_UNIT_WAR_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="25" RangedCombat="30" Range="2"
+			 PrereqTech="TECH_SHIPBUILDING" MandatoryObsoleteTech="TECH_STEEL" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
+    </Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_CUIRASSIER" UpgradeUnit="UNIT_TANK"/>
+		<Row Unit="UNIT_CHOKONU" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_PHALANX" UpgradeUnit="UNIT_PIKEMAN"/>
+		<Row Unit="UNIT_GERMAN_HUSSAR" UpgradeUnit="UNIT_HELICOPTER"/>
+		<Row Unit="UNIT_MINUTEMAN" UpgradeUnit="UNIT_RIFLEMAN"/>
+		<Row Unit="UNIT_CAMEL_ARCHER" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_COMPANION_CAVALRY" UpgradeUnit="UNIT_KNIGHT"/>
+		<Row Unit="UNIT_LONGBOWMAN" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_EQUITE" UpgradeUnit="UNIT_CAVALRY"/>
+		<Row Unit="UNIT_JINETE" UpgradeUnit="UNIT_CAVALRY"/>
+		<Row Unit="UNIT_DRUZHINA" UpgradeUnit="UNIT_CAVALRY"/>
+		<Row Unit="UNIT_MUGHAL_SOWAR" UpgradeUnit="UNIT_CUIRASSIER"/>
+		<Row Unit="UNIT_HIRDMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_AMAZON" UpgradeUnit="UNIT_CUIRASSIER"/>
+		<Row Unit="UNIT_HYKSOS_BOWMAN" UpgradeUnit="UNIT_CROSSBOWMAN"/>	
+		<Row Unit="UNIT_FATHERLAND_VOLUNTEER" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_GENDARME" UpgradeUnit="UNIT_CUIRASSIER"/>
+		<Row Unit="UNIT_SOHEI" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_TERCIO" UpgradeUnit="UNIT_AT_CREW"/>
+		<Row Unit="UNIT_SEPOY" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_ONAGER" UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_PANZER" UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<Row Unit="UNIT_YAMATO" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
+		<Row Unit="UNIT_WAR_GALLEY" UpgradeUnit="UNIT_FRIGATE"/>
+		<Row Unit="UNIT_AMAZON_SCOUT" UpgradeUnit="UNIT_RANGER"/>
+		<Row Unit="UNIT_VULTURE" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_T34" UpgradeUnit="UNIT_MODERN_ARMOR"/>
+	</UnitUpgrades>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
+	</Improvement_ValidBuildUnits>
+	<UnitAIInfos>
+		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_PHALANX" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_PHALANX" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MINUTEMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MINUTEMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MINUTEMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MINUTEMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CHOKONU" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CHOKONU" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CHOKONU" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_COMPANION_CAVALRY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_COMPANION_CAVALRY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_COMPANION_CAVALRY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_COMPANION_CAVALRY" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_COMPANION_CAVALRY" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GERMAN_HUSSAR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GERMAN_HUSSAR" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GERMAN_HUSSAR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GERMAN_HUSSAR" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_GERMAN_HUSSAR" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CAMEL_ARCHER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CAMEL_ARCHER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CAMEL_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RIFLEMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RIFLEMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_RIFLEMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_RIFLEMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_JINETE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JINETE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JINETE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JINETE" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_JINETE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_EQUITE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_EQUITE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_EQUITE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_EQUITE" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_EQUITE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_DRUZHINA" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DRUZHINA" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_DRUZHINA" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DRUZHINA" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_DRUZHINA" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HIRDMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HIRDMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HIRDMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HIRDMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_LONGBOWMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LONGBOWMAN" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_LONGBOWMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_AMAZON" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_AMAZON" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_AMAZON" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_AMAZON" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_AMAZON" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GENDARME" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GENDARME" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GENDARME" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GENDARME" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_GENDARME" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FATHERLAND_VOLUNTEER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FATHERLAND_VOLUNTEER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FATHERLAND_VOLUNTEER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_FATHERLAND_VOLUNTEER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SOHEI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SOHEI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SOHEI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SOHEI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HYKSOS_BOWMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HYKSOS_BOWMAN" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HYKSOS_BOWMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GARDE_REPUBLICAINE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GARDE_REPUBLICAINE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GARDE_REPUBLICAINE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GARDE_REPUBLICAINE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BANDEIRANTE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BANDEIRANTE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_BANDEIRANTE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BANDEIRANTE" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_TERCIO" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_TERCIO" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_TERCIO" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_TERCIO" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_SEPOY" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_SEPOY" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_SEPOY" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_SEPOY" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_ONAGER" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_RANGED"/>
+        <Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_SIEGE"/>
+        <Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITTYPE_CAVALRY"/>
+        <Row UnitType="UNIT_PANZER" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_YAMATO" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_YAMATO" AiType="UNITTYPE_RANGED"/>
+        <Row UnitType="UNIT_YAMATO" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_WAR_GALLEY" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_WAR_GALLEY" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_WAR_GALLEY" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_WAR_GALLEY" AiType="UNITTYPE_NAVAL"/>
+        <Row UnitType="UNIT_AMAZON_SCOUT" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_AMAZON_SCOUT" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_VULTURE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_VULTURE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_VULTURE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_VULTURE" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_T34" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_T34" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_T34" AiType="UNITTYPE_CAVALRY"/>
+        <Row UnitType="UNIT_T34" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAIInfos>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ARABIA" TraitType="TRAIT_CIVILIZATION_UNIT_CAMEL_ARCHER"/>
+		<Row CivilizationType="CIVILIZATION_GREECE" TraitType="TRAIT_CIVILIZATION_UNIT_COMPANION_CAVALRY"/>
+		<Row CivilizationType="CIVILIZATION_AMERICA" TraitType="TRAIT_CIVILIZATION_UNIT_MINUTEMAN"/>
+		<Row CivilizationType="CIVILIZATION_GERMANY" TraitType="TRAIT_CIVILIZATION_UNIT_GERMAN_HUSSAR"/>
+		<Row CivilizationType="CIVILIZATION_GERMANY" TraitType="TRAIT_CIVILIZATION_UNIT_PANZER"/>
+		<Row CivilizationType="CIVILIZATION_SUMERIA" TraitType="TRAIT_CIVILIZATION_UNIT_PHALANX"/>
+		<Row CivilizationType="CIVILIZATION_SUMERIA" TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE"/>
+		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_UNIT_CHOKONU"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_CIVILIZATION_UNIT_LONGBOWMAN"/>
+		<Row CivilizationType="CIVILIZATION_INDIA" TraitType="TRAIT_CIVILIZATION_UNIT_MUGHAL_SOWAR"/>
+		<Row CivilizationType="CIVILIZATION_INDIA" TraitType="TRAIT_CIVILIZATION_UNIT_SEPOY"/>
+		<Row CivilizationType="CIVILIZATION_NORWAY" TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN"/>
+		<Row CivilizationType="CIVILIZATION_RUSSIA" TraitType="TRAIT_CIVILIZATION_UNIT_DRUZHINA"/>
+		<Row CivilizationType="CIVILIZATION_RUSSIA" TraitType="TRAIT_CIVILIZATION_UNIT_T34"/>
+		<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_UNIT_EQUITE"/>
+		<Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_CIVILIZATION_UNIT_ONAGER"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_CIVILIZATION_UNIT_JINETE"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_UNIT_SOHEI"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO"/>
+		<Row CivilizationType="CIVILIZATION_SCYTHIA" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON"/>
+		<Row CivilizationType="CIVILIZATION_SCYTHIA" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" TraitType="TRAIT_CIVILIZATION_UNIT_FATHERLAND_VOLUNTEER"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" TraitType="TRAIT_CIVILIZATION_UNIT_BANDEIRANTE"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" TraitType="TRAIT_CIVILIZATION_UNIT_HYKSOS_BOWMAN"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
+		<Row CivilizationType="CIVILIZATION_FRANCE" TraitType="TRAIT_CIVILIZATION_UNIT_GENDARME"/>
+		<Row CivilizationType="CIVILIZATION_KONGO" TraitType="TRAIT_CIVILIZATION_UNIT_GARDE_REPUBLICAINE"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CAMEL_ARCHER" Name="LOC_UNIT_CAMEL_ARCHER_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_COMPANION_CAVALRY" Name="LOC_UNIT_COMPANION_CAVALRY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MINUTEMAN" Name="LOC_UNIT_MINUTEMAN_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GERMAN_HUSSAR" Name="LOC_UNIT_GERMAN_HUSSAR_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_PHALANX" Name="LOC_UNIT_PHALANX_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CHOKONU" Name="LOC_UNIT_CHOKONU_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_JINETE" Name="LOC_UNIT_JINETE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_EQUITE" Name="LOC_UNIT_EQUITE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_DRUZHINA" Name="LOC_UNIT_DRUZHINA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MUGHAL_SOWAR" Name="LOC_UNIT_MUGHAL_SOWAR_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_LONGBOWMAN" Name="LOC_UNIT_LONGBOWMAN_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN" Name="LOC_UNIT_HIRDMAN_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SOHEI" Name="LOC_UNIT_SOHEI_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON" Name="LOC_UNIT_AMAZON_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_FATHERLAND_VOLUNTEER" Name="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HYKSOS_BOWMAN" Name="LOC_UNIT_HYKSOS_BOWMAN_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GENDARME" Name="LOC_UNIT_GENDARME_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GARDE_REPUBLICAINE" Name="LOC_UNIT_GARDE_REPUBLICAINE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_BANDEIRANTE" Name="LOC_UNIT_BANDEIRANTE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO" Name="LOC_UNIT_TERCIO_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SEPOY" Name="LOC_UNIT_SEPOY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_ONAGER" Name="LOC_UNIT_ONAGER_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_PANZER" Name="LOC_UNIT_PANZER_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO" Name="LOC_UNIT_YAMATO_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY" Name="LOC_UNIT_WAR_GALLEY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON_SCOUT" Name="LOC_UNIT_AMAZON_SCOUT_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE" Name="LOC_UNIT_VULTURE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_T34" Name="LOC_UNIT_T34_NAME"/>
+	</Traits>
+	<Tags>
+		<Row Tag="CLASS_COMPANION_CAVALRY" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_CAMEL_ARCHER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MINUTEMAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GERMAN_HUSSAR" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_CHOKONU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_PHALANX" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_JINETE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_EQUITE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_DRUZHINA" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MUGHAL_SOWAR" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_LONGBOWMAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HIRDMAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SOHEI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_AMAZON" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FATHERLAND_VOLUNTEER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HYKSOS_BOWMAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GENDARME" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GARDE_REPUBLICAINE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_BANDEIRANTE" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_TERCIO" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_SEPOY" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_ONAGER" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_PANZER" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_YAMATO" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_WAR_GALLEY" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_AMAZON_SCOUT" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_VULTURE" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_T34" Vocabulary="ABILITY_CLASS"/>      
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_RIFLEMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_CUIRASSIER" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_COMPANION_CAVALRY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_COMPANION_CAVALRY" Tag="CLASS_COMPANION_CAVALRY"/>
+		<Row Type="UNIT_CAMEL_ARCHER" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="UNIT_CAMEL_ARCHER" Tag="CLASS_CAMEL_ARCHER"/>
+		<Row Type="UNIT_MINUTEMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_MINUTEMAN" Tag="CLASS_MINUTEMAN"/>
+		<Row Type="UNIT_GERMAN_HUSSAR" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_GERMAN_HUSSAR" Tag="CLASS_GERMAN_HUSSAR"/>
+		<Row Type="UNIT_CHOKONU" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_CHOKONU" Tag="CLASS_CHOKONU"/>
+		<Row Type="UNIT_PHALANX" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_PHALANX" Tag="CLASS_PHALANX"/>
+		<Row Type="UNIT_LONGBOWMAN" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_LONGBOWMAN" Tag="CLASS_LONGBOWMAN"/>
+		<Row Type="UNIT_EQUITE" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_EQUITE" Tag="CLASS_EQUITE"/>
+		<Row Type="UNIT_DRUZHINA" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_DRUZHINA" Tag="CLASS_DRUZHINA"/>
+		<Row Type="UNIT_JINETE" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_JINETE" Tag="CLASS_JINETE"/>
+		<Row Type="UNIT_HIRDMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HIRDMAN" Tag="CLASS_HIRDMAN"/>
+		<Row Type="UNIT_MUGHAL_SOWAR" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_MUGHAL_SOWAR" Tag="CLASS_MUGHAL_SOWAR"/>
+		<Row Type="UNIT_SOHEI" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SOHEI" Tag="CLASS_SOHEI"/>
+		<Row Type="UNIT_AMAZON" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_AMAZON" Tag="CLASS_AMAZON"/>
+		<Row Type="UNIT_FATHERLAND_VOLUNTEER" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_FATHERLAND_VOLUNTEER" Tag="CLASS_FATHERLAND_VOLUNTEER"/>
+		<Row Type="UNIT_BANDEIRANTE" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BANDEIRANTE" Tag="CLASS_BANDEIRANTE"/>
+		<Row Type="UNIT_HYKSOS_BOWMAN" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_HYKSOS_BOWMAN" Tag="CLASS_HYKSOS_BOWMAN"/>
+		<Row Type="UNIT_GENDARME" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_GENDARME" Tag="CLASS_GENDARME"/>
+		<Row Type="UNIT_GARDE_REPUBLICAINE" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_GARDE_REPUBLICAINE" Tag="CLASS_GARDE_REPUBLICAINE"/>
+        <Row Type="UNIT_TERCIO" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_TERCIO" Tag="CLASS_TERCIO"/>
+        <Row Type="UNIT_SEPOY" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_SEPOY" Tag="CLASS_SEPOY"/>
+        <Row Type="UNIT_ONAGER" Tag="CLASS_SIEGE"/>
+        <Row Type="UNIT_ONAGER" Tag="CLASS_ONAGER"/>
+        <Row Type="UNIT_PANZER" Tag="CLASS_HEAVY_CHARIOT"/>
+        <Row Type="UNIT_PANZER" Tag="CLASS_HEAVY_CAVALRY"/>
+        <Row Type="UNIT_PANZER" Tag="CLASS_PANZER"/>
+        <Row Type="UNIT_YAMATO" Tag="CLASS_NAVAL_RANGED"/>
+        <Row Type="UNIT_YAMATO" Tag="CLASS_ANTI_AIR"/>
+        <Row Type="UNIT_YAMATO" Tag="CLASS_YAMATO"/>
+        <Row Type="UNIT_WAR_GALLEY" Tag="CLASS_NAVAL_MELEE"/>
+        <Row Type="UNIT_WAR_GALLEY" Tag="CLASS_WAR_GALLEY"/>
+        <Row Type="UNIT_AMAZON_SCOUT" Tag="CLASS_RECON"/>
+        <Row Type="UNIT_AMAZON_SCOUT" Tag="CLASS_REVEAL_STEALTH"/>
+        <Row Type="UNIT_AMAZON_SCOUT" Tag="CLASS_AMAZON_SCOUT"/>
+        <Row Type="UNIT_VULTURE" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_VULTURE" Tag="CLASS_VULTURE"/>
+        <Row Type="UNIT_T34" Tag="CLASS_HEAVY_CHARIOT"/>
+        <Row Type="UNIT_T34" Tag="CLASS_HEAVY_CAVALRY"/>
+        <Row Type="UNIT_T34" Tag="CLASS_T34"/>
+    </TypeTags>
+	<TypeTags>
+		<Row Type="ABILITY_COMPANION_CAVALRY" Tag="CLASS_COMPANION_CAVALRY"/>
+		<Row Type="ABILITY_CAMEL_ARCHER" Tag="CLASS_CAMEL_ARCHER"/>
+		<Row Type="ABILITY_MINUTEMAN" Tag="CLASS_MINUTEMAN"/>
+		<Row Type="ABILITY_GERMAN_HUSSAR" Tag="CLASS_GERMAN_HUSSAR"/>
+		<Row Type="ABILITY_CHOKONU" Tag="CLASS_CHOKONU"/>
+		<Row Type="ABILITY_PHALANX" Tag="CLASS_PHALANX"/>
+		<Row Type="ABILITY_EQUITE" Tag="CLASS_EQUITE"/>
+		<Row Type="ABILITY_JINETE" Tag="CLASS_JINETE"/>
+		<Row Type="ABILITY_DRUZHINA" Tag="CLASS_DRUZHINA"/>
+		<Row Type="ABILITY_LONGBOWMAN" Tag="CLASS_LONGBOWMAN"/>
+		<Row Type="ABILITY_MUGHAL_SOWAR" Tag="CLASS_MUGHAL_SOWAR"/>
+		<Row Type="ABILITY_HIRDMAN" Tag="CLASS_HIRDMAN"/>
+		<Row Type="ABILITY_SOHEI" Tag="CLASS_SOHEI"/>
+		<Row Type="ABILITY_AMAZON" Tag="CLASS_AMAZON"/>
+		<Row Type="ABILITY_FATHERLAND_VOLUNTEER" Tag="CLASS_FATHERLAND_VOLUNTEER"/>
+		<Row Type="ABILITY_HYKSOS_BOWMAN" Tag="CLASS_HYKSOS_BOWMAN"/>
+		<Row Type="ABILITY_GENDARME" Tag="CLASS_GENDARME"/>
+		<Row Type="ABILITY_GARDE_REPUBLICAINE" Tag="CLASS_GARDE_REPUBLICAINE"/>
+		<Row Type="ABILITY_BANDEIRANTE" Tag="CLASS_BANDEIRANTE"/>
+		<Row Type="ABILITY_TERCIO" Tag="CLASS_TERCIO"/>
+		<Row Type="ABILITY_SEPOY" Tag="CLASS_SEPOY"/>
+		<Row Type="ABILITY_ONAGER" Tag="CLASS_ONAGER"/>
+		<Row Type="ABILITY_PANZER" Tag="CLASS_PANZER"/>
+		<Row Type="ABILITY_YAMATO" Tag="CLASS_YAMATO"/>
+		<Row Type="ABILITY_WAR_GALLEY" Tag="CLASS_WAR_GALLEY"/>
+		<Row Type="ABILITY_AMAZON_SCOUT" Tag="CLASS_AMAZON_SCOUT"/>
+		<Row Type="ABILITY_VULTURE" Tag="CLASS_VULTURE"/>
+		<Row Type="ABILITY_T34" Tag="CLASS_T34"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_COMPANION_CAVALRY" Name="LOC_ABILITY_COMPANION_CAVALRY" Description="LOC_ABILITY_COMPANION_CAVALRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CAMEL_ARCHER" Name="LOC_ABILITY_CAMEL_ARCHER_NAME" Description="LOC_ABILITY_CAMEL_ARCHER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MINUTEMAN" Name="LOC_ABILITY_MINUTEMAN_NAME" Description="LOC_ABILITY_MINUTEMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GERMAN_HUSSAR" Name="LOC_ABILITY_GERMAN_HUSSAR_NAME" Description="LOC_ABILITY_GERMAN_HUSSAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CHOKONU" Name="LOC_ABILITY_CHOKONU_NAME" Description="LOC_ABILITY_CHOKONU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PHALANX" Name="LOC_ABILITY_PHALANX_NAME" Description="LOC_ABILITY_PHALANX_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HIRDMAN" Name="LOC_ABILITY_HIRDMAN_NAME" Description="LOC_ABILITY_HIRDMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_EQUITE" Name="LOC_ABILITY_EQUITE_NAME" Description="LOC_ABILITY_EQUITE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_JINETE" Name="LOC_ABILITY_JINETE_NAME" Description="LOC_ABILITY_JINETE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MUGHAL_SOWAR" Name="LOC_ABILITY_MUGHAL_SOWAR_NAME" Description="LOC_ABILITY_MUGHAL_SOWAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LONGBOWMAN" Name="LOC_ABILITY_LONGBOWMAN_NAME" Description="LOC_ABILITY_LONGBOWMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DRUZHINA" Name="LOC_ABILITY_DRUZHINA_NAME" Description="LOC_ABILITY_DRUZHINA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SOHEI" Name="LOC_ABILITY_SOHEI_NAME" Description="LOC_ABILITY_SOHEI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_AMAZON" Name="LOC_ABILITY_AMAZON_NAME" Description="LOC_ABILITY_AMAZON_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BANDEIRANTE" Name="LOC_ABILITY_BANDEIRANTE_NAME" Description="LOC_ABILITY_BANDEIRANTE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FATHERLAND_VOLUNTEER" Name="LOC_ABILITY_FATHERLAND_VOLUNTEER_NAME" Description="LOC_ABILITY_FATHERLAND_VOLUNTEER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HYKSOS_BOWMAN" Name="LOC_ABILITY_HYKSOS_BOWMAN_NAME" Description="LOC_ABILITY_HYKSOS_BOWMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GENDARME" Name="LOC_ABILITY_GENDARME_NAME" Description="LOC_ABILITY_GENDARME_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GARDE_REPUBLICAINE" Name="LOC_ABILITY_GARDE_REPUBLICAINE_NAME" Description="LOC_ABILITY_GARDE_REPUBLICAINE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TERCIO" Name="LOC_ABILITY_TERCIO_NAME" Description="LOC_ABILITY_TERCIO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SEPOY" Name="LOC_ABILITY_SEPOY_NAME" Description="LOC_ABILITY_SEPOY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ONAGER" Name="LOC_ABILITY_ONAGER_NAME" Description="LOC_ABILITY_ONAGER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PANZER" Name="LOC_ABILITY_PANZER_NAME" Description="LOC_ABILITY_PANZER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YAMATO" Name="LOC_ABILITY_YAMATO_NAME" Description="LOC_ABILITY_YAMATO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WAR_GALLEY" Name="LOC_ABILITY_WAR_GALLEY_NAME" Description="LOC_ABILITY_WAR_GALLEY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_AMAZON_SCOUT" Name="LOC_ABILITY_AMAZON_SCOUT_NAME" Description="LOC_ABILITY_AMAZON_SCOUT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_VULTURE" Name="LOC_ABILITY_VULTURE_NAME" Description="LOC_ABILITY_VULTURE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_T34" Name="LOC_ABILITY_T34_NAME" Description="LOC_ABILITY_T34_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_COMPANION_CAVALRY</UnitAbilityType>
+			<ModifierId>PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MINUTEMAN</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MINUTEMAN</UnitAbilityType>
+			<ModifierId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CHOKONU</UnitAbilityType>
+			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_AMAZON</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PHALANX</UnitAbilityType>
+			<ModifierId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CAMEL_ARCHER</UnitAbilityType>
+			<ModifierId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GERMAN_HUSSAR</UnitAbilityType>
+			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GERMAN_HUSSAR</UnitAbilityType>
+			<ModifierId>COURSERS_BONUS_VS_RANGED_SIEGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_EQUITE</UnitAbilityType>
+			<ModifierId>PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_EQUITE</UnitAbilityType>
+			<ModifierId>EQUITE_POST_COMBAT_GOLD</ModifierId>
+		</Row> 
+		<Row>
+			<UnitAbilityType>ABILITY_LONGBOWMAN</UnitAbilityType>
+			<ModifierId>PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LONGBOWMAN</UnitAbilityType>
+			<ModifierId>PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HIRDMAN</UnitAbilityType>
+			<ModifierId>PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HIRDMAN</UnitAbilityType>
+			<ModifierId>HIRDMAN_POST_COMBAT_CULTURE</ModifierId>
+		</Row> 
+		<Row>
+			<UnitAbilityType>ABILITY_DRUZHINA</UnitAbilityType>
+			<ModifierId>VULTURE_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRUZHINA</UnitAbilityType>
+			<ModifierId>PLUS_4_VERSUS_MELEE_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_JINETE</UnitAbilityType>
+			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BANDEIRANTE</UnitAbilityType>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BANDEIRANTE</UnitAbilityType>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GENDARME</UnitAbilityType>
+			<ModifierId>PLUS_5_WHEN_ATTACKING_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SOHEI</UnitAbilityType>
+			<ModifierId>PLUS_10_WHEN_DEFENDING_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GARDE_REPUBLICAINE</UnitAbilityType>
+			<ModifierId>GARRISON_BONUS_DISTRICTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GARDE_REPUBLICAINE</UnitAbilityType>
+			<ModifierId>URBAN_WARFARE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SEPOY</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PANZER</UnitAbilityType>
+			<ModifierId>PLUS_5_WHEN_ATTACKING_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_T34</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_VULTURE</UnitAbilityType>
+			<ModifierId>VULTURE_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NOT_IN_OWNER_TERRITORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_NEXT_TO_ROMAN_EARLY_MELEE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_WHEN_ATTACKING_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_ATTACKER_REQUIREMENTS_SET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_10_WHEN_DEFENDING_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_DEFENDER_REQUIREMENTS_SET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EQUITE_EXPERIENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_ATTACKER_REQUIREMENTS_SET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_NEXT_TO_LONGBOWMAN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>OPPONENT_MELEE_CAVALRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EQUITE_POST_COMBAT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HIRDMAN_POST_COMBAT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+			<SubjectRequirementSetId>ROUGH_RIDER_PLOT_IS_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+			<SubjectRequirementSetId>ROUGH_RIDER_PLOT_IS_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ROUGH_RIDER_PLOT_IS_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_4_VERSUS_MELEE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>THRUST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierStrings>
+		<Row ModifierId="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS" Context="Preview" Text="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS" Context="Preview" Text="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_4_VERSUS_MELEE_COMBAT_BONUS" Context="Preview" Text="PLUS_4_VERSUS_MELEE_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS" Context="Preview" Text="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS" Context="Preview" Text="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS" Context="Preview" Text="PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS" Context="Preview" Text="PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS" Context="Preview" Text="PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_8_DESERT_PLAINS_COMBAT_BONUS" Context="Preview" Text="PLUS_8_DESERT_PLAINS_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS" Context="Preview" Text="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS" Context="Preview" Text="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC"/>
+	</ModifierStrings>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PLUS_10_WHEN_DEFENDING_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_WHEN_ATTACKING_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_4_VERSUS_MELEE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_GOLD</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_CULTURE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>BANDEIRANTE_POST_COMBAT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>EQUITE_POST_COMBAT_GOLD</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>33</Value>
+		</Row>
+		<Row>
+			<ModifierId>EQUITE_POST_COMBAT_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIRDMAN_POST_COMBAT_CULTURE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIRDMAN_POST_COMBAT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NOT_IN_OWNER_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_NEXT_TO_ROMAN_EARLY_MELEE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_NEXT_TO_LONGBOWMAN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>OPPONENT_MELEE_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_ATTACKER_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_DEFENDER_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_DEFENDER_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_ATTACKER_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OPPONENT_MELEE_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_MELEE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OPPONENT_MELEE_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ANTI_CAVALRY_OPPONENT_REQUIREMENT_LC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OPPONENT_MELEE_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ANTI_CAVALRY_OPPONENT_REQUIREMENT_HC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NOT_IN_OWNER_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_NOT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_NEXT_TO_ROMAN_EARLY_MELEE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_WARRIOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_NEXT_TO_ROMAN_EARLY_MELEE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LEGION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_NEXT_TO_LONGBOWMAN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LONGBOWMAN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>UNIT_NOT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_IN_OWNER_TERRITORY</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_WARRIOR</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LEGION</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LONGBOWMAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LONGBOWMAN</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_LONGBOWMAN</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_WARRIOR</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WARRIOR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LEGION</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROMAN_LEGION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_ZIGGURAT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>8</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
