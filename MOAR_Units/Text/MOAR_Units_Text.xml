@@ -50,7 +50,7 @@
 			<Text>Spanish unique ranged unit that replaces Horseman. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory if fighting on same continent as capital.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EQUITE_NAME" Language="en_US">
-			<Text>Equite</Text>
+			<Text>Eques</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EQUITE_DESCRIPTION" Language="en_US">
 			<Text>Roman unique cavalry unit that replaces Horseman. +5 [ICON_Strength] Combat Strength when fighting next to Legion or Warrior unit. Yields 33% of defeated units' [ICON_Strength] as [ICON_Gold] on combat victory.</Text>
@@ -185,31 +185,31 @@
 			<Text>Armatolos</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION" Language="en_US">
-			<Text>ADD DESCRIPTION</Text>
+			<Text>Greek unique melee unit that replaces Rifleman. +5 [ICON_Strength] Combat Strength on Hills and ignores Hills movement penalty.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FRENCH_MARINE_NAME" Language="en_US">
 			<Text>Marine</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION" Language="en_US">
-			<Text>ADD DESCRIPTION</Text>
+			<Text>French unique melee unit that replaces Musketman. +5 [ICON_Strength] Combat Strength on foreign continents. Amphibious - no attack penalty when attacking from sea or across rivers.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GHAZI_NAME" Language="en_US">
 			<Text>Ghazi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="en_US">
-			<Text>ADD DESCRIPTION</Text>
+			<Text>Arabian unique melee unit that replaces the Swordsman. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="en_US">
 			<Text>Medicine Man</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="en_US">
-			<Text>ADD DESCRIPTION</Text>
+			<Text>Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. May build 1 Medicine Man unit per each Shrine building. May be purchased with Faith.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SHIGONG_NAME" Language="en_US">
 			<Text>Shigong</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SHIGONG_DESCRIPTION" Language="en_US">
-			<Text>ADD DESCRIPTION</Text>
+			<Text>Chinese unique support unit available with the Military Training Civic. Adjacent Melee, Cavalry, Anti-Cavalry and Ranged units get +5 [ICON_Strength] Combat Strength and earn more experience. May build 1 Shigong unit per each Barracks building.</Text>
 		</Row>
 		<Row Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>
@@ -243,6 +243,15 @@
 		</Row>
 		<Row Tag="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="PLUS_5_HILLS_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength on Hills.</Text>
+		</Row>
+		<Row Tag="RECEIVE_SHIGONG_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from Shigong unit.</Text>
+		</Row>
+		<Row Tag="PLUS_5_FOREIGN_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength on foreign continents.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

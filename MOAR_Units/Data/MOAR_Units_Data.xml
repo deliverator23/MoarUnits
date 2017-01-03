@@ -314,7 +314,7 @@
 			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="25" RangedCombat="30" Range="2"
 			 PrereqTech="TECH_SHIPBUILDING" MandatoryObsoleteTech="TECH_STEEL" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
 
-		<Row UnitType="UNIT_MEDICINE_MAN" BaseMoves="2" Cost="370" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+		<Row UnitType="UNIT_MEDICINE_MAN" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_MEDICINE_MAN_NAME" Description="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" PurchaseYield="YIELD_FAITH"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" PrereqCivic="CIVIC_MYSTICISM" TraitType="TRAIT_CIVILIZATION_UNIT_MEDICINE_MAN"/>
@@ -330,7 +330,7 @@
 			 Description="LOC_UNIT_ARMATOLOS_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4"
 			 Combat="64" PrereqTech="TECH_RIFLING" MandatoryObsoleteTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_ARMATOLOS"/>
 
-		<Row UnitType="UNIT_SHIGONG" BaseMoves="2" Cost="370" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+		<Row UnitType="UNIT_SHIGONG" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_SHIGONG_NAME" Description="LOC_UNIT_SHIGONG_DESCRIPTION" PurchaseYield="YIELD_GOLD"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" PrereqCivic="CIVIC_MILITARY_TRAINING" TraitType="TRAIT_CIVILIZATION_UNIT_SHIGONG"/>
@@ -378,7 +378,6 @@
 	</Improvement_ValidBuildUnits>
 	<!--<Unit_BuildingPrereqs>
 		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS" NumSupported="1"/>
-		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_STABLE" NumSupported="1"/>
 		<Row Unit="UNIT_MEDICINE_MAN" PrereqBuilding="BUILDING_SHRINE" NumSupported="1"/>
 	</Unit_BuildingPrereqs>-->
 	<UnitAIInfos>
@@ -850,7 +849,7 @@
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_JINETE</UnitAbilityType>
-			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH_ON_CAPITAL_CONTINENT</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_BANDEIRANTE</UnitAbilityType>
@@ -911,6 +910,14 @@
 		<Row>
 			<UnitAbilityType>ABILITY_ARMATOLOS</UnitAbilityType>
 			<ModifierId>PLUS_5_HILLS_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GHAZI</UnitAbilityType>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GHAZI</UnitAbilityType>
+			<ModifierId>CONQUISTADOR_CITY_RELIGION_COMBAT</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_MEDICINE_MAN_BONUS</UnitAbilityType>
@@ -998,7 +1005,11 @@
 			<SubjectRequirementSetId>ROUGH_RIDER_PLOT_IS_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH_ON_CAPITAL_CONTINENT</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
 			<SubjectRequirementSetId>ROUGH_RIDER_PLOT_IS_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
@@ -1097,12 +1108,22 @@
 			<Value>4</Value>
 		</Row>
 		<Row>
-			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH</ModifierId>
 			<Name>PercentDefeatedStrength</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>JINETE_POST_COMBAT_FAITH</ModifierId>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH_ON_CAPITAL_CONTINENT</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>50_PERCENT_POST_COMBAT_FAITH_ON_CAPITAL_CONTINENT</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
