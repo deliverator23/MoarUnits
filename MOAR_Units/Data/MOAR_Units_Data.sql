@@ -30,7 +30,9 @@ UPDATE Units
 SET    PrereqCivic=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_MEDICINE_MAN';
 
-/*
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL,  Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_JINETE';
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
@@ -39,6 +41,10 @@ WHERE  UnitType = 'UNIT_TERCIO';
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_SEPOY';
+
+/*
+
+
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
@@ -97,16 +103,10 @@ SET    PrereqTech=NULL, StrategicResource=NULL,  Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_GARDE_REPUBLICAINE';
 
 UPDATE Units
-SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_KNIGHT_UNMOUNTED';
-
-UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1'
 WHERE  UnitType = 'UNIT_CHOKONU';
 
-UPDATE Units
-SET    PrereqTech=NULL, StrategicResource=NULL,  Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_JINETE';
+
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
