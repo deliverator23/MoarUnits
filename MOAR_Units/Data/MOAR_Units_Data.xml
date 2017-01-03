@@ -376,10 +376,10 @@
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
 	</Improvement_ValidBuildUnits>
-	<!--<Unit_BuildingPrereqs>
+	<Unit_BuildingPrereqs>
 		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS" NumSupported="1"/>
 		<Row Unit="UNIT_MEDICINE_MAN" PrereqBuilding="BUILDING_SHRINE" NumSupported="1"/>
-	</Unit_BuildingPrereqs>-->
+	</Unit_BuildingPrereqs>
 	<UnitAIInfos>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_EXPLORE"/>
