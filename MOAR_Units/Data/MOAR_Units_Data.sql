@@ -6,6 +6,7 @@ UPDATE UnitUpgrades
 SET    UpgradeUnit = 'UNIT_CUIRASSIER'
 WHERE  Unit = 'UNIT_KNIGHT';
 
+/*
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_RIFLEMAN';
@@ -41,10 +42,6 @@ WHERE  UnitType = 'UNIT_TERCIO';
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_SEPOY';
-
-/*
-
-
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
