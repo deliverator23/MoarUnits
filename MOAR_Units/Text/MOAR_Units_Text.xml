@@ -8,7 +8,7 @@
 			<Text>Arabian unique Classical era unit. Gains additional +8 [ICON_Strength] when fighting on Desert or Plains.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_COMPANION_CAVALRY_NAME" Language="en_US">
-			<Text>Hetairoi</Text>
+			<Text>Hetairos</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" Language="en_US">
 			<Text>Greek unique cavalry unit that replaces Horseman. Uses Heavy Cavalry promotion tree. Slightly stronger than Horseman, and gains +5 [ICON_Strength] Combat Strength when fighting outside home territory.</Text>
@@ -180,6 +180,36 @@
 		</Row>
 		<Row Tag="LOC_UNIT_VULTURE_DESCRIPTION" Language="en_US">
 			<Text>Sumerian unique melee unit. +5 [ICON_Strength] Combat Strength versus damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARMATOLOS_NAME" Language="en_US">
+			<Text>Armatolos</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION" Language="en_US">
+			<Text>ADD DESCRIPTION</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FRENCH_MARINE_NAME" Language="en_US">
+			<Text>Marine</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION" Language="en_US">
+			<Text>ADD DESCRIPTION</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GHAZI_NAME" Language="en_US">
+			<Text>Ghazi</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="en_US">
+			<Text>ADD DESCRIPTION</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="en_US">
+			<Text>Medicine Man</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="en_US">
+			<Text>ADD DESCRIPTION</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SHIGONG_NAME" Language="en_US">
+			<Text>Shigong</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SHIGONG_DESCRIPTION" Language="en_US">
+			<Text>ADD DESCRIPTION</Text>
 		</Row>
 		<Row Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>
