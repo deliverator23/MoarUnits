@@ -203,7 +203,7 @@
 			<Text>Medicine Man</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="en_US">
-			<Text>Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. May build 1 Medicine Man unit per each Shrine building. May be purchased with Faith.</Text>
+			<Text>Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. May be purchased with Faith.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SHIGONG_NAME" Language="en_US">
 			<Text>Shigong</Text>

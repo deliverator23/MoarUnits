@@ -314,7 +314,7 @@
 			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="25" RangedCombat="30" Range="2"
 			 PrereqTech="TECH_SHIPBUILDING" MandatoryObsoleteTech="TECH_STEEL" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
 
-		<Row UnitType="UNIT_MEDICINE_MAN" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+		<Row UnitType="UNIT_MEDICINE_MAN" BaseMoves="2" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_MEDICINE_MAN_NAME" Description="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" PurchaseYield="YIELD_FAITH"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" PrereqCivic="CIVIC_MYSTICISM" TraitType="TRAIT_CIVILIZATION_UNIT_MEDICINE_MAN"/>
@@ -378,7 +378,6 @@
 	</Improvement_ValidBuildUnits>
 	<Unit_BuildingPrereqs>
 		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS" NumSupported="1"/>
-		<Row Unit="UNIT_MEDICINE_MAN" PrereqBuilding="BUILDING_SHRINE" NumSupported="1"/>
 	</Unit_BuildingPrereqs>
 	<UnitAIInfos>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_COMBAT"/>
