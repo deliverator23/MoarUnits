@@ -197,13 +197,13 @@
 			<Text>Ghazi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="en_US">
-			<Text>Arabian unique melee unit that replaces the Swordsman. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
+			<Text>Arabian unique melee unit that replaces the Swordsman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="en_US">
 			<Text>Medicine Man</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="en_US">
-			<Text>Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. May be purchased with Faith.</Text>
+			<Text>Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Must be purchased with Faith. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SHIGONG_NAME" Language="en_US">
 			<Text>Shigong</Text>
@@ -252,6 +252,9 @@
 		</Row>
 		<Row Tag="PLUS_5_FOREIGN_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on foreign continents.</Text>
+		</Row>
+		<Row Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when opponent is another religion.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

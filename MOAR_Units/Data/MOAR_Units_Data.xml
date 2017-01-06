@@ -315,7 +315,7 @@
 			 PrereqTech="TECH_SHIPBUILDING" MandatoryObsoleteTech="TECH_STEEL" TraitType="TRAIT_CIVILIZATION_UNIT_WAR_GALLEY"/>
 
 		<Row UnitType="UNIT_MEDICINE_MAN" BaseMoves="2" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
-			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" MustPurchase="TRUE"
 			 Name="LOC_UNIT_MEDICINE_MAN_NAME" Description="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" PurchaseYield="YIELD_FAITH"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" PrereqCivic="CIVIC_MYSTICISM" TraitType="TRAIT_CIVILIZATION_UNIT_MEDICINE_MAN"/>
 
@@ -919,6 +919,10 @@
 			<ModifierId>CONQUISTADOR_CITY_RELIGION_COMBAT</ModifierId>
 		</Row>
 		<Row>
+			<UnitAbilityType>ABILITY_GHAZI</UnitAbilityType>
+			<ModifierId>PLUS_5_OTHER_RELIGION_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_MEDICINE_MAN_BONUS</UnitAbilityType>
 			<ModifierId>RECEIVE_MEDICINE_MAN_FAITH_BONUS</ModifierId>
 		</Row>
@@ -1032,7 +1036,11 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_HILLS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
-
+		<Row>
+			<ModifierId>PLUS_5_OTHER_RELIGION_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_OTHER_RELIGION</SubjectRequirementSetId>
+		</Row>
 		<Row>
 			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
@@ -1063,6 +1071,7 @@
 		<Row ModifierId="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS" Context="Preview" Text="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_5_FOREIGN_COMBAT_BONUS" Context="Preview" Text="PLUS_5_FOREIGN_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_5_HILLS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_HILLS_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_5_OTHER_RELIGION_COMBAT_BONUS" Context="Preview" Text="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="RECEIVE_SHIGONG_COMBAT_BONUS" Context="Preview" Text="RECEIVE_SHIGONG_COMBAT_BONUS_DESC"/>
 	</ModifierStrings>
 	<ModifierArguments>
@@ -1078,6 +1087,11 @@
 		</Row>
 		<Row>
 			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_OTHER_RELIGION_COMBAT_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
