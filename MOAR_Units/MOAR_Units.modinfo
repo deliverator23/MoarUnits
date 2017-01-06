@@ -24,6 +24,7 @@
         <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest50.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
     </Files>    
     <Components>
@@ -34,6 +35,7 @@
                 <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsTest50.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
                 <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
             </Items>
         </ImportFiles>
