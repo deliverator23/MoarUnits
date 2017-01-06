@@ -9,7 +9,7 @@
             <en_US>Moar Units!</en_US>
         </Text>
         <Text id="LOC_MOAR_UNITS_TEASER">
-            <en_US>Adds 28 new Unique Units plus Rifleman and Cuirassier.</en_US>
+            <en_US>Adds 33 new Unique Units plus Rifleman and Cuirassier.</en_US>
         </Text>        
     </LocalizedText>  
     <Files>
@@ -18,9 +18,27 @@
         <File>Data/MOAR_Units_Data.sql</File>
         <File>Data/MOAR_Units_Icons.xml</File>        
         <File>Text/MOAR_Units_Text.xml</File>      
-        <File>Text/en_US/MOAR_Units_GameplayText.xml</File>         
+        <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
+        <File>Art/Icons/MOARUnitsFlagsTest22.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest32.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest50.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
+        <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
     </Files>    
     <Components>
+        <ImportFiles id="MOAR_FileImport">
+            <Items>
+                <File>Art/Icons/MOARUnitsFlagsTest22.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest32.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest50.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
+                <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
+            </Items>
+        </ImportFiles>
         <UpdateDatabase id="MOAR_UpdateDatabase">
             <Items>
                 <File>Data/MOAR_Units_Data.xml</File>
