@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+    <IconTextureAtlases>
+        <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="22" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest22.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest32.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest38.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest50.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="80" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest80.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest256.dds"/>
+    </IconTextureAtlases>
     <IconDefinitions>
-        <IconTextureAtlases>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="22" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest22.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest32.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest38.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest50.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="80" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest80.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="128" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest128.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest256.dds"/>
-            <Row Name="ICON_ATLAS_MOAR_UNITS_FOW" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsTest256.dds"/>
-        </IconTextureAtlases>
         <Row Name="ICON_UNIT_AMAZON" Atlas="ICON_ATLAS_UNITS" Index="45"/>
         <Row Name="ICON_UNIT_AMAZON_BLACK" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
         <Row Name="ICON_UNIT_AMAZON_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="43"/>
@@ -24,9 +22,9 @@
         <Row Name="ICON_UNIT_BANDEIRANTE_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="52"/>
         <Row Name="ICON_UNIT_BANDEIRANTE_WHITE" Index="54" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
         <Row Name="ICON_UNIT_CAMEL_ARCHER" Atlas="ICON_ATLAS_UNITS" Index="36"/>
-        <Row Name="ICON_UNIT_CAMEL_ARCHER_BLACK" Index="36" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>        
+        <Row Name="ICON_UNIT_CAMEL_ARCHER_BLACK" Index="36" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
         <Row Name="ICON_UNIT_CAMEL_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="34"/>
-        <Row Name="ICON_UNIT_CAMEL_ARCHER_WHITE" Index="36" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>        
+        <Row Name="ICON_UNIT_CAMEL_ARCHER_WHITE" Index="36" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
         <Row Name="ICON_UNIT_CHOKONU" Atlas="ICON_ATLAS_UNITS" Index="49"/>
         <Row Name="ICON_UNIT_CHOKONU_BLACK" Index="49" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
         <Row Name="ICON_UNIT_CHOKONU_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="47"/>
@@ -36,9 +34,9 @@
         <Row Name="ICON_UNIT_COMPANION_CAVALRY_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="33"/>
         <Row Name="ICON_UNIT_COMPANION_CAVALRY_WHITE" Index="35" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
         <Row Name="ICON_UNIT_CUIRASSIER" Atlas="ICON_ATLAS_MOAR_UNITS" Index="1"/>
-        <Row Name="ICON_UNIT_CUIRASSIER_BLACK" Index="46" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>    
+        <Row Name="ICON_UNIT_CUIRASSIER_BLACK" Index="46" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
         <Row Name="ICON_UNIT_CUIRASSIER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="44"/>
-        <Row Name="ICON_UNIT_CUIRASSIER_WHITE" Index="46" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>           
+        <Row Name="ICON_UNIT_CUIRASSIER_WHITE" Index="46" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
         <Row Name="ICON_UNIT_DRUZHINA" Atlas="ICON_ATLAS_MOAR_UNITS" Index="2"/>
         <Row Name="ICON_UNIT_DRUZHINA_BLACK" Index="35" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
         <Row Name="ICON_UNIT_DRUZHINA_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="33"/>
@@ -96,7 +94,7 @@
         <Row Name="ICON_UNIT_PANZER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="12"/>
         <Row Name="ICON_UNIT_PANZER_WHITE" Index="78" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
         <Row Name="ICON_UNIT_PHALANX" Atlas="ICON_ATLAS_UNITS" Index="30"/>
-        <Row Name="ICON_UNIT_PHALANX_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="28"/>        
+        <Row Name="ICON_UNIT_PHALANX_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="28"/>
         <Row Name="ICON_UNIT_PHALANX_WHITE" Index="30" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
         <Row Name="ICON_UNIT_PLALANX_BLACK" Index="30" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
         <Row Name="ICON_UNIT_RIFLEMAN" Atlas="ICON_ATLAS_MOAR_UNITS" Index="0"/>

@@ -8,6 +8,14 @@ WHERE  Unit = 'UNIT_KNIGHT';
 
 /*
 UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_CUIRASSIER';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_DRUZHINA';
+
+UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_RIFLEMAN';
 
@@ -105,9 +113,7 @@ WHERE  UnitType = 'UNIT_CHOKONU';
 
 
 
-UPDATE Units
-SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_DRUZHINA';
+
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
@@ -149,9 +155,7 @@ UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_EQUITE';
 
-UPDATE Units
-SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_CUIRASSIER';
+
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
