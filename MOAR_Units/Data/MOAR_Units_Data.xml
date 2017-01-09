@@ -343,7 +343,7 @@
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_LANDSKNECHT_NAME" MustPurchase="TRUE"
 			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"
 			 Description="LOC_UNIT_LANDSKNECHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
-			 Maintenance="3" Combat="41" PrereqTech="TECH_MILITARY_TACTICS" MandatoryObsoleteTech="TECH_COMPOSITES"/>
+			 Maintenance="3" Combat="41" PrereqTech="TECH_MILITARY_TACTICS" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_LANDSKNECHT"/>
 	</Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>

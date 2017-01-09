@@ -23,7 +23,7 @@
 			<Text>Landsknecht</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LANDSKNECHT_DESCRIPTION" Language="en_US">
-			<Text>Landsknecht Desc</Text>
+			<Text>German unique Medieval era unit that replaces Pikeman. Half the cost of Pikeman but must be purchased with gold.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PHALANX_NAME" Language="en_US">
 			<Text>Phalanx</Text>
