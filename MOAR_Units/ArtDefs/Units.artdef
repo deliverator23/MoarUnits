@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::ArtDefSet>
 	<m_Version>
-        <major>4</major>
-        <minor>0</minor>
-        <build>238</build>
-        <revision>243</revision>
+		<major>4</major>
+		<minor>0</minor>
+		<build>238</build>
+		<revision>243</revision>
 	</m_Version>
 	<m_TemplateName text="Units"/>
 	<m_RootCollections>
@@ -1213,7 +1213,7 @@
 				</m_ChildCollections>
 				<m_Name text="UNIT_VULTURE"/>
 			</Element>
-<Element>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -5395,7 +5395,7 @@
 				</m_ChildCollections>
 				<m_Name text="UnitMember_MughalSowar"/>
 			</Element>
-<Element>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -6211,7 +6211,7 @@
 				</m_ChildCollections>
 				<m_Name text="UnitMember_Hirdman"/>
 			</Element>
-<Element>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -6568,7 +6568,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Weapons/Pikes"/>
+																<m_Name text="Weapons/Pikes/Mediterranean/Pikemen_European_Pike_B"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -6630,7 +6630,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Pikeman"/>
+																<m_Name text="Hats/Pikeman/NorthernEuropean/Pikemen_European_Helm_C"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
