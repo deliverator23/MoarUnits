@@ -6,6 +6,14 @@ UPDATE UnitUpgrades
 SET    UpgradeUnit = 'UNIT_CUIRASSIER'
 WHERE  Unit = 'UNIT_KNIGHT';
 
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_LANDSKNECHT';
+
+UPDATE Units
+SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
+WHERE  UnitType = 'UNIT_GENDARME';
+
 /*
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
@@ -98,10 +106,6 @@ WHERE  UnitType = 'UNIT_BANDEIRANTE';
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_HYKSOS_BOWMAN';
-
-UPDATE Units
-SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_GENDARME';
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL,  Cost='1', BaseMoves='100'

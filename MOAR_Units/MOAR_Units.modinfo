@@ -19,6 +19,8 @@
         <File>Data/MOAR_Units_Icons.xml</File>        
         <File>Text/MOAR_Units_Text.xml</File>      
         <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
+        <File>Data/MOAR_Units_Icons_Config.xml</File>
+        <File>Data/MOAR_Units_Config.xml</File>
         <File>Art/Icons/MOARUnitsFlagsTest22.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest32.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
@@ -26,7 +28,24 @@
         <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
         <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
-    </Files>    
+    </Files>
+    <Settings>
+       <Icons id="MOAR_ICON_SETTING">
+           <Items>
+               <File>Data/MOAR_Units_Icons_Config.xml</File>
+           </Items>
+       </Icons>
+       <Custom id="MOAR_SETTING">
+           <Items>
+               <File>Data/MOAR_Units_Config.xml</File>
+           </Items>
+       </Custom>
+       <LocalizedText id="MOAR_SETTING_TEXT">
+           <Items>
+               <File>Text/MOAR_Units_Text.xml</File>
+           </Items>
+       </LocalizedText>
+    </Settings>
     <Components>
         <ImportFiles id="MOAR_FileImport">
             <Items>
