@@ -3,8 +3,16 @@ SET    UpgradeUnit = 'UNIT_RIFLEMAN'
 WHERE  Unit = 'UNIT_MUSKETMAN';
 
 UPDATE UnitUpgrades
+SET    UpgradeUnit = 'UNIT_RIFLEMAN'
+WHERE  Unit = 'UNIT_SPANISH_CONQUISTADOR';
+
+UPDATE UnitUpgrades
 SET    UpgradeUnit = 'UNIT_CUIRASSIER'
 WHERE  Unit = 'UNIT_KNIGHT';
+
+UPDATE ModifierArguments
+SET    Value = 9
+WHERE  ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
 
 /*
 UPDATE Units
@@ -51,9 +59,6 @@ UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL,  Cost='1', BaseMoves='100'
 WHERE  UnitType = 'UNIT_JINETE';
 
-UPDATE Units
-SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
-WHERE  UnitType = 'UNIT_TERCIO';
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, Cost='1', BaseMoves='100'
