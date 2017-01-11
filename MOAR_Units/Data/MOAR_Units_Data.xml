@@ -980,11 +980,6 @@
 			<SubjectRequirementSetId>PLAYER_IS_DEFENDER_REQUIREMENTS_SET</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>EQUITE_EXPERIENCE_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_ATTACKER_REQUIREMENTS_SET</SubjectRequirementSetId>
-		</Row>
-		<Row>
 			<ModifierId>PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_NEXT_TO_LONGBOWMAN_REQUIREMENTS</SubjectRequirementSetId>
@@ -1227,11 +1222,6 @@
 		<Row>
 			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
 			<Name>Percent</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
-			<ModifierId>EQUITE_EXPERIENCE_BONUS</ModifierId>
-			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
