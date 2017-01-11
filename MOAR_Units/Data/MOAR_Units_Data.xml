@@ -932,7 +932,7 @@
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_SHIGONG_BONUS</UnitAbilityType>
-			<ModifierId>RECEIVE_SHIGONG_XP_BONUS</ModifierId>
+			<ModifierId>RECEIVE_SHIGONG_EXPERIENCE_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_RECEIVE_SHIGONG_BONUS</UnitAbilityType>
@@ -1051,7 +1051,7 @@
 			<SubjectRequirementSetId>ADJACENT_SHIGONG_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>RECEIVE_SHIGONG_XP_BONUS</ModifierId>
+			<ModifierId>RECEIVE_SHIGONG_EXPERIENCE_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>ADJACENT_SHIGONG_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
@@ -1227,6 +1227,16 @@
 		<Row>
 			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
 			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>EQUITE_EXPERIENCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>RECEIVE_SHIGONG_EXPERIENCE_BONUS</ModifierId>
+			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
