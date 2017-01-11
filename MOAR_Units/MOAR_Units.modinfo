@@ -21,13 +21,13 @@
         <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
         <File>Data/MOAR_Units_Icons_Config.xml</File>
         <File>Data/MOAR_Units_Config.xml</File>
-        <File>Art/Icons/MOARUnitsFlagsTest22.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsTest32.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsTest50.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
-        <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_22.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_32.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_38.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_50.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_80.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_128.dds</File>
+        <File>Art/Icons/MOARUnitsFlags_256.dds</File>
     </Files>
     <Settings>
        <Icons id="MOAR_ICON_SETTING">
@@ -49,13 +49,13 @@
     <Components>
         <ImportFiles id="MOAR_FileImport">
             <Items>
-                <File>Art/Icons/MOARUnitsFlagsTest22.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsTest32.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsTest38.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsTest50.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsTest80.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsTest128.dds</File>
-                <File>Art/Icons/MOARUnitsFlagsTest256.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_22.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_32.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_38.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_50.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_80.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_128.dds</File>
+                <File>Art/Icons/MOARUnitsFlags_256.dds</File>
             </Items>
         </ImportFiles>
         <UpdateDatabase id="MOAR_UpdateDatabase">
