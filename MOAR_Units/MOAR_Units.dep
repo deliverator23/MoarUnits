@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <!-- A Unique Name and GUID for your mod-->
         <name text="MoarUnits"/>
         <id text="8342b98d-80c7-4002-87bb-419646bd9b54"/>
     </ID>
     <SystemDependencies>
         <Element>
-            <!-- The type of thing you are adding -->
             <ConsumerName text="Units"/>
             <ArtDefDependencyPaths>
-                <!-- The name of the file you are adding,
-                     seems to have to be the same as a base
-                     file name -->
                 <Element text="Units.artdef"/>
             </ArtDefDependencyPaths>
         </Element>
