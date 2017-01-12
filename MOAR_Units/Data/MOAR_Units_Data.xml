@@ -312,7 +312,7 @@
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_MEDICINE_MAN_NAME" Description="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" PurchaseYield="YIELD_FAITH"
 			 MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"
-			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" PrereqCivic="CIVIC_MYSTICISM"
+			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqCivic="CIVIC_MYSTICISM"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_MEDICINE_MAN"/>
 
 		<Row UnitType="UNIT_FRENCH_MARINE" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -330,7 +330,7 @@
 		<Row UnitType="UNIT_SHIGONG" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_SHIGONG_NAME" Description="LOC_UNIT_SHIGONG_DESCRIPTION" PurchaseYield="YIELD_GOLD"
-			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" PrereqCivic="CIVIC_MILITARY_TRAINING"
+			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqCivic="CIVIC_MILITARY_TRAINING"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_SHIGONG"/>
 
 		<Row UnitType="UNIT_GHAZI" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
