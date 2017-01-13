@@ -937,10 +937,6 @@
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
-		</Row>
-		<Row>
 			<ModifierId>PLUS_5_FOREST_JUNGLE_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
@@ -1216,18 +1212,12 @@
 			<Value>5</Value>
 		</Row>
 		<Row>
-			<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
-			<Name>Percent</Name>
-			<Value>50</Value>
-		</Row>
-		<Row>
 			<ModifierId>RECEIVE_SHIGONG_EXPERIENCE_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
-
 		<Row>
 			<RequirementSetId>PLOT_IS_HILLS_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
