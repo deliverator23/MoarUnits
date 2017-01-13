@@ -814,14 +814,6 @@
 			<UnitAbilityType>ABILITY_CAMEL_ARCHER</UnitAbilityType>
 			<ModifierId>PLUS_8_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
 		</Row>
-		<!--<Row>-->
-			<!--<UnitAbilityType>ABILITY_GERMAN_HUSSAR</UnitAbilityType>-->
-			<!--<ModifierId>FIFTY_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>-->
-		<!--</Row>-->
-		<!--<Row>-->
-			<!--<UnitAbilityType>ABILITY_GERMAN_HUSSAR</UnitAbilityType>-->
-			<!--<ModifierId>COURSERS_BONUS_VS_RANGED_SIEGE</ModifierId>-->
-		<!--</Row>-->
 		<Row>
 			<UnitAbilityType>ABILITY_EQUITE</UnitAbilityType>
 			<ModifierId>PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS</ModifierId>
