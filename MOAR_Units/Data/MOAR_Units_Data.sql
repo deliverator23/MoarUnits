@@ -10,6 +10,10 @@ UPDATE UnitUpgrades
 SET    UpgradeUnit = 'UNIT_CUIRASSIER'
 WHERE  Unit = 'UNIT_KNIGHT';
 
+UPDATE UnitUpgrades
+SET    UpgradeUnit = 'UNIT_CUIRASSIER'
+WHERE  Unit = 'UNIT_INDIAN_VARU';
+
 UPDATE ModifierArguments
 SET    Value = 9
 WHERE  ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
@@ -119,10 +123,6 @@ WHERE  UnitType = 'UNIT_GARDE_REPUBLICAINE';
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1'
 WHERE  UnitType = 'UNIT_CHOKONU';
-
-
-
-
 
 UPDATE Units
 SET    PrereqTech=NULL, StrategicResource=NULL, TraitType=NULL,  Cost='1', BaseMoves='100'
