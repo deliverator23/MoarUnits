@@ -382,7 +382,7 @@
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
 	</Improvement_ValidBuildUnits>
 	<Unit_BuildingPrereqs>
-		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS" NumSupported="1"/>
+		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS"/>
 	</Unit_BuildingPrereqs>
 	<UnitAIInfos>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_COMBAT"/>
