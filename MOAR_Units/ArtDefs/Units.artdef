@@ -10,6 +10,292 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Units"/>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text="Archer"/>
+								<m_RootCollectionName text="UnitFormationTypes"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>false</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="Formation"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="UnitCombat"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>false</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="UnitCombat"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="UnitFormationTypes"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="EscortFormation"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text="UNIT_MODERNEMBARK"/>
+								<m_RootCollectionName text="Units"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text="Units"/>
+								<m_ParamName text="EmbarkedUnit"/>
+							</Element>
+							<Element class="AssetObjects::BoolValue">
+								<m_bValue>false</m_bValue>
+								<m_ParamName text="DoNotDisplayCharges"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="UnitCulture"/>
+								<m_ArtDefPath text="Cultures.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="Culture"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="Era"/>
+								<m_ArtDefPath text="Eras.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="Era"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="Units"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="ProxyUnit"/>
+							</Element>
+							<Element class="AssetObjects::BoolValue">
+								<m_bValue>false</m_bValue>
+								<m_ParamName text="PlayDeathOnDestroy"/>
+							</Element>
+							<Element class="AssetObjects::IntValue">
+								<m_nValue>0</m_nValue>
+								<m_ParamName text="DisplayLevel"/>
+							</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects::IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="UnitMember_Explorer"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_ArtDefPath text="Units.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Members2"/>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects::IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="ScoutDog"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_ArtDefPath text="Units.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Members1"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="Scout"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RANGER"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_EXPLORER"/> 
+			</Element>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text="Archer"/>
+								<m_RootCollectionName text="UnitFormationTypes"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>false</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="Formation"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="UnitCombat"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>false</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="UnitCombat"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="UnitFormationTypes"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="EscortFormation"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text="UNIT_MODERNEMBARK"/>
+								<m_RootCollectionName text="Units"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text="Units"/>
+								<m_ParamName text="EmbarkedUnit"/>
+							</Element>
+							<Element class="AssetObjects::BoolValue">
+								<m_bValue>false</m_bValue>
+								<m_ParamName text="DoNotDisplayCharges"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="UnitCulture"/>
+								<m_ArtDefPath text="Cultures.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="Culture"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="Era"/>
+								<m_ArtDefPath text="Eras.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="Era"/>
+							</Element>
+							<Element class="AssetObjects::ArtDefReferenceValue">
+								<m_ElementName text=""/>
+								<m_RootCollectionName text="Units"/>
+								<m_ArtDefPath text="Units.artdef"/>
+								<m_CollectionIsLocked>true</m_CollectionIsLocked>
+								<m_TemplateName text=""/>
+								<m_ParamName text="ProxyUnit"/>
+							</Element>
+							<Element class="AssetObjects::BoolValue">
+								<m_bValue>false</m_bValue>
+								<m_ParamName text="PlayDeathOnDestroy"/>
+							</Element>
+							<Element class="AssetObjects::IntValue">
+								<m_nValue>0</m_nValue>
+								<m_ParamName text="DisplayLevel"/>
+							</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects::IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="UnitMember_Sniper"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_ArtDefPath text="Units.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Members2"/>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects::IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="ScoutDog"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_ArtDefPath text="Units.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Members1"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="Ranger"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RANGER"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_SNIPER"/> 
+			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
@@ -1072,6 +1358,137 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_HIRDMAN"/>
+			</Element>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Swordsman"/>
+							<m_RootCollectionName text="UnitFormationTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Formation"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Swordsman"/>
+							<m_RootCollectionName text="UnitCombat"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="UnitCombat"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="WarriorEscort"/>
+							<m_RootCollectionName text="UnitFormationTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="EscortFormation"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
+							<m_RootCollectionName text="Units"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="EmbarkedUnit"/>
+						</Element>
+						<Element class="AssetObjects::BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="UnitCulture"/>
+							<m_ArtDefPath text="Cultures.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Culture"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Era"/>
+							<m_ArtDefPath text="Eras.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Era"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text="Units"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="ProxyUnit"/>
+						</Element>
+						<Element class="AssetObjects::BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="PlayDeathOnDestroy"/>
+						</Element>
+						<Element class="AssetObjects::IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="DisplayLevel"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects::IntValue">
+										<m_nValue>4</m_nValue>
+										<m_ParamName text="Count"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="UnitMember_Maceman"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_ArtDefPath text="Units.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Members1"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text=""/>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="Swordsman"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="SWORDSMAN"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_MACEMAN"/>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4764,158 +5181,27 @@
 				</m_ChildCollections>
 				<m_Name text="UNIT_GARDE_REPUBLICAINE"/>
 			</Element>
-			<Element>
+<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Swordsman"/>
-							<m_RootCollectionName text="UnitFormationTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Formation"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Swordsman"/>
-							<m_RootCollectionName text="UnitCombat"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="UnitCombat"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="WarriorEscort"/>
+							<m_ElementName text="Artillery"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
-							<m_ParamName text="EscortFormation"/>
+							<m_ParamName text="Formation"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
-							<m_RootCollectionName text="Units"/>
+							<m_ElementName text="Artillery"/>
+							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
-							<m_ParamName text="EmbarkedUnit"/>
-						</Element>
-						<Element class="AssetObjects::BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="DoNotDisplayCharges"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="UnitCulture"/>
-							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Culture"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="Era"/>
-							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Era"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="Units"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="ProxyUnit"/>
-						</Element>
-						<Element class="AssetObjects::BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="PlayDeathOnDestroy"/>
-						</Element>
-						<Element class="AssetObjects::IntValue">
-							<m_nValue>0</m_nValue>
-							<m_ParamName text="DisplayLevel"/>
-						</Element>
-					</m_Values>
-				</m_Fields>
-				<m_ChildCollections>
-					<Element>
-						<m_CollectionName text="Members"/>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects::IntValue">
-										<m_nValue>4</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="UnitMember_Knight_Unmounted"/>
-										<m_RootCollectionName text="UnitMemberTypes"/>
-										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Type"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Members1"/>
-						</Element>
-					</Element>
-					<Element>
-						<m_CollectionName text="Audio"/>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::StringValue">
-										<m_Value text=""/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text=""/>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::StringValue">
-										<m_Value text="Swordsman"/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="SWORDSMAN"/>
-						</Element>
-					</Element>
-				</m_ChildCollections>
-				<m_Name text="UNIT_KNIGHT_UNMOUNTED"/>
-			</Element>
-			<Element>
-				<m_Fields>
-					<m_Values>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Scattered"/>
-							<m_RootCollectionName text="UnitFormationTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Formation"/>
-						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="UnitCombat"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="WarriorEscort"/>
+							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -4923,7 +5209,7 @@
 							<m_ParamName text="EscortFormation"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
+							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -4983,17 +5269,17 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Great_Painter_Female_Renaissance"/>
+										<m_ElementName text="UnitMember_Mortar"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Type"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Members1"/>
+							<m_Name text="Members001"/>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -5007,65 +5293,17 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Great_Engineer_Male_Renaissance"/>
+										<m_ElementName text="ArtilleryDefender"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Members2"/>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Great_Engineer_Male_Renaissance"/>
-										<m_RootCollectionName text="UnitMemberTypes"/>
-										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Type"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Members3"/>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
-										<m_ParamName text="Scale"/>
-									</Element>
-									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
-										<m_ParamName text="Count"/>
-									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Great_Musician_Male_Industrial"/>
-										<m_RootCollectionName text="UnitMemberTypes"/>
-										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Type"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Members4"/>
+							<m_Name text="Members002"/>
 						</Element>
 					</Element>
 					<Element>
@@ -5074,29 +5312,17 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::StringValue">
-										<m_Value text=""/>
+										<m_Value text="Artillery"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text=""/>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects::StringValue">
-										<m_Value text="Spearman"/>
-										<m_ParamName text="XrefName"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="SPEARMAN"/>
+							<m_Name text="ARTILLERY"/>
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UNIT_TESTUNITS"/>
+				<m_Name text="UNIT_MACHINE_GUN"/>
 			</Element>
 		</Element>
 		<Element>
@@ -5795,6 +6021,271 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UnitMember_Vulture"/>
+			</Element>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Redcoat"/>
+							<m_RootCollectionName text="UnitMovementTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Movement"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="RedcoatCombat"/>
+							<m_RootCollectionName text="MemberCombat"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Combat"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="MEAT"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXMaterialType"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="MEAT"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXWeaponImpact"/>
+						</Element>
+						<Element class="AssetObjects::FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ImpactHeightOverride"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Cultures"/>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Variations"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::FloatValue">
+													<m_fValue>1.100000</m_fValue>
+													<m_ParamName text="Scale"/>
+												</Element>
+												<Element class="AssetObjects::BoolValue">
+													<m_bValue>false</m_bValue>
+													<m_ParamName text="IsAttachment"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Attachments"/>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Color_Navy"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text="Units.artdef"/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text="Units"/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Armor/Swordsman"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Armor"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="WeaponPrimary"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Swords/Swordsman"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Weapon"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Bodies/Male_MediumBody_Arms"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Body"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Hat"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Hats/Swordsman"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Hats"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="WeaponSecondary"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Color_300_Hoplite"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text="Units.artdef"/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text="Units"/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Shields/Swordsman"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Shield"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Caucasian_Light"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text="Units.artdef"/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Heads/Male"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Head"/>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="A"/>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Any"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UnitMember_Maceman"/>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -16641,6 +17132,821 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UnitMember_Amazon"/>
+			</Element>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Scout"/>
+							<m_RootCollectionName text="UnitMovementTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="Movement"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="InfantryCombat"/>
+							<m_RootCollectionName text="MemberCombat"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="Combat"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="MEAT"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXMaterialType"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="MEAT"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXWeaponImpact"/>
+						</Element>
+						<Element class="AssetObjects::FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ImpactHeightOverride"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Cultures"/>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Variations"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::FloatValue">
+													<m_fValue>1.100000</m_fValue>
+													<m_ParamName text="Scale"/>
+												</Element>
+												<Element class="AssetObjects::BoolValue">
+													<m_bValue>false</m_bValue>
+													<m_ParamName text="IsAttachment"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Attachments"/>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Color_Sniper"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Armor/Infantry"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Armor"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="WeaponPrimary"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Rifles/Ranger"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Weapon"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Bodies/Male_MediumBody_Hands"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Body"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Hat"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Color_Sniper"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Hats/Modern_AT"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Hats"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Caucasian_Light"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text="Units.artdef"/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Heads/Male"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Head"/>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="A"/>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Any"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UnitMember_Sniper"/>
+			</Element>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Scout"/>
+							<m_RootCollectionName text="UnitMovementTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="Movement"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="InfantryCombat"/>
+							<m_RootCollectionName text="MemberCombat"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="Combat"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="MEAT"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXMaterialType"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="MEAT"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXWeaponImpact"/>
+						</Element>
+						<Element class="AssetObjects::FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ImpactHeightOverride"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Cultures"/>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Variations"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::FloatValue">
+													<m_fValue>1.100000</m_fValue>
+													<m_ParamName text="Scale"/>
+												</Element>
+												<Element class="AssetObjects::BoolValue">
+													<m_bValue>false</m_bValue>
+													<m_ParamName text="IsAttachment"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Attachments"/>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Armor/CombatEngineer_Industrial/#/CombatEngineer_IndustrialD"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Armor"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="WeaponPrimary"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Muskets/Musketman"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Weapon"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Bodies/Male_MediumBody_Hands"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Body"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Hat"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Hats/Redcoat"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Hats"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="Caucasian_Light"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text="Units.artdef"/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Heads/Male"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Head"/>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="A"/>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Any"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UnitMember_Explorer"/>
+			</Element>
+<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="Artillery"/>
+							<m_RootCollectionName text="UnitMovementTypes"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Movement"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="ArtilleryCombat"/>
+							<m_RootCollectionName text="MemberCombat"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="Combat"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="METAL"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXMaterialType"/>
+						</Element>
+						<Element class="AssetObjects::ArtDefReferenceValue">
+							<m_ElementName text="METAL"/>
+							<m_RootCollectionName text="MaterialTypes"/>
+							<m_ArtDefPath text="VFX.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="VFXWeaponImpact"/>
+						</Element>
+						<Element class="AssetObjects::FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ImpactHeightOverride"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Cultures"/>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Variations"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::FloatValue">
+													<m_fValue>0.3333333</m_fValue>
+													<m_ParamName text="Scale"/>
+												</Element>
+												<Element class="AssetObjects::BoolValue">
+													<m_bValue>false</m_bValue>
+													<m_ParamName text="IsAttachment"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Attachments"/>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text="CV_Vehicle_Any"/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text="Units.artdef"/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text="Units"/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Vehicles/Artillery"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Root"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="AttachInfantry"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="V:Operator"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Operator"/>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="A"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::FloatValue">
+													<m_fValue>1.100000</m_fValue>
+													<m_ParamName text="Scale"/>
+												</Element>
+												<Element class="AssetObjects::BoolValue">
+													<m_bValue>true</m_bValue>
+													<m_ParamName text="IsAttachment"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Attachments"/>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Armor/ArtilleryInfantry"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Armor"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Bodies/Male_MediumBody_Hands"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Body"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Heads/Male"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Heads"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Root"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Accessories/Infantry"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Accessories"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="Hat"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Hats/Infantry"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Helmet"/>
+												</Element>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::StringValue">
+																<m_Value text="WeaponPrimary"/>
+																<m_ParamName text="Point"/>
+															</Element>
+															<Element class="AssetObjects::ArtDefReferenceValue">
+																<m_ElementName text=""/>
+																<m_RootCollectionName text="UnitTintTypes"/>
+																<m_ArtDefPath text=""/>
+																<m_CollectionIsLocked>true</m_CollectionIsLocked>
+																<m_TemplateName text=""/>
+																<m_ParamName text="Tint"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections>
+														<Element>
+															<m_CollectionName text="Bins"/>
+															<Element>
+																<m_Fields>
+																	<m_Values/>
+																</m_Fields>
+																<m_ChildCollections/>
+																<m_Name text="Weapons/InfantryWeapons/#/AT_Crew_PistolA"/>
+															</Element>
+														</Element>
+													</m_ChildCollections>
+													<m_Name text="Pistol"/>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="Operator"/>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Any"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UnitMember_Mortar"/>
 			</Element>
 		</Element>
 		<Element>

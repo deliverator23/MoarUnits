@@ -214,6 +214,21 @@
 		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" Language="en_US">
 			<Text>Spanish unique Renaissance era unit that replaces the Musketman. +9 [ICON_Strength] Combat Strength when there is a Missionary, Inquisitor, or Apostle in the same hex. If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_SNIPER_NAME" Language="en_US">
+			<Text>Sniper</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="en_US">
+			<Text>Explorer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SNIPER_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Atomic Era recon/ranged unit. Cannot move and attack on the same turn. Gains +12 [ICON_Ranged] ranged strength vs. land units (exluding heavy-cavalry). Gains +1 [ICON_Range] Range when on hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPLORER_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Renaissance Era recon unit. Ignores rivers when moving and has no disembark cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="en_US">
+			<Text>Mortar</Text>
+		</Replace>
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>
 		</Replace>

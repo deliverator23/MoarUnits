@@ -2,6 +2,10 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_RIFLEMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CUIRASSIER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MACEMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_EXPLORER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SNIPER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_COMPANION_CAVALRY" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_CAMEL_ARCHER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_MINUTEMAN" Kind="KIND_UNIT"/>
@@ -11,7 +15,6 @@
 		<Row Type="UNIT_HIRDMAN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JINETE" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_EQUITE" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_CUIRASSIER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_LONGBOWMAN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_DRUZHINA" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_SOHEI" Kind="KIND_UNIT"/>
@@ -100,12 +103,12 @@
 		<Row Type="ABILITY_T34" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_FRENCH_MARINE" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_GHAZI" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_SHIGONG" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_ARMATOLOS" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_MEDICINE_MAN" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_LANDSKNECHT" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SNIPER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_EXPLORER" Kind="KIND_ABILITY"/>
 	</Types>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_COMPANION_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
@@ -344,8 +347,24 @@
 			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20"
 			 Description="LOC_UNIT_LANDSKNECHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
 			 Maintenance="3" Combat="41" PrereqTech="TECH_MILITARY_TACTICS" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_LANDSKNECHT"/>
+
+		<Row UnitType="UNIT_SNIPER" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SNIPER_NAME"
+			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="6"
+			 Combat="50" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+
+		<Row UnitType="UNIT_EXPLORER" BaseMoves="3" Cost="200" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_EXPLORER_NAME"
+			 Description="LOC_UNIT_EXPLORER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" Maintenance="3"
+			 Combat="35" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_RIFLING"/>
+
+		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="165" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEMAN_NAME"
+			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
 	</Units>
 	<UnitUpgrades>
+		<Row Unit="UNIT_MACEMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
 		<Row Unit="UNIT_CUIRASSIER" UpgradeUnit="UNIT_TANK"/>
 		<Row Unit="UNIT_CHOKONU" UpgradeUnit="UNIT_FIELD_CANNON"/>
@@ -377,6 +396,8 @@
 		<Row Unit="UNIT_FRENCH_MARINE" UpgradeUnit="UNIT_FRENCH_GARDE_IMPERIALE"/>
 		<Row Unit="UNIT_ARMATOLOS" UpgradeUnit="UNIT_INFANTRY"/>
 		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_EXPLORER" UpgradeUnit="UNIT_RANGER"/>
+		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SNIPER"/>
 	</UnitUpgrades>
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
@@ -385,6 +406,10 @@
 		<Row Unit="UNIT_SHIGONG" PrereqBuilding="BUILDING_BARRACKS"/>
 	</Unit_BuildingPrereqs>
 	<UnitAIInfos>
+		<Row UnitType="UNIT_MACEMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MACEMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MACEMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MACEMAN" AiType="UNITTYPE_LAND_COMBAT"/>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_PHALANX" AiType="UNITTYPE_MELEE"/>
@@ -523,6 +548,13 @@
 		<Row UnitType="UNIT_MEDICINE_MAN" AiType="UNITTYPE_SIEGE_SUPPORT"/>
 		<Row UnitType="UNIT_SHIGONG" AiType="UNITTYPE_CIVILIAN"/>
 		<Row UnitType="UNIT_SHIGONG" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_EXPLORER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_EXPLORER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_EXPLORER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SNIPER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SNIPER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SNIPER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SNIPER" AiType="UNITAI_EXPLORE"/>
 	</UnitAIInfos>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ARABIA" TraitType="TRAIT_CIVILIZATION_UNIT_CAMEL_ARCHER"/>
@@ -628,8 +660,11 @@
 		<Row Tag="CLASS_FRENCH_MARINE" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_GHAZI" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_LANDSKNECHT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SNIPER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_EXPLORER" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
+		<Row Type="UNIT_MACEMAN" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_RIFLEMAN" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_CUIRASSIER" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_COMPANION_CAVALRY" Tag="CLASS_HEAVY_CAVALRY"/>
@@ -702,6 +737,12 @@
 		<Row Type="UNIT_SHIGONG" Tag="CLASS_SHIGONG"/>
 		<Row Type="UNIT_MEDICINE_MAN" Tag="CLASS_MEDIC"/>
 		<Row Type="UNIT_MEDICINE_MAN" Tag="CLASS_MEDICINE_MAN"/>
+		<Row Type="UNIT_EXPLORER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_EXPLORER" Tag="CLASS_EXPLORER"/>
+		<Row Type="UNIT_SNIPER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SNIPER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SNIPER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_SNIPER" Tag="CLASS_SNIPER"/>
 	</TypeTags>
 	<TypeTags>
 		<Row Type="ABILITY_COMPANION_CAVALRY" Tag="CLASS_COMPANION_CAVALRY"/>
@@ -732,10 +773,8 @@
 		<Row Type="ABILITY_VULTURE" Tag="CLASS_VULTURE"/>
 		<Row Type="ABILITY_T34" Tag="CLASS_T34"/>
 		<Row Type="ABILITY_ARMATOLOS" Tag="CLASS_ARMATOLOS"/>
-		<Row Type="ABILITY_SHIGONG" Tag="CLASS_SHIGONG"/>
 		<Row Type="ABILITY_GHAZI" Tag="CLASS_GHAZI"/>
 		<Row Type="ABILITY_FRENCH_MARINE" Tag="CLASS_FRENCH_MARINE"/>
-		<Row Type="ABILITY_MEDICINE_MAN" Tag="CLASS_MEDICINE_MAN"/>
 		<Row Type="ABILITY_LANDSKNECHT" Tag="CLASS_LANDSKNECHT"/>
 		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_MELEE"/>
 		<Row Type="ABILITY_RECEIVE_SHIGONG_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
@@ -747,6 +786,8 @@
 		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_RANGED"/>
 		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_EXPLORER" Tag="CLASS_EXPLORER"/>
+		<Row Type="ABILITY_SNIPER" Tag="CLASS_SNIPER"/>
 	</TypeTags>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_COMPANION_CAVALRY" Name="LOC_ABILITY_COMPANION_CAVALRY" Description="LOC_ABILITY_COMPANION_CAVALRY_DESCRIPTION"/>
@@ -777,13 +818,13 @@
 		<Row UnitAbilityType="ABILITY_VULTURE" Name="LOC_ABILITY_VULTURE_NAME" Description="LOC_ABILITY_VULTURE_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_T34" Name="LOC_ABILITY_T34_NAME" Description="LOC_ABILITY_T34_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_ARMATOLOS" Name="LOC_ABILITY_ARMATOLOS_NAME" Description="LOC_ABILITY_ARMATOLOS_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_SHIGONG" Name="LOC_ABILITY_SHIGONG_NAME" Description="LOC_ABILITY_SHIGONG_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_GHAZI" Name="LOC_ABILITY_GHAZI_NAME" Description="LOC_ABILITY_GHAZI_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_FRENCH_MARINE" Name="LOC_ABILITY_FRENCH_MARINE_NAME" Description="LOC_ABILITY_FRENCH_MARINE_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_MEDICINE_MAN" Name="LOC_ABILITY_MEDICINE_MAN_NAME" Description="LOC_ABILITY_MEDICINE_MAN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_LANDSKNECHT" Name="LOC_ABILITY_LANDSKNECHT_NAME" Description="LOC_ABILITY_LANDSKNECHT_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_RECEIVE_SHIGONG_BONUS" Name="LOC_ABILITY_RECEIVE_SHIGONG_BONUS" Description="LOC_ABILITY_RECEIVE_SHIGONG_BONUS_DESCRIPTION"/>
         <Row UnitAbilityType="ABILITY_RECEIVE_MEDICINE_MAN_BONUS" Name="LOC_ABILITY_RECEIVE_MEDICINE_MAN_BONUS_NAME" Description="LOC_ABILITY_RECEIVE_MEDICINE_MAN_BONUS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SNIPER" Name="LOC_ABILITY_SNIPER" Description="LOC_ABILITY_SNIPER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_EXPLORER" Name="LOC_ABILITY_EXPLORER" Description="LOC_ABILITY_EXPLORER_DESCRIPTION"/>
     </UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row>
@@ -934,6 +975,26 @@
 			<UnitAbilityType>ABILITY_RECEIVE_SHIGONG_BONUS</UnitAbilityType>
 			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SNIPER</UnitAbilityType>
+			<ModifierId>NOMOVEANDSHOOT_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SNIPER</UnitAbilityType>
+			<ModifierId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SNIPER</UnitAbilityType>
+			<ModifierId>SNIPER_PLUS_1_RANGE_ON_HILL</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_EXPLORER</UnitAbilityType>
+			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_EXPLORER</UnitAbilityType>
+			<ModifierId>REDCOAT_DISEMBARK</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
@@ -1047,6 +1108,16 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
 			<SubjectRequirementSetId>ADJACENT_MEDICINE_MAN_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC_REQUIREMENTS_SET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SNIPER_PLUS_1_RANGE_ON_HILL</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+			<SubjectRequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierStrings>
 		<Row ModifierId="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS" Context="Preview" Text="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC"/>
@@ -1064,6 +1135,8 @@
 		<Row ModifierId="PLUS_5_HILLS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_HILLS_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_5_OTHER_RELIGION_COMBAT_BONUS" Context="Preview" Text="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="RECEIVE_SHIGONG_COMBAT_BONUS" Context="Preview" Text="RECEIVE_SHIGONG_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC" Context="Preview" Text="+12 [ICON_Ranged] Ranged strength"/>
+		<Row ModifierId="SNIPER_PLUS_1_RANGE_ON_HILL" Context="Preview" Text="+1 [ICON_Ranged] Range on hill"/>
 	</ModifierStrings>
 	<ModifierArguments>
 		<Row>
@@ -1216,6 +1289,16 @@
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
+		<Row>
+			<ModifierId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNIPER_PLUS_1_RANGE_ON_HILL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<Row>
@@ -1264,6 +1347,14 @@
 		</Row>
 		<Row>
 			<RequirementSetId>ADJACENT_MEDICINE_MAN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -1343,6 +1434,38 @@
 		<Row>
 			<RequirementSetId>ADJACENT_MEDICINE_MAN_REQUIREMENTS</RequirementSetId>
 			<RequirementId>ADJACENT_FRIENDLY_MEDICINE_MAN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>OPPONENT_IS_LAND_UNIT_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_12_RANGED_VS_LAND_NON_HC_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>OPPONENT_IS_NOT_HEAVY_CAVALRY_UNIT_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_GRASS_HILLS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_PLAINS_HILLS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_TUNDRA_HILLS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_DESERT_HILLS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SNIPER_PLUS_1_RANGE_ON_HILL_REQUIREMENTS_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_SNOW_HILLS_TERRAIN_REQUIREMENT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>

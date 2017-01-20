@@ -121,5 +121,8 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_1">
 			<Text>The traditional Chinese martial arts school is an extended family headed by the Shifu. The Shifu's teacher is the "honorable master" or Shigong.</Text>
 		</Row>
+		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
+		</Replace>
 	</BaseGameText>
 </GameData>
