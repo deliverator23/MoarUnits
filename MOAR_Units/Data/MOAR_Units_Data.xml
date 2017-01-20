@@ -358,10 +358,10 @@
 			 Description="LOC_UNIT_EXPLORER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" Maintenance="3"
 			 Combat="35" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_RIFLING"/>
 
-		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="165" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEMAN_NAME"
 			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+			 Combat="44" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
 	</Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_MACEMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
@@ -391,11 +391,11 @@
 		<Row Unit="UNIT_YAMATO" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
 		<Row Unit="UNIT_WAR_GALLEY" UpgradeUnit="UNIT_FRIGATE"/>
 		<Row Unit="UNIT_AMAZON_SCOUT" UpgradeUnit="UNIT_RANGER"/>
-		<Row Unit="UNIT_VULTURE" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_VULTURE" UpgradeUnit="UNIT_MACEMAN"/>
 		<Row Unit="UNIT_T34" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<Row Unit="UNIT_FRENCH_MARINE" UpgradeUnit="UNIT_FRENCH_GARDE_IMPERIALE"/>
 		<Row Unit="UNIT_ARMATOLOS" UpgradeUnit="UNIT_INFANTRY"/>
-		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MACEMAN"/>
 		<Row Unit="UNIT_EXPLORER" UpgradeUnit="UNIT_RANGER"/>
 		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SNIPER"/>
 	</UnitUpgrades>
