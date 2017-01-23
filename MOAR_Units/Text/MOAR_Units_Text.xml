@@ -65,13 +65,13 @@
 			<Text>Hirdman</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HIRDMAN_DESCRIPTION" Language="en_US">
-			<Text>Norweigian unique Classical era unit that replaces Swordsman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
+			<Text>Norweigian unique Medieval era Melee unit that replaces Maceman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_NAME" Language="en_US">
 			<Text>Mughal Sowar</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION" Language="en_US">
-			<Text>Indian unique Medieval era heavy cavalry unit that replaces Knight. Stronger than the Knight and does not require Iron.</Text>
+			<Text>Indian unique Medieval era heavy cavalry unit that replaces Knight. Ignores terrain costs. Heals +15 per turn when on or adjacent to a Stepwell improvement.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LONGBOWMAN_NAME" Language="en_US">
 			<Text>Longbowman</Text>
@@ -197,7 +197,7 @@
 			<Text>Ghazi</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="en_US">
-			<Text>Arabian unique melee unit that replaces the Swordsman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
+			<Text>Arabian unique Medieval era Melee unit that replaces the Maceman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="en_US">
 			<Text>Medicine Man</Text>
@@ -217,14 +217,20 @@
 		<Replace Tag="LOC_UNIT_SNIPER_NAME" Language="en_US">
 			<Text>Sniper</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="en_US">
-			<Text>Explorer</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_SNIPER_DESCRIPTION" Language="en_US">
 			<Text>Fast-moving Atomic Era recon/ranged unit. Cannot move and attack on the same turn. Gains +12 [ICON_Ranged] ranged strength vs. land units (exluding heavy-cavalry). Gains +1 [ICON_Range] Range when on hills.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="en_US">
+			<Text>Explorer</Text>
+		</Replace>
 		<Replace Tag="LOC_UNIT_EXPLORER_DESCRIPTION" Language="en_US">
 			<Text>Fast-moving Renaissance Era recon unit. Ignores rivers when moving and has no disembark cost.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEMAN_NAME" Language="en_US">
+			<Text>Maceman</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="en_US">
+			<Text>Medieval era melee unit.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="en_US">
 			<Text>Mortar</Text>

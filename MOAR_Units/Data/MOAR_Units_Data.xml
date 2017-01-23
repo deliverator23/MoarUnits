@@ -120,7 +120,7 @@
 		<Row CivUniqueUnitType="UNIT_DRUZHINA" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_JINETE" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_MUGHAL_SOWAR" ReplacesUnitType="UNIT_KNIGHT"/>
-		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_MACEMAN"/>
 		<Row CivUniqueUnitType="UNIT_AMAZON" ReplacesUnitType="UNIT_KNIGHT"/>
 		<Row CivUniqueUnitType="UNIT_FATHERLAND_VOLUNTEER" ReplacesUnitType="UNIT_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_HYKSOS_BOWMAN" ReplacesUnitType="UNIT_ARCHER"/>
@@ -137,7 +137,7 @@
 		<Row CivUniqueUnitType="UNIT_SEPOY" ReplacesUnitType="UNIT_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_MEDICINE_MAN" ReplacesUnitType="UNIT_MEDIC"/>
 		<Row CivUniqueUnitType="UNIT_FRENCH_MARINE" ReplacesUnitType="UNIT_MUSKETMAN"/>
-		<Row CivUniqueUnitType="UNIT_GHAZI" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_GHAZI" ReplacesUnitType="UNIT_MACEMAN"/>
 		<Row CivUniqueUnitType="UNIT_ARMATOLOS" ReplacesUnitType="UNIT_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_LANDSKNECHT" ReplacesUnitType="UNIT_PIKEMAN"/>
 	</UnitReplaces>
@@ -175,7 +175,7 @@
 		<Row UnitType="UNIT_MUGHAL_SOWAR" BaseMoves="4" Cost="190" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MUGHAL_SOWAR_NAME"
 			 Description="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
-			 Maintenance="2" Combat="53" PrereqTech="TECH_STIRRUPS" MandatoryObsoleteTech="TECH_COMPOSITES"
+			 Maintenance="2" Combat="48" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_COMPOSITES"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_MUGHAL_SOWAR"/>
 
 		<Row UnitType="UNIT_GENDARME" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -190,10 +190,10 @@
 			 Maintenance="3" Combat="48" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
 			 MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_AMAZON"/>
 
-		<Row UnitType="UNIT_HIRDMAN" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_HIRDMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HIRDMAN_NAME"
 			 Description="LOC_UNIT_HIRDMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="45" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN"/>
 
 		<Row UnitType="UNIT_SOHEI" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -239,7 +239,7 @@
 
 		<Row UnitType="UNIT_PHALANX" BaseMoves="2" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PHALANX_NAME"
-			 Description="LOC_UNIT_PHALANX_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="1"
+			 Description="LOC_UNIT_PHALANX_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1"
 			 Combat="25" PrereqTech="TECH_MINING" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_PHALANX"/>
 
 		<Row UnitType="UNIT_RIFLEMAN" BaseMoves="2" Cost="350" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -273,7 +273,7 @@
 		<Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TERCIO_NAME"
 			 Description="LOC_UNIT_TERCIO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
-			 Maintenance="4" Combat="60" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_ROCKETRY"
+			 Maintenance="4" Combat="51" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_ROCKETRY"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO"/>
 
 		<Row UnitType="UNIT_PANZER" BaseMoves="4" Cost="540" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -336,10 +336,10 @@
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqCivic="CIVIC_MILITARY_TRAINING"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_SHIGONG"/>
 
-		<Row UnitType="UNIT_GHAZI" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_GHAZI" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GHAZI_NAME"
 			 Description="LOC_UNIT_GHAZI_DESCRIPTION" PurchaseYield="YIELD_FAITH" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="45" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_GHAZI"/>
 
 		<Row UnitType="UNIT_LANDSKNECHT" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -356,12 +356,12 @@
 		<Row UnitType="UNIT_EXPLORER" BaseMoves="3" Cost="200" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_EXPLORER_NAME"
 			 Description="LOC_UNIT_EXPLORER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" Maintenance="3"
-			 Combat="35" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_RIFLING"/>
+			 Combat="35" PrereqTech="TECH_CARTOGRAPHY" MandatoryObsoleteTech="TECH_RIFLING"/>
 
 		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEMAN_NAME"
 			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="44" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
 	</Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_MACEMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
@@ -390,12 +390,12 @@
 		<Row Unit="UNIT_PANZER" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<Row Unit="UNIT_YAMATO" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
 		<Row Unit="UNIT_WAR_GALLEY" UpgradeUnit="UNIT_FRIGATE"/>
-		<Row Unit="UNIT_AMAZON_SCOUT" UpgradeUnit="UNIT_RANGER"/>
+		<Row Unit="UNIT_AMAZON_SCOUT" UpgradeUnit="UNIT_EXPLORER"/>
 		<Row Unit="UNIT_VULTURE" UpgradeUnit="UNIT_MACEMAN"/>
 		<Row Unit="UNIT_T34" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<Row Unit="UNIT_FRENCH_MARINE" UpgradeUnit="UNIT_FRENCH_GARDE_IMPERIALE"/>
 		<Row Unit="UNIT_ARMATOLOS" UpgradeUnit="UNIT_INFANTRY"/>
-		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MACEMAN"/>
+		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_EXPLORER" UpgradeUnit="UNIT_RANGER"/>
 		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SNIPER"/>
 	</UnitUpgrades>
@@ -755,6 +755,7 @@
 		<Row Type="ABILITY_DRUZHINA" Tag="CLASS_DRUZHINA"/>
 		<Row Type="ABILITY_LONGBOWMAN" Tag="CLASS_LONGBOWMAN"/>
 		<Row Type="ABILITY_MUGHAL_SOWAR" Tag="CLASS_MUGHAL_SOWAR"/>
+		<Row Type="ABILITY_IGNORE_TERRAIN_COST" Tag="CLASS_MUGHAL_SOWAR"/>
 		<Row Type="ABILITY_HIRDMAN" Tag="CLASS_HIRDMAN"/>
 		<Row Type="ABILITY_SOHEI" Tag="CLASS_SOHEI"/>
 		<Row Type="ABILITY_AMAZON" Tag="CLASS_AMAZON"/>
@@ -995,6 +996,10 @@
 			<UnitAbilityType>ABILITY_EXPLORER</UnitAbilityType>
 			<ModifierId>REDCOAT_DISEMBARK</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MUGHAL_SOWAR</UnitAbilityType>
+			<ModifierId>PLUS_15_HEAL_PER_TURN_BONUS_FROM_STEPWELL</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
@@ -1016,6 +1021,11 @@
 			<ModifierId>PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_WITHIN_8_OF_ZIGGURAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_15_HEAL_PER_TURN_BONUS_FROM_STEPWELL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_WITHIN_1_OF_STEPWELL_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS</ModifierId>
@@ -1139,6 +1149,16 @@
 		<Row ModifierId="SNIPER_PLUS_1_RANGE_ON_HILL" Context="Preview" Text="+1 [ICON_Ranged] Range on hill"/>
 	</ModifierStrings>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>PLUS_15_HEAL_PER_TURN_BONUS_FROM_STEPWELL</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_15_HEAL_PER_TURN_BONUS_FROM_STEPWELL</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
 		<Row>
 			<ModifierId>RECEIVE_MEDICINE_MAN_FAITH_BONUS</ModifierId>
 			<Name>YieldType</Name>
@@ -1310,6 +1330,10 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
+			<RequirementSetId>PLOT_IS_WITHIN_1_OF_STEPWELL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
 			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
@@ -1386,6 +1410,10 @@
 		<Row>
 			<RequirementSetId>PLOT_IS_WITHIN_8_OF_ZIGGURAT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_WITHIN_1_OF_STEPWELL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_WITHIN_ONE_OF_STEPWELL</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</RequirementSetId>
@@ -1495,6 +1523,10 @@
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_ONE_OF_STEPWELL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_PLAINS</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
@@ -1573,6 +1605,21 @@
 			<RequirementId>REQUIRES_PLOT_WITHIN_EIGHT_OF_ZIGGURAT</RequirementId>
 			<Name>MaxRange</Name>
 			<Value>8</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_ONE_OF_STEPWELL</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_STEPWELL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_ONE_OF_STEPWELL</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_WITHIN_ONE_OF_STEPWELL</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>1</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

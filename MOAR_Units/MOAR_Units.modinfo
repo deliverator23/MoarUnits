@@ -27,6 +27,7 @@
         <File>Art/Icons/MOARUnitsFlags_50.dds</File>
         <File>Art/Icons/MOARUnitsFlags_80.dds</File>
         <File>Art/Icons/MOARUnitsFlags_256.dds</File>
+<!--        <File>Data/Test.xml</File>-->
     </Files>
     <Settings>
        <Icons id="MOAR_ICON_SETTING">
@@ -60,6 +61,7 @@
             <Items>
                 <File>Data/MOAR_Units_Data.xml</File>
                 <File>Data/MOAR_Units_Data.sql</File>
+<!--                <File>Data/Test.xml</File>-->
             </Items>
         </UpdateDatabase>
         <LocalizedText id="MOAR_LocalizedText">

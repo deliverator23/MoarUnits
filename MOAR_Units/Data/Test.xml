@@ -1,0 +1,14 @@
+<GameInfo>
+    <StartEras>
+        <Update>
+            <Where EraType="ERA_ANCIENT" />
+            <Set Gold="9999" />
+        </Update>
+    </StartEras>
+    <MajorStartingUnits>
+        <Row Era="ERA_ANCIENT" Unit="UNIT_SNIPER" Quantity="2" NotStartTile="true"/>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_EXPLORER" Quantity="2" NotStartTile="true"/>
+        <Row Era="ERA_ANCIENT" Unit="UNIT_MACEMAN" Quantity="2" NotStartTile="true"/>
+        <Row Era="ERA_ANCIENT" Unit="UNIT_MACHINE_GUN" Quantity="2" NotStartTile="true"/>
+    </MajorStartingUnits>
+</GameInfo>
