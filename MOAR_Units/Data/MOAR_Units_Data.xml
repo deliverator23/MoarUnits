@@ -400,6 +400,7 @@
 		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_EXPLORER" UpgradeUnit="UNIT_RANGER"/>
 		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SNIPER"/>
+		<Row Unit="UNIT_BANDEIRANTE" UpgradeUnit="UNIT_SNIPER"/>
 	</UnitUpgrades>
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
