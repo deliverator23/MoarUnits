@@ -136,8 +136,5 @@
 		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
 			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACHINE_GUN_CHAPTER_HISTORY_PARA_1">
-			<Text>A mortar is a device that fires projectiles at low velocities and short ranges. The mortar has traditionally been used as a weapon to propel explosive mortar bombs in high-arcing ballistic trajectories. The weapon is typically muzzle-loading with a short, often smooth-bore barrel, generally less than 15 times its caliber.</Text>
-		</Replace>
 	</BaseGameText>
 </GameData>

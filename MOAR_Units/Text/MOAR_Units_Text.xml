@@ -232,9 +232,6 @@
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="en_US">
 			<Text>Medieval era melee unit.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_MACHINE_GUN_NAME" Language="en_US">
-			<Text>Mortar</Text>
-		</Replace>
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>
 		</Replace>
