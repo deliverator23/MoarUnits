@@ -140,6 +140,8 @@
 		<Row CivUniqueUnitType="UNIT_GHAZI" ReplacesUnitType="UNIT_MACEMAN"/>
 		<Row CivUniqueUnitType="UNIT_ARMATOLOS" ReplacesUnitType="UNIT_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_LANDSKNECHT" ReplacesUnitType="UNIT_PIKEMAN"/>
+		<Row CivUniqueUnitType="UNIT_SUMERIAN_WAR_CART" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI" ReplacesUnitType="UNIT_MACEMAN"/>
 	</UnitReplaces>
 	<Units>
 		<Row UnitType="UNIT_CUIRASSIER" BaseMoves="4" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -353,7 +355,7 @@
 			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="6"
 			 Combat="50" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
 
-		<Row UnitType="UNIT_EXPLORER" BaseMoves="3" Cost="200" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_EXPLORER" BaseMoves="3" Cost="120" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_EXPLORER_NAME"
 			 Description="LOC_UNIT_EXPLORER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" Maintenance="3"
 			 Combat="35" PrereqTech="TECH_CARTOGRAPHY" MandatoryObsoleteTech="TECH_RIFLING"/>
