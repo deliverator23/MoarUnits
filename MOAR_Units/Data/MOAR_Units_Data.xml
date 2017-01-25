@@ -110,39 +110,6 @@
 		<Row Type="ABILITY_SNIPER" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_EXPLORER" Kind="KIND_ABILITY"/>
 	</Types>
-	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_COMPANION_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_MINUTEMAN" ReplacesUnitType="UNIT_MUSKETMAN"/>
-		<Row CivUniqueUnitType="UNIT_PHALANX" ReplacesUnitType="UNIT_SPEARMAN"/>
-		<Row CivUniqueUnitType="UNIT_CHOKONU" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
-		<Row CivUniqueUnitType="UNIT_LONGBOWMAN" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
-		<Row CivUniqueUnitType="UNIT_EQUITE" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_DRUZHINA" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_JINETE" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_MUGHAL_SOWAR" ReplacesUnitType="UNIT_KNIGHT"/>
-		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_MACEMAN"/>
-		<Row CivUniqueUnitType="UNIT_AMAZON" ReplacesUnitType="UNIT_KNIGHT"/>
-		<Row CivUniqueUnitType="UNIT_FATHERLAND_VOLUNTEER" ReplacesUnitType="UNIT_RIFLEMAN"/>
-		<Row CivUniqueUnitType="UNIT_HYKSOS_BOWMAN" ReplacesUnitType="UNIT_ARCHER"/>
-		<Row CivUniqueUnitType="UNIT_GENDARME" ReplacesUnitType="UNIT_KNIGHT"/>
-		<Row CivUniqueUnitType="UNIT_GARDE_REPUBLICAINE" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
-		<Row CivUniqueUnitType="UNIT_BANDEIRANTE" ReplacesUnitType="UNIT_RANGER"/>
-		<Row CivUniqueUnitType="UNIT_ONAGER" ReplacesUnitType="UNIT_CATAPULT"/>
-		<Row CivUniqueUnitType="UNIT_PANZER" ReplacesUnitType="UNIT_TANK"/>
-		<Row CivUniqueUnitType="UNIT_YAMATO" ReplacesUnitType="UNIT_BATTLESHIP"/>
-		<Row CivUniqueUnitType="UNIT_WAR_GALLEY" ReplacesUnitType="UNIT_QUADRIREME"/>
-		<Row CivUniqueUnitType="UNIT_AMAZON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
-		<Row CivUniqueUnitType="UNIT_VULTURE" ReplacesUnitType="UNIT_SWORDSMAN"/>
-		<Row CivUniqueUnitType="UNIT_T34" ReplacesUnitType="UNIT_TANK"/>
-		<Row CivUniqueUnitType="UNIT_SEPOY" ReplacesUnitType="UNIT_RIFLEMAN"/>
-		<Row CivUniqueUnitType="UNIT_MEDICINE_MAN" ReplacesUnitType="UNIT_MEDIC"/>
-		<Row CivUniqueUnitType="UNIT_FRENCH_MARINE" ReplacesUnitType="UNIT_MUSKETMAN"/>
-		<Row CivUniqueUnitType="UNIT_GHAZI" ReplacesUnitType="UNIT_MACEMAN"/>
-		<Row CivUniqueUnitType="UNIT_ARMATOLOS" ReplacesUnitType="UNIT_RIFLEMAN"/>
-		<Row CivUniqueUnitType="UNIT_LANDSKNECHT" ReplacesUnitType="UNIT_PIKEMAN"/>
-		<Row CivUniqueUnitType="UNIT_SUMERIAN_WAR_CART" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
-		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI" ReplacesUnitType="UNIT_MACEMAN"/>
-	</UnitReplaces>
 	<Units>
 		<Row UnitType="UNIT_CUIRASSIER" BaseMoves="4" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CUIRASSIER_NAME"
@@ -195,7 +162,7 @@
 		<Row UnitType="UNIT_HIRDMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HIRDMAN_NAME"
 			 Description="LOC_UNIT_HIRDMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="45" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN"/>
 
 		<Row UnitType="UNIT_SOHEI" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -341,7 +308,7 @@
 		<Row UnitType="UNIT_GHAZI" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GHAZI_NAME"
 			 Description="LOC_UNIT_GHAZI_DESCRIPTION" PurchaseYield="YIELD_FAITH" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="45" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_GHAZI"/>
 
 		<Row UnitType="UNIT_LANDSKNECHT" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -365,6 +332,39 @@
 			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
 			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
 	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_COMPANION_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_MINUTEMAN" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_PHALANX" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_CHOKONU" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_LONGBOWMAN" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_EQUITE" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_DRUZHINA" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_JINETE" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_MUGHAL_SOWAR" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_MACEMAN"/>
+		<Row CivUniqueUnitType="UNIT_AMAZON" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_FATHERLAND_VOLUNTEER" ReplacesUnitType="UNIT_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_HYKSOS_BOWMAN" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_GENDARME" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_GARDE_REPUBLICAINE" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_BANDEIRANTE" ReplacesUnitType="UNIT_RANGER"/>
+		<Row CivUniqueUnitType="UNIT_ONAGER" ReplacesUnitType="UNIT_CATAPULT"/>
+		<Row CivUniqueUnitType="UNIT_PANZER" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_YAMATO" ReplacesUnitType="UNIT_BATTLESHIP"/>
+		<Row CivUniqueUnitType="UNIT_WAR_GALLEY" ReplacesUnitType="UNIT_QUADRIREME"/>
+		<Row CivUniqueUnitType="UNIT_AMAZON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_VULTURE" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_T34" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_SEPOY" ReplacesUnitType="UNIT_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_MEDICINE_MAN" ReplacesUnitType="UNIT_MEDIC"/>
+		<Row CivUniqueUnitType="UNIT_FRENCH_MARINE" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_GHAZI" ReplacesUnitType="UNIT_MACEMAN"/>
+		<Row CivUniqueUnitType="UNIT_ARMATOLOS" ReplacesUnitType="UNIT_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_LANDSKNECHT" ReplacesUnitType="UNIT_PIKEMAN"/>
+		<Row CivUniqueUnitType="UNIT_SUMERIAN_WAR_CART" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI" ReplacesUnitType="UNIT_MACEMAN"/>
+	</UnitReplaces>
 	<UnitUpgrades>
 		<Row Unit="UNIT_MACEMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
