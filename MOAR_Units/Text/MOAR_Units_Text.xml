@@ -65,7 +65,7 @@
 			<Text>Hirdman</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HIRDMAN_DESCRIPTION" Language="en_US">
-			<Text>Norweigian unique Medieval era Melee unit that replaces Maceman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
+			<Text>Norwegian unique Medieval era Melee unit that replaces Maceman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_NAME" Language="en_US">
 			<Text>Mughal Sowar</Text>
