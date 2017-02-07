@@ -6217,7 +6217,7 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="Color_300_Hoplite"/>
+																<m_ElementName text="DEFAULT"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6234,7 +6234,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Spearman"/>
+																<m_Name text="Shields/Swordsman"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
