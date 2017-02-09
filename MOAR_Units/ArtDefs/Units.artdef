@@ -6093,7 +6093,7 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="Color_Navy"/>
+																<m_ElementName text="Color_Silver"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6110,7 +6110,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Swordsman"/>
+																<m_Name text="Armor/Swordsman/Mediterranean/Swordsman_Armor_B"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -6172,7 +6172,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Bodies/Male_MediumBody_Arms"/>
+																<m_Name text="Bodies/Male_MediumBody_Hands"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -6186,7 +6186,7 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="Color_Silver"/>
+																<m_ElementName text="Color_DarkGrey"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6217,7 +6217,7 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="DEFAULT"/>
+																<m_ElementName text="Color_DarkGrey"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6234,7 +6234,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Swordsman"/>
+																<m_Name text="Shields/Swordsman/Any/Swordsman_Shield_A"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -21906,6 +21906,106 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="Greek_Hoplite"/>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Colors"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::RGBValue">
+										<m_r>138</m_r>
+										<m_g>209</m_g>
+										<m_b>58</m_b>
+										<m_ParamName text="Color"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Colors001"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="CV_Mughal"/>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Colors"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::RGBValue">
+										<m_r>255</m_r>
+										<m_g>187</m_g>
+										<m_b>15</m_b>
+										<m_ParamName text="Color"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Colors001"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="CV_SouthAmerican"/>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Colors"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::RGBValue">
+										<m_r>233</m_r>
+										<m_g>51</m_g>
+										<m_b>51</m_b>
+										<m_ParamName text="Color"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Colors001"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="CV_Any"/>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Colors"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::RGBValue">
+										<m_r>55</m_r>
+										<m_g>55</m_g>
+										<m_b>55</m_b>
+										<m_ParamName text="Color"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Colors001"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Color_DarkGrey"/>
 			</Element>
 		</Element>
 		<Element>
