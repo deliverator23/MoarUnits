@@ -35,8 +35,3 @@ UPDATE UnitPromotionModifiers SET ModifierId = 'SPYGLASS_BONUS_SIGHT' WHERE Unit
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES ('AMBUSH_REQUIREMENTS','REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES ('AMBUSH_REQUIREMENTS','PLAYER_IS_DEFENDER_REQUIREMENTS');
 UPDATE Modifiers SET SubjectRequirementSetId = 'AMBUSH_REQUIREMENTS' WHERE ModifierId = 'AMBUSH_INCREASED_COMBAT_STRENGTH';
-
-REPLACE INTO CivilizationTraits (CivilizationType, TraitType)
-SELECT CivilizationType, 'TRAIT_CIVILIZATION_FULL_CIV'
-FROM   Civilizations
-WHERE  StartingCivilizationLevelType = 'CIVILIZATION_LEVEL_FULL_CIV';
