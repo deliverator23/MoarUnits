@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54">
     <Properties>
-        <Name>LOC_MOAR_UNITS_NAME</Name>
-        <Teaser>LOC_MOAR_UNITS_TEASER</Teaser>
+        <Name>Moar Units</Name>
+        <Teaser>Adds 33 new Unique Units plus Maceman, Explorer, Rifleman, Cuirassier and Sniper.</Teaser>
+        <Description>Adds 33 new Unique Units plus Maceman, Explorer, Rifleman, Cuirassier and Sniper.</Description>
+        <Authors>Deliverator</Authors>
     </Properties>
-    <LocalizedText>
-        <Text id="LOC_MOAR_UNITS_NAME">
-            <en_US>Moar Units!</en_US>
-        </Text>
-        <Text id="LOC_MOAR_UNITS_TEASER">
-            <en_US>Adds 33 new Unique Units plus Maceman, Explorer, Rifleman, Cuirassier and Sniper.</en_US>
-        </Text>        
-    </LocalizedText>  
     <Files>
         <File>MOAR_Units.dep</File>
         <File>Data/MOAR_Units_Data.xml</File>
@@ -27,7 +21,6 @@
         <File>Art/Icons/MOARUnitsFlags_50.dds</File>
         <File>Art/Icons/MOARUnitsFlags_80.dds</File>
         <File>Art/Icons/MOARUnitsFlags_256.dds</File>
-<!--        <File>Data/Test.xml</File>-->
     </Files>
     <Settings>
        <Icons id="MOAR_ICON_SETTING">
@@ -61,7 +54,6 @@
             <Items>
                 <File>Data/MOAR_Units_Data.xml</File>
                 <File>Data/MOAR_Units_Data.sql</File>
-<!--                <File>Data/Test.xml</File>-->
             </Items>
         </UpdateDatabase>
         <LocalizedText id="MOAR_LocalizedText">
