@@ -3,176 +3,46 @@
     <Properties>
         <Name>Moar Units</Name>
         <Teaser>Adds 33 new Unique Units plus Maceman, Explorer, Rifleman, Cuirassier and Sniper.</Teaser>
-        <Description>Greetings! This Civilization VI mod adds Maceman, Explorer, Rifleman, Cuirassier and Sniper units and 33 new Unique Units: the American Minuteman, Arabian Camel Archer and Ghazi, Chinese Cho-Ko-Nu and Shigong, German Landsknecht and Panzer, Greek Hetairos (Companion Cavalry) and Armatolos, Spanish Jinete and Tercio, Roman Eques and Onager, Russian Druzhina Cavalry and T-34, Norweigian Hirdman, English Longbowman, Indian Mughal Sowar and Sepoy, Sumerian Phalanx and Sickle Swordsman, Japanese Sohei and Yamato, Scythian Amazon Scout and Amazon Cavalry, Brazilian Bandeirante and Fatherland Volunteer, Egyptian Hyksos Bowman and Tessarakonteres, French Gendarme and Marine and Kongolese Medicine Man and Garde Republicaine.
-
-
-Unit Info:
-
-Scout now upgrades to Explorer then Ranger then Sniper.
-
-Swordsman upgrades to Maceman then Musketman.
-
-Musketman now upgrades to Rifleman and Rifleman upgrades to Infantry.
-
-Knight now upgrades to Cuirassier and Cuirassier upgrades to Tank.
-
-
-Unique Unit Info:
-
-Minuteman (America)
-American unique Industrial era unit that replaces Musketman. Slightly stronger than Musketman, and gains +5 Combat Strength when fighting in or adjacent to its home territory. Also gains additional +5 is fighting in Forest or Jungle.
-
-Camel Archer (Arabia)
-Arabian unique Classical era unit. Gains additional +8 Combat Strength when fighting on Desert or Plains.
-
-Ghazi (Arabia)
-Arabian unique melee unit that replaces the Swordsman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' Combat Strength as Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.
-
-Landsknecht (Germany)
-German unique Medieval era unit that replaces Pikeman. Half the cost of Pikeman but must be purchased with gold.
-
-Panzer (Germany)
-German unique Tank replacement that has +5 Combat Strength when attacking.
-
-Hetairos (Greece)
-Greek unique cavalry unit that replaces Horseman. Uses Heavy Cavalry promotion tree. Slightly stronger than Horseman, and gains +5 Combat Strength when fighting outside home territory.
-
-Armatolos (Greece)
-Greek unique melee unit that replaces Rifleman. +5 Combat Strength on Hills and ignores Hills movement penalty.
-
-Phalanx (Sumeria)
-Sumerian unique Ancient era unit that replaces the Spearman. The Phalanx is available with the discovery of the Mining technology. +8 Combat Strength if fighting within 8 tiles of a Ziggurat improvement.
-
-Sickle Swordsman (Sumeria)
-Sumerian unique melee unit. +5 Combat Strength versus damaged units.
-
-Cho-ko-nu (China)
-Chinese unique Medieval era ranged unit that replaces Crossbowman. Slightly less strong than the Crossbowman, but can attack twice per turn.
-
-Shigong (China)
-Chinese unique support unit available with the Military Training Civic. Adjacent Melee, Cavalry, Anti-Cavalry and Ranged units get +5 Combat Strength and earn more experience. May build 1 Shigong unit per each Barracks building.
-
-Jinete (Spain)
-Spanish unique ranged unit that replaces Horseman. Yields 50% of defeated units' Combat Strength as Faith on combat victory if fighting on same continent as capital.
-
-Tercio (Spain)
-Spanish unique Renaissance era anti-cavalry unit.
-
-Eques (Rome)
-Roman unique cavalry unit that replaces Horseman. +5 Combat Strength when fighting next to Legion or Warrior unit. Yields 33% of defeated units' as Gold on combat victory.
-
-Onager (Rome)
-Roman unique siege unit. Stronger than the Catapult it replaces.
-
-Druzhina Cavalry (Russia)
-Russian unique cavalry unit that replaces Horseman. +5 Combat Strength versus damaged units and +4 Combat Strength against Melee units.
-
-T-34 (Russia)
-Russian unique Tank replacement that costs less to build and less maintenance. +5 Combat Strength in or adjacent to own territory.
-
-Hirdman (Norway)
-Norweigian unique Classical era unit that replaces Swordsman. +5 Combat Strength and yields 50% of defeated units' Combat Strength as Culture on combat victory if fighting on same continent as capital.
-
-Mughal Sowar (India)
-Indian unique Medieval era heavy cavalry unit that replaces Knight. Ignores terrain costs. Heals +15 per turn when on or adjacent to a Stepwell improvement.
-
-Sepoy (India)
-Indian unique melee unit that replaces the Rifleman. Fights at full Combat Strength when damaged.
-
-Longbowman (England)
-English unique Medieval era ranged unit that replaces the Crossbowman. +4 Combat Strength against Melee and Cavalry units with a further +4 Combat Strength if adjacent to another Longbowman unit.
-
-Sohei (Japan)
-Japanese unique unit available with the Feudalism Civic. Can be purchased with Faith. +10 Combat Strength when defending.
-
-Yamato (Japan)
-Japanese unique naval ranged unit. Stronger than the Battleship it replaces.
-
-Amazon Scout (Scythia)
-Scythian unique Ancient era recon unit that is stronger than the regular Scout.
-
-Amazon Cavalry (Scythia)
-Scythian unique Medieval era heavy cavalry unit that replaces Knight. +1 movement over Knight and can attack twice per turn.
-
-Bandeirante (Brazil)
-Brazilian unique Renaissance era recon unit that replaces the Ranger. Available earlier than the Ranger at Gunpowder. Can build forts. Yields 25% of defeated units' combat strength as Gold and 25% of defeated units' combat strength as Culture.
-
-Fatherland Volunteer (Brazil)
-Brazilian unique Industrial era melee unit that replaces the Rifleman. Cheaper than the Rifleman and costs less maintenance.
-
-Hyksos Bowman (Egypt)
-Egyptian unique ranged unit that it stronger than the Archer it replaces.
-
-Tessarakonteres (Egypt)
-Egyptian unique naval ranged unit. Stronger than the Quadrireme it replaces and has range 2 instead of 1.
-
-Gendarme (France)
-French unique Medieval era heavy cavalry unit that replaces Knight. +5 Combat Strength when attacking.
-
-Marine (France)
-French unique melee unit that replaces Musketman. +5 Combat Strength on foreign continents. Amphibious - no attack penalty when attacking from sea or across rivers.
-
-Medicine Man (Kongo)
-Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' Combat Strength as Faith on combat victory. May be purchased with Faith.
-
-Garde Republicaine (Kongo)
-Kongolese unique Information era melee unit that replaces Mechanized Infantry. +10 Combat Strength when attacking or defending districts.</Description>
+        <Description>Greetings! This Civilization VI mod adds Maceman, Explorer, Rifleman, Cuirassier and Sniper units and 33 new Unique Units: the American Minuteman, Arabian Camel Archer and Ghazi, Chinese Cho-Ko-Nu and Shigong, German Landsknecht and Panzer, Greek Hetairos (Companion Cavalry) and Armatolos, Spanish Jinete and Tercio, Roman Eques and Onager, Russian Druzhina Cavalry and T-34, Norweigian Hirdman, English Longbowman, Indian Mughal Sowar and Sepoy, Sumerian Phalanx and Sickle Swordsman, Japanese Sohei and Yamato, Scythian Amazon Scout and Amazon Cavalry, Brazilian Bandeirante and Fatherland Volunteer, Egyptian Hyksos Bowman and Tessarakonteres, French Gendarme and Marine and Kongolese Medicine Man and Garde Republicaine.</Description>
         <Authors>Deliverator</Authors>
     </Properties>
-    <Settings>
-       <Icons id="MOAR_ICON_SETTING">
-           <Items>
-               <File>Data/MOAR_Units_Icons_Config.xml</File>
-           </Items>
-       </Icons>
-       <Custom id="MOAR_SETTING">
-           <Items>
-               <File>Data/MOAR_Units_Config.xml</File>
-           </Items>
-       </Custom>
-       <LocalizedText id="MOAR_SETTING_TEXT">
-           <Items>
-               <File>Text/MOAR_Units_Text.xml</File>
-           </Items>
-       </LocalizedText>
-    </Settings>
-    <Components>
+    <FrontEndActions>
+        <UpdateIcons id="MOAR_ICON_SETTING">
+            <File>Data/MOAR_Units_Icons_Config.xml</File>
+        </UpdateIcons>
+        <UpdateDatabase id="MOAR_SETTING">
+            <File>Data/MOAR_Units_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_SETTING_TEXT">
+            <File>Text/MOAR_Units_Text.xml</File>
+        </UpdateText>
+    </FrontEndActions>
+    <InGameActions>
         <ImportFiles id="MOAR_FileImport">
-            <Items>
-                <File>Art/Icons/MOARUnitsFlags_22.dds</File>
-                <File>Art/Icons/MOARUnitsFlags_32.dds</File>
-                <File>Art/Icons/MOARUnitsFlags_38.dds</File>
-                <File>Art/Icons/MOARUnitsFlags_50.dds</File>
-                <File>Art/Icons/MOARUnitsFlags_80.dds</File>
-                <File>Art/Icons/MOARUnitsFlags_256.dds</File>
-            </Items>
+            <File>Art/Icons/MOARUnitsFlags_22.dds</File>
+            <File>Art/Icons/MOARUnitsFlags_32.dds</File>
+            <File>Art/Icons/MOARUnitsFlags_38.dds</File>
+            <File>Art/Icons/MOARUnitsFlags_50.dds</File>
+            <File>Art/Icons/MOARUnitsFlags_80.dds</File>
+            <File>Art/Icons/MOARUnitsFlags_256.dds</File>
         </ImportFiles>
         <UpdateDatabase id="MOAR_UpdateDatabase">
-            <Items>
-                <File>Data/MOAR_Units_Data.xml</File>
-                <File>Data/MOAR_Units_Data.sql</File>
-            </Items>
+            <File>Data/MOAR_Units_Data.xml</File>
+            <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
-        <LocalizedText id="MOAR_LocalizedText">
-            <Items>    
-                <File>Text/MOAR_Units_Text.xml</File>
-                <File>Text/en_US/MOAR_Units_GameplayText.xml</File> 
-            </Items>
-        </LocalizedText>
-        <Icons id="MOAR_Icons">
-            <Items>
-                <File>Data/MOAR_Units_Icons.xml</File>
-            </Items>
-        </Icons>
-        <ModArt id="MOAR_ModArt">
-            <Items>
-                <File>MOAR_Units.dep</File>
-            </Items>
-        </ModArt>
-    </Components>
+        <UpdateText id="MOAR_LocalizedText">
+            <File>Text/MOAR_Units_Text.xml</File>
+            <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
+        </UpdateText>
+        <UpdateIcons id="MOAR_Icons">
+            <File>Data/MOAR_Units_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="MOAR_ModArt">
+            <File>MOAR_Units.dep</File>
+        </UpdateArt>
+    </InGameActions>
     <Files>
         <File>MOAR_Units.dep</File>
-        <File>ArtDefs/Units.artdef</File>
         <File>Data/MOAR_Units_Data.xml</File>
         <File>Data/MOAR_Units_Data.sql</File>
         <File>Data/MOAR_Units_Icons.xml</File>
@@ -186,5 +56,61 @@ Kongolese unique Information era melee unit that replaces Mechanized Infantry. +
         <File>Art/Icons/MOARUnitsFlags_50.dds</File>
         <File>Art/Icons/MOARUnitsFlags_80.dds</File>
         <File>Art/Icons/MOARUnitsFlags_256.dds</File>
+        <File>ArtDefs/Units.artdef</File>
+        <File>ArtDefs/Unit_Bins.artdef</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_DefendA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_Duck</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_FortComA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_FortComB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_FortComC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_FortComD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_Hero</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleBVar</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleCVar</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_Run</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_RunCombat</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_RunStop</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_StrafeBack</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_AO2_Texture</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Gloss_Texture</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Metalness_Texture</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Normal2_Texture0</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Normal2_Texture1</File>
+        <File>Platforms/MacOS/BLPs/units/units.blp</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_DefendA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_Duck</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_FortComA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_FortComB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_FortComC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_FortComD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_Hero</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleBVar</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleCVar</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_Run</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_RunCombat</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_RunStop</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_StrafeBack</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_AO2_Texture</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_Gloss_Texture</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_Metalness_Texture</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_Normal2_Texture0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_Normal2_Texture1</File>
+        <File>Platforms/Windows/BLPs/units/units.blp</File>
     </Files>
 </Mod>
