@@ -20978,7 +20978,7 @@
 										<m_Fields>
 											<m_Values>
 												<Element class="AssetObjects::FloatValue">
-													<m_fValue>0.850000</m_fValue>
+													<m_fValue>0.89</m_fValue>
 													<m_ParamName text="Scale"/>
 												</Element>
 												<Element class="AssetObjects::BoolValue">
@@ -21015,7 +21015,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Vehicle/T34_Tank"/>
+																<m_Name text="Vehicles/T34_Tank"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -21130,7 +21130,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Vehicles/Tank"/>
+																<m_Name text="Vehicles/Panzer_VI"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>

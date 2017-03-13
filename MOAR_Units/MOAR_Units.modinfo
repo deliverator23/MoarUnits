@@ -58,6 +58,8 @@
         <File>Art/Icons/MOARUnitsFlags_256.dds</File>
         <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
+
+        <!-- Platforms -->
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
@@ -78,7 +80,13 @@
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_StrafeBack</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Panzer_VI_Base_Panzer_VI_TintMask</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_AO</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Gloss</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Metalness</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Normal0</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Normal1</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_AO2_Texture</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Gloss_Texture</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Metalness_Texture</File>
@@ -105,7 +113,13 @@
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_StrafeBack</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathA</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Panzer_VI_Base_Panzer_VI_TintMask</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_AO</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Gloss</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Metalness</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Normal0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_Normal1</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_AO2_Texture</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_Gloss_Texture</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_T34_Metalness_Texture</File>
