@@ -60,6 +60,33 @@
         <File>ArtDefs/Unit_Bins.artdef</File>
 
         <!-- Platforms -->
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_CombatIdleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_DuckAndStepBackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_FireArrowStraightA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_FireArrowThenSwingBowA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_HeroFireArrowAndCelebrateA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_SpawnA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
@@ -74,12 +101,31 @@
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleBVar</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleCVar</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_IdleD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_Run</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_RunCombat</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_RunStop</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_StrafeBack</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathA</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunCombat_BowAndArrowA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_BowAndArrowA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_BowAndArrowA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_BowAndArrowA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_ao</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_gloss</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_metalness</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal0</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal1</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Crossbowman_albedo_Crossbowman_t</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Panzer_VI_Base_Panzer_VI_TintMask</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_AO</File>
@@ -93,6 +139,33 @@
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Normal2_Texture0</File>
         <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_T34_Normal2_Texture1</File>
         <File>Platforms/MacOS/BLPs/units/units.blp</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_BraceD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_CombatIdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_DuckAndStepBackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_FireArrowStraightA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_FireArrowThenSwingBowA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_HeroFireArrowAndCelebrateA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_SpawnA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
@@ -107,12 +180,31 @@
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleBVar</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleCVar</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_IdleD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_Run</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_RunCombat</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_RunStop</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_StrafeBack</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathA</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_TankDeathC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunCombat_BowAndArrowA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_BowAndArrowA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_BowAndArrowA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_BowAndArrowA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_ao</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_gloss</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_metalness</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal1</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Crossbowman_albedo_Crossbowman_t</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Panzer_VI_Base_Panzer_VI_TintMask</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
         <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Panzer_VI_AO</File>
