@@ -107,7 +107,7 @@
 			<Text>Hyksos Bowman</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HYKSOS_BOWMAN_DESCRIPTION" Language="en_US">
-			<Text>Egyptian unique ranged unit that it stronger than the Archer it replaces.</Text>
+			<Text>Egyptian unique ranged unit that is stronger than the Archer it replaces.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GENDARME_NAME" Language="en_US">
 			<Text>Gendarme</Text>
