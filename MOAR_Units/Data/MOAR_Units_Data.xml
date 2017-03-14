@@ -114,7 +114,7 @@
 		<Row UnitType="UNIT_CUIRASSIER" BaseMoves="4" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CUIRASSIER_NAME"
 			 Description="LOC_UNIT_CUIRASSIER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
-			 Maintenance="3" Combat="66" PrereqTech="TECH_BALLISTICS" StrategicResource="RESOURCE_NITER"
+			 Maintenance="5" Combat="66" PrereqTech="TECH_BALLISTICS" StrategicResource="RESOURCE_NITER"
 			 MandatoryObsoleteTech="TECH_COMPOSITES"/>
 
 		<Row UnitType="UNIT_EQUITE" BaseMoves="4" Cost="80" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
