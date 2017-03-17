@@ -12,6 +12,8 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_ROMAN_LE
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_KONGO_SHIELD_BEARER';
 
+UPDATE Units SET Combat = 48 WHERE Unit = 'UNIT_JAPANESE_SAMURAI';
+
 UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
 
 /* Expanded Recon Class */

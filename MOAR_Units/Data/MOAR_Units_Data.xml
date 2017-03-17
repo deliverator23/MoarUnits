@@ -162,7 +162,7 @@
 		<Row UnitType="UNIT_HIRDMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HIRDMAN_NAME"
 			 Description="LOC_UNIT_HIRDMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="40" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN"/>
 
 		<Row UnitType="UNIT_SOHEI" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -236,7 +236,7 @@
 		<Row UnitType="UNIT_VULTURE" BaseMoves="2" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_VULTURE_NAME"
 			 Description="LOC_UNIT_VULTURE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="35" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="40" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_VULTURE"/>
 
 		<Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -308,7 +308,7 @@
 		<Row UnitType="UNIT_GHAZI" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GHAZI_NAME"
 			 Description="LOC_UNIT_GHAZI_DESCRIPTION" PurchaseYield="YIELD_FAITH" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="48" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_GHAZI"/>
 
 		<Row UnitType="UNIT_LANDSKNECHT" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -330,7 +330,7 @@
 		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEMAN_NAME"
 			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="45" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+			 Combat="48" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
 	</Units>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_COMPANION_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
@@ -342,7 +342,7 @@
 		<Row CivUniqueUnitType="UNIT_DRUZHINA" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_JINETE" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_MUGHAL_SOWAR" ReplacesUnitType="UNIT_KNIGHT"/>
-		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_MACEMAN"/>
+		<Row CivUniqueUnitType="UNIT_HIRDMAN" ReplacesUnitType="UNIT_SWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_AMAZON" ReplacesUnitType="UNIT_KNIGHT"/>
 		<Row CivUniqueUnitType="UNIT_FATHERLAND_VOLUNTEER" ReplacesUnitType="UNIT_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_HYKSOS_BOWMAN" ReplacesUnitType="UNIT_ARCHER"/>
@@ -379,7 +379,7 @@
 		<Row Unit="UNIT_JINETE" UpgradeUnit="UNIT_CAVALRY"/>
 		<Row Unit="UNIT_DRUZHINA" UpgradeUnit="UNIT_CAVALRY"/>
 		<Row Unit="UNIT_MUGHAL_SOWAR" UpgradeUnit="UNIT_CUIRASSIER"/>
-		<Row Unit="UNIT_HIRDMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_HIRDMAN" UpgradeUnit="UNIT_MACEMAN"/>
 		<Row Unit="UNIT_AMAZON" UpgradeUnit="UNIT_CUIRASSIER"/>
 		<Row Unit="UNIT_HYKSOS_BOWMAN" UpgradeUnit="UNIT_CROSSBOWMAN"/>
 		<Row Unit="UNIT_FATHERLAND_VOLUNTEER" UpgradeUnit="UNIT_INFANTRY"/>
