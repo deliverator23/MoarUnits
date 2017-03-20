@@ -1363,7 +1363,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Swordsman"/>
+							<m_ElementName text="Warrior"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -1371,7 +1371,7 @@
 							<m_ParamName text="Formation"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Swordsman"/>
+							<m_ElementName text="Warrior"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -6022,7 +6022,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Redcoat"/>
+							<m_ElementName text="Warrior"/>
 							<m_RootCollectionName text="UnitMovementTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6030,11 +6030,11 @@
 							<m_ParamName text="Movement"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="RedcoatCombat"/>
+							<m_ElementName text="WarriorCombat"/>
 							<m_RootCollectionName text="MemberCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
+							<m_TemplateName text="Units"/>
 							<m_ParamName text="Combat"/>
 						</Element>
 						<Element class="AssetObjects::ArtDefReferenceValue">
@@ -6110,7 +6110,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Swordsman/Mediterranean/Swordsman_Armor_B"/>
+																<m_Name text="Armor/Longswordsman"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -6141,42 +6141,11 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Weapons/Warrior/#/Warrior_WeaponD"/>
+																<m_Name text="Swords/Longswordsman"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Weapon"/>
-												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects::StringValue">
-																<m_Value text="Root"/>
-																<m_ParamName text="Point"/>
-															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text=""/>
-																<m_RootCollectionName text="UnitTintTypes"/>
-																<m_ArtDefPath text=""/>
-																<m_CollectionIsLocked>true</m_CollectionIsLocked>
-																<m_TemplateName text=""/>
-																<m_ParamName text="Tint"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections>
-														<Element>
-															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Bodies/Male_MediumBody_Hands"/>
-															</Element>
-														</Element>
-													</m_ChildCollections>
-													<m_Name text="Body"/>
 												</Element>
 												<Element>
 													<m_Fields>
@@ -6203,73 +6172,11 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Knight"/>
+																<m_Name text="Hats/Longswordsman"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Hats"/>
-												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects::StringValue">
-																<m_Value text="WeaponSecondary"/>
-																<m_ParamName text="Point"/>
-															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="Color_DarkGrey"/>
-																<m_RootCollectionName text="UnitTintTypes"/>
-																<m_ArtDefPath text="Units.artdef"/>
-																<m_CollectionIsLocked>true</m_CollectionIsLocked>
-																<m_TemplateName text="Units"/>
-																<m_ParamName text="Tint"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections>
-														<Element>
-															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Shields/Swordsman/Any/Swordsman_Shield_A"/>
-															</Element>
-														</Element>
-													</m_ChildCollections>
-													<m_Name text="Shield"/>
-												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects::StringValue">
-																<m_Value text="Root"/>
-																<m_ParamName text="Point"/>
-															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text="Caucasian_Light"/>
-																<m_RootCollectionName text="UnitTintTypes"/>
-																<m_ArtDefPath text="Units.artdef"/>
-																<m_CollectionIsLocked>true</m_CollectionIsLocked>
-																<m_TemplateName text=""/>
-																<m_ParamName text="Tint"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections>
-														<Element>
-															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Heads/Male"/>
-															</Element>
-														</Element>
-													</m_ChildCollections>
-													<m_Name text="Head"/>
 												</Element>
 											</Element>
 										</m_ChildCollections>

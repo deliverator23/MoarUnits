@@ -236,9 +236,203 @@
 							<m_Name text="Longbowman"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Cultures"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::ArtDefReferenceValue">
+													<m_ElementName text=""/>
+													<m_RootCollectionName text="UnitTintTypes"/>
+													<m_ArtDefPath text=""/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text=""/>
+													<m_ParamName text="Tint"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Assets"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::BLPEntryValue">
+																<m_EntryName text="KnightWarrior_ArmorA"/>
+																<m_XLPClass text="Unit"/>
+																<m_XLPPath text="Units.xlp"/>
+																<m_BLPPackage text="units/units"/>
+																<m_LibraryName text="Unit"/>
+																<m_ParamName text="Asset"/>
+															</Element>
+															<Element class="AssetObjects::FloatValue">
+																<m_fValue>1.000000</m_fValue>
+																<m_ParamName text="Scale"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections/>
+													<m_Name text="KnightWarrior_ArmorA"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="Any"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Longswordsman"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="Armor"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Groups"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Cultures"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::ArtDefReferenceValue">
+													<m_ElementName text=""/>
+													<m_RootCollectionName text="UnitTintTypes"/>
+													<m_ArtDefPath text=""/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text=""/>
+													<m_ParamName text="Tint"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Assets"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::BLPEntryValue">
+																<m_EntryName text="LongswordA"/>
+																<m_XLPClass text="Unit"/>
+																<m_XLPPath text="Units.xlp"/>
+																<m_BLPPackage text="units/units"/>
+																<m_LibraryName text="Unit"/>
+																<m_ParamName text="Asset"/>
+															</Element>
+															<Element class="AssetObjects::FloatValue">
+																<m_fValue>1.000000</m_fValue>
+																<m_ParamName text="Scale"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections/>
+													<m_Name text="LongswordA"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="Any"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Longswordsman"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Swords"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Groups"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Cultures"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects::ArtDefReferenceValue">
+													<m_ElementName text=""/>
+													<m_RootCollectionName text="UnitTintTypes"/>
+													<m_ArtDefPath text=""/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text=""/>
+													<m_ParamName text="Tint"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections>
+											<Element>
+												<m_CollectionName text="Assets"/>
+												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<Element>
+													<m_Fields>
+														<m_Values>
+															<Element class="AssetObjects::BLPEntryValue">
+																<m_EntryName text="Longswordsman_HelmA"/>
+																<m_XLPClass text="Unit"/>
+																<m_XLPPath text="Units.xlp"/>
+																<m_BLPPackage text="units/units"/>
+																<m_LibraryName text="Unit"/>
+																<m_ParamName text="Asset"/>
+															</Element>
+															<Element class="AssetObjects::FloatValue">
+																<m_fValue>1.000000</m_fValue>
+																<m_ParamName text="Scale"/>
+															</Element>
+														</m_Values>
+													</m_Fields>
+													<m_ChildCollections/>
+													<m_Name text="Longswordsman_HelmA"/>
+													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+												</Element>
+											</Element>
+										</m_ChildCollections>
+										<m_Name text="Any"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Longswordsman"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Hats"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

@@ -65,7 +65,7 @@
 			<Text>Hirdman</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HIRDMAN_DESCRIPTION" Language="en_US">
-			<Text>Norwegian unique Medieval era Melee unit that replaces Maceman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
+			<Text>Norwegian unique Medieval era Melee unit that replaces Swordsman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_NAME" Language="en_US">
 			<Text>Mughal Sowar</Text>
@@ -197,7 +197,7 @@
 			<Text>Ghazi</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="en_US">
-			<Text>Arabian unique Medieval era Melee unit that replaces the Maceman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
+			<Text>Arabian unique Medieval era Melee unit that replaces the Longswordsman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="en_US">
 			<Text>Medicine Man</Text>
@@ -227,7 +227,7 @@
 			<Text>Fast-moving Renaissance Era recon unit. Ignores rivers when moving and has no disembark cost.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACEMAN_NAME" Language="en_US">
-			<Text>Maceman</Text>
+			<Text>Longswordsman</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="en_US">
 			<Text>Medieval era melee unit.</Text>

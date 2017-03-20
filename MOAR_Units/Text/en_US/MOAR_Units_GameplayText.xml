@@ -134,7 +134,7 @@
 			<Text>A sniper is a marksman or qualified specialist who operates alone, in a pair, or with a sniper team to maintain close visual contact with the enemy and shoot enemies from concealed positions or distances exceeding the detection capabilities of enemy personnel. Snipers typically have highly-selective or specialized training and use crew-served high-precision/special application rifles and optics, and often have sophisticated communication assets to feed valuable combat information back to their units or military bases.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_1">
-			<Text>A mace is a blunt weapon, a type of club or virge that uses a heavy head on the end of a handle to deliver powerful blows. A mace typically consists of a strong, heavy, wooden or metal shaft, often reinforced with metal, featuring a head made of stone, copper, bronze, iron, or steel. The head of a military mace can be shaped with flanges or knobs to allow greater penetration of plate armour.</Text>
+			<Text>The longsword was the most versatile weapon of the Medieval/Renaissance battlefield. It was lighter and easier to carry than a pike, and it could be used one or two-handed, making it possible for the swordsman to also carry a shield. In face-to-face combat against pikemen the longswordsmen were at a significant disadvantage, taking many casualties from the longer weapons before they could even get within striking distance. However, longswordsmen units were faster and more maneuverable than pikemen - and if they could hit their opponents in a flank attack, the pikemen were dead meat.</Text>
 		</Row>
 		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
 			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
