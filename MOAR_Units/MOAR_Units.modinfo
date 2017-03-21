@@ -2,7 +2,7 @@
 <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54">
     <Properties>
         <Name>Moar Units</Name>
-        <Teaser>Adds 33 new Unique Units plus Maceman, Explorer, Rifleman, Cuirassier and Sniper.</Teaser>
+        <Teaser>Adds 33 new Unique Units plus Longswordsman, Explorer, Rifleman, Cuirassier and Sniper.</Teaser>
         <Description>Greetings! This Civilization VI mod adds Maceman, Explorer, Rifleman, Cuirassier and Sniper units and 33 new Unique Units: the American Minuteman, Arabian Camel Archer and Ghazi, Chinese Cho-Ko-Nu and Shigong, German Landsknecht and Panzer, Greek Hetairos (Companion Cavalry) and Armatolos, Spanish Jinete and Tercio, Roman Eques and Onager, Russian Druzhina Cavalry and T-34, Norweigian Hirdman, English Longbowman, Indian Mughal Sowar and Sepoy, Sumerian Phalanx and Sickle Swordsman, Japanese Sohei and Yamato, Scythian Amazon Scout and Amazon Cavalry, Brazilian Bandeirante and Fatherland Volunteer, Egyptian Hyksos Bowman and Tessarakonteres, French Gendarme and Marine and Kongolese Medicine Man and Garde Republicaine.</Description>
         <Authors>Deliverator</Authors>
     </Properties>
@@ -14,7 +14,9 @@
             <File>Data/MOAR_Units_Config.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_SETTING_TEXT">
-            <File>Text/MOAR_Units_Text.xml</File>
+            <File>Text/en_US/MOAR_Units_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
         </UpdateText>
     </FrontEndActions>
     <InGameActions>
@@ -31,8 +33,11 @@
             <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_LocalizedText">
-            <File>Text/MOAR_Units_Text.xml</File>
+            <File>Text/en_US/MOAR_Units_Text.xml</File>
             <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
+            <File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Icons">
             <File>Data/MOAR_Units_Icons.xml</File>
@@ -46,8 +51,11 @@
         <File>Data/MOAR_Units_Data.xml</File>
         <File>Data/MOAR_Units_Data.sql</File>
         <File>Data/MOAR_Units_Icons.xml</File>
-        <File>Text/MOAR_Units_Text.xml</File>
+        <File>Text/en_US/MOAR_Units_Text.xml</File>
         <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
+        <File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
         <File>Data/MOAR_Units_Icons_Config.xml</File>
         <File>Data/MOAR_Units_Config.xml</File>
         <File>Art/Icons/MOARUnitsFlags_22.dds</File>
