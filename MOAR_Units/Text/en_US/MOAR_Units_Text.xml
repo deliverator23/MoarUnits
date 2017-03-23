@@ -17,7 +17,7 @@
 			<Text>Minuteman</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_DESCRIPTION" Language="en_US">
-			<Text>American unique Industrial era unit that replaces Musketman. Slightly stronger than Musketman, and gains +5 [ICON_Strength] Combat Strength when fighting in or adjacent to its home territory. Also gains additional +5 [ICON_Strength] is fighting in Forest or Jungle.</Text>
+			<Text>American unique Industrial era unit that replaces Musketman. Slightly stronger than Musketman, and gains +5 [ICON_Strength] Combat Strength when fighting in or adjacent to its home territory. Also gains additional +5 [ICON_Strength] when fighting in Forest or Jungle.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LANDSKNECHT_NAME" Language="en_US">
 			<Text>Landsknecht</Text>
