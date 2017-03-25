@@ -86,8 +86,8 @@
 															<Element class="AssetObjects::BLPEntryValue">
 																<m_EntryName text="T34_Tank"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
+																<m_XLPPath text="tanks.xlp"/>
+																<m_BLPPackage text="units/tanks"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
@@ -142,8 +142,8 @@
 															<Element class="AssetObjects::BLPEntryValue">
 																<m_EntryName text="Panzer_VI"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
+																<m_XLPPath text="tanks.xlp"/>
+																<m_BLPPackage text="units/tanks"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
@@ -211,8 +211,8 @@
 															<Element class="AssetObjects::BLPEntryValue">
 																<m_EntryName text="Longbowman_ArmorA"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
+																<m_XLPPath text="humans.xlp"/>
+																<m_BLPPackage text="units/humans"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
@@ -267,8 +267,8 @@
 															<Element class="AssetObjects::BLPEntryValue">
 																<m_EntryName text="KnightWarrior_ArmorA"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
+																<m_XLPPath text="humans.xlp"/>
+																<m_BLPPackage text="units/humans"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
@@ -336,8 +336,8 @@
 															<Element class="AssetObjects::BLPEntryValue">
 																<m_EntryName text="LongswordA"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
+																<m_XLPPath text="humans.xlp"/>
+																<m_BLPPackage text="units/humans"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
@@ -405,8 +405,8 @@
 															<Element class="AssetObjects::BLPEntryValue">
 																<m_EntryName text="Longswordsman_HelmA"/>
 																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
+																<m_XLPPath text="humans.xlp"/>
+																<m_BLPPackage text="units/humans"/>
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
