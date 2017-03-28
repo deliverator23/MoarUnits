@@ -12,7 +12,9 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_ROMAN_LE
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_KONGO_SHIELD_BEARER';
 
-UPDATE Units SET Combat = 48 WHERE UnitType = 'UNIT_JAPANESE_SAMURAI';
+UPDATE Units SET Combat = 46 WHERE UnitType = 'UNIT_JAPANESE_SAMURAI';
+
+UPDATE Units SET Combat = 41 WHERE UnitType = 'UNIT_ROMAN_LEGION';
 
 UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
 
