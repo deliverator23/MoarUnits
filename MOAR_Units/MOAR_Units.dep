@@ -498,7 +498,8 @@
         <Element>
             <LibraryName text="Unit"/>
             <PackageDependencies>
-                <Element text="units/units.blp"/>
+                <Element text="units/tanks.blp"/>
+                <Element text="units/humans.blp"/>
             </PackageDependencies>
         </Element>
         <Element>
