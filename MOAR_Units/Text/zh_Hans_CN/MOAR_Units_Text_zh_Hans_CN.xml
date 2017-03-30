@@ -32,7 +32,7 @@
 			<Text>Sumerian unique Ancient era unit that replaces the Spearman. The Phalanx is available with the discovery of the Mining technology. +8 [ICON_Strength] if fighting within 8 tiles of a Ziggurat improvement.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHOKONU_NAME" Language="zh_Hans_CN">
-			<Text>连发弩</Text>
+			<Text>诸葛弩</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHOKONU_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Chinese unique Medieval era ranged unit that replaces Crossbowman. Slightly less strong than the Crossbowman, but can attack twice per turn.</Text>
@@ -230,7 +230,7 @@
 			<Text>Fast-moving Renaissance Era recon unit. Ignores rivers when moving and has no disembark cost.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACEMAN_NAME" Language="zh_Hans_CN">
-			<Text>战锤手</Text>
+			<Text>长剑士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Medieval era melee unit.</Text>
