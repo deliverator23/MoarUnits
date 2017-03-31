@@ -1,284 +1,281 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xmlversion="10"encoding="utf-8"?>
 <GameData>
-  <LocalizedText>
+	<LocalizedText>
 		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_NAME" Language="zh_Hans_CN">
-			<Text>骆驼骑射手</Text>
+			<Text>骆驼骑手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Arabian unique Classical era unit. Gains additional +8 [ICON_Strength] when fighting on Desert or Plains.</Text>
+			<Text>取代骑手的阿拉伯特色骑兵单位,位于沙漠或平原地区时+8战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_NAME" Language="zh_Hans_CN">
-			<Text>希腊重骑手</Text>
+			<Text>王伴骑兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Greek unique cavalry unit that replaces Horseman. Uses Heavy Cavalry promotion tree. Slightly stronger than Horseman, and gains +5 [ICON_Strength] Combat Strength when fighting outside home territory.</Text>
+			<Text>取代骑手的希腊特色骑兵单位,采用重骑兵升级树且位于国外领土作战时+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="zh_Hans_CN">
-			<Text>应召民兵</Text>
+			<Text>独立者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>American unique Industrial era unit that replaces Musketman. Slightly stronger than Musketman, and gains +5 [ICON_Strength] Combat Strength when fighting in or adjacent to its home territory. Also gains additional +5 [ICON_Strength] is fighting in Forest or Jungle.</Text>
+			<Text>取代火枪手的美国特色工业时代步兵单位,位于国土附近作战时+5战斗力[ICON_Strength],位于森林或者雨林作战+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LANDSKNECHT_NAME" Language="zh_Hans_CN">
-			<Text>德国长矛兵</Text>
+			<Text>自由佣兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LANDSKNECHT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>German unique Medieval era unit that replaces Pikeman. Half the cost of Pikeman but must be purchased with gold.</Text>
+			<Text>取代长枪手的德国特色中世纪时代重装单位,只能用财富购买，但只需花费长矛兵一半的费用。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PHALANX_NAME" Language="zh_Hans_CN">
-			<Text>希腊重装步兵</Text>
+			<Text>巨盾矛兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PHALANX_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Sumerian unique Ancient era unit that replaces the Spearman. The Phalanx is available with the discovery of the Mining technology. +8 [ICON_Strength] if fighting within 8 tiles of a Ziggurat improvement.</Text>
+			<Text>取代枪兵的苏美尔特色远古时代重装单位,采矿科技即可解锁,位于金字形神塔附近作战时受到神灵祝福+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHOKONU_NAME" Language="zh_Hans_CN">
-			<Text>诸葛弩</Text>
+			<Text>诸葛连弩手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CHOKONU_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Chinese unique Medieval era ranged unit that replaces Crossbowman. Slightly less strong than the Crossbowman, but can attack twice per turn.</Text>
+			<Text>取代弩手的中国特色中世纪时代远程单位,战斗力略低于弩手但每回合有两次攻击机会。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RIFLEMAN_NAME" Language="zh_Hans_CN">
-			<Text>来复枪手</Text>
+			<Text>线列步兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Industrial era melee unit.</Text>
+			<Text>工业时代的近战单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINETE_NAME" Language="zh_Hans_CN">
-			<Text>伊比利亚轻骑手</Text>
+			<Text>轻盾骑手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINETE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Spanish unique ranged unit that replaces Horseman. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory if fighting on same continent as capital.</Text>
+			<Text>取代骑手的西班牙特色古典时期时代骑兵单位,当位于本国首都所在大陆消灭敌人单位后即获得其本身50%战斗力[ICON_Strength]的信仰[ICON_Faith]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EQUITE_NAME" Language="zh_Hans_CN">
-			<Text>罗马轻骑士</Text>
+			<Text>军团骑兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EQUITE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Roman unique cavalry unit that replaces Horseman. +5 [ICON_Strength] Combat Strength when fighting next to Legion or Warrior unit. Yields 33% of defeated units' [ICON_Strength] as [ICON_Gold] on combat victory.</Text>
+			<Text>取代骑手的罗马特色古典时代骑兵单位,位于本国勇士或军团士兵附近时+5战斗力[ICON_Strength]击败敌人即获得其本身33%战斗力[ICON_Strength]的财富[ICON_Gold]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DRUZHINA_NAME" Language="zh_Hans_CN">
-			<Text>骑马民兵</Text>
+			<Text>亲卫队骑手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DRUZHINA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Russian unique cavalry unit that replaces Horseman. +5 [ICON_Strength] Combat Strength versus damaged units and +4 [ICON_Strength] Combat Strength against Melee units.</Text>
+			<Text>取代骑手的俄罗斯特色古典时代骑兵单位,当攻击受伤单位时+5战斗力[ICON_Strength],攻击近战单位时+4战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HIRDMAN_NAME" Language="zh_Hans_CN">
-			<Text>北欧重斧兵</Text>
+			<Text>北欧狂热者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HIRDMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Norwegian unique Medieval era Melee unit that replaces Maceman. +5 [ICON_Strength] Combat Strength and yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Culture] Culture on combat victory if fighting on same continent as capital.</Text>
+			<Text>取代剑客的挪威特色古典时代近战单位,当与敌人位于首都同一块大陆作战时+5战斗力[ICON_Strength],牺牲后即获得其自身50%战斗力[ICON_Strength]的财富[ICON_Gold]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_NAME" Language="zh_Hans_CN">
-			<Text>莫卧儿重装骑兵</Text>
+			<Text>索瓦尔</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Indian unique Medieval era heavy cavalry unit that replaces Knight. Ignores terrain costs. Heals +15 per turn when on or adjacent to a Stepwell improvement.</Text>
+			<Text>取代骑士的印度特色文艺复兴重骑兵单位,当靠近梯井时每回合回复15点生命值且忽略地形影响。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LONGBOWMAN_NAME" Language="zh_Hans_CN">
-			<Text>英国长弓手</Text>
+			<Text>皇家长弓手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_LONGBOWMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>English unique Medieval era ranged unit that replaces the Crossbowman. +4 [ICON_Strength] Combat Strength against Melee and Cavalry units with a further +4 [ICON_Strength] Combat Strength if adjacent to another Longbowman unit.</Text>
+			<Text>取代了弩手的英国特色中世纪时代远程单位,当攻击骑兵时+4战斗力[ICON_Strength],靠近另一队皇家长弓手时+4战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CUIRASSIER_NAME" Language="zh_Hans_CN">
 			<Text>胸甲骑兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Industrial era heavy cavalry unit.</Text>
+			<Text>工业时代的近战骑兵单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SOHEI_NAME" Language="zh_Hans_CN">
-			<Text>日本僧兵</Text>
+			<Text>雉刀僧兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SOHEI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Japanese unique unit available with the Feudalism Civic. Can be purchased with [ICON_Faith] Faith. +10 [ICON_Strength] Combat Strength when defending.</Text>
+			<Text>日本中世纪时代特色单位,可以使用信仰[ICON_Faith]购买,当防御时+10战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AMAZON_NAME" Language="zh_Hans_CN">
-			<Text>匈奴重装骑兵</Text>
+			<Text>亚马逊猎骑手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AMAZON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Scythian unique Medieval era heavy cavalry unit that replaces Knight. Can move after attacking.</Text>
+			<Text>取代骑士的斯基泰特色中世纪时代骑兵单位,移动时+1移动力且每回合有两次攻击机会。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME" Language="zh_Hans_CN">
-			<Text>祖国志愿军</Text>
+			<Text>卫国义勇兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Brazilian unique Industrial era melee unit that replaces the Rifleman. Cheaper than the Rifleman and costs less maintenance.</Text>
+			<Text>取代了步兵的巴西的工业时代的近战单位,比步兵招募更便宜且维护费更低。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HYKSOS_BOWMAN_NAME" Language="zh_Hans_CN">
-			<Text>西亚弓手</Text>
+			<Text>希克索斯弓手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HYKSOS_BOWMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Egyptian unique ranged unit that it stronger than the Archer it replaces.</Text>
+			<Text>取代弓箭手的埃及特色古典时代远程单位,比弓箭手更强的作战单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GENDARME_NAME" Language="zh_Hans_CN">
-			<Text>宪兵骑兵</Text>
+			<Text>宪兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GENDARME_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>French unique Medieval era heavy cavalry unit that replaces Knight. +5 [ICON_Strength] Combat Strength when attacking.</Text>
+			<Text>取代骑士的法国特色文艺复兴时代重骑兵单位,当进攻时+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GARDE_REPUBLICAINE_NAME" Language="zh_Hans_CN">
-			<Text>刚果共和国卫队</Text>
+			<Text>共和国卫队</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GARDE_REPUBLICAINE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kongolese unique Information era melee unit that replaces Mechanized Infantry. +10 [ICON_Strength] Combat Strength when attacking or defending districts.</Text>
+			<Text>取代机械化步兵的刚果特色信息时代近战单位,当位于城市区域内或攻击城市区域时+10战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BANDEIRANTE_NAME" Language="zh_Hans_CN">
-			<Text>葡萄牙开拓者</Text>
+			<Text>执旗兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BANDEIRANTE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Brazilian unique Renaissance era recon unit that replaces the Ranger. Available earlier than the Hunter at Gunpowder. Can build forts. Yields 25% of defeated units' combat strength as [ICON_Gold] Gold and 25% of defeated units' combat strength as [ICON_Culture] Culture.</Text>
+			<Text>取代侦察兵的巴西特色文艺复兴时代侦察单位,研究火药科技后即可招募且能建造堡垒,当消灭敌方单位即获得其战斗力25%的财富[ICON_Gold]和文化[ICON_Culture]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TERCIO_NAME" Language="zh_Hans_CN">
-			<Text>西班牙大方阵</Text>
+			<Text>大方阵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TERCIO_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Spanish unique Renaissance era anti-cavalry unit.</Text>
+			<Text>西班牙特色文艺复兴近战单位，当对抗骑兵时将更强。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SEPOY_NAME" Language="zh_Hans_CN">
-			<Text>印度殖民军</Text>
+			<Text>西帕依火枪手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SEPOY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Indian unique melee unit that replaces the Rifleman. Fights at full Combat Strength when damaged.</Text>
+			<Text>取代来复枪手的印度工业时代近战单位,当受伤后不会减少战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AMAZON_SCOUT_NAME" Language="zh_Hans_CN">
-			<Text>匈奴侦察兵</Text>
+			<Text>探林者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Scythian unique Ancient era recon unit that is stronger than the regular Scout.</Text>
+			<Text>取代侦察兵的斯基太特色远古时期侦察单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PANZER_NAME" Language="zh_Hans_CN">
 			<Text>虎式坦克</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_PANZER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>German unique Tank replacement that has +5 [ICON_Strength] Combat Strength when attacking.</Text>
+			<Text>取代坦克的德国特色现代装甲单位,当进攻时+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_T34_NAME" Language="zh_Hans_CN">
-			<Text>T-34</Text>
+			<Text>T-34坦克</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_T34_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Russian unique Tank replacement that costs less to build and less maintenance. +5 [ICON_Strength] Combat Strength in or adjacent to own territory.</Text>
+			<Text>取代坦克的俄罗斯特色现代装甲单位,生产成本更低且维护费更低,当位于国境附近时+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMATO_NAME" Language="zh_Hans_CN">
-			<Text>大和号战列舰</Text>
+			<Text>大和级战列舰</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMATO_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Japanese unique naval ranged unit. Stronger than the Battleship it replaces.</Text>
+			<Text>取代战列舰的日本特色现代海军远程单位,比战列舰更强的作战单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WAR_GALLEY_NAME" Language="zh_Hans_CN">
-			<Text>埃及远程战舰</Text>
+			<Text>四十桨战船</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Egyptian unique naval ranged unit. Stronger than the Quadrireme it replaces and has range 2 instead of 1.</Text>
+			<Text>取代四段帆船的埃及特色远程海军单位,拥有更强的战斗力且射程+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ONAGER_NAME" Language="zh_Hans_CN">
-			<Text>罗马弩炮</Text>
+			<Text>弩炮</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ONAGER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Roman unique siege unit. Stronger than the Catapult it replaces.</Text>
+			<Text>取代石弩的罗马特色攻城单位,比石弩更强的攻城单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_VULTURE_NAME" Language="zh_Hans_CN">
-			<Text>近卫剑士</Text>
+			<Text>镰状剑勇士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_VULTURE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Sumerian unique melee unit. +5 [ICON_Strength] Combat Strength versus damaged units.</Text>
+			<Text>苏美尔特色近战单位,只能靠升级获得且招募不需要消耗"铁"，当进攻受伤单位时+5战斗力[ICON_Strength。]</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_ARMATOLOS_NAME" Language="zh_Hans_CN">
-			<Text>希腊苏丹卫戍军</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Greek unique melee unit that replaces Rifleman. +5 [ICON_Strength] Combat Strength on Hills and ignores Hills movement penalty.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_FRENCH_MARINE_NAME" Language="zh_Hans_CN">
-			<Text>法国海军陆战队</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>French unique melee unit that replaces Musketman. +5 [ICON_Strength] Combat Strength on foreign continents. Amphibious - no attack penalty when attacking from sea or across rivers.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_GHAZI_NAME" Language="zh_Hans_CN">
-			<Text>伊斯兰圣战士</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Arabian unique Medieval era Melee unit that replaces the Maceman. +5 [ICON_Strength] Combat Strength when opponent is another religion. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory. Converts captured cities to player's religion. May be purchased with Faith.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="zh_Hans_CN">
-			<Text>巫医</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kongolese unique support unit replacing Medic but available earlier with the Mysticism Civic. Must be purchased with Faith. Heals units plus adjacent Melee, Cavalry, Anti-Cavalry and Ranged units yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_SHIGONG_NAME" Language="zh_Hans_CN">
-			<Text>谋士</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_SHIGONG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Chinese unique support unit available with the Military Training Civic. Adjacent Melee, Cavalry, Anti-Cavalry and Ranged units get +5 [ICON_Strength] Combat Strength and earn more experience. May build 1 Shigong unit per each Barracks building.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_NAME" Language="zh_Hans_CN">
-			<Text>西班牙征服者</Text>
-		</Replace>
+		<Row Tag="LOC_UNIT_ARMATOLOS_NAME" Language="zh_Hans_CN">
+			<Text>警备纠察队</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代线列步兵的希腊特色近战单位,不需要消耗"硝",当位于丘陵作战时+5战斗力[ICON_Strength]且丘陵移动没有移动惩罚。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FRENCH_MARINE_NAME" Language="zh_Hans_CN">
+			<Text>国王卫队</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代火枪手的法国特色近战单位,当位于外国大陆作战时+5战斗力[ICON_Strength],且海洋登陆或渡河进攻时没有攻击惩罚。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GHAZI_NAME" Language="zh_Hans_CN">
+			<Text>加齐</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代剑客的阿拉伯特色近战单位,当对异教进攻时+5战斗力，消灭敌方单位即获得对方50%战斗力[ICON_Strength]的信仰[ICON_Faith],攻占的城市自动转换为玩家创立的宗教,可用信仰购买。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="zh_Hans_CN">
+			<Text>部族药师</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代医生的刚果特色单位,研究神秘主义市政后即可招募,为近战、骑兵、反骑兵单位提供医治且自身消灭敌方单位即获得对方50%战斗力[ICON_Strength]的信仰[ICON_Faith],可用信仰购买但每座圣地只能招募一位。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SHIGONG_NAME" Language="zh_Hans_CN">
+			<Text>大师</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SHIGONG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中国特色支援单位,研究军事训练市政后即可招募,为近战、骑兵、反骑兵单位提供+5战斗力[ICON_Strength]且作战能获得更多的经验值,但每座兵营只能招募一位。</Text>
+		</Row>		
 		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Spanish unique Renaissance era unit that replaces the Musketman. +9 [ICON_Strength] Combat Strength when there is a Missionary, Inquisitor, or Apostle in the same hex. If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion.</Text>
-		</Replace>
+			<Text>取代火枪手的西班牙文艺复兴时期特色单位,当有宗教单位跟随时+9[ICON_Strength]战斗力,征服者攻破城市或攻破城市时征服者与城市中心相邻，则强迫该城市改信西班牙的主流宗教。</Text>
+		</Replace>		
 		<Replace Tag="LOC_UNIT_SNIPER_NAME" Language="zh_Hans_CN">
 			<Text>狙击手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SNIPER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Fast-moving Atomic Era recon/ranged unit. Cannot move and attack on the same turn. Gains +12 [ICON_Ranged] ranged strength vs. land units (exluding heavy-cavalry). Gains +1 [ICON_Range] Range when on hills.</Text>
+			<Text>原子时代的快速移动、侦察、远程单位,不能在同一回合内同时进行移动和进攻,当对抗陆地单位(不包括重骑兵单位)时+12射程[ICON_Ranged],位于丘陵时+1视野[ICON_Range]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="zh_Hans_CN">
 			<Text>探险家</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EXPLORER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Fast-moving Renaissance Era recon unit. Ignores rivers when moving and has no disembark cost.</Text>
+			<Text>文艺复兴的快速移动、侦察单位,忽略跨河与海滩登陆的移动惩罚。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACEMAN_NAME" Language="zh_Hans_CN">
 			<Text>长剑士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Medieval era melee unit.</Text>
-		</Replace>
+			<Text>中世纪时期的近战单位。</Text>
+		</Replace>	
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>
-		</Replace>
+			<Text>+5[ICON_Strength]战斗力当位于首都同一大陆时</Text>
+		</Replace>		
 		<Replace Tag="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+4 [ICON_Strength] Combat Strength against Melee and Cavalry units.</Text>
+			<Text>+4[ICON_Strength]战斗力当对抗近战单位时</Text>
 		</Replace>
 		<Replace Tag="PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+4 [ICON_Strength] Combat Strength next to Longbowman unit.</Text>
+			<Text>+4[ICON_Strength]战斗力当靠近另一个皇家长弓手时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength next to Legion or Warrior unit.</Text>
+			<Text>+5[ICON_Strength]战斗力当靠近军团步兵或勇士时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength within 8 tiles of Ziggurat.</Text>
+			<Text>+5[ICON_Strength]战斗力当位于金字形神塔时</Text>
 		</Replace>
 		<Replace Tag="PLUS_8_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+8 [ICON_Strength] Combat Strength in Desert or Plains.</Text>
+			<Text>+8[ICON_Strength]战斗力当位于沙漠或平原时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength outside of own borders.</Text>
+			<Text>+5[ICON_Strength]战斗力当位于国土之外时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength in Forest or Jungle.</Text>
+			<Text>+5[ICON_Strength]战斗力当位于森林或雨林时</Text>
 		</Replace>
 		<Replace Tag="PLUS_4_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+4 [ICON_Strength] Combat Strength against Melee units.</Text>
+			<Text>+4[ICON_Strength]战斗力当对抗近战单位时</Text>
 		</Replace>
 		<Replace Tag="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+10 [ICON_Strength] Combat Strength when defending.</Text>
+			<Text>+10[ICON_Strength]战斗力当位于防御时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength when attacking.</Text>
+			<Text>+5[ICON_Strength]战斗力当位于进攻时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_HILLS_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength on Hills.</Text>
+			<Text>+5[ICON_Strength]战斗力当位于丘陵时</Text>
 		</Replace>
 		<Replace Tag="RECEIVE_SHIGONG_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength from Shigong unit.</Text>
+			<Text>+5[ICON_Strength]战斗力当位于大师附近时</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_FOREIGN_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength on foreign continents.</Text>
-		</Replace>
+			<Text>+5[ICON_Strength]战斗力当位于外国大陆时</Text>
+		</Replace>	
 		<Replace Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
-			<Text>+5 [ICON_Strength] Combat Strength when opponent is another religion.</Text>
-		</Replace>
-  </LocalizedText>
+			<Text>+5[ICON_Strength]战斗力当对抗异教时</Text>
+		</Replace>				
+	</LocalizedText>
 </GameData>

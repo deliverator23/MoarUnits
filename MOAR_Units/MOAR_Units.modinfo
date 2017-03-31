@@ -51,11 +51,7 @@
         <File>Data/MOAR_Units_Data.xml</File>
         <File>Data/MOAR_Units_Data.sql</File>
         <File>Data/MOAR_Units_Icons.xml</File>
-        <File>Text/en_US/MOAR_Units_Text.xml</File>
-        <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
-        <File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
-        <File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
-        <File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
+
         <File>Data/MOAR_Units_Icons_Config.xml</File>
         <File>Data/MOAR_Units_Config.xml</File>
         <File>Art/Icons/MOARUnitsFlags_22.dds</File>
@@ -66,6 +62,14 @@
         <File>Art/Icons/MOARUnitsFlags_256.dds</File>
         <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
+
+        <!-- Text -->
+        <File>Text/en_US/MOAR_Units_Text.xml</File>
+        <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
+        <File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
 
         <!-- Platforms -->
         <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
