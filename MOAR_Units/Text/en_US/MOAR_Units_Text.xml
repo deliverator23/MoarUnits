@@ -7,11 +7,11 @@
 		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" Language="en_US">
 			<Text>Arabian unique Classical era unit. Gains additional +8 [ICON_Strength] when fighting on Desert or Plains.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_NAME" Language="en_US">
-			<Text>Hetairos</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_NAME" Language="en_US">
+			<Text>Peltast</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" Language="en_US">
-			<Text>Greek unique cavalry unit that replaces Horseman. Uses Heavy Cavalry promotion tree. Slightly stronger than Horseman, and gains +5 [ICON_Strength] Combat Strength when fighting outside home territory.</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="en_US">
+			<Text>Greek unique Ranged unit that replaces Archer. Stronger ranged attack and melee defence than Archer but with Range 1.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="en_US">
 			<Text>Minuteman</Text>
