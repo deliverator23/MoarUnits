@@ -399,6 +399,7 @@
 		<Row Unit="UNIT_EXPLORER" UpgradeUnit="UNIT_RANGER"/>
 		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SNIPER"/>
 		<Row Unit="UNIT_BANDEIRANTE" UpgradeUnit="UNIT_SNIPER"/>
+		<Row Unit="UNIT_PELTAST" UpgradeUnit="UNIT_CROSSBOWMAN"/>
 	</UnitUpgrades>
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
@@ -457,6 +458,9 @@
 		<Row UnitType="UNIT_LONGBOWMAN" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_LONGBOWMAN" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_LONGBOWMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_PELTAST" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PELTAST" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_PELTAST" AiType="UNITTYPE_LAND_COMBAT"/>
 		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_MUGHAL_SOWAR" AiType="UNITTYPE_MELEE"/>
