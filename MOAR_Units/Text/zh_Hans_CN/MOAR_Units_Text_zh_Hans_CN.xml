@@ -7,11 +7,11 @@
 		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代骑手的阿拉伯特色骑兵单位,位于沙漠或平原地区时+8战斗力[ICON_Strength]。</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_NAME" Language="zh_Hans_CN">
-			<Text>王伴骑兵</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_NAME" Language="zh_Hans_CN">
+			<Text>轻盾步兵</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>取代骑手的希腊特色骑兵单位,采用重骑兵升级树且位于国外领土作战时+5战斗力[ICON_Strength]。</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="en_US">
+			<Text>取代弓箭手的希腊远程特色单位，比弓箭手的远程和近战攻击力更强，但射程仅为1。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="zh_Hans_CN">
 			<Text>独立者</Text>
@@ -155,7 +155,7 @@
 			<Text>T-34坦克</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_T34_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>取代坦克的俄罗斯特色现代装甲单位,生产成本更低且维护费更低,当位于国境附近时+5战斗力[ICON_Strength]。</Text>
+			<Text>取代坦克的俄罗斯特色现代装甲单位,生产成本更低且维护费更低,当位于国境内时+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMATO_NAME" Language="zh_Hans_CN">
 			<Text>大和级战列舰</Text>
@@ -179,7 +179,7 @@
 			<Text>镰状剑勇士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_VULTURE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>苏美尔特色近战单位,只能靠升级获得且招募不需要消耗"铁"，当进攻受伤单位时+5战斗力[ICON_Strength。]</Text>
+			<Text>苏美尔特色近战单位,只能靠升级获得且招募不需要消耗"铁"，当进攻受伤单位时+5战斗力[ICON_Strength]。</Text>
 		</Replace>
 		<Row Tag="LOC_UNIT_ARMATOLOS_NAME" Language="zh_Hans_CN">
 			<Text>警备纠察队</Text>
