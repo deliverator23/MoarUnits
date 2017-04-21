@@ -162,7 +162,7 @@
 		<Row UnitType="UNIT_HIRDMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HIRDMAN_NAME"
 			 Description="LOC_UNIT_HIRDMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
-			 Combat="36" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 Combat="36" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HIRDMAN"/>
 
 		<Row UnitType="UNIT_SOHEI" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -194,10 +194,10 @@
 			 Maintenance="2" Combat="13" RangedCombat="27" Range="1" PrereqTech="TECH_HORSEBACK_RIDING"
 			 MandatoryObsoleteTech="TECH_BALLISTICS" TraitType="TRAIT_CIVILIZATION_UNIT_CAMEL_ARCHER"/>
 
-		<Row UnitType="UNIT_MINUTEMAN" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_MINUTEMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MINUTEMAN_NAME"
-			 Description="LOC_UNIT_MINUTEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4"
-			 Combat="58" TraitType="TRAIT_CIVILIZATION_UNIT_MINUTEMAN" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER"
+			 Description="LOC_UNIT_MINUTEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
+			 Combat="50" TraitType="TRAIT_CIVILIZATION_UNIT_MINUTEMAN" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER"
 			 MandatoryObsoleteTech="TECH_SATELLITES"/>
 
 		<Row UnitType="UNIT_BANDEIRANTE" BaseMoves="3" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
@@ -290,8 +290,7 @@
 		<Row UnitType="UNIT_FRENCH_MARINE" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_FRENCH_MARINE_NAME"
 			 Description="LOC_UNIT_FRENCH_MARINE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE"
-			 Maintenance="4"
-			 Combat="55" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_SATELLITES"
+			 Maintenance="4" Combat="55" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_SATELLITES"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_FRENCH_MARINE"/>
 
 		<Row UnitType="UNIT_ARMATOLOS" BaseMoves="2" Cost="350" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
