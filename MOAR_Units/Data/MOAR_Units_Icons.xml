@@ -7,6 +7,13 @@
         <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="50" IconsPerRow="10" IconsPerColumn="5" Filename="MOARUnitsFlags_50.dds"/>
         <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="80" IconsPerRow="10" IconsPerColumn="5" Filename="MOARUnitsFlags_80.dds"/>
         <Row Name="ICON_ATLAS_MOAR_UNITS" IconSize="256" IconsPerRow="10" IconsPerColumn="5" Filename="MOARUnitsFlags_256.dds"/>
+
+        <Row Name="ICON_ATLAS_MOAR_HAHW_UNITS" IconSize="22" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsHOOVES_22.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_HAHW_UNITS" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsHOOVES_32.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_HAHW_UNITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsHOOVES_38.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_HAHW_UNITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsHOOVES_50.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_HAHW_UNITS" IconSize="80" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsHOOVES_80.dds"/>
+        <Row Name="ICON_ATLAS_MOAR_HAHW_UNITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="MOARUnitsFlagsHOOVES_256.dds"/>
     </IconTextureAtlases>
     <IconDefinitions>
         <!-- Amazon Cavalry -->
@@ -388,5 +395,25 @@
         <Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_SNIPER_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="5"/>
         <Row Name="ICON_ETHNICITY_MEDIT_UNIT_SNIPER_PORTRAIT"  Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2" Index="5"/>
         <Row Name="ICON_ETHNICITY_ASIAN_UNIT_SNIPER_PORTRAIT"  Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2" Index="5"/>
+
+        <!-- (Medieval) Horseman -->
+        <Row Name="ICON_UNIT_MEDIEVAL_HORSEMAN" Atlas="ICON_ATLAS_MOAR_HAHW_UNITS" Index="0"/>
+        <Row Name="ICON_UNIT_MEDIEVAL_HORSEMAN_BLACK" Index="35" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+        <Row Name="ICON_UNIT_MEDIEVAL_HORSEMAN_WHITE" Index="35" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+        <Row Name="ICON_UNIT_MEDIEVAL_HORSEMAN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="33"/>
+        <Row Name="ICON_ETHNICITY_AFRICAN_UNIT_MEDIEVAL_HORSEMAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS" Index="33"/>
+        <Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_MEDIEVAL_HORSEMAN_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="33"/>
+        <Row Name="ICON_ETHNICITY_MEDIT_UNIT_MEDIEVAL_HORSEMAN_PORTRAIT"  Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS" Index="33"/>
+        <Row Name="ICON_ETHNICITY_ASIAN_UNIT_MEDIEVAL_HORSEMAN_PORTRAIT"  Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS" Index="33"/>
+
+        <!-- Calatrava -->
+        <Row Name="ICON_UNIT_CALATRAVA" Atlas="ICON_ATLAS_MOAR_HAHW_UNITS" Index="3"/>
+        <Row Name="ICON_UNIT_CALATRAVA_BLACK" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+        <Row Name="ICON_UNIT_CALATRAVA_WHITE" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+        <Row Name="ICON_UNIT_CALATRAVA_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="43"/>
+        <Row Name="ICON_ETHNICITY_AFRICAN_UNIT_CALATRAVA_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS" Index="43"/>
+        <Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_CALATRAVA_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="43"/>
+        <Row Name="ICON_ETHNICITY_MEDIT_UNIT_CALATRAVA_PORTRAIT"  Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS" Index="43"/>
+        <Row Name="ICON_ETHNICITY_ASIAN_UNIT_CALATRAVA_PORTRAIT"  Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS" Index="43"/>
     </IconDefinitions>
 </GameInfo>

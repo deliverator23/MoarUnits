@@ -139,6 +139,12 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_2">
 			<Text>Despite its status, guardsmen often had to take part in internecine wars between the political elite of the new republic. In addition, they had to participate in bloody civil wars with troops of political opponents of a president. Over the decades of independence, the young republic managed to survive three regime changes, the genocide in Rwanda, two waves of refugees (the Tutsi and Hutu tribes), dozens of insurgencies and two Congolese wars. But despite all the difficulties, the instability of the situation and the uncertainty in the further political course after the change of leaders, the republic guards took the oath and served the interests of state power. In different periods, the strength of the Republican Guard ranged from 8,000 to 20,000 well-armed soldiers. In addition to the army, divided into 18 brigades of 3,500 soldiers, there are 10,000-15,000 soldiers in the modern Republic Guard, and there are three brigades in the guard: the 10th in Kinshasa (the capital of the Republic of the Congo), and the 15th and 16th, In Lubumbashi (the second largest city of the republic).</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CALATRAVA_CHAPTER_HISTORY_PARA_1">
+			<Text>The Order of Calatrava was the first military order founded in Castile, but the second to receive papal approval. The papal bull confirming the Order of Calatrava as a Militia was given by Pope Alexander III on September 26, 1164. It was founded at Calatrava la Vieja in Castile, in the twelfth century by St. Raymond of Fitero, as a military branch of the Cistercian family. The etymology of the name of this military order, Calatrava, conveys the meaning: "fortress of Rabah". In the Cistercian Order, recently formed in 1098, there had been a large number of knights or sons of knights. In Calatrava, on the contrary, those who had been monks became knights. Most of the political and military power of the order dissipated by the end of the 15th century, but the last dissolution of the order's property did not occur until 1838.</Text>
+		</Row>
 		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
 			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
 		</Replace>
