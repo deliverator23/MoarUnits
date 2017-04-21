@@ -7,11 +7,11 @@
 		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" Language="ru_RU">
 			<Text>Арабский уникальный дальнобойный юнит Античности. Получает +8 [ICON_Strength] к боевой мощи в пустыне или на равнине.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_NAME" Language="ru_RU">
-			<Text>Гетайры</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_NAME" Language="ru_RU">
+			<Text>Пельтасты</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" Language="ru_RU">
-			<Text>Греческий уникальный кавалерийский юнит заменяющий всадников. Использует повышения тяжелой кавалерии, чуть сильней всадников и получает +5 [ICON_Strength] к боевой мощи, если находится вне вашей территории.</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="ru_RU">
+			<Text>Греческий уникальный дальнобойный юнит заменяющий лучников. Отличается сильной стрелковой атакой и повышенной защитой в ближнем бою. Однако радиус поражения цели сокращён на 1.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="ru_RU">
 			<Text>Минитмены</Text>

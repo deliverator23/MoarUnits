@@ -7,11 +7,11 @@
 		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" Language="fr_FR">
 			<Text>Unité arabe de l'Ère Classique. Obtient +8 [ICON_Strength] en combattant dans le Désert ou dans les Plaines.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_NAME" Language="fr_FR">
-			<Text>Hetairos</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_NAME" Language="en_US">
+			<Text>Peltast</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_COMPANION_CAVALRY_DESCRIPTION" Language="fr_FR">
-			<Text>Unit de cavalerie Grècque qui remplace le cavalier. Se réfère à l'arbre de promotion de la Cavalerie Lourde. Légèrement plus puissant que le Cavalier, et obtientSlightly Plus puissante que  Cavalier, et obtient +5 [ICON_Strength] de Puissance de Combat en combattant en dehors de son territoire.</Text>
+		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="en_US">
+			<Text>Greek unique Ranged unit that replaces Archer. Stronger ranged attack and melee defence than Archer but with Range 1.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="fr_FR">
 			<Text>Minuteman</Text>
