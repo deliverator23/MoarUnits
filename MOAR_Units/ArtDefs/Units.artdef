@@ -229,7 +229,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
-						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -258,7 +258,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
-						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -9962,7 +9962,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Bodies/Male_MediumBody_Hands"/>
+																<m_Name text="Bodies/Male_HeavyBody_Hands"/>
 																<m_AppendMergedParameterCollections>false
 																</m_AppendMergedParameterCollections>
 															</Element>
@@ -10031,7 +10031,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Cultures"/>
-						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values/>
@@ -10039,7 +10039,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -10056,7 +10056,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -10077,7 +10077,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10111,7 +10111,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10145,7 +10145,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10179,7 +10179,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10214,7 +10214,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -10235,7 +10235,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10269,7 +10269,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10303,7 +10303,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10337,7 +10337,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10371,7 +10371,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10402,7 +10402,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -10419,7 +10419,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -10440,7 +10440,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10474,7 +10474,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10508,7 +10508,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10542,7 +10542,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10598,7 +10598,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10632,7 +10632,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10666,7 +10666,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10700,7 +10700,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10734,7 +10734,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10765,7 +10765,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -10782,7 +10782,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -10803,7 +10803,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10837,7 +10837,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10871,7 +10871,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10905,7 +10905,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10940,7 +10940,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -10961,7 +10961,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -10995,7 +10995,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11029,7 +11029,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11063,7 +11063,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11097,7 +11097,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11145,7 +11145,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -11166,7 +11166,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11200,7 +11200,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11234,7 +11234,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11268,7 +11268,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11303,7 +11303,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -11324,7 +11324,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11358,7 +11358,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11392,7 +11392,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11426,7 +11426,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11460,7 +11460,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11491,7 +11491,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -11508,7 +11508,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -11529,7 +11529,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11563,7 +11563,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11597,7 +11597,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11631,7 +11631,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11666,7 +11666,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -11687,7 +11687,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11721,7 +11721,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11755,7 +11755,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11789,7 +11789,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11823,7 +11823,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11854,7 +11854,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -11871,7 +11871,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -11892,7 +11892,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11926,7 +11926,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11960,7 +11960,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -11994,7 +11994,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12029,7 +12029,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -12050,7 +12050,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12084,7 +12084,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12118,7 +12118,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12152,7 +12152,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12186,7 +12186,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12217,7 +12217,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -12234,7 +12234,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -12255,7 +12255,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12289,7 +12289,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12323,7 +12323,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12357,7 +12357,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12392,7 +12392,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -12413,7 +12413,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12447,7 +12447,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12481,7 +12481,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12515,7 +12515,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12549,7 +12549,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12580,7 +12580,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -12597,7 +12597,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -12618,7 +12618,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12652,7 +12652,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12686,7 +12686,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12720,7 +12720,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12755,7 +12755,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -12776,7 +12776,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12810,7 +12810,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12844,7 +12844,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12878,7 +12878,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -12912,7 +12912,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27318,7 +27318,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Cultures"/>
-						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values/>
@@ -27326,7 +27326,7 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
@@ -27343,7 +27343,7 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+												<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
@@ -27364,7 +27364,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27398,7 +27398,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27432,7 +27432,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27466,7 +27466,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27500,7 +27500,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27534,7 +27534,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
@@ -27568,7 +27568,7 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+															<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
