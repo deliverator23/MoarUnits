@@ -4,7 +4,7 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RIFLEMAN' WHERE Unit = 'UNIT_SPANISH
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_CUIRASSIER' WHERE Unit = 'UNIT_KNIGHT';
 
-UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_CUIRASSIER' WHERE Unit = 'UNIT_INDIAN_VARU';
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MUGHAL_SOWAR' WHERE Unit = 'UNIT_INDIAN_VARU';
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_SWORDSMAN';
 

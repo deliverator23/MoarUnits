@@ -142,9 +142,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_1">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CALATRAVA_CHAPTER_HISTORY_PARA_1">
-			<Text>The Order of Calatrava was the first military order founded in Castile, but the second to receive papal approval. The papal bull confirming the Order of Calatrava as a Militia was given by Pope Alexander III on September 26, 1164. It was founded at Calatrava la Vieja in Castile, in the twelfth century by St. Raymond of Fitero, as a military branch of the Cistercian family. The etymology of the name of this military order, Calatrava, conveys the meaning: "fortress of Rabah". In the Cistercian Order, recently formed in 1098, there had been a large number of knights or sons of knights. In Calatrava, on the contrary, those who had been monks became knights. Most of the political and military power of the order dissipated by the end of the 15th century, but the last dissolution of the order's property did not occur until 1838.</Text>
-		</Row>
 		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
 			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
 		</Replace>

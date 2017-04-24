@@ -14,6 +14,12 @@
             <File>Art/Icons/MOARUnitsFlags_50.dds</File>
             <File>Art/Icons/MOARUnitsFlags_80.dds</File>
             <File>Art/Icons/MOARUnitsFlags_256.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_22.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_32.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_38.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_50.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_80.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_256.dds</File>
         </ImportFiles>
         <UpdateIcons id="MOAR_Icons">
             <File>Data/MOAR_Units_Icons.xml</File>
@@ -36,6 +42,12 @@
             <File>Art/Icons/MOARUnitsFlags_50.dds</File>
             <File>Art/Icons/MOARUnitsFlags_80.dds</File>
             <File>Art/Icons/MOARUnitsFlags_256.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_22.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_32.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_38.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_50.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_80.dds</File>
+			<File>Art/Icons/MOARUnitsFlagsHOOVES_256.dds</File>
         </ImportFiles>
         <UpdateDatabase id="MOAR_UpdateDatabase">
             <File>Data/MOAR_Units_Data.xml</File>
@@ -71,6 +83,12 @@
         <File>Art/Icons/MOARUnitsFlags_50.dds</File>
         <File>Art/Icons/MOARUnitsFlags_80.dds</File>
         <File>Art/Icons/MOARUnitsFlags_256.dds</File>
+		<File>Art/Icons/MOARUnitsFlagsHOOVES_22.dds</File>
+		<File>Art/Icons/MOARUnitsFlagsHOOVES_32.dds</File>
+		<File>Art/Icons/MOARUnitsFlagsHOOVES_38.dds</File>
+		<File>Art/Icons/MOARUnitsFlagsHOOVES_50.dds</File>
+		<File>Art/Icons/MOARUnitsFlagsHOOVES_80.dds</File>
+		<File>Art/Icons/MOARUnitsFlagsHOOVES_256.dds</File>
         <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
 
@@ -100,8 +118,21 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleD</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
@@ -120,7 +151,6 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Forward</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Hero</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleA</File>
-		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleD</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Idle_CombatA</File>
@@ -157,6 +187,7 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Attack_2HandAxeA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeBack_2HAxe</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeFwd_2HAxe</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
@@ -164,12 +195,16 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunCombat_BowAndArrowA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_2HandedSwordA.ma</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_BowAndArrowA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_BowAndArrowA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_BowAndArrowA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_BlockA</File>
@@ -195,6 +230,7 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_metalness</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal1</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ArmoredHorseman_a_ArmoredHorseman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Crossbowman_albedo_Crossbowman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Horseman_a_Horseman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Knight_Armor_a_Knight_Armor_t</File>
@@ -223,6 +259,11 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_PeltastMak_n1</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_PeltastShield_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_PeltastShield_n1</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_ao</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_g</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_m</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n0</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n1</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_slinger_armor_ao</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_slinger_armor_g</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_slinger_armor_m</File>
@@ -257,8 +298,21 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Archer_StandingIdleD</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
@@ -277,7 +331,6 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Forward</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Hero</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleA</File>
-		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleD</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Idle_CombatA</File>
@@ -314,6 +367,7 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Attack_2HandAxeA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeBack_2HAxe</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_StrafeFwd_2HAxe</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
@@ -321,12 +375,16 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunCombat_BowAndArrowA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_2HandedSwordA.ma</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_BowAndArrowA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_BowAndArrowA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_BowAndArrowA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_BlockA</File>
@@ -352,6 +410,7 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_metalness</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Crossbowman_normal1</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_ArmoredHorseman_a_ArmoredHorseman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Crossbowman_albedo_Crossbowman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Horseman_a_Horseman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Knight_Armor_a_Knight_Armor_t</File>
@@ -380,6 +439,11 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_PeltastMak_n1</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_PeltastShield_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_PeltastShield_n1</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_ao</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_g</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_m</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n0</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n1</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_slinger_armor_ao</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_slinger_armor_g</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_slinger_armor_m</File>

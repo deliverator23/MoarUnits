@@ -43,6 +43,12 @@
 		<Replace Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION" Language="en_US">
 			<Text>Industrial era melee unit.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_JINETE_NAME" Language="en_US">
+			<Text>Jinete</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINETE_DESCRIPTION" Language="en_US">
+			<Text>Spanish unique ranged unit that replaces Horseman. Yields 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith on combat victory if fighting on same continent as capital.</Text>
+		</Replace>
 		<Replace Tag="LOC_UNIT_EQUITE_NAME" Language="en_US">
 			<Text>Eques</Text>
 		</Replace>
@@ -226,12 +232,6 @@
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="en_US">
 			<Text>Medieval era melee unit.</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_CALATRAVA_NAME" Language="en_US">
-			<Text>Knight of Calatrava</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_CALATRAVA_DESCRIPTION" Language="en_US">
-			<Text>Spanish unique Medieval era heavy cavalry unit that replaces Knight. Gains +6 [ICON_Strength] Combat Strength when attacking a city center plot.</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME" Language="en_US">
 			<Text>Horseman</Text>
 		</Replace>
@@ -243,9 +243,6 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="en_US">
 			<Text>Indian unique Classical era unit.  Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
-		</Replace>
-		<Replace Tag="PLUS_6_CITY_CENTER_ATTACK_COMBAT_BONUS_DESC" Language="en_US">
-			<Text>+6 [ICON_Strength] Combat Strength when attacking a city center plot.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength on same continent as capital city.</Text>
