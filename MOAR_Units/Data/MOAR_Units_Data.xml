@@ -372,6 +372,7 @@
 		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI" ReplacesUnitType="UNIT_MACEMAN"/>
 	</UnitReplaces>
 	<UnitUpgrades>
+		<Row Unit="UNIT_SUMERIAN_WAR_CART" UpgradeUnit="UNIT_KNIGHT"/>
 		<Row Unit="UNIT_MEDIEVAL_HORSEMAN" UpgradeUnit="UNIT_CAVALRY"/>
 		<Row Unit="UNIT_MACEMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
