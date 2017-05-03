@@ -23,7 +23,7 @@ UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC
 /* Expanded Recon Class */
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EXPLORER' WHERE Unit = 'UNIT_SCOUT';
 
-UPDATE Units SET InitialLevel = 2 WHERE UnitType = 'UNIT_SCOUT' OR UnitType = 'UNIT_EXPLORER' OR UnitType = 'UNIT_RANGER' OR UnitType = 'UNIT_SNIPER';
+UPDATE Units SET InitialLevel = 2 WHERE UnitType = 'UNIT_SCOUT' OR UnitType = 'UNIT_EXPLORER' OR UnitType = 'UNIT_RANGER' OR UnitType = 'UNIT_SNIPER' OR UnitType = 'UNIT_AMAZON_SCOUT';
 
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
 
