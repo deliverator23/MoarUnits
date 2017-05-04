@@ -10,7 +10,7 @@
 		<Replace Tag="LOC_UNIT_PELTAST_NAME" Language="zh_Hans_CN">
 			<Text>轻盾步兵</Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代弓箭手的希腊远程特色单位，比弓箭手的远程和近战攻击力更强，但射程仅为1。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="zh_Hans_CN">
