@@ -109,6 +109,9 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Armatoloi were Christian Greek irregular soldiers, or militia, commissioned by the Ottomans to enforce the Sultan's authority within an administrative district called an Armatoliki. Armatolikia were created in areas of Greece that had high levels of brigandage, or in regions that were difficult for Ottoman authorities to govern due to the inaccessible terrain, such as the Agrafa mountains of Thessaly, where the first armatoliki was established in the 15th century. Over time, the roles of the armatoloi and klephtes became blurred, with both reversing their roles and allegiances as the situation demanded, all the while maintaining the delicate status-quo with the Ottoman authorities. During the Greek War of Independence, the armatoloi, along with the klephts, formed the nucleus of the Greek fighting forces, and played a prominent part throughout its duration. Yannis Makriyannis referred to the armatoloi and klephts as the "yeast of liberty".</Text>
 		</Replace>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_1" Language="de_DE">
 			<Text>Ghazi is an Arabic term originally referring to an individual who participates in Ghazw, meaning military expeditions or raiding; after the emergence of Islam, it took on new connotations of religious warfare.</Text>
 		</Replace>
