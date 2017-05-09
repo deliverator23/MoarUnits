@@ -232,6 +232,12 @@
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="ru_RU">
 			<Text>Юнит ближнего боя эпохи Средневековья.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME" Language="ru_RU">
+			<Text>Всадники</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="ru_RU">
+			<Text>Быстрая легкая кавалерия Средневековья.</Text>
+		</Replace>
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="ru_RU">
 			<Text>+5 [ICON_Strength] к боевой мощи на том же континенте, где находится [ICON_Capital] столица.</Text>
 		</Replace>
