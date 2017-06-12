@@ -80,18 +80,7 @@
 
         <File>Data/MOAR_Units_Icons_Config.xml</File>
         <File>Data/MOAR_Units_Config.xml</File>
-        <File>Art/Icons/MOARUnitsFlags_22.dds</File>
-        <File>Art/Icons/MOARUnitsFlags_32.dds</File>
-        <File>Art/Icons/MOARUnitsFlags_38.dds</File>
-        <File>Art/Icons/MOARUnitsFlags_50.dds</File>
-        <File>Art/Icons/MOARUnitsFlags_80.dds</File>
-        <File>Art/Icons/MOARUnitsFlags_256.dds</File>
-		<File>Art/Icons/MOARUnitsFlagsHOOVES_22.dds</File>
-		<File>Art/Icons/MOARUnitsFlagsHOOVES_32.dds</File>
-		<File>Art/Icons/MOARUnitsFlagsHOOVES_38.dds</File>
-		<File>Art/Icons/MOARUnitsFlagsHOOVES_50.dds</File>
-		<File>Art/Icons/MOARUnitsFlagsHOOVES_80.dds</File>
-		<File>Art/Icons/MOARUnitsFlagsHOOVES_256.dds</File>
+
         <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
 
@@ -106,6 +95,8 @@
 		<File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
 
+		<File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+		<File>Platforms/Windows/BLPs/UI/Icons.blp</File>
         <!-- Platforms -->
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>

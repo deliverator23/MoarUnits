@@ -45,5 +45,11 @@
                 <Element text="units/humans.blp"/>
             </PackageDependencies>
         </Element>
+        <Element>
+            <LibraryName text="UITexture"/>
+            <PackageDependencies>
+                <Element text="UI/Icons.blp"/>
+            </PackageDependencies>
+        </Element>
     </LibraryDependencies>
 </AssetObjects::GameDependencyData>
