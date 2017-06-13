@@ -7,20 +7,6 @@
         <Authors>Deliverator</Authors>
     </Properties>
     <FrontEndActions>
-        <ImportFiles id="MOAR_FileImport">
-            <File>Art/Icons/MOARUnitsFlags_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_256.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_22.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_32.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_38.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_50.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_80.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_256.dds</File>
-        </ImportFiles>
         <UpdateIcons id="MOAR_Icons">
             <File>Data/MOAR_Units_Icons.xml</File>
         </UpdateIcons>
@@ -36,20 +22,6 @@
         </UpdateText>
     </FrontEndActions>
     <InGameActions>
-        <ImportFiles id="MOAR_FileImport">
-            <File>Art/Icons/MOARUnitsFlags_22.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_32.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_38.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_50.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_80.dds</File>
-            <File>Art/Icons/MOARUnitsFlags_256.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_22.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_32.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_38.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_50.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_80.dds</File>
-			<File>Art/Icons/MOARUnitsFlagsHOOVES_256.dds</File>
-        </ImportFiles>
         <UpdateDatabase id="MOAR_UpdateDatabase">
             <File>Data/MOAR_Units_Data.xml</File>
             <File>Data/MOAR_Units_Data.sql</File>
