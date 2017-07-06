@@ -44,7 +44,7 @@
 			<Text>工业时代的近战单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINETE_NAME" Language="zh_Hans_CN">
-			<Text>轻盾骑手</Text>
+			<Text>卢西塔尼骑手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_JINETE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代骑手的西班牙特色古典时期时代骑兵单位，当位于本国首都所在大陆消灭敌人单位后即获得其本身50%战斗力[ICON_Strength]的信仰[ICON_Faith]。</Text>
@@ -170,13 +170,13 @@
 			<Text>取代四段帆船的埃及特色远程海军单位，拥有更强的战斗力且射程+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ONAGER_NAME" Language="zh_Hans_CN">
-			<Text>弩炮</Text>
+			<Text>重型抛石机</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ONAGER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>取代石弩的罗马特色攻城单位，比石弩更强的攻城单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_VULTURE_NAME" Language="zh_Hans_CN">
-			<Text>镰状剑勇士</Text>
+			<Text>镰刀剑客</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_VULTURE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>苏美尔特色近战单位，当进攻受伤单位时+5战斗力[ICON_Strength]。</Text>
@@ -232,6 +232,18 @@
 		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>中世纪时期的近战单位。</Text>
 		</Replace>	
+		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME" Language="zh_Hans_CN">
+			<Text>骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪轻骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="zh_Hans_CN">
+			<Text>轻骑手</Text>
+		</Replace>		
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>印度特色中世纪时期单位，邻近的敌方单位-5战斗力[ICON_STRENGTH]。</Text>
+		</Replace>		
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
 			<Text>+5[ICON_Strength]战斗力当位于首都同一大陆时</Text>
 		</Replace>		
