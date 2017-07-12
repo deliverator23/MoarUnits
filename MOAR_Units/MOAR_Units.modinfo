@@ -15,6 +15,7 @@
         </UpdateDatabase>
         <UpdateText id="MOAR_SETTING_TEXT">
 			<File>Text/en_US/MOAR_Units_Text.xml</File>
+			<File>Text/es_ES/MOAR_Units_Text_es_ES.xml</File>
 			<File>Text/fr_FR/MOAR_Units_Text_fr_FR.xml</File>
 			<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
 			<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
@@ -28,6 +29,7 @@
         </UpdateDatabase>
         <UpdateText id="MOAR_LocalizedText">
             <File>Text/en_US/MOAR_Units_Text.xml</File>
+			<File>Text/es_ES/MOAR_Units_Text_es_ES.xml</File>
 			<File>Text/fr_FR/MOAR_Units_Text_fr_FR.xml</File>
 			<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
 			<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
@@ -58,10 +60,12 @@
 
         <!-- Text -->
 		<File>Text/en_US/MOAR_Units_Text.xml</File>
+		<File>Text/es_ES/MOAR_Units_Text_es_ES.xml</File>
 		<File>Text/fr_FR/MOAR_Units_Text_fr_FR.xml</File>
 		<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
 		<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
+
 		<File>Text/en_US/MOAR_Units_GameplayText.xml</File>
 		<File>Text/de_DE/MOAR_Units_GameplayText_de_DE.xml</File>
 		<File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
