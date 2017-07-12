@@ -238,6 +238,12 @@
 		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="en_US">
 			<Text>Medieval era light cavalry unit</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="en_US">
+			<Text>Gatling Gun</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Replace>
 		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="en_US">
 			<Text>Rider</Text>
 		</Replace>
