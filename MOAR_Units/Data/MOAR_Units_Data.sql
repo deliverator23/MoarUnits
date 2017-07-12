@@ -18,6 +18,8 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MEDIEVAL_HORSEMAN' WHERE  Unit = 'UN
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_KNIGHT' WHERE  Unit = 'UNIT_SUMERIAN_WAR_CART';
 
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_GATLING_GUN' WHERE  Unit = 'UNIT_PIKEMAN';
+
 UPDATE Units SET Combat = 46 WHERE UnitType = 'UNIT_JAPANESE_SAMURAI';
 
 UPDATE Units SET Combat = 41 WHERE UnitType = 'UNIT_ROMAN_LEGION';
