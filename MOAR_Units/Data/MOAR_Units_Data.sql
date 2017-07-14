@@ -24,6 +24,15 @@ UPDATE Units SET Combat = 46 WHERE UnitType = 'UNIT_JAPANESE_SAMURAI';
 
 UPDATE Units SET Combat = 41 WHERE UnitType = 'UNIT_ROMAN_LEGION';
 
+UPDATE Units SET Cost = 200 WHERE UnitType = 'UNIT_KNIGHT';
+
+UPDATE Units SET Combat = 180 WHERE UnitType = 'UNIT_PIKEMAN';
+
+UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
+
+/* Anti Cavalry boost */
+DELETE FROM UnitAbilityModifiers WHERE UnitAbilityType = 'ABILITY_ANTI_CAVALRY' AND ModifierId = 'ANTI_CAVALRY_COMBAT_BONUS';
+
 UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
 
 /* Expanded Recon Class */
@@ -33,7 +42,7 @@ UPDATE Units SET InitialLevel = 2 WHERE UnitType = 'UNIT_SCOUT' OR UnitType = 'U
 
 UPDATE Units SET MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
 
-UPDATE Units SET Range = 2 WHERE UnitType = 'UNIT_MACHINE_GUN';
+UPDATE Units SET FormationClass = 'FORMATION_CLASS_SUPPORT', RangedCombat = 65, Cost = 500 WHERE UnitType = 'UNIT_MACHINE_GUN';
 
 UPDATE Units SET BaseSightRange = 2 WHERE UnitType='UNIT_NATURALIST';
 

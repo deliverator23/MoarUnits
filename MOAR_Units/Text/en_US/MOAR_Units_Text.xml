@@ -242,7 +242,19 @@
 			<Text>Gatling Gun</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="en_US">
-			<Text></Text>
+			<Text>? era anti-cavalry unit</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_NAME" Language="en_US">
+			<Text>Recon</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_DESCRIPTION" Language="en_US">
+			<Text>? era recon unit</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_NAME" Language="en_US">
+			<Text>Modern Sniper</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" Language="en_US">
+			<Text>? era ranged unit</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="en_US">
 			<Text>Rider</Text>

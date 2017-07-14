@@ -7,6 +7,10 @@
 		<Row Type="UNIT_EXPLORER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_SNIPER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_GATLING_GUN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MEDIEVAL_HORSEMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RECON" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MODERN_SNIPER" Kind="KIND_UNIT"/>
+
 		<Row Type="UNIT_PELTAST" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_CAMEL_ARCHER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_MINUTEMAN" Kind="KIND_UNIT"/>
@@ -40,7 +44,6 @@
 		<Row Type="UNIT_ARMATOLOS" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_MEDICINE_MAN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_LANDSKNECHT" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_MEDIEVAL_HORSEMAN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_AMERICAN_AH64_APACHE" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_ENGLISH_IRONSIDE" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_NORWEGIAN_ULFHEDNAR" Kind="KIND_UNIT"/>
@@ -93,7 +96,7 @@
 		<Row Type="ABILITY_MUGHAL_SOWAR" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_LONGBOWMAN" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_DRUZHINA" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_SOHEI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLUS_10_DEFENDER" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_AMAZON" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_FATHERLAND_VOLUNTEER" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_HYKSOS_BOWMAN" Kind="KIND_ABILITY"/>
@@ -333,16 +336,12 @@
 			 Description="LOC_UNIT_LANDSKNECHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
 			 Maintenance="3" Combat="41" PrereqTech="TECH_MILITARY_TACTICS" MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_LANDSKNECHT"/>
 
-		<Row UnitType="UNIT_SNIPER" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
-			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SNIPER_NAME"
-			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="6"
-			 Combat="50" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
-
 		<Row UnitType="UNIT_EXPLORER" BaseMoves="3" Cost="120" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_EXPLORER_NAME"
 			 Description="LOC_UNIT_EXPLORER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" Maintenance="3"
 			 Combat="35" PrereqTech="TECH_CARTOGRAPHY" MandatoryObsoleteTech="TECH_RIFLING"/>
 
+		<!-- Longswordsman -->
 		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEMAN_NAME"
 			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
@@ -358,19 +357,35 @@
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_AMERICAN_AH64_APACHE_NAME" Description="LOC_UNIT_AMERICAN_AH64_APACHE_DESCRIPTION" PurchaseYield="YIELD_GOLD"
 			 PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="7" Combat="85"
-			 PrereqTech="TECH_SYNTHETIC_MATERIALS" CanTargetAir="TRUE"/>
+			 PrereqTech="TECH_SYNTHETIC_MATERIALS" CanTargetAir="TRUE" TraitType="TRAIT_CIVILIZATION_UNIT_AMERICAN_AH64_APACHE"/>
 
-		<Row UnitType="UNIT_ENGLISH_IRONSIDE" BaseMoves="4" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_ENGLISH_IRONSIDE" BaseMoves="4" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ENGLISH_IRONSIDE_NAME"
 			 Description="LOC_UNIT_ENGLISH_IRONSIDE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
-			 Maintenance="5" Combat="56" PrereqTech="TECH_BALLISTICS" StrategicResource="RESOURCE_NITER"
-			 MandatoryObsoleteTech="TECH_COMPOSITES"/>
+			 Maintenance="4" Combat="56" PrereqCivic="CIVIC_REFORMED_CHURCH"
+			 MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_ENGLISH_IRONSIDE"/>
 
 		<Row UnitType="UNIT_NORWEGIAN_ULFHEDNAR" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_NORWEGIAN_ULFHEDNAR" Description="LOC_UNIT_NORWEGIAN_ULFHEDNAR" PurchaseYield="YIELD_GOLD"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqCivic="CIVIC_MYSTICISM"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_NORWEGIAN_ULFHEDNAR"/>
+
+		<Row UnitType="UNIT_RECON" BaseMoves="4" Cost="400" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_RECON_NAME"
+			 Description="LOC_UNIT_RECON_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="5"
+			 Combat="65" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+
+		<Row UnitType="UNIT_SNIPER" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SNIPER_NAME"
+			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="5"
+			 Combat="65" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+
+		<Row UnitType="UNIT_MODERN_SNIPER" BaseMoves="3" Cost="650" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MODERN_SNIPER_NAME"
+			 Description="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="6"
+			 Combat="75" RangedCombat="90" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+
 	</Units>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_PELTAST" ReplacesUnitType="UNIT_ARCHER"/>
@@ -439,8 +454,8 @@
 		<Row Unit="UNIT_ARMATOLOS" UpgradeUnit="UNIT_INFANTRY"/>
 		<Row Unit="UNIT_GHAZI" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_EXPLORER" UpgradeUnit="UNIT_RANGER"/>
-		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SNIPER"/>
-		<Row Unit="UNIT_BANDEIRANTE" UpgradeUnit="UNIT_SNIPER"/>
+		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_RECON"/>
+		<Row Unit="UNIT_BANDEIRANTE" UpgradeUnit="UNIT_RECON"/>
 		<Row Unit="UNIT_PELTAST" UpgradeUnit="UNIT_CROSSBOWMAN"/>
 		<Row Unit="UNIT_GATLING_GUN" UpgradeUnit="UNIT_AT_CREW"/>
 		<Row Unit="UNIT_ENGLISH_IRONSIDE" UpgradeUnit="UNIT_TANK"/>
@@ -611,10 +626,18 @@
 		<Row UnitType="UNIT_EXPLORER" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_EXPLORER" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_EXPLORER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RECON" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RECON" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_RECON" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RECON" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_SNIPER" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_SNIPER" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_SNIPER" AiType="UNITTYPE_LAND_COMBAT"/>
 		<Row UnitType="UNIT_SNIPER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MODERN_SNIPER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MODERN_SNIPER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_MODERN_SNIPER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MODERN_SNIPER" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_AMERICAN_AH64_APACHE" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_AMERICAN_AH64_APACHE" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_AMERICAN_AH64_APACHE" AiType="UNITTYPE_MELEE"/>
@@ -709,7 +732,7 @@
 		<Row Tag="CLASS_MUGHAL_SOWAR" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_LONGBOWMAN" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HIRDMAN" Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_SOHEI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_PLUS_10_DEFENDER" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_AMAZON" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_FATHERLAND_VOLUNTEER" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HYKSOS_BOWMAN" Vocabulary="ABILITY_CLASS"/>
@@ -765,7 +788,7 @@
 		<Row Type="UNIT_MUGHAL_SOWAR" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_MUGHAL_SOWAR" Tag="CLASS_MUGHAL_SOWAR"/>
 		<Row Type="UNIT_SOHEI" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_SOHEI" Tag="CLASS_SOHEI"/>
+		<Row Type="UNIT_SOHEI" Tag="CLASS_PLUS_10_DEFENDER"/>
 		<Row Type="UNIT_AMAZON" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_AMAZON" Tag="CLASS_AMAZON"/>
 		<Row Type="UNIT_FATHERLAND_VOLUNTEER" Tag="CLASS_MELEE"/>
@@ -814,10 +837,16 @@
 		<Row Type="UNIT_MEDICINE_MAN" Tag="CLASS_MEDICINE_MAN"/>
 		<Row Type="UNIT_EXPLORER" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_EXPLORER" Tag="CLASS_EXPLORER"/>
-		<Row Type="UNIT_SNIPER" Tag="CLASS_RECON"/>
+
+		<Row Type="UNIT_RECON" Tag="CLASS_RECON"/>
+
 		<Row Type="UNIT_SNIPER" Tag="CLASS_RANGED"/>
 		<Row Type="UNIT_SNIPER" Tag="CLASS_REVEAL_STEALTH"/>
 		<Row Type="UNIT_SNIPER" Tag="CLASS_SNIPER"/>
+
+		<Row Type="UNIT_MODERN_SNIPER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_MODERN_SNIPER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_MODERN_SNIPER" Tag="CLASS_SNIPER"/>
 
 		<Row Type="UNIT_GATLING_GUN" Tag="CLASS_ANTI_CAVALRY"/>
 
@@ -829,6 +858,8 @@
 		<Row Type="UNIT_AMERICAN_AH64_APACHE" Tag="CLASS_AMERICAN_AH64_APACHE"/>
 
 		<Row Type="UNIT_NORWEGIAN_ULFHEDNAR" Tag="CLASS_NORWEGIAN_ULFHEDNAR"/>
+
+		<Row Type="UNIT_MACHINE_GUN" Tag="CLASS_PLUS_10_DEFENDER"/>
 	</TypeTags>
 	<TypeTags>
 		<Row Type="ABILITY_PELTAST" Tag="CLASS_PELTAST"/>
@@ -843,7 +874,7 @@
 		<Row Type="ABILITY_MUGHAL_SOWAR" Tag="CLASS_MUGHAL_SOWAR"/>
 		<Row Type="ABILITY_IGNORE_TERRAIN_COST" Tag="CLASS_MUGHAL_SOWAR"/>
 		<Row Type="ABILITY_HIRDMAN" Tag="CLASS_HIRDMAN"/>
-		<Row Type="ABILITY_SOHEI" Tag="CLASS_SOHEI"/>
+		<Row Type="ABILITY_PLUS_10_DEFENDER" Tag="CLASS_PLUS_10_DEFENDER"/>
 		<Row Type="ABILITY_AMAZON" Tag="CLASS_AMAZON"/>
 		<Row Type="ABILITY_FATHERLAND_VOLUNTEER" Tag="CLASS_FATHERLAND_VOLUNTEER"/>
 		<Row Type="ABILITY_HYKSOS_BOWMAN" Tag="CLASS_HYKSOS_BOWMAN"/>
@@ -895,7 +926,7 @@
 		<Row UnitAbilityType="ABILITY_MUGHAL_SOWAR" Name="LOC_ABILITY_MUGHAL_SOWAR_NAME" Description="LOC_ABILITY_MUGHAL_SOWAR_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_LONGBOWMAN" Name="LOC_ABILITY_LONGBOWMAN_NAME" Description="LOC_ABILITY_LONGBOWMAN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_DRUZHINA" Name="LOC_ABILITY_DRUZHINA_NAME" Description="LOC_ABILITY_DRUZHINA_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_SOHEI" Name="LOC_ABILITY_SOHEI_NAME" Description="LOC_ABILITY_SOHEI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PLUS_10_DEFENDER" Name="LOC_ABILITY_PLUS_10_DEFENDER_NAME" Description="LOC_ABILITY_PLUS_10_DEFENDER_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_AMAZON" Name="LOC_ABILITY_AMAZON_NAME" Description="LOC_ABILITY_AMAZON_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_BANDEIRANTE" Name="LOC_ABILITY_BANDEIRANTE_NAME" Description="LOC_ABILITY_BANDEIRANTE_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_FATHERLAND_VOLUNTEER" Name="LOC_ABILITY_FATHERLAND_VOLUNTEER_NAME" Description="LOC_ABILITY_FATHERLAND_VOLUNTEER_DESCRIPTION"/>
@@ -1025,7 +1056,7 @@
 			<ModifierId>PLUS_5_WHEN_ATTACKING_COMBAT_BONUS</ModifierId>
 		</Row>
 		<Row>
-			<UnitAbilityType>ABILITY_SOHEI</UnitAbilityType>
+			<UnitAbilityType>ABILITY_PLUS_10_DEFENDER</UnitAbilityType>
 			<ModifierId>PLUS_10_WHEN_DEFENDING_COMBAT_BONUS</ModifierId>
 		</Row>
 		<Row>
@@ -1254,6 +1285,16 @@
 			<SubjectRequirementSetId>OPPONENT_HEAVY_CAVALRY_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
+			<ModifierId>PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>OPPONENT_HEAVY_CAVALRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>OPPONENT_LIGHT_CAVALRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
 			<ModifierId>RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS</SubjectRequirementSetId>
@@ -1272,6 +1313,9 @@
 	<ModifierStrings>
 		<Row ModifierId="RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS" Context="Preview" Text="RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS" Context="Preview" Text="RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS_DESC"/>
+		<Row ModifierId="PLUS_10_VS_HEAVY_CAVALRY_COMBAT_BONUS" Context="Preview" Text="PLUS_10_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS" Context="Preview" Text="PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC"/>
+		<Row ModifierId="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS" Context="Preview" Text="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS" Context="Preview" Text="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS" Context="Preview" Text="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC"/>
 		<Row ModifierId="PLUS_4_VERSUS_MELEE_COMBAT_BONUS" Context="Preview" Text="PLUS_4_VERSUS_MELEE_COMBAT_BONUS_DESC"/>
@@ -1315,6 +1359,21 @@
 			<ModifierId>RECEIVE_SHIGONG_COMBAT_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_10_VS_HEAVY_CAVALRY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_5_OTHER_RELIGION_COMBAT_BONUS</ModifierId>
@@ -1524,6 +1583,10 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
+			<RequirementSetId>OPPONENT_LIGHT_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
 			<RequirementSetId>PLAYER_IS_ATTACKER_REQUIREMENTS_SET</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
@@ -1584,6 +1647,10 @@
 		<Row>
 			<RequirementSetId>OPPONENT_HEAVY_CAVALRY_REQUIREMENTS</RequirementSetId>
 			<RequirementId>ANTI_CAVALRY_OPPONENT_REQUIREMENT_HC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OPPONENT_LIGHT_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ANTI_CAVALRY_OPPONENT_REQUIREMENT_LC</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_IS_WITHIN_8_OF_ZIGGURAT_REQUIREMENTS</RequirementSetId>
