@@ -1151,6 +1151,14 @@
 			<UnitAbilityType>ABILITY_MUGHAL_SOWAR</UnitAbilityType>
 			<ModifierId>PLUS_15_HEAL_PER_TURN_BONUS_FROM_STEPWELL</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ANTI_CAVALRY</UnitAbilityType>
+			<ModifierId>PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ANTI_CAVALRY</UnitAbilityType>
+			<ModifierId>PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
