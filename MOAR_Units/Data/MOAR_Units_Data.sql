@@ -20,13 +20,15 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_KNIGHT' WHERE  Unit = 'UNIT_SUMERIAN
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_GATLING_GUN' WHERE  Unit = 'UNIT_PIKEMAN';
 
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_SNIPER' WHERE  Unit = 'UNIT_FIELD_CANNON';
+
 UPDATE Units SET Combat = 46 WHERE UnitType = 'UNIT_JAPANESE_SAMURAI';
 
 UPDATE Units SET Combat = 41 WHERE UnitType = 'UNIT_ROMAN_LEGION';
 
 UPDATE Units SET Cost = 200 WHERE UnitType = 'UNIT_KNIGHT';
 
-UPDATE Units SET Combat = 180 WHERE UnitType = 'UNIT_PIKEMAN';
+UPDATE Units SET Cost = 180 WHERE UnitType = 'UNIT_PIKEMAN';
 
 UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
 
@@ -40,7 +42,7 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EXPLORER' WHERE Unit = 'UNIT_SCOUT';
 
 UPDATE Units SET InitialLevel = 2 WHERE UnitType = 'UNIT_SCOUT' OR UnitType = 'UNIT_EXPLORER' OR UnitType = 'UNIT_RANGER' OR UnitType = 'UNIT_SNIPER' OR UnitType = 'UNIT_AMAZON_SCOUT';
 
-UPDATE Units SET MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
+UPDATE Units SET Combat = 53, RangedCombat = 0, MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
 
 UPDATE Units SET FormationClass = 'FORMATION_CLASS_SUPPORT', RangedCombat = 65, Cost = 500 WHERE UnitType = 'UNIT_MACHINE_GUN';
 

@@ -341,17 +341,16 @@
 			 Description="LOC_UNIT_EXPLORER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" Maintenance="3"
 			 Combat="35" PrereqTech="TECH_CARTOGRAPHY" MandatoryObsoleteTech="TECH_RIFLING"/>
 
-		<!-- Longswordsman -->
 		<Row UnitType="UNIT_MACEMAN" BaseMoves="2" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEMAN_NAME"
 			 Description="LOC_UNIT_MACEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2"
 			 Combat="46" PrereqTech="TECH_CASTLES" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
 
-		<Row UnitType="UNIT_GATLING_GUN" BaseMoves="2" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+		<Row UnitType="UNIT_GATLING_GUN" BaseMoves="2" Cost="290" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			 Name="LOC_UNIT_GATLING_GUN_NAME" Description="LOC_UNIT_GATLING_GUN_DESCRIPTION" PurchaseYield="YIELD_GOLD"
 			 PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="59"
-			 MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_MILITARY_TACTICS"/>
+			 MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_SANITATION"/>
 
 		<Row UnitType="UNIT_AMERICAN_AH64_APACHE" BaseMoves="4" Cost="600" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3"
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
@@ -367,25 +366,24 @@
 
 		<Row UnitType="UNIT_NORWEGIAN_ULFHEDNAR" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
-			 Name="LOC_UNIT_NORWEGIAN_ULFHEDNAR" Description="LOC_UNIT_NORWEGIAN_ULFHEDNAR" PurchaseYield="YIELD_GOLD"
+			 Name="LOC_UNIT_NORWEGIAN_ULFHEDNAR_NAME" Description="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" PurchaseYield="YIELD_GOLD"
 			 PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqCivic="CIVIC_MYSTICISM"
-			 TraitType="TRAIT_CIVILIZATION_UNIT_NORWEGIAN_ULFHEDNAR"/>
+			 TraitType="TRAIT_CIVILIZATION_UNIT_NORWEGIAN_ULFHEDNAR" MandatoryObsoleteTech="TECH_GUNPOWDER"/>
 
 		<Row UnitType="UNIT_RECON" BaseMoves="4" Cost="400" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_RECON_NAME"
 			 Description="LOC_UNIT_RECON_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="5"
-			 Combat="65" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+			 Combat="65" PrereqTech="TECH_REPLACEABLE_PARTS"/>
 
 		<Row UnitType="UNIT_SNIPER" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SNIPER_NAME"
-			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="5"
-			 Combat="65" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="5"
+			 Combat="65" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS" MandatoryObsoleteTech="TECH_NUCLEAR_FISSION"/>
 
 		<Row UnitType="UNIT_MODERN_SNIPER" BaseMoves="3" Cost="650" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MODERN_SNIPER_NAME"
-			 Description="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="6"
-			 Combat="75" RangedCombat="90" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
-
+			 Description="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="6"
+			 Combat="75" RangedCombat="90" Range="2" PrereqTech="TECH_LASERS"/>
 	</Units>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_PELTAST" ReplacesUnitType="UNIT_ARCHER"/>
@@ -459,6 +457,7 @@
 		<Row Unit="UNIT_PELTAST" UpgradeUnit="UNIT_CROSSBOWMAN"/>
 		<Row Unit="UNIT_GATLING_GUN" UpgradeUnit="UNIT_AT_CREW"/>
 		<Row Unit="UNIT_ENGLISH_IRONSIDE" UpgradeUnit="UNIT_TANK"/>
+		<Row Unit="UNIT_SNIPER" UpgradeUnit="UNIT_MODERN_SNIPER"/>
 	</UnitUpgrades>
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_BANDEIRANTE"/>
@@ -839,6 +838,7 @@
 		<Row Type="UNIT_EXPLORER" Tag="CLASS_EXPLORER"/>
 
 		<Row Type="UNIT_RECON" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_RECON" Tag="CLASS_EXPLORER"/>
 
 		<Row Type="UNIT_SNIPER" Tag="CLASS_RANGED"/>
 		<Row Type="UNIT_SNIPER" Tag="CLASS_REVEAL_STEALTH"/>
@@ -909,6 +909,8 @@
 		<Row Type="ABILITY_RECEIVE_NORWEGIAN_ULFHEDNAR_BONUS" Tag="CLASS_RANGED"/>
 		<Row Type="ABILITY_RECEIVE_NORWEGIAN_ULFHEDNAR_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="ABILITY_RECEIVE_NORWEGIAN_ULFHEDNAR_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_NORWEGIAN_ULFHEDNAR_BONUS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_RECEIVE_NORWEGIAN_ULFHEDNAR_BONUS" Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="ABILITY_EXPLORER" Tag="CLASS_EXPLORER"/>
 		<Row Type="ABILITY_SNIPER" Tag="CLASS_SNIPER"/>
 		<Row Type="ABILITY_AMERICAN_AH64_APACHE" Tag="CLASS_AMERICAN_AH64_APACHE"/>
@@ -1305,7 +1307,7 @@
 		<Row>
 			<ModifierId>RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS_NOT_DAMAGED</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>RECEIVE_NORWEGIAN_ULFHEDNAR_FAITH_BONUS</ModifierId>
@@ -1314,7 +1316,7 @@
 		</Row>
 		<Row>
 			<ModifierId>RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
@@ -1546,7 +1548,7 @@
 		<Row>
 			<ModifierId>RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
@@ -1621,6 +1623,10 @@
 		<Row>
 			<RequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS_NOT_DAMAGED</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
 			<RequirementSetId>NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_REQUIREMENTS</RequirementSetId>
@@ -1753,6 +1759,14 @@
 			<RequirementId>ADJACENT_FRIENDLY_NORWEGIAN_ULFHEDNAR_REQUIREMENT</RequirementId>
 		</Row>
 		<Row>
+			<RequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS_NOT_DAMAGED</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_NORWEGIAN_ULFHEDNAR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ADJACENT_NORWEGIAN_ULFHEDNAR_REQUIREMENTS_NOT_DAMAGED</RequirementSetId>
+			<RequirementId>OPPONENT_IS_NOT_DAMAGED_UNIT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
 			<RequirementSetId>NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
 		</Row>
@@ -1766,6 +1780,11 @@
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
+		<Row>
+			<RequirementId>OPPONENT_IS_NOT_DAMAGED_UNIT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DAMAGE_MINIMUM</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
 		<Row>
 			<RequirementId>REQUIRES_PLAYER_DECLARED_HOLY_WAR</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_DECLARED_WAR</RequirementType>
@@ -1829,6 +1848,11 @@
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row>
+			<RequirementId>OPPONENT_IS_NOT_DAMAGED_UNIT_REQUIREMENT</RequirementId>
+			<Name>MinimumAmount</Name>
+			<Value>1</Value>
+		</Row>
 		<Row>
 			<RequirementId>ADJACENT_FRIENDLY_NORWEGIAN_ULFHEDNAR_REQUIREMENT</RequirementId>
 			<Name>Tag</Name>
