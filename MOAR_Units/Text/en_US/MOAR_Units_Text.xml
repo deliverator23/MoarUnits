@@ -251,7 +251,7 @@
 			<Text>English unique Renaissance Era Heavy Cavalry unit available with the Reformed Church Civic. +5 [ICON_Strength] Combat Strength in or adjacent to own territory and +5 [ICON_Strength] Combat Strength when opponent is another religion.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_NAME" Language="en_US">
-			<Text>Ulfhednar</Text>
+			<Text>Ulfhedinn</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" Language="en_US">
 			<Text>Norwegian unique support unit available with the Mysticism Civic. Adjacent units receive +5 [ICON_Strength] Combat Strength versus undamaged units and +5 [ICON_Strength] Combat Strength versus damaged units. Yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith if combat is won within one tile.</Text>
@@ -275,7 +275,7 @@
 			<Text>Information Era Ranged unit. Cannot move and attack on the same turn. Gains +12 [ICON_Ranged] Ranged strength vs. land units (exluding Heavy Cavalry). Gains +1 [ICON_Range] Range when on hills.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="en_US">
-			<Text>Atomic Era Ranged Support unit. +10 [ICON_Strength] Combat Strength when defending.</Text>
+			<Text>Atomic Era Ranged Support unit. +10 Combat Strength when defending.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="en_US">
 			<Text>Rider</Text>
