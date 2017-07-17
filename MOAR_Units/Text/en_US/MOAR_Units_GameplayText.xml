@@ -172,7 +172,7 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_1">
 			<Text>The Gatling gun is one of the best-known early rapid-fire spring loaded, hand cranked weapons and a forerunner of the modern machine gun. Invented by Richard Gatling, it is known for its use by the Union forces during the American Civil War in the 1860s, which was the first time it was employed in combat. Later, it was used again in numerous military conflicts, such as the Boshin War, the Anglo-Zulu War, and the assault on San Juan Hill during the Spanish–American War. It was also used by militias and the National Guard in episodes of the Great Railroad Strike of 1877, specifically in Pittsburgh, Pennsylvania.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_1">
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_2">
 			<Text>The Gatling gun's operation centered on a cyclic multi-barrel design which facilitated cooling and synchronized the firing-reloading sequence. Each barrel fired a single shot when it reached a certain point in the cycle, after which it ejected the spent cartridge, loaded a new round, and, in the process, allowed the barrel to cool somewhat. This configuration allowed higher rates of fire to be achieved without the barrels overheating.</Text>
 		</Row>
 		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
