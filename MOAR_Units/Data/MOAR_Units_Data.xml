@@ -378,12 +378,12 @@
 		<Row UnitType="UNIT_SNIPER" BaseMoves="3" Cost="500" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SNIPER_NAME"
 			 Description="LOC_UNIT_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="5"
-			 Combat="65" RangedCombat="75" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS" MandatoryObsoleteTech="TECH_NUCLEAR_FISSION"/>
+			 Combat="60" RangedCombat="60" Range="2" PrereqTech="TECH_ADVANCED_BALLISTICS" MandatoryObsoleteTech="TECH_NUCLEAR_FISSION"/>
 
 		<Row UnitType="UNIT_MODERN_SNIPER" BaseMoves="3" Cost="650" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MODERN_SNIPER_NAME"
 			 Description="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="6"
-			 Combat="75" RangedCombat="90" Range="2" PrereqTech="TECH_LASERS"/>
+			 Combat="70" RangedCombat="78" Range="2" PrereqTech="TECH_LASERS"/>
 	</Units>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_PELTAST" ReplacesUnitType="UNIT_ARCHER"/>
