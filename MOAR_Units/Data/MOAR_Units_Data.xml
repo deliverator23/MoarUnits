@@ -161,19 +161,19 @@
 			 PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="1" Combat="20" MandatoryObsoleteTech="TECH_BALLISTICS"
 			 RangedCombat="30" Range="1" PrereqTech="TECH_ARCHERY" TraitType="TRAIT_CIVILIZATION_UNIT_PELTAST"/>
 
-		<Row UnitType="UNIT_MUGHAL_SOWAR" BaseMoves="4" Cost="190" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_MUGHAL_SOWAR" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MUGHAL_SOWAR_NAME"
 			 Description="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			 Maintenance="2" Combat="48" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON" MandatoryObsoleteTech="TECH_COMPOSITES"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_MUGHAL_SOWAR"/>
 
-		<Row UnitType="UNIT_GENDARME" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_GENDARME" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GENDARME_NAME"
 			 Description="LOC_UNIT_GENDARME_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			 Maintenance="3" Combat="50" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
 			 MandatoryObsoleteTech="TECH_COMPOSITES" TraitType="TRAIT_CIVILIZATION_UNIT_GENDARME"/>
 
-		<Row UnitType="UNIT_AMAZON" BaseMoves="4" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+		<Row UnitType="UNIT_AMAZON" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_AMAZON_NAME"
 			 Description="LOC_UNIT_AMAZON_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			 Maintenance="3" Combat="48" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"
