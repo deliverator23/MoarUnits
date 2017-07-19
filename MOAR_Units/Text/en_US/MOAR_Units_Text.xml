@@ -254,7 +254,7 @@
 			<Text>Ulfhedinn</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" Language="en_US">
-			<Text>Norwegian unique support unit available with the Mysticism Civic. Adjacent units receive +5 [ICON_Strength] Combat Strength versus undamaged units and +5 [ICON_Strength] Combat Strength versus damaged units. Yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith if combat is won within one tile.</Text>
+			<Text>Norwegian unique support unit available with the Mysticism Civic. Adjacent units receive +5 [ICON_Strength] Combat Strength versus undamaged units and +10 [ICON_Strength] Combat Strength versus damaged units. Yield 50% of defeated units' [ICON_Strength] Combat Strength as [ICON_Faith] Faith if combat is won within one tile.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="en_US">
 			<Text>Gatling Gun</Text>
