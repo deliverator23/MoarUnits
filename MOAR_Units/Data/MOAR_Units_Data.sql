@@ -28,6 +28,8 @@ UPDATE Units SET Combat = 41 WHERE UnitType = 'UNIT_ROMAN_LEGION';
 
 UPDATE Units SET Cost = 200 WHERE UnitType = 'UNIT_KNIGHT';
 
+UPDATE Units SET Cost = 200 WHERE UnitType = 'UNIT_ARABIAN_MAMLUK';
+
 UPDATE Units SET Cost = 180 WHERE UnitType = 'UNIT_PIKEMAN';
 
 UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
