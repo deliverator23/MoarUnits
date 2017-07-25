@@ -211,9 +211,6 @@
 		<Replace Tag="LOC_UNIT_SHIGONG_DESCRIPTION" Language="es_ES">
 			<Text>Unidad de soporte exclusiva de China disponible tras desbloquear entrenamiento militar. Unidades adyacentes de combate cuerpo a cuerpo, caballería, anticaballería y a distancia ganan +5 [ICON_Strength] y ganan mas experiencia. Se puede construir 1 Shigong por cada barracon construido. </Text>
 		</Replace>
-		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_NAME" Language="es_ES">
-			<Text>Conquistador</Text>
-		</Replace>
 		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" Language="es_ES">
 			<Text>Unidad del renacimiento Española que reemplaza al mosquete. Gana +9 [ICON_Strength] cuando hay un misionero, inquisidor, o apostol en la misma casilla. Si captura una ciudad, o esta adyacente a ella cuando es capturada, la ciudad se convertira automaticamente a la religion del jugador</Text>
 		</Replace>
