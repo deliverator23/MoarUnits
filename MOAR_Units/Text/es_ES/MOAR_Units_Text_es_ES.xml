@@ -221,7 +221,7 @@
 			<Text>Francotirador</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SNIPER_DESCRIPTION" Language="es_ES">
-			<Text>Unidad de la era atomica de reconocimiento con movimiento rapido. No puede moverse y atacar en el mismo turno. Gana +12 [ICON_Ranged] al enfrentarse contra unidades terrestres (excepto caballería pesada). Gana +1 [ICON_Range] rango cuando esta en una colina.</Text>
+			<Text>Unidad a distancia de la era atómica. No puede moverse y atacar en el mismo turno. Gana +12 [ICON_Strength] al atacar unidades terrestres (excepto caballería pesada). Gana +1 de rango cuando esta en colinas.. Se mejora desde cañón de campaña.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="es_ES">
 			<Text>Explorador</Text>
@@ -240,6 +240,45 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="es_ES">
 			<Text>Caballeria ligera de la edad medieval</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_AH64_APACHE_NAME" Language="es_ES">
+			<Text>AH-64 Apache</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_AH64_APACHE_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de caballería ligera exclusiva de América de la edad atómica. Gana +10 [ICON_Strength] contra las unidades de caballería pesada.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_IRONSIDE_NAME" Language="es_ES">
+			<Text>Ironside</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_IRONSIDE_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de caballería pesada exclusiva de Inglaterra disponible tras la reforma de la iglesia. Gana +5 [ICON_Strength] si se encuentra dentro o al adyacente a su propio territorio y Gana +5 [ICON_Strength] si el oponente practica otra religión. </Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_NAME" Language="es_ES">
+			<Text>Ulfhedinn</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de noruega disponible tras el misticismo. Las unidades adyacentes reciben +5 [ICON_Strength] contra unidades sin dañar y +10 [ICON_Strength] contra unidades dañadas. Gana el 50% de la [ICON_Strength] de un oponente abatido como fe[ICON_Faith] si el enemigo a sido derrotado a menos de una casilla.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="es_ES">
+			<Text>Ametralladora Gatling</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad anti-caballería de la edad industrial. Se mejora desde piquero. Se mejora a tripulación antitanque.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_NAME" Language="es_ES">
+			<Text>Comando explorador</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de reconocimiento de la edad moderna. Ignora los ríos al moverse y no tiene coste de desembarco. Se mejora desde el ranger. </Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_NAME" Language="es_ES">
+			<Text>Francotirador moderno</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad a distancia de la era de la información. No puede moverse y atacar en el mismo turno. Gana +12 [ICON_Strength] al atacar unidades terrestres (excepto caballería pesada). Gana +1 de rango cuando esta en colinas.. Se mejora desde francotirador. </Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de soporte a distancia de la era atómica (puede agruparse con otras unidades). Gana +10 [ICON_Strength] al defender.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="es_ES">
 			<Text>Saqueadores</Text>
