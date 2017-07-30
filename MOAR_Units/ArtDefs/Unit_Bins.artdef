@@ -83,7 +83,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="T34_Tank"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="tanks.xlp"/>
@@ -139,7 +139,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="Panzer_VI"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="tanks.xlp"/>
@@ -208,7 +208,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="Longbowman_ArmorA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="humans.xlp"/>
@@ -264,7 +264,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="KnightWarrior_ArmorA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="humans.xlp"/>
@@ -445,7 +445,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="LongswordA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="humans.xlp"/>
@@ -514,7 +514,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="Peltast_ShieldA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="humans.xlp"/>
@@ -583,7 +583,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::BLPEntryValue">
+															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="Longswordsman_HelmA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="humans.xlp"/>
