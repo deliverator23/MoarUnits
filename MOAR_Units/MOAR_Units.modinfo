@@ -24,6 +24,9 @@
     </FrontEndActions>
     <InGameActions>
         <UpdateDatabase id="MOAR_UpdateDatabase">
+			<Properties>
+				<LoadOrder>-1</LoadOrder>
+			</Properties>
             <File>Data/MOAR_Units_Data.xml</File>
             <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
