@@ -2,7 +2,7 @@
 <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54">
     <Properties>
         <Name>Moar Units</Name>
-        <Teaser>Adds 33 new Unique Units plus Longswordsman, Explorer, Rifleman, Cuirassier and Sniper.</Teaser>
+        <Teaser>Adds 9 general units and 2 additional unique units for each Civilization.</Teaser>
         <Description>Greetings! This Civilization VI mod adds Maceman, Explorer, Rifleman, Cuirassier and Sniper units and 33 new Unique Units: the American Minuteman, Arabian Camel Archer and Ghazi, Chinese Cho-Ko-Nu and Shigong, German Landsknecht and Panzer, Greek Hetairos (Companion Cavalry) and Armatolos, Spanish Jinete and Tercio, Roman Eques and Onager, Russian Druzhina Cavalry and T-34, Norweigian Hirdman, English Longbowman, Indian Mughal Sowar and Sepoy, Sumerian Phalanx and Sickle Swordsman, Japanese Sohei and Yamato, Scythian Amazon Scout and Amazon Cavalry, Brazilian Bandeirante and Fatherland Volunteer, Egyptian Hyksos Bowman and Tessarakonteres, French Gendarme and Marine and Kongolese Medicine Man and Garde Republicaine.</Description>
         <Authors>Deliverator</Authors>
     </Properties>
@@ -37,8 +37,10 @@
 			<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
 			<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
+
             <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
 			<File>Text/de_DE/MOAR_Units_GameplayText_de_DE.xml</File>
+			<File>Text/es_ES/MOAR_Units_GameplayText_es_ES.xml</File>
             <File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
             <File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
         </UpdateText>
@@ -71,12 +73,14 @@
 
 		<File>Text/en_US/MOAR_Units_GameplayText.xml</File>
 		<File>Text/de_DE/MOAR_Units_GameplayText_de_DE.xml</File>
+		<File>Text/de_DE/MOAR_Units_GameplayText_es_ES.xml</File>
 		<File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
 
+		<!-- Platforms -->
 		<File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
 		<File>Platforms/Windows/BLPs/UI/Icons.blp</File>
-        <!-- Platforms -->
+
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Archer_BraceC</File>
