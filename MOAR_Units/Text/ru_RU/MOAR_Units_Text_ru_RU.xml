@@ -218,7 +218,7 @@
 			<Text>Снайпер</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SNIPER_DESCRIPTION" Language="ru_RU">
-			<Text>Быстрый разведывательный дальнобойный юнит эпохи Атома. Получает +12 [ICON_Ranged] к дальнобойной мощи против всех наземных юнитов (кроме тяжёлой кавалерии). Также получает +1 [ICON_Range] к радиусу поражения если занимает позицию на холмах. Не может двигаться после дальнобойной атаки.</Text>
+			<Text>Быстрый дальнобойный юнит эпохи Атома. Получает +12 [ICON_Ranged] к дальнобойной мощи против всех наземных юнитов (кроме тяжёлой кавалерии). Также получает +1 [ICON_Range] к радиусу поражения если занимает позицию на холмах. Не может двигаться после дальнобойной атаки.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="ru_RU">
 			<Text>Исследователь</Text>
@@ -237,6 +237,48 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="ru_RU">
 			<Text>Быстрая легкая кавалерия Средневековья.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_AH64_APACHE_NAME" Language="ru_RU">
+			<Text>AH-64 Apache</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_AH64_APACHE_DESCRIPTION" Language="ru_RU">
+			<Text>Американский уникальный юнит эпохи Атома. Получает +10 [ICON_Strength] к боевой мощи против тяжёлой кавалерии и танков.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_IRONSIDE_NAME" Language="ru_RU">
+			<Text>Железнобокие</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_IRONSIDE_DESCRIPTION" Language="ru_RU">
+			<Text>Английский уникальный юнит эпохи Возрождения появляющийся с открытием "Реформации". Получает +5 [ICON_Strength] к боевой мощи на своей территории или рядом с границей, а так же +5 [ICON_Strength] к боевой мощи против войск иноверцев.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_NAME" Language="ru_RU">
+			<Text>Ульфхеднар</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" Language="ru_RU">
+			<Text>Норвежский уникальный юнит поддержки, появляющийся с открытием "Мистицизма". Все союзные юниты на соседних клетках получают +5 [ICON_Strength] к боевой мощи против неповрежденных юнитов и +10 [ICON_Strength] к боевой мощи против поврежденных юнитов. Кроме того позволяет получать всем юнитам на соседних клетках бонус в виде 50% [ICON_Faith] веры от [ICON_Strength] боевой мощи побеждённых врагов.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="ru_RU">
+			<Text>Пулемет Гатлинга</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный антикавалерийский юнит Промышленной эры.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_NAME" Language="ru_RU">
+			<Text>Военная разведка</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_DESCRIPTION" Language="ru_RU">
+			<Text>Быстрый разведывательный юнит Нового времени. Игнорирует штрафы при перемещении через реку. Не тратит очки передвижения при высадке на побережье.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_NAME" Language="ru_RU">
+			<Text>Современный снайпер</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" Language="ru_RU">
+			<Text>Быстрый дальнобойный юнит Информационной эры. Получает +12 [ICON_Ranged] к дальнобойной мощи против всех наземных юнитов (кроме тяжёлой кавалерии). Также получает +1 [ICON_Range] к радиусу поражения если занимает позицию на холмах. Не может двигаться после дальнобойной атаки.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="ru_RU">
+			<Text>Дальнобойный защитный юнит эпохи Атома. Получает +10 [ICON_Strength] к боевой мощи при обороне.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="ru_RU">
+			<Text>Индийский уникальный юнит Античности. Враги на соседних клетках получают штраф -5 [ICON_STRENGTH] к боевой мощи.</Text>
 		</Replace>
 		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="ru_RU">
 			<Text>+5 [ICON_Strength] к боевой мощи на том же континенте, где находится [ICON_Capital] столица.</Text>
@@ -282,6 +324,21 @@
 		</Replace>
 		<Replace Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC" Language="ru_RU">
 			<Text>+5 [ICON_Strength] к боевой мощи против иноверцев.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS_DESC" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи против неповрежденных юнитов.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS_DESC" Language="ru_RU">
+			<Text>+10 [ICON_Strength] к боевой мощи против поврежденных юнитов.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC" Language="ru_RU">
+			<Text>+10 [ICON_Strength] к боевой мощи против тяжелой кавалерии.</Text>
+		</Replace>
+		<Replace Tag="PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC" Language="ru_RU">
+			<Text>+15 [ICON_Strength] к боевой мощи против тяжелой кавалерии.</Text>
+		</Replace>
+		<Replace Tag="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC" Language="ru_RU">
+			<Text>+20 [ICON_Strength] к боевой мощи против лёгкой кавалерии.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
