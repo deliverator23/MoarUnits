@@ -24,6 +24,9 @@
     </FrontEndActions>
     <InGameActions>
         <UpdateDatabase id="MOAR_UpdateDatabase">
+			<Properties>
+				<LoadOrder>-1</LoadOrder>
+			</Properties>
             <File>Data/MOAR_Units_Data.xml</File>
             <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
@@ -70,7 +73,7 @@
 
 		<File>Text/en_US/MOAR_Units_GameplayText.xml</File>
 		<File>Text/de_DE/MOAR_Units_GameplayText_de_DE.xml</File>
-		<File>Text/de_DE/MOAR_Units_GameplayText_es_ES.xml</File>
+		<File>Text/es_ES/MOAR_Units_GameplayText_es_ES.xml</File>
 		<File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
 		<File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
 
