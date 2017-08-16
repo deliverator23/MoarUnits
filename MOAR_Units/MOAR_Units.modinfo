@@ -27,6 +27,7 @@
 			<Properties>
 				<LoadOrder>-1</LoadOrder>
 			</Properties>
+			<File>Data/MountainMovement.sql</File>
             <File>Data/MOAR_Units_Data.xml</File>
             <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
@@ -53,13 +54,15 @@
     </InGameActions>
     <Files>
         <File>MOAR_Units.dep</File>
+
+		<!-- Data -->
+		<File>Data/MOAR_Units_Config.xml</File>
+		<File>Data/MOAR_Units_Data.sql</File>
         <File>Data/MOAR_Units_Data.xml</File>
-        <File>Data/MOAR_Units_Data.sql</File>
         <File>Data/MOAR_Units_Icons.xml</File>
+		<File>Data/MountainMovement.sql</File>
 
-        <File>Data/MOAR_Units_Icons_Config.xml</File>
-        <File>Data/MOAR_Units_Config.xml</File>
-
+		<!-- ArtDefs -->
         <File>ArtDefs/Units.artdef</File>
         <File>ArtDefs/Unit_Bins.artdef</File>
 
