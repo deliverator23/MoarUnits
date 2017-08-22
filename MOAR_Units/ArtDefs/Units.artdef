@@ -18396,21 +18396,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Ranger/#/Ranger_HatC"/>
-															</Element>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Hair/Male"/>
-															</Element>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Hats/Redcoat/#/Redcoat_HatA"/>
+																<m_Name text="Hats/BlackTricorn"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
@@ -24486,13 +24472,13 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Hats/Redcoat/#/Redcoat_HatA"/>
-															</Element>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Hats/BlackTricorn"/>
+                                                            </Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Hat"/>
@@ -24720,13 +24706,13 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Hats/Redcoat/#/Redcoat_HatA"/>
-															</Element>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Hats/BlackTricorn"/>
+                                                            </Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Hat"/>
