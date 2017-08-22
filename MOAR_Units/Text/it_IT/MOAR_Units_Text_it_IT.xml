@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_NAME" Language="it_IT">
+			<Text>Arciere su cammello</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva araba di epoca classica. +8 alla [ICON_Strength] Forza di combattimento quando si trova su deserto o pianura.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PELTAST_NAME" Language="it_IT">
+			<Text>Peltasta</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PELTAST_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza esclusiva greca che sostituisce l'Arciere. Attacco a distanza e difesa in mischia superiori ma raggio d'attacco di 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MINUTEMAN_NAME" Language="it_IT">
+			<Text>Minuteman</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MINUTEMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva americana di epoca industriale che sostituisce il Soldato com moschetto. Più debole ma più economico da costruire e mantenere e guadagna +5 alla [ICON_Strength] Forza di combattimento se si trova all'interno o adiacente al proprio territorio d'origine. Guadagna inoltre +5 alla [ICON_Strength] Forza di combattimento quando combatte nei boschi o nelle foreste pluviali.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LANDSKNECHT_NAME" Language="it_IT">
+			<Text>Lanzichenecco</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LANDSKNECHT_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva tedesca di epoca medievale che sostituisce il Picchiere. Costa la metà ma deve essere comprato con l'oro.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PHALANX_NAME" Language="it_IT">
+			<Text>Falange</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PHALANX_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva sumera di epoca antica che sostituisce il Lanciere. Disponibile con la scoperta dell'Estrazione Mineraria. +8 alla [ICON_Strength] Forza di combattimento se si trova entro 8 caselle da un miglioramento Ziggurat.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOKONU_NAME" Language="it_IT">
+			<Text>Cho-Ko-Nu</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOKONU_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza esclusiva cinese di epoca medievale che sostituisce il Balestriere. Leggermente più debole ma può attaccare due volte nello stesso turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RIFLEMAN_NAME" Language="it_IT">
+			<Text>Fuciliere</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità da mischia di epoca industriale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINETE_NAME" Language="it_IT">
+			<Text>Jinete</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JINETE_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza esclusiva spagnola che sostituisce il Cavallerizzo. Ottiene il 50% della [ICON_Strength] Forza di combattimento dell'unità sconfitta come [ICON_Faith] Fede se combatte sul medesimo continente della capitale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EQUITE_NAME" Language="it_IT">
+			<Text>Eques</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EQUITE_DESCRIPTION" Language="it_IT">
+			<Text>Unità a cavallo esclusiva romana che sostituisce il Guerriero a cavallo. +5 alla [ICON_Strength] Forza di combattimento quando è a fianco di una Legione o di un Guerriero. Ottiene il 33% della [ICON_Strength] Forza di combattimento dell'unità sconfitta come [ICON_Gold] Oro.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DRUZHINA_NAME" Language="it_IT">
+			<Text>Druzhina</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DRUZHINA_DESCRIPTION" Language="it_IT">
+			<Text>Unità a cavallo esclusiva russa che sostituisce il Cavallerizzo. +5 alla [ICON_Strength] Forza di combattimento contro le unità danneggiate e +4 alla [ICON_Strength] Forza di combattimento contro le unità da mischia.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HIRDMAN_NAME" Language="it_IT">
+			<Text>Hirdman</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HIRDMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva norvegese di epoca medievale che sostituisce lo Spadaccino. +5 alla [ICON_Strength] Forza di combattimento e ottiene il 50% della [ICON_Strength] Forza di combattimento dell'unità sconfitta come [ICON_Culture] Cultura se combatte sul medesimo continente della capitale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_NAME" Language="it_IT">
+			<Text>Mughal Sowar</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION" Language="it_IT">
+			<Text>Unità a cavallo pesante esclusiva indiana di epoca medievale che sostituisce il Cavaliere. Ignora i costi del terreno. Si cura di +15 per turno quando è adiacente o su un miglioramento Pozzo a gradini.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LONGBOWMAN_NAME" Language="it_IT">
+			<Text>Arciere con arco lungo</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LONGBOWMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza esclusiva inglese di epoca medievale che sostituisce il Balestriere. +4 alla [ICON_Strength] Forza di combattimento contro unità da mischia ed a cavallo ed un ulteriore +4 alla [ICON_Strength] Forza di combattimento se adiacente ad un'altra unità Arciere con arco lungo.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CUIRASSIER_NAME" Language="it_IT">
+			<Text>Corazziere</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION" Language="it_IT">
+			<Text>Unità di cavalleria pesante di epoca industriale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SOHEI_NAME" Language="it_IT">
+			<Text>Sohei</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SOHEI_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva giapponese disponibile col progresso civico Feudalismo. Può essere acquistata con [ICON_Faith] Fede. +10 alla [ICON_Strength] Forza di combattimento quando difende.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMAZON_NAME" Language="it_IT">
+			<Text>Cavalleria Amazzone</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMAZON_DESCRIPTION" Language="it_IT">
+			<Text>Unità a cavallo pesante esclusiva scita di epoca medievale che sostituisce il Cavaliere. Può muovere dopo aver attaccato.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME" Language="it_IT">
+			<Text>Volontario della patria</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva brasiliana di epoca industriale che sostituisce il Fuciliere. Più economico da costruire e da mantenere.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYKSOS_BOWMAN_NAME" Language="it_IT">
+			<Text>Arciere Hyksos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HYKSOS_BOWMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza esclusiva egiziana più forte dell'Arciere che sostituisce.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GENDARME_NAME" Language="it_IT">
+			<Text>Gendarme</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GENDARME_DESCRIPTION" Language="it_IT">
+			<Text>Unità a cavallo pesante esclusiva francese di epoca medievale che sostituisce il Cavaliere. +5 alla [ICON_Strength] Forza di combattimento quando attacca.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GARDE_REPUBLICAINE_NAME" Language="it_IT">
+			<Text>Garde Republicaine</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GARDE_REPUBLICAINE_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva congolese dell'epoca dell'informazione che sostituisce la Fanteria meccanizzata. +10 alla [ICON_Strength] Forza di combattimento quando attacca o difende distretti.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BANDEIRANTE_NAME" Language="it_IT">
+			<Text>Bandeirante</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BANDEIRANTE_DESCRIPTION" Language="it_IT">
+			<Text>Unità da ricognizione esclusiva brasiliana che sostituisce il Ranger. Disponibile alla scoperta di Polvere da sparo. Può costruire forti. Ottiene il 25% della [ICON_Strength] Forza di combattimento dell'unità sconfitta come [ICON_Gold] Oro ed un'ulteriore 25% come [ICON_Culture] Cultura.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TERCIO_NAME" Language="it_IT">
+			<Text>Tercio</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TERCIO_DESCRIPTION" Language="it_IT">
+			<Text>Unità anti-cavalleria esclusiva spagnola di epoca rinascimentale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SEPOY_NAME" Language="it_IT">
+			<Text>Sepoy</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SEPOY_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva Indiana che sostituisce il Fuciliere. Non ha penalità alla Forza di combattimento quando danneggiata.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMAZON_SCOUT_NAME" Language="it_IT">
+			<Text>Scout Amazzone</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" Language="it_IT">
+			<Text>Unità da ricognizione esclusiva scita di epoca antica più potente del normale Scout.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PANZER_NAME" Language="it_IT">
+			<Text>Tiger I</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PANZER_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva tedesca che sostituisce il Carro Armato. +5 alla [ICON_Strength] Forza di combattimento quando attacca.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_T34_NAME" Language="it_IT">
+			<Text>T-34</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_T34_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva russa che sostituisce il Carro Armato, più economica da costruire e mantenere. +5 alla [ICON_Strength] Forza di combattimento se si trova all'interno o adiacente al proprio territorio d'origine.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAMATO_NAME" Language="it_IT">
+			<Text>Yamato</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAMATO_DESCRIPTION" Language="it_IT">
+			<Text>Unità navale a distanza esclusiva giapponese. Più potente della Corazzata che sostituisce.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WAR_GALLEY_NAME" Language="it_IT">
+			<Text>Tessarakonteres</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION" Language="it_IT">
+			<Text>Unità navale a distanza esclusiva egiziana. Più potente del Quadrireme che sostituisce e con raggio d'attacco 2 invece che 1.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ONAGER_NAME" Language="it_IT">
+			<Text>Onagro</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ONAGER_DESCRIPTION" Language="it_IT">
+			<Text>Unità d'assedio esclusiva romana. Più potente della Catapulta che sostituisce.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VULTURE_NAME" Language="it_IT">
+			<Text>Spadaccino Shotelai</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VULTURE_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva sumera. +5 alla [ICON_Strength] Forza di combattimento contro unità danneggiate.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMATOLOS_NAME" Language="it_IT">
+			<Text>Armatolos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva greca che sostituisce il Fuciliere. +5 alla [ICON_Strength] Forza di combattimento in collina e ignora la penalità di movimento delle colline.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRENCH_MARINE_NAME" Language="it_IT">
+			<Text>Marine</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva francese che sostituisce il Soldato con moschetto. +5 alla [ICON_Strength] Forza di combattimento in continenti stranieri. Anfibio - no penalità quando si attacca dal mare o attraverso un fiume.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GHAZI_NAME" Language="it_IT">
+			<Text>Ghazi</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GHAZI_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva araba di epoca medievale che sostituisce il Guerriero con spada lunga. +5 alla [ICON_Strength] Forza di combattimento quando l'avversario segue un'altra religione. Ottiene il 50% della [ICON_Strength] Forza di combattimento dell'unità sconfitta come [ICON_Faith] Fede. Converte le città catturate alla religione del giocatore. Può essere acquistato con la Fede.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MEDICINE_MAN_NAME" Language="it_IT">
+			<Text>Uomo Medicina</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità di supporto esclusiva congolese che sostituisce il Medico ma è disponibile precedentemente con il progresso civico Misticismo. Deve essere acquistato con la Fede. Cura le unità adiacenti ed inoltre le unità da mischia, a distanza, a cavallo e anti-cavalleria adiacenti ottengono il 50% della [ICON_Strength] Forza di combattimento delle unità sconfitte come [ICON_Faith] Fede.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHIGONG_NAME" Language="it_IT">
+			<Text>Shigong</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SHIGONG_DESCRIPTION" Language="it_IT">
+			<Text>Unità di supporto esclusiva cinese disponibile col progresso civico Addestramento Militare. Le unità da mischia, a distanza, a cavallo e anti-cavalleria adiacenti ottengono +5 alla [ICON_Strength] Forza di combattimento e guadagnano più esperienza. Deve essere presente una Caserma per addestrarla.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva spagnola di epoca rinascimentale che sostituisce il Soldato con moschetto. +9 alla [ICON_Strength] Forza di combattimento quando c'è un Apostolo, un Inquisitore o un Missionario nella stessa casella. Se quest'unità cattura una città o è adiacente a essa nel momento in cui viene catturata, la città adotterà automaticamente la religione del giocatore che controlla il Conquistador come religione dominante.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SNIPER_NAME" Language="it_IT">
+			<Text>Cecchino</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SNIPER_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza di epoca atomica. Non può muoversi e attaccare nello stesso turno. Ottiene +12 all' [ICON_Ranged] attacco a distanza contro le unità di terra (esclusa la cavalleria pesante). Ottiene +1 [ICON_Range] Raggio se in collina.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPLORER_NAME" Language="it_IT">
+			<Text>Esploratore</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_EXPLORER_DESCRIPTION" Language="it_IT">
+			<Text>Unità di ricognizione di epoca rinascimentale veloce. Ignora i fiumi quando si muove e non ha costo di disimbarco.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEMAN_NAME" Language="it_IT">
+			<Text>Guerriero con spada lunga</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità da mischia di epoca medievale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME" Language="it_IT">
+			<Text>Cavallerizzo</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità di cavalleria leggera di epoca medievale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_AH64_APACHE_NAME" Language="it_IT">
+			<Text>AH-64 Apache</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_AMERICAN_AH64_APACHE_DESCRIPTION" Language="it_IT">
+			<Text>Unità di cavalleria leggera esclusiva americana di epoca atomica. +10 alla [ICON_Strength] Forza di combattimento contro unità di cavalleria pesante.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_IRONSIDE_NAME" Language="it_IT">
+			<Text>Ironside</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ENGLISH_IRONSIDE_DESCRIPTION" Language="it_IT">
+			<Text>Unità di cavalleria pesante esclusiva inglese di epoca rinascimentale disponibile con il progresso civico Chiesa Riformata. +5 alla [ICON_Strength] Forza di combattimento se si trova all'interno o adiacente al proprio territorio d'origine e +5 alla [ICON_Strength] Forza di combattimento quando l'avversario segue un'altra religione.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_NAME" Language="it_IT">
+			<Text>Ulfhedinn</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" Language="it_IT">
+			<Text>Unità di supporto esclusiva norvegese disponibile con il progresso civico Misticismo. Le unità adiacenti ottengono +5 alla [ICON_Strength] Forza di combattimento contro nemici non danneggiati e +10 alla [ICON_Strength] Forza di combattimento contro nemici danneggiati. Ottiene il 50% della [ICON_Strength] Forza di combattimento delle unità sconfitte entro una casella come [ICON_Faith] Fede.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="it_IT">
+			<Text>Mitragliatrice Gatling</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION" Language="it_IT">
+			<Text>Unità anti-cavalleria di epoca industriale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_NAME" Language="it_IT">
+			<Text>Ricognitore</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RECON_DESCRIPTION" Language="it_IT">
+			<Text>Unità di ricognizione di epoca moderna. Ignora i fiumi quando si muove e non ha costo di disimbarco.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_NAME" Language="it_IT">
+			<Text>Cecchino Avanzato</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_SNIPER_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza dell'epoca dell'informazione. Non può muoversi e attaccare nello stesso turno. Ottiene +12 all' [ICON_Ranged] attacco a distanza contro le unità di terra (esclusa la cavalleria pesante). Ottiene +1 [ICON_Range] Raggio se in collina.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza di supporto di epoca atomica. +10 alla [ICON_Strength] Forza di combattimento in difesa.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="it_IT">
+			<Text>Guerriero a cavallo</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva indiana di epoca classica. Tutte le unità nemiche adiacenti hanno -5 alla [ICON_Strength] Forza di combattimento.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento nello stesso continente della capitale.</Text>
+		</Replace>
+		<Replace Tag="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+4 alla [ICON_Strength] Forza di combattimento contro unità da mischia e cavalleria.</Text>
+		</Replace>
+		<Replace Tag="PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+4 alla [ICON_Strength] Forza di combattimento vicino ad un'unità Arciere con arco lungo.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento vicino ad un'unità Legione o Guerriero.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento entro 8 casella da una Ziggurat.</Text>
+		</Replace>
+		<Replace Tag="PLUS_8_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+8 alla [ICON_Strength] Forza di combattimento su Deserto o Pianura.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento al di fuori dei propri confini.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento in Bosco o Foresta pluviale.</Text>
+		</Replace>
+		<Replace Tag="PLUS_4_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+4 alla [ICON_Strength] Forza di combattimento contro unità da mischia.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+10 alla [ICON_Strength] Forza di combattimento quando si difende.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento quando attacca.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_HILLS_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento in collina.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_SHIGONG_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento da un'unità Shigong.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_FOREIGN_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento in continenti stranieri.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento contro avversario che segue una religione diversa.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento contro unità non danneggiate.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS_DESC" Language="it_IT">
+			<Text>+10 alla [ICON_Strength] Forza di combattimento contro unità danneggiate.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+10 alla [ICON_Strength] Forza di combattimento contro cavalleria pesante.</Text>
+		</Replace>
+		<Replace Tag="PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+15 alla [ICON_Strength] Forza di combattimento contro cavalleria pesante.</Text>
+		</Replace>
+		<Replace Tag="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+20 alla [ICON_Strength] Forza di combattimento contro cavalleria leggera.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
