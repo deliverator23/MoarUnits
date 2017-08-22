@@ -1,3 +1,5 @@
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_TREBUCHET' WHERE Unit = 'UNIT_CATAPULT';
+
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RIFLEMAN' WHERE Unit = 'UNIT_MUSKETMAN';
 
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RIFLEMAN' WHERE Unit = 'UNIT_SPANISH_CONQUISTADOR';
@@ -42,11 +44,9 @@ UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC
 /* Expanded Recon Class */
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EXPLORER' WHERE Unit = 'UNIT_SCOUT';
 
-UPDATE Units SET InitialLevel = 2 WHERE UnitType = 'UNIT_SCOUT' OR UnitType = 'UNIT_EXPLORER' OR UnitType = 'UNIT_RANGER' OR UnitType = 'UNIT_SNIPER' OR UnitType = 'UNIT_AMAZON_SCOUT';
-
 UPDATE Units SET Combat = 53, RangedCombat = 0, MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
 
-UPDATE Units SET FormationClass = 'FORMATION_CLASS_SUPPORT', RangedCombat = 65, Cost = 500 WHERE UnitType = 'UNIT_MACHINE_GUN';
+UPDATE Units SET RangedCombat = 65, Cost = 500 WHERE UnitType = 'UNIT_MACHINE_GUN';
 
 UPDATE Units SET BaseSightRange = 2 WHERE UnitType='UNIT_NATURALIST';
 
