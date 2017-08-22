@@ -10,6 +10,7 @@
 		<Row Type="UNIT_MEDIEVAL_HORSEMAN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_RECON" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_MODERN_SNIPER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TREBUCHET" Kind="KIND_UNIT"/>
 
 		<Row Type="UNIT_PELTAST" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_CAMEL_ARCHER" Kind="KIND_UNIT"/>
@@ -288,6 +289,11 @@
 			 Combat="23" Range="2" PrereqTech="TECH_ENGINEERING" Bombard="40" MandatoryObsoleteTech="TECH_STEEL"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_ONAGER"/>
 
+		<Row UnitType="UNIT_TREBUCHET" BaseMoves="2" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TREBUCHET_NAME"
+			 Description="LOC_UNIT_TREBUCHET_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="3"
+			 Combat="33" Range="2" PrereqTech="TECH_MILITARY_ENGINEERING" Bombard="45" MandatoryObsoleteTech="TECH_BALLISTICS"/>
+
 		<Row UnitType="UNIT_YAMATO" BaseMoves="5" Cost="460" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_YAMATO_NAME"
 			 Description="LOC_UNIT_YAMATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
@@ -420,6 +426,7 @@
 		<Row CivUniqueUnitType="UNIT_AMERICAN_AH64_APACHE" ReplacesUnitType="UNIT_HELICOPTER"/>
 	</UnitReplaces>
 	<UnitUpgrades>
+		<Row Unit="UNIT_TREBUCHET" UpgradeUnit="UNIT_BOMBARD"/>
 		<Row Unit="UNIT_MEDIEVAL_HORSEMAN" UpgradeUnit="UNIT_CAVALRY"/>
 		<Row Unit="UNIT_MACEMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
@@ -442,7 +449,7 @@
 		<Row Unit="UNIT_LANDSKNECHT" UpgradeUnit="UNIT_GATLING_GUN"/>
 		<Row Unit="UNIT_TERCIO" UpgradeUnit="UNIT_GATLING_GUN"/>
 		<Row Unit="UNIT_SEPOY" UpgradeUnit="UNIT_INFANTRY"/>
-		<Row Unit="UNIT_ONAGER" UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_ONAGER" UpgradeUnit="UNIT_TREBUCHET"/>
 		<Row Unit="UNIT_PANZER" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<Row Unit="UNIT_WAR_GALLEY" UpgradeUnit="UNIT_FRIGATE"/>
 		<Row Unit="UNIT_AMAZON_SCOUT" UpgradeUnit="UNIT_EXPLORER"/>
@@ -584,6 +591,10 @@
 		<Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_ONAGER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TREBUCHET" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TREBUCHET" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TREBUCHET" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_TREBUCHET" AiType="UNITTYPE_LAND_COMBAT"/>
 		<Row UnitType="UNIT_PANZER" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_PANZER" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_PANZER" AiType="UNITTYPE_CAVALRY"/>
@@ -760,6 +771,7 @@
 		<Row Tag="CLASS_NORWEGIAN_ULFHEDNAR" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
+		<Row Type="UNIT_TREBUCHET" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_MEDIEVAL_HORSEMAN" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_MACEMAN" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_RIFLEMAN" Tag="CLASS_MELEE"/>
@@ -891,7 +903,6 @@
 		<Row Type="ABILITY_VULTURE" Tag="CLASS_VULTURE"/>
 		<Row Type="ABILITY_T34" Tag="CLASS_T34"/>
 		<Row Type="ABILITY_ARMATOLOS" Tag="CLASS_ARMATOLOS"/>
-		<Row Type="ABILITY_MOUNTAIN_MOVE_ALLOWED" Tag="CLASS_ARMATOLOS"/>
 		<Row Type="ABILITY_GHAZI" Tag="CLASS_GHAZI"/>
 		<Row Type="ABILITY_FRENCH_MARINE" Tag="CLASS_FRENCH_MARINE"/>
 		<Row Type="ABILITY_LANDSKNECHT" Tag="CLASS_LANDSKNECHT"/>

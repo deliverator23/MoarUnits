@@ -10,6 +10,155 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Units"/>
+            <Element>
+                <m_Fields>
+                    <m_Values>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="Catapult"/>
+                            <m_RootCollectionName text="UnitFormationTypes"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="Formation"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="Catapult"/>
+                            <m_RootCollectionName text="UnitCombat"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="UnitCombat"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="UnitFormationTypes"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="EscortFormation"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="UNIT_ANCIENTEMBARK"/>
+                            <m_RootCollectionName text="Units"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text="Units"/>
+                            <m_ParamName text="EmbarkedUnit"/>
+                        </Element>
+                        <Element class="AssetObjects:BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="DoNotDisplayCharges"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="UnitCulture"/>
+                            <m_ArtDefPath text="Cultures.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="Culture"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="Era"/>
+                            <m_ArtDefPath text="Eras.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="Era"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="Units"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="ProxyUnit"/>
+                        </Element>
+                        <Element class="AssetObjects:BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="PlayDeathOnDestroy"/>
+                        </Element>
+                        <Element class="AssetObjects:IntValue">
+                            <m_nValue>-500</m_nValue>
+                            <m_ParamName text="DisplayLevel"/>
+                        </Element>
+                    </m_Values>
+                </m_Fields>
+                <m_ChildCollections>
+                    <Element>
+                        <m_CollectionName text="Members"/>
+                        <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                        <Element>
+                            <m_Fields>
+                                <m_Values>
+                                    <Element class="AssetObjects:FloatValue">
+                                        <m_fValue>1.000000</m_fValue>
+                                        <m_ParamName text="Scale"/>
+                                    </Element>
+                                    <Element class="AssetObjects:IntValue">
+                                        <m_nValue>1</m_nValue>
+                                        <m_ParamName text="Count"/>
+                                    </Element>
+                                    <Element class="AssetObjects:ArtDefReferenceValue">
+                                        <m_ElementName text="UnitMember_Trebuchet"/>
+                                        <m_RootCollectionName text="UnitMemberTypes"/>
+                                        <m_ArtDefPath text="Units.artdef"/>
+                                        <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                        <m_TemplateName text=""/>
+                                        <m_ParamName text="Type"/>
+                                    </Element>
+                                </m_Values>
+                            </m_Fields>
+                            <m_ChildCollections/>
+                            <m_Name text="Members001"/>
+                            <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                        </Element>
+                        <Element>
+                            <m_Fields>
+                                <m_Values>
+                                    <Element class="AssetObjects:FloatValue">
+                                        <m_fValue>1.000000</m_fValue>
+                                        <m_ParamName text="Scale"/>
+                                    </Element>
+                                    <Element class="AssetObjects:IntValue">
+                                        <m_nValue>2</m_nValue>
+                                        <m_ParamName text="Count"/>
+                                    </Element>
+                                    <Element class="AssetObjects:ArtDefReferenceValue">
+                                        <m_ElementName text="CatapultDefender"/>
+                                        <m_RootCollectionName text="UnitMemberTypes"/>
+                                        <m_ArtDefPath text="Units.artdef"/>
+                                        <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                        <m_TemplateName text=""/>
+                                        <m_ParamName text="Type"/>
+                                    </Element>
+                                </m_Values>
+                            </m_Fields>
+                            <m_ChildCollections/>
+                            <m_Name text="Members002"/>
+                            <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                        </Element>
+                    </Element>
+                    <Element>
+                        <m_CollectionName text="Audio"/>
+                        <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                        <Element>
+                            <m_Fields>
+                                <m_Values>
+                                    <Element class="AssetObjects:StringValue">
+                                        <m_Value text="Catapult"/>
+                                        <m_ParamName text="XrefName"/>
+                                    </Element>
+                                </m_Values>
+                            </m_Fields>
+                            <m_ChildCollections/>
+                            <m_Name text="CATAPULT"/>
+                            <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                        </Element>
+                    </Element>
+                </m_ChildCollections>
+                <m_Name text="UNIT_TREBUCHET"/>
+                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+            </Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
@@ -3392,7 +3541,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.772</m_fValue>
+										<m_fValue>0.7</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
@@ -33355,6 +33504,443 @@
 				<m_Name text="UnitMember_Trader"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
+            <Element>
+                <m_Fields>
+                    <m_Values>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="Catapult"/>
+                            <m_RootCollectionName text="UnitMovementTypes"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="Movement"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="TrebuchetCombat"/>
+                            <m_RootCollectionName text="MemberCombat"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="Combat"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="WOOD"/>
+                            <m_RootCollectionName text="MaterialTypes"/>
+                            <m_ArtDefPath text="VFX.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="VFXMaterialType"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="WOOD"/>
+                            <m_RootCollectionName text="MaterialTypes"/>
+                            <m_ArtDefPath text="VFX.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="VFXWeaponImpact"/>
+                        </Element>
+                        <Element class="AssetObjects:FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="ImpactHeightOverride"/>
+                        </Element>
+                    </m_Values>
+                </m_Fields>
+                <m_ChildCollections>
+                    <Element>
+                        <m_CollectionName text="Cultures"/>
+                        <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                        <Element>
+                            <m_Fields>
+                                <m_Values/>
+                            </m_Fields>
+                            <m_ChildCollections>
+                                <Element>
+                                    <m_CollectionName text="Variations"/>
+                                    <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                    <Element>
+                                        <m_Fields>
+                                            <m_Values>
+                                                <Element class="AssetObjects:FloatValue">
+                                                    <m_fValue>1.0</m_fValue>
+                                                    <m_ParamName text="Scale"/>
+                                                </Element>
+                                                <Element class="AssetObjects:BoolValue">
+                                                    <m_bValue>false</m_bValue>
+                                                    <m_ParamName text="IsAttachment"/>
+                                                </Element>
+                                            </m_Values>
+                                        </m_Fields>
+                                        <m_ChildCollections>
+                                            <Element>
+                                                <m_CollectionName text="Attachments"/>
+                                                <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text="CV_Any"/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text="Units.artdef"/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text="Units"/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Vehicles/Trebuchet"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Catapult"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Operator"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="V:OperatorA"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Operator"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                            </Element>
+                                        </m_ChildCollections>
+                                        <m_Name text="CatapultA"/>
+                                        <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                    </Element>
+                                    <Element>
+                                        <m_Fields>
+                                            <m_Values>
+                                                <Element class="AssetObjects:FloatValue">
+                                                    <m_fValue>0.77</m_fValue>
+                                                    <m_ParamName text="Scale"/>
+                                                </Element>
+                                                <Element class="AssetObjects:BoolValue">
+                                                    <m_bValue>true</m_bValue>
+                                                    <m_ParamName text="IsAttachment"/>
+                                                </Element>
+                                            </m_Values>
+                                        </m_Fields>
+                                        <m_ChildCollections>
+                                            <Element>
+                                                <m_CollectionName text="Attachments"/>
+                                                <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text="Warrior_Armor"/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text="Units.artdef"/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Armor/CatapultOperator"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Armor"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="WeaponPrimary"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Weapons/Warrior"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Weapon"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Boots/Warrior"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Boots"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Bodies/Male_BuffBody_Full"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Body"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Hat"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Hats/Warrior"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Hair/Male"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="[empty]"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Hats"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Bracers/Warrior"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="[empty]"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Bracers"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects:StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects:ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Heads/Male"/>
+                                                                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Head"/>
+                                                    <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                                </Element>
+                                            </Element>
+                                        </m_ChildCollections>
+                                        <m_Name text="OperatorA"/>
+                                        <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                                    </Element>
+                                </Element>
+                            </m_ChildCollections>
+                            <m_Name text="Any"/>
+                            <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+                        </Element>
+                    </Element>
+                </m_ChildCollections>
+                <m_Name text="UnitMember_Trebuchet"/>
+                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+            </Element>
 		</Element>
 		<Element>
 			<m_CollectionName text="UnitTintTypes"/>
@@ -34541,5 +35127,353 @@
 				<m_Name text="TercioFormation"/>
 			</Element>
 		</Element>
+        <Element>
+            <m_CollectionName text="MemberCombat"/>
+            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+            <Element>
+                <m_Fields>
+                    <m_Values>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>50.000000</m_fValue>
+                            <m_ParamName text="Speed"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>6.000000</m_fValue>
+                            <m_ParamName text="Radius"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>8.000000</m_fValue>
+                            <m_ParamName text="PathTurnDist"/>
+                        </Element>
+                        <Element class="AssetObjects::IntValue">
+                            <m_nValue>200</m_nValue>
+                            <m_ParamName text="TurnRate"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="NoDamage"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="NoAttack"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>true</m_bValue>
+                            <m_ParamName text="DiesLast"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text="TrebuchetAttack"/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="CombatAttack"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="HeroAttack"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text="CatapultDefend"/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="DefensiveAttack"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="MaxSmallMoveDistance"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="CombatAttack_1"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="HeroAttack_1"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="DefensiveAttack_1"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="UsesTurnAnims"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="IsNaval"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>12.000000</m_fValue>
+                            <m_ParamName text="VehicleTurnRadius"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="CombatRunStopTime"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="NoFormup"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="CombatAttack_2"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="CombatRunStartTime"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="CombatAttack_3"/>
+                        </Element>
+                        <Element class="AssetObjects::ArtDefReferenceValue">
+                            <m_ElementName text=""/>
+                            <m_RootCollectionName text="CombatAttack"/>
+                            <m_ArtDefPath text="Units.artdef"/>
+                            <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                            <m_TemplateName text=""/>
+                            <m_ParamName text="CombatAttack_4"/>
+                        </Element>
+                    </m_Values>
+                </m_Fields>
+                <m_ChildCollections/>
+                <m_Name text="TrebuchetCombat"/>
+                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+            </Element>
+        </Element>
+        <Element>
+            <m_CollectionName text="CombatAttack"/>
+            <m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+            <Element>
+                <m_Fields>
+                    <m_Values>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>300.000000</m_fValue>
+                            <m_ParamName text="ProjectileSpeed"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_1"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_2"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_3"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_4"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_5"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>80.000000</m_fValue>
+                            <m_ParamName text="Range"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="Offset"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="HasMomentum"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_6"/>
+                        </Element>
+                        <Element class="AssetObjects::CollectionValue">
+                            <m_eObjectType>INVALID</m_eObjectType>
+                            <m_eValueType>ARTDEF_REF</m_eValueType>
+                            <m_Values/>
+                            <m_ParamName text="SpecificTargets"/>
+                        </Element>
+                        <Element class="AssetObjects:FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="BlastRadius"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="BulletSpread"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="IsNavalRam"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_7"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_8"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_9"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_10"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>true</m_bValue>
+                            <m_ParamName text="KillType_11"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_12"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_13"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_14"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_15"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_16"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_17"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_18"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_19"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_20"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_21"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_22"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_23"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_24"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_25"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_26"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_27"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="KillType_28"/>
+                        </Element>
+                        <Element class="AssetObjects:ArtDefReferenceValue">
+                            <m_ElementName text="Explosive_Hit"/>
+                            <m_RootCollectionName text="WeaponVFX"/>
+                            <m_ArtDefPath text="VFX.artdef"/>
+                            <m_CollectionIsLocked>false</m_CollectionIsLocked>
+                            <m_TemplateName text="VFX"/>
+                            <m_ParamName text="VFXImpact"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="TorpedoTurnRadius"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="AttackArc"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="IsBroadside"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="ProjectileGravity"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="ProjectileAcceleration"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="AlignImpactWithWorld"/>
+                        </Element>
+                        <Element class="AssetObjects::BoolValue">
+                            <m_bValue>false</m_bValue>
+                            <m_ParamName text="CanInterceptProjectiles"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="ImpactRatio"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="InterceptRatio"/>
+                        </Element>
+                        <Element class="AssetObjects::FloatValue">
+                            <m_fValue>0.000000</m_fValue>
+                            <m_ParamName text="BoomerangAcceleration"/>
+                        </Element>
+                    </m_Values>
+                </m_Fields>
+                <m_ChildCollections/>
+                <m_Name text="TrebuchetAttack"/>
+                <m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+            </Element>
+        </Element>
 	</m_RootCollections>
 </AssetObjects::ArtDefSet>
