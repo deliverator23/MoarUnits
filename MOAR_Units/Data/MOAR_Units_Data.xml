@@ -1485,7 +1485,7 @@
 		<Row>
 			<ModifierId>HIRDMAN_POST_COMBAT_CULTURE</ModifierId>
 			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
+			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
 			<ModifierId>PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS</ModifierId>
