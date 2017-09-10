@@ -164,7 +164,7 @@
 			<Text>Japanese unique naval Ranged unit. Stronger than the Battleship it replaces.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WAR_GALLEY_NAME" Language="en_US">
-			<Text>Tessarakonteres</Text>
+			<Text>Septireme</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION" Language="en_US">
 			<Text>Egyptian unique naval Ranged unit. Stronger than the Quadrireme it replaces and has range 2 instead of 1.</Text>

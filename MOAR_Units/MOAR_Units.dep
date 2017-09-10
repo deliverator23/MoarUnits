@@ -64,6 +64,7 @@
                 <Element text="units/modernInfantry2.blp"/>
                 <Element text="units/peltast.blp"/>
                 <Element text="units/recon.blp"/>
+                <Element text="units/septireme.blp"/>
                 <Element text="units/tanks.blp"/>
                 <Element text="units/trebuchet.blp"/>
                 <Element text="units/ulfhednar.blp"/>
