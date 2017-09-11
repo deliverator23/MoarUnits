@@ -24069,50 +24069,43 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Musketman"/>
+																<m_Name text="Armor/Bandeirante"/>
 															</Element>
 														</Element>
 													</m_ChildCollections>
 													<m_Name text="Armor"/>
 												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects::StringValue">
-																<m_Value text="Hat"/>
-																<m_ParamName text="Point"/>
-															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
-																<m_ElementName text=""/>
-																<m_RootCollectionName text="UnitTintTypes"/>
-																<m_ArtDefPath text=""/>
-																<m_CollectionIsLocked>true</m_CollectionIsLocked>
-																<m_TemplateName text=""/>
-																<m_ParamName text="Tint"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections>
-														<Element>
-															<m_CollectionName text="Bins"/>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="Hats/Ranger/#/Ranger_HatB"/>
-															</Element>
-															<Element>
-																<m_Fields>
-																	<m_Values/>
-																</m_Fields>
-																<m_ChildCollections/>
-																<m_Name text="[empty]"/>
-															</Element>
-														</Element>
-													</m_ChildCollections>
-													<m_Name text="Hat"/>
-												</Element>
+                                                <Element>
+                                                    <m_Fields>
+                                                        <m_Values>
+                                                            <Element class="AssetObjects::StringValue">
+                                                                <m_Value text="Root"/>
+                                                                <m_ParamName text="Point"/>
+                                                            </Element>
+                                                            <Element class="AssetObjects::ArtDefReferenceValue">
+                                                                <m_ElementName text=""/>
+                                                                <m_RootCollectionName text="UnitTintTypes"/>
+                                                                <m_ArtDefPath text=""/>
+                                                                <m_CollectionIsLocked>true</m_CollectionIsLocked>
+                                                                <m_TemplateName text=""/>
+                                                                <m_ParamName text="Tint"/>
+                                                            </Element>
+                                                        </m_Values>
+                                                    </m_Fields>
+                                                    <m_ChildCollections>
+                                                        <Element>
+                                                            <m_CollectionName text="Bins"/>
+                                                            <Element>
+                                                                <m_Fields>
+                                                                    <m_Values/>
+                                                                </m_Fields>
+                                                                <m_ChildCollections/>
+                                                                <m_Name text="Bodies/Male_ThinBody_LimbsA"/>
+                                                            </Element>
+                                                        </Element>
+                                                    </m_ChildCollections>
+                                                    <m_Name text="Body"/>
+                                                </Element>
 												<Element>
 													<m_Fields>
 														<m_Values>

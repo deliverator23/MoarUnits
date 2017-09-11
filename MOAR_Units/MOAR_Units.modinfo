@@ -154,7 +154,15 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnLeft</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnRight</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_BraceA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_BraceB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_BraceC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_Dodge</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_IdleA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_ReadyWeaponMatch</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_RunFwdA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_StrafeBackA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Conquistador_StrafeFwdA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_gatling_gun_attacka</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_gatling_gun_attackb</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_gatling_gun_attack_city</File>
@@ -234,6 +242,20 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Missionary_IdleD</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Missionary_Run</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Missionary_Run_Stop</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_Shoot</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Musketman_ShootAndReload</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Naturalist_IdleA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
@@ -406,6 +428,7 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gatling_Gun_Brown_Haired_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gatling_Gun_Middle_Eastern_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gendarme_Plate_Armor_a_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_GreatRenaissanceMusician_Male_a_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Horseman_a_Horseman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Infantry_Armor_a_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ironside_Albedo_L3_null</File>
@@ -431,6 +454,11 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FXt_Flames04</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Gendarme_Plate_Armor_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Gendarme_Plate_Armor_n1</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_ao</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_g</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_m</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_n0</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_n1</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Heater_Shield_AO</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Heater_Shield_gloss</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Heater_Shield_normal0</File>
@@ -525,6 +553,7 @@
 		<File>Platforms/MacOS/BLPs/units/accessories.blp</File>
 		<File>Platforms/MacOS/BLPs/units/apache.blp</File>
 		<File>Platforms/MacOS/BLPs/units/armoredHorseman.blp</File>
+		<File>Platforms/MacOS/BLPs/units/bandeirante.blp</File>
 		<File>Platforms/MacOS/BLPs/units/gatling_gun.blp</File>
 		<File>Platforms/MacOS/BLPs/units/gendarme.blp</File>
 		<File>Platforms/MacOS/BLPs/units/humans.blp</File>
@@ -606,7 +635,15 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnLeft</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_TurnRight</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_BraceA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_BraceB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_BraceC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_Dodge</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_IdleA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_ReadyWeaponMatch</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_RunFwdA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_StrafeBackA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Conquistador_StrafeFwdA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_gatling_gun_attacka</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_gatling_gun_attackb</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_gatling_gun_attack_city</File>
@@ -686,6 +723,20 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Missionary_IdleD</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Missionary_Run</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Missionary_Run_Stop</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_CombatIdlePoseD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_IdleD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_RunStopD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_Shoot</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Musketman_ShootAndReload</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Naturalist_IdleA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
@@ -858,6 +909,7 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gatling_Gun_Brown_Haired_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gatling_Gun_Middle_Eastern_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Gendarme_Plate_Armor_a_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_GreatRenaissanceMusician_Male_a_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Horseman_a_Horseman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Infantry_Armor_a_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ironside_Albedo_L3_null</File>
@@ -883,6 +935,11 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FXt_Flames04</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Gendarme_Plate_Armor_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Gendarme_Plate_Armor_n1</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_ao</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_g</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_m</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_n0</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_GreatRenaissanceMusician_Male_n1</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Heater_Shield_AO</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Heater_Shield_gloss</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Heater_Shield_normal0</File>
@@ -977,6 +1034,7 @@
 		<File>Platforms/Windows/BLPs/units/accessories.blp</File>
 		<File>Platforms/Windows/BLPs/units/apache.blp</File>
 		<File>Platforms/Windows/BLPs/units/armoredHorseman.blp</File>
+		<File>Platforms/Windows/BLPs/units/bandeirante.blp</File>
 		<File>Platforms/Windows/BLPs/units/gatling_gun.blp</File>
 		<File>Platforms/Windows/BLPs/units/gendarme.blp</File>
 		<File>Platforms/Windows/BLPs/units/humans.blp</File>
