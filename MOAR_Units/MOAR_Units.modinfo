@@ -259,7 +259,6 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Forward</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Hero</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleA</File>
-		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleD</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Idle_CombatA</File>
@@ -712,7 +711,6 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Forward</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Hero</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleA</File>
-		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_IdleD</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Idle_CombatA</File>
