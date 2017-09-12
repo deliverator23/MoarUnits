@@ -1,8 +1,0 @@
-Missing Assets:
-
-Peltast_ShieldA
-Peltast_ArmorA
-Peltast_HatA
-
-ArmoredHorseman_ArmorA : 3D/SakaHorseman > Textures
-
