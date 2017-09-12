@@ -297,8 +297,8 @@
 		<Row UnitType="UNIT_YAMATO" BaseMoves="5" Cost="460" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_YAMATO_NAME"
 			 Description="LOC_UNIT_YAMATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
-			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="7" Combat="75" RangedCombat="80" Range="3" PrereqTech="TECH_STEEL"
-			 StrategicResource="RESOURCE_COAL" AntiAirCombat="80" TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO"/>
+			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="7" Combat="70" RangedCombat="80" Range="3" PrereqTech="TECH_STEEL"
+			 StrategicResource="RESOURCE_COAL" AntiAirCombat="80" TraitType="TRAIT_CIVILIZATION_UNIT_YAMATO" InitialLevel="2"/>
 
 		<Row UnitType="UNIT_WAR_GALLEY" BaseMoves="3" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_WAR_GALLEY_NAME"

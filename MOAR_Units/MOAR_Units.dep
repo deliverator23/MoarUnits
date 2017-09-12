@@ -57,6 +57,7 @@
                 <Element text="units/accessories.blp"/>
                 <Element text="units/apache.blp"/>
                 <Element text="units/armoredHorseman.blp"/>
+                <Element text="units/bandeirante.blp"/>
                 <Element text="units/gatling_gun.blp"/>
                 <Element text="units/gendarme.blp"/>
                 <Element text="units/humans.blp"/>
@@ -64,6 +65,7 @@
                 <Element text="units/modernInfantry2.blp"/>
                 <Element text="units/peltast.blp"/>
                 <Element text="units/recon.blp"/>
+                <Element text="units/septireme.blp"/>
                 <Element text="units/tanks.blp"/>
                 <Element text="units/trebuchet.blp"/>
                 <Element text="units/ulfhednar.blp"/>
