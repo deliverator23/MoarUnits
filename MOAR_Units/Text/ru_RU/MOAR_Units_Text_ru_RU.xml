@@ -140,7 +140,7 @@
 			<Text>Индийский уникальный юнит Промышленной эры заменяющий стрелков. Всегда атакует в полную силу, вне зависимости от полученных ранений.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AMAZON_SCOUT_NAME" Language="ru_RU">
-			<Text>Разведчик амазонок</Text>
+			<Text>Разведчицы</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION" Language="ru_RU">
 			<Text>Скифский уникальный разведывательный юнит Древнего мира, сильнее обычного разведчика.</Text>
@@ -256,6 +256,12 @@
 		<Replace Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION" Language="ru_RU">
 			<Text>Норвежский уникальный юнит поддержки, появляющийся с открытием "Мистицизма". Все союзные юниты на соседних клетках получают +5 [ICON_Strength] к боевой мощи против неповрежденных юнитов и +10 [ICON_Strength] к боевой мощи против поврежденных юнитов. Кроме того позволяет получать всем юнитам на соседних клетках бонус в виде 50% [ICON_Faith] веры от [ICON_Strength] боевой мощи побеждённых врагов.</Text>
 		</Replace>
+		<Replace Tag="LOC_UNIT_TREBUCHET_NAME" Language="ru_RU">
+			<Text>Требушет</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный осадный юнит Средневековья. Идеален для атаки городов. Не может перемещаться и атаковать в тот же ход, пока не заслужит повышение "Опытная команда".</Text>
+		</Replace>
 		<Replace Tag="LOC_UNIT_GATLING_GUN_NAME" Language="ru_RU">
 			<Text>Пулемет Гатлинга</Text>
 		</Replace>
@@ -276,6 +282,9 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="ru_RU">
 			<Text>Дальнобойный защитный юнит эпохи Атома. Получает +10 [ICON_Strength] к боевой мощи при обороне.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HORSEMAN_NAME" Language="ru_RU">
+			<Text>Лёгкая конница</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="ru_RU">
 			<Text>Индийский уникальный юнит Античности. Враги на соседних клетках получают штраф -5 [ICON_STRENGTH] к боевой мощи.</Text>
