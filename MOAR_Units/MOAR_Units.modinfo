@@ -232,6 +232,7 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_MechanizedInfantryVehicle_IdleA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Missionary_Attack</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Missionary_Backward</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Missionary_Death</File>
@@ -265,8 +266,18 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Quadrireme_IdleA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Quadrireme_RunA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Quadrireme_RunStopA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_AttackA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_BlockB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_BraceB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_BraceC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_Dodge_Duck</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_IdleC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_MarchFwdA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_RunFwdA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_StrafeBackB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_Attack</File>
@@ -440,6 +451,7 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PeltastMak_a_tweak_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ptolemaic_Sail_ad_Black_TintMask</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Quadrireme_a_Quadrireme_t</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_rifleman_a_rifleman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_slinger_armor_a_slinger_armor_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_swordsman_A_Swordsman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Swordsman_var_a_null</File>
@@ -513,6 +525,7 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_m</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_rifleman_m</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_ao</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_n1</File>
@@ -561,6 +574,7 @@
 		<File>Platforms/MacOS/BLPs/units/modernInfantry2.blp</File>
 		<File>Platforms/MacOS/BLPs/units/peltast.blp</File>
 		<File>Platforms/MacOS/BLPs/units/recon.blp</File>
+		<File>Platforms/MacOS/BLPs/units/rifleman.blp</File>
 		<File>Platforms/MacOS/BLPs/units/septireme.blp</File>
 		<File>Platforms/MacOS/BLPs/units/tanks.blp</File>
 		<File>Platforms/MacOS/BLPs/units/trebuchet.blp</File>
@@ -713,6 +727,7 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_MechanizedInfantryVehicle_IdleA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Missionary_Attack</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Missionary_Backward</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Missionary_Death</File>
@@ -746,8 +761,18 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Quadrireme_IdleA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Quadrireme_RunA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Quadrireme_RunStopA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_AttackA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_BlockB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_BraceB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_BraceC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_Dodge_Duck</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_IdleC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_MarchFwdA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_RunFwdA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Redcoat_StrafeBackB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Slinger_Attack</File>
@@ -921,6 +946,7 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_PeltastMak_a_tweak_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ptolemaic_Sail_ad_Black_TintMask</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Quadrireme_a_Quadrireme_t</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_rifleman_a_rifleman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_slinger_armor_a_slinger_armor_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_swordsman_A_Swordsman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Swordsman_var_a_null</File>
@@ -994,6 +1020,7 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_m</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_rifleman_m</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_ao</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_n1</File>
@@ -1042,6 +1069,7 @@
 		<File>Platforms/Windows/BLPs/units/modernInfantry2.blp</File>
 		<File>Platforms/Windows/BLPs/units/peltast.blp</File>
 		<File>Platforms/Windows/BLPs/units/recon.blp</File>
+		<File>Platforms/Windows/BLPs/units/rifleman.blp</File>
 		<File>Platforms/Windows/BLPs/units/septireme.blp</File>
 		<File>Platforms/Windows/BLPs/units/tanks.blp</File>
 		<File>Platforms/Windows/BLPs/units/trebuchet.blp</File>
