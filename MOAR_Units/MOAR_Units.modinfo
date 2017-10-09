@@ -315,6 +315,19 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spy_ReactRangedB</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spy_ReactRangedC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spy_ReactRangedD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_AttackA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_DodgeA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_HeroAttackA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedB</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedC</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedD</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_SpawnA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
@@ -373,10 +386,14 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunCombat_BowAndArrowA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunStop_SwordAndShieldA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_2HandedSwordA.ma</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_BowAndArrowA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_SwordAndShieldA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_BowAndArrowA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_SwordAndShieldA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_BowAndArrowA</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_SwordAndShieldA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeA</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeB</File>
@@ -458,7 +475,18 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ptolemaic_Sail_ad_Black_TintMask</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Quadrireme_a_Quadrireme_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_rifleman_a_rifleman_t</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldA_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldC_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldD_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldE_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldF_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldG_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldH_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldJ_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldK_null</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldL_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_slinger_armor_a_slinger_armor_t</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Spearman_var_a_Spearman_var_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_swordsman_A_Swordsman_t</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Swordsman_var_a_null</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
@@ -532,6 +560,11 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_rifleman_m</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Round_Shield_ao</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Round_Shield_g</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Round_Shield_m</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Round_Shield_n0</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Round_Shield_n1</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_ao</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Sail_n1</File>
@@ -545,6 +578,11 @@
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_slinger_armor_m</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_slinger_armor_n0</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_slinger_armor_n1</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_ao</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_g</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_m</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n0</File>
+		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n1</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_AO</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_G</File>
 		<File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_swordsman_M</File>
@@ -581,6 +619,7 @@
 		<File>Platforms/MacOS/BLPs/units/peltast.blp</File>
 		<File>Platforms/MacOS/BLPs/units/recon.blp</File>
 		<File>Platforms/MacOS/BLPs/units/rifleman.blp</File>
+		<File>Platforms/MacOS/BLPs/units/roundShields.blp</File>
 		<File>Platforms/MacOS/BLPs/units/septireme.blp</File>
 		<File>Platforms/MacOS/BLPs/units/tanks.blp</File>
 		<File>Platforms/MacOS/BLPs/units/trebuchet.blp</File>
@@ -810,6 +849,19 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spy_ReactRangedB</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spy_ReactRangedC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Spy_ReactRangedD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_AttackA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_DodgeA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_HeroAttackA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleCombatD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedB</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedC</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedD</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Swordsman_SpawnA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_AttackA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_BraceA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Tank_BreatheSingleA</File>
@@ -868,10 +920,14 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunCombat_BowAndArrowA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunStop_SwordAndShieldA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_2HandedSwordA.ma</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_BowAndArrowA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Run_SwordAndShieldA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_BowAndArrowA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_SwordAndShieldA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_BowAndArrowA</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_SwordAndShieldA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeA</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Warrior_AttackMeleeB</File>
@@ -953,7 +1009,18 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ptolemaic_Sail_ad_Black_TintMask</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Quadrireme_a_Quadrireme_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_rifleman_a_rifleman_t</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldA_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldC_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldD_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldE_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldF_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldG_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldH_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldJ_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldK_null</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Round_ShieldL_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_slinger_armor_a_slinger_armor_t</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Spearman_var_a_Spearman_var_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_swordsman_A_Swordsman_t</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Swordsman_var_a_null</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_T34_Base_Texture_T34_TintMask2_Texture</File>
@@ -1027,6 +1094,11 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_redcoat_n1</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_rifleman_m</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Round_Shield_ao</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Round_Shield_g</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Round_Shield_m</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Round_Shield_n0</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Round_Shield_n1</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_ao</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Sail_n1</File>
@@ -1040,6 +1112,11 @@
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_slinger_armor_m</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_slinger_armor_n0</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_slinger_armor_n1</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_ao</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_g</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_m</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n0</File>
+		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Spearman_var_n1</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_AO</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_G</File>
 		<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_swordsman_M</File>
@@ -1076,6 +1153,7 @@
 		<File>Platforms/Windows/BLPs/units/peltast.blp</File>
 		<File>Platforms/Windows/BLPs/units/recon.blp</File>
 		<File>Platforms/Windows/BLPs/units/rifleman.blp</File>
+		<File>Platforms/Windows/BLPs/units/roundShields.blp</File>
 		<File>Platforms/Windows/BLPs/units/septireme.blp</File>
 		<File>Platforms/Windows/BLPs/units/tanks.blp</File>
 		<File>Platforms/Windows/BLPs/units/trebuchet.blp</File>

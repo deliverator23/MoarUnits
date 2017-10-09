@@ -66,6 +66,7 @@
                 <Element text="units/peltast.blp"/>
                 <Element text="units/recon.blp"/>
                 <Element text="units/rifleman.blp"/>
+                <Element text="units/roundShields.blp"/>
                 <Element text="units/septireme.blp"/>
                 <Element text="units/tanks.blp"/>
                 <Element text="units/trebuchet.blp"/>
