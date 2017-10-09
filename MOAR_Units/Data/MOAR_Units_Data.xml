@@ -203,10 +203,10 @@
 			 Maintenance="3" Combat="30" RangedCombat="40" Range="2" PrereqTech="TECH_MACHINERY"
 			 MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" TraitType="TRAIT_CIVILIZATION_UNIT_LONGBOWMAN"/>
 
-		<Row UnitType="UNIT_CHOKONU" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
+		<Row UnitType="UNIT_CHOKONU" BaseMoves="2" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CHOKONU_NAME"
-			 Description="LOC_UNIT_CHOKONU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3"
-			 Combat="30" RangedCombat="36" Range="2" PrereqTech="TECH_MACHINERY" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS"
+			 Description="LOC_UNIT_CHOKONU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="4"
+			 Combat="30" RangedCombat="34" Range="2" PrereqTech="TECH_MACHINERY" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_CHOKONU"/>
 
 		<Row UnitType="UNIT_CAMEL_ARCHER" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false"
