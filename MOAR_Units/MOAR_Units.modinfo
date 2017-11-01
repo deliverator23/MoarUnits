@@ -7,12 +7,6 @@
         <Authors>Deliverator</Authors>
     </Properties>
     <FrontEndActions>
-        <UpdateIcons id="MOAR_SETTING_Icons">
-			<Properties>
-				<LoadOrder>-1</LoadOrder>
-			</Properties>
-            <File>Data/MOAR_Units_Icons.xml</File>
-        </UpdateIcons>
         <UpdateDatabase id="MOAR_SETTING">
             <File>Data/MOAR_Units_Config.xml</File>
         </UpdateDatabase>
@@ -25,6 +19,9 @@
 			<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
 			<File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
         </UpdateText>
+		<UpdateIcons id="MOAR_SETTING_Icons">
+			<File>Data/MOAR_Units_Icons.xml</File>
+		</UpdateIcons>
     </FrontEndActions>
     <InGameActions>
         <UpdateDatabase id="MOAR_UpdateDatabase">
