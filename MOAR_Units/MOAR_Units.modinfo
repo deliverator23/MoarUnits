@@ -14,13 +14,18 @@
             <File>Data/MOAR_Units_Config.xml</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_SETTING_TEXT">
-			<File>Text/en_US/MOAR_Units_Text.xml</File>
-			<File>Text/es_ES/MOAR_Units_Text_es_ES.xml</File>
-			<File>Text/it_IT/MOAR_Units_Text_it_IT.xml</File>
-			<File>Text/fr_FR/MOAR_Units_Text_fr_FR.xml</File>
-			<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
-			<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
-			<File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_de_DE.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_en_US.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_es_ES.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_fr_FR.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_it_IT.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_ja_JP.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_ko_KR.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_pl_PL.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_pt_BR.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_ru_RU.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_zh_Hans_CN.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_zh_Hant_HK.xml</File>
         </UpdateText>
 		<UpdateIcons id="MOAR_SETTING_Icons">
 			<Properties>
@@ -38,19 +43,18 @@
             <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
         <UpdateText id="MOAR_LocalizedText">
-            <File>Text/en_US/MOAR_Units_Text.xml</File>
-			<File>Text/es_ES/MOAR_Units_Text_es_ES.xml</File>
-			<File>Text/it_IT/MOAR_Units_Text_it_IT.xml</File>
-			<File>Text/fr_FR/MOAR_Units_Text_fr_FR.xml</File>
-			<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
-			<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
-			<File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
-
-            <File>Text/en_US/MOAR_Units_GameplayText.xml</File>
-			<File>Text/de_DE/MOAR_Units_GameplayText_de_DE.xml</File>
-			<File>Text/es_ES/MOAR_Units_GameplayText_es_ES.xml</File>
-            <File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
-            <File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_de_DE.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_en_US.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_es_ES.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_fr_FR.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_it_IT.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_ja_JP.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_ko_KR.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_pl_PL.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_pt_BR.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_ru_RU.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_zh_Hans_CN.xml</File>
+			<File>Text/MOAR_Units_LocalisationText_zh_Hant_HK.xml</File>
         </UpdateText>
         <UpdateIcons id="MOAR_Icons">
 			<Properties>
@@ -76,19 +80,18 @@
         <File>ArtDefs/Unit_Bins.artdef</File>
 
         <!-- Text -->
-		<File>Text/en_US/MOAR_Units_Text.xml</File>
-		<File>Text/es_ES/MOAR_Units_Text_es_ES.xml</File>
-		<File>Text/it_IT/MOAR_Units_Text_it_IT.xml</File>
-		<File>Text/fr_FR/MOAR_Units_Text_fr_FR.xml</File>
-		<File>Text/de_DE/MOAR_Units_Text_de_DE.xml</File>
-		<File>Text/ru_RU/MOAR_Units_Text_ru_RU.xml</File>
-		<File>Text/zh_Hans_CN/MOAR_Units_Text_zh_Hans_CN.xml</File>
-
-		<File>Text/en_US/MOAR_Units_GameplayText.xml</File>
-		<File>Text/de_DE/MOAR_Units_GameplayText_de_DE.xml</File>
-		<File>Text/es_ES/MOAR_Units_GameplayText_es_ES.xml</File>
-		<File>Text/ru_RU/MOAR_Units_GameplayText_ru_RU.xml</File>
-		<File>Text/zh_Hans_CN/MOAR_Units_GameplayText_zh_Hans_CN.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_de_DE.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_en_US.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_es_ES.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_fr_FR.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_it_IT.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_ja_JP.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_ko_KR.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_pl_PL.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_pt_BR.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_ru_RU.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_zh_Hans_CN.xml</File>
+		<File>Text/MOAR_Units_LocalisationText_zh_Hant_HK.xml</File>
 
 		<!-- Platforms -->
 		<File>Platforms/MacOS/BLPs/UI/Icons.blp</File>

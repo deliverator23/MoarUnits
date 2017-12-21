@@ -1,272 +1,1031 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_UNIT_CAMEL_ARCHER_NAME">
+			<Text>Лучники на верблюдах</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION">
+			<Text>Арабский уникальный дальнобойный юнит Античности. Получает +8 [ICON_Strength] к боевой мощи в пустыне или на равнине.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_PELTAST_NAME">
+			<Text>Пельтасты</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_PELTAST_DESCRIPTION">
+			<Text>Греческий уникальный дальнобойный юнит заменяющий лучников. Отличается сильной стрелковой атакой и повышенной защитой в ближнем бою. Однако радиус поражения цели сокращён на 1.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MINUTEMAN_NAME">
+			<Text>Минитмены</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MINUTEMAN_DESCRIPTION">
+			<Text>Американский уникальный юнит Промышленной эры заменяющий мушкетеров. Чуть сильнее мушкетеров, получает +5 [ICON_Strength] к боевой мощи, если находится на вашей территории или рядом с ней. Также получает +5 [ICON_Strength] к боевой мощи в лесу или джунглях.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_LANDSKNECHT_NAME">
+			<Text>Ландскнехты</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_LANDSKNECHT_DESCRIPTION">
+			<Text>Немецкий уникальный юнит Средневековья заменяющий пикенёров. Стоит ровно в половину дешевле пикенёров, однако может создаваться только за деньги.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_PHALANX_NAME">
+			<Text>Фаланга</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_PHALANX_DESCRIPTION">
+			<Text>Шумерский уникальный юнит ближнего боя заменяюший копейщиков. Фаланга становится доступна с открытием технологии "Горное дело". Получает +8 [ICON_Strength] к боевой мощи в пределах 8 клеток от улучшения Зиккурат.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_CHOKONU_NAME">
+			<Text>Чо-ко-ну</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_CHOKONU_DESCRIPTION">
+			<Text>Китайский уникальный дальнобойный юнит Средневековья заменяющий арбалетчиков. Чуть слабее арбалетчиков, на может атаковать дважды за ход.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_RIFLEMAN_NAME">
+			<Text>Стрелки</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION">
+			<Text>Юнит ближнего боя Промышленной эры.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_JINETE_NAME">
+			<Text>Хинеты</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_JINETE_DESCRIPTION">
+			<Text>Испанский уникальный дальнобойный юнит заменяющий всадников. Дает [ICON_Faith] веру в размере 50% от [ICON_Strength] боевой мощи побежденного противника на том же континенте, где находится ваша [ICON_Capital] столица.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_EQUITE_NAME">
+			<Text>Эквиты</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_EQUITE_DESCRIPTION">
+			<Text>Римский уникальный кавалерийский юнит заменяющий всадников. Получает +5 [ICON_Strength] к боевой мощи рядом с легионом или воином. Дает [ICON_Gold] золото в размере 33% от [ICON_Strength] боевой мощи побежденного противника.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_DRUZHINA_NAME">
+			<Text>Дружина</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_DRUZHINA_DESCRIPTION">
+			<Text>Русский уникальный кавалерийский юнит заменяющий всадников. Получает +5 [ICON_Strength] к боевой мощи против поврежденных юнитов и +4 [ICON_Strength] к боевой мощи против юнитов ближнего боя.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_HIRDMAN_NAME">
+			<Text>Хирдманны</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_HIRDMAN_DESCRIPTION">
+			<Text>Норвежский уникальный юнит Античности заменяюший мечников. Получает +5 [ICON_Strength] к боевой мощи и дает [ICON_Culture] культуру в размере 50% от [ICON_Strength] боевой мощи побежденного врага, на том же континенте, где находится ваша [ICON_Capital] столица.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MUGHAL_SOWAR_NAME">
+			<Text>Конница Моголов</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION">
+			<Text>Индийский уникальный юнит Средневековья заменяющий рыцарей. Игнорирует штрафы за перемещение по пересечённой местности. Автоматически восстанавливает + 15 единиц здоровья каждый ход, если находится рядом со ступенчатым колодцем.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_LONGBOWMAN_NAME">
+			<Text>Йомены</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_LONGBOWMAN_DESCRIPTION">
+			<Text>Английский уникальный дальнобойный юнит Средневековья заменяющий арбалетчиков. Получает +4 [ICON_Strength] к боевой мощи против кавалерии и юнитов ближнего боя, а также +4 [ICON_Strength] к боевой мощи если располагается рядом с другим подразделением йоменов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_CUIRASSIER_NAME">
+			<Text>Кирасиры</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION">
+			<Text>Мощная тяжелая кавалерия Промышленной эры.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SOHEI_NAME">
+			<Text>Сохэй</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SOHEI_DESCRIPTION">
+			<Text>Японский уникальный юнит. Становится доступен с открытием социального института "Феодализм", может быть куплен за очки [ICON_Faith] веры. Получает +10 [ICON_Strength] к боевой мощи при обороне.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_AMAZON_NAME">
+			<Text>Кавалерия амазонок</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_AMAZON_DESCRIPTION">
+			<Text>Скифский уникальный кавалерийский юнит Средневековья заменяющий рыцарей. Может перемещаться после атаки.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME">
+			<Text>Доброволец отечества</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_DESCRIPTION">
+			<Text>Бразильский уникальный юнит Промышленной эры заменяющий стрелков. Стоимость производства и плата за содержание снижены по сравнению с обычными стрелками.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_HYKSOS_BOWMAN_NAME">
+			<Text>Гиксосские лучники</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_HYKSOS_BOWMAN_DESCRIPTION">
+			<Text>Египетский уникальный дальнобойный юнит, сильнее замещенного лучника.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GENDARME_NAME">
+			<Text>Жандармерия</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GENDARME_DESCRIPTION">
+			<Text>Французский уникальный кавалерийский юнит Средневековья заменяющий рыцарей. Получает +5 [ICON_Strength] к боевой мощи при атаке.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GARDE_REPUBLICAINE_NAME">
+			<Text>Республиканская гвардия</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GARDE_REPUBLICAINE_DESCRIPTION">
+			<Text>Конголезский уникальный юнит ближнего боя заменяющий мотопехоту. Получает +10 [ICON_Strength] к боевой мощи при атаке или защите районов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_BANDEIRANTE_NAME">
+			<Text>Бандейранты</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_BANDEIRANTE_DESCRIPTION">
+			<Text>Бразильский уникальный разведывательный юнит эпохи Возрождения заменяющий рейнджера. Становится доступен раньше при открытии технологии "Порох", может строить форты. Дает [ICON_Culture] культуру и [ICON_Gold] золото в размере 25% от [ICON_Strength] боевой мощи побежденного врага.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_TERCIO_NAME">
+			<Text>Терция</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_TERCIO_DESCRIPTION">
+			<Text>Испанский уникальный антикавалерийский юнит эпохи Возрождения.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SEPOY_NAME">
+			<Text>Сипаи</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SEPOY_DESCRIPTION">
+			<Text>Индийский уникальный юнит Промышленной эры заменяющий стрелков. Всегда атакует в полную силу, вне зависимости от полученных ранений.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_AMAZON_SCOUT_NAME">
+			<Text>Разведчицы</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION">
+			<Text>Скифский уникальный разведывательный юнит Древнего мира, сильнее обычного разведчика.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_PANZER_NAME">
+			<Text>Тигр I</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_PANZER_DESCRIPTION">
+			<Text>Немецкий уникальный танк. Получает +5 [ICON_Strength] к боевой мощи при атаке.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_T34_NAME">
+			<Text>T-34</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_T34_DESCRIPTION">
+			<Text>Русский уникальный танк с меньшей стоимостью производства и обслуживания. Получает +5 [ICON_Strength] к боевой мощи, если находится на родной территории или рядом с ней.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_YAMATO_NAME">
+			<Text>Ямато</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_YAMATO_DESCRIPTION">
+			<Text>Японский уникальный морской дальнобойный юнит, мощнее замещенного линкора.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_WAR_GALLEY_NAME">
+			<Text>Тессараконтера</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION">
+			<Text>Египетский уникальный морской дальнобойный юнит заменяющий квадрирему. Обладает большей мощью и увеличенным радиусом дальнобойной атаки.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_ONAGER_NAME">
+			<Text>Онагр</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_ONAGER_DESCRIPTION">
+			<Text>Уникальный осадный юнит римской империи, мощнее замещенной катапульты.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_VULTURE_NAME">
+			<Text>Воин-коршун</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_VULTURE_DESCRIPTION">
+			<Text>Шумерский уникальный юнит ближнего боя. Получает +5 [ICON_Strength] к боевой мощи против поврежденных юнитов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_ARMATOLOS_NAME">
+			<Text>Арматолы</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION">
+			<Text>Греческий уникальный юнит Промышленной эры заменяющий стрелков. Получает +5 [ICON_Strength] к боевой мощи, если находится на холмах. Игнорирует штрафы за перемещение по холмам.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_FRENCH_MARINE_NAME">
+			<Text>Морская пехота</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION">
+			<Text>Французский уникальный юнит эпохи Возрождения заменяющий мушкетеров. Получает +5 [ICON_Strength] к боевой мощи на иностранных континентах. Кроме того не получает штрафа к атаке при высадке с моря или при переходе через реку.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GHAZI_NAME">
+			<Text>Гази</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GHAZI_DESCRIPTION">
+			<Text>Арабский уникальный юнит Средневековья заменяющий меченосцев. Получает +5 [ICON_Strength] к боевой мощи против войск иноверцев. Дает [ICON_Faith] веру в размере 50% от [ICON_Strength] боевой мощи побежденного врага. Обращает завоёванные города в родную религию. Может быть куплен за очки [ICON_Faith] веры.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MEDICINE_MAN_NAME">
+			<Text>Нганга</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION">
+			<Text>Конголезский уникальный юнит поддержки заменяющий медика, но появляющийся гораздо раньше с открытием "Мистицизма". Приобретается только за [ICON_Faith] веру. Лечит юниты, кроме того позволяет получать всем юнитам на соседних клетках бонус в виде 50% [ICON_Faith] веры от [ICON_Strength] боевой мощи побеждённых врагов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SHIGONG_NAME">
+			<Text>Шигонг</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SHIGONG_DESCRIPTION">
+			<Text>Китайский уникальный юнит поддержки появляющийся с открытием "Военной подготовки". Все юниты на соседних клетках получают +5 [ICON_Strength] к боевой мощи, а также больше очков боевого опыта. Шигонга можно завербовать только в городе с казармами. Лимит 1 шигонг на 1 казарму.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION">
+			<Text>Испанский уникальный юнит эпохи Возрождения заменяющий мушкетеров. Получает +9 [ICON_Strength] к боевой мощи если на одной клетке с ним присутствует миссионер, апостол или инквизитор. Обращает завоёванные города в родную религию.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SNIPER_NAME">
+			<Text>Снайпер</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_SNIPER_DESCRIPTION">
+			<Text>Быстрый дальнобойный юнит эпохи Атома. Получает +12 [ICON_Ranged] к дальнобойной мощи против всех наземных юнитов (кроме тяжёлой кавалерии). Также получает +1 [ICON_Range] к радиусу поражения если занимает позицию на холмах. Не может двигаться после дальнобойной атаки.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_EXPLORER_NAME">
+			<Text>Исследователь</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_EXPLORER_DESCRIPTION">
+			<Text>Быстрый разведывательный юнит эпохи Возрождения. Игнорирует штрафы при перемещении через реку. Не тратит очки передвижения при высадке на побережье.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MACEMAN_NAME">
+			<Text>Меченосец</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MACEMAN_DESCRIPTION">
+			<Text>Юнит ближнего боя эпохи Средневековья.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME">
+			<Text>Всадники</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION">
+			<Text>Быстрая легкая кавалерия Средневековья.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_AMERICAN_AH64_APACHE_NAME">
+			<Text>AH-64 Apache</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_AMERICAN_AH64_APACHE_DESCRIPTION">
+			<Text>Американский уникальный юнит эпохи Атома. Получает +10 [ICON_Strength] к боевой мощи против тяжёлой кавалерии и танков.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_ENGLISH_IRONSIDE_NAME">
+			<Text>Железнобокие</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_ENGLISH_IRONSIDE_DESCRIPTION">
+			<Text>Английский уникальный юнит эпохи Возрождения появляющийся с открытием "Реформации". Получает +5 [ICON_Strength] к боевой мощи на своей территории или рядом с границей, а так же +5 [ICON_Strength] к боевой мощи против войск иноверцев.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_NAME">
+			<Text>Ульфхеднар</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_NORWEGIAN_ULFHEDNAR_DESCRIPTION">
+			<Text>Норвежский уникальный юнит поддержки, появляющийся с открытием "Мистицизма". Все союзные юниты на соседних клетках получают +5 [ICON_Strength] к боевой мощи против неповрежденных юнитов и +10 [ICON_Strength] к боевой мощи против поврежденных юнитов. Кроме того позволяет получать всем юнитам на соседних клетках бонус в виде 50% [ICON_Faith] веры от [ICON_Strength] боевой мощи побеждённых врагов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_TREBUCHET_NAME">
+			<Text>Требушет</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_TREBUCHET_DESCRIPTION">
+			<Text>Мощный осадный юнит Средневековья. Идеален для атаки городов. Не может перемещаться и атаковать в тот же ход, пока не заслужит повышение "Опытная команда".</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GATLING_GUN_NAME">
+			<Text>Пулемет Гатлинга</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION">
+			<Text>Мощный антикавалерийский юнит Промышленной эры.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_RECON_NAME">
+			<Text>Военная разведка</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_RECON_DESCRIPTION">
+			<Text>Быстрый разведывательный юнит Нового времени. Игнорирует штрафы при перемещении через реку. Не тратит очки передвижения при высадке на побережье.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MODERN_SNIPER_NAME">
+			<Text>Современный снайпер</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MODERN_SNIPER_DESCRIPTION">
+			<Text>Быстрый дальнобойный юнит Информационной эры. Получает +12 [ICON_Ranged] к дальнобойной мощи против всех наземных юнитов (кроме тяжёлой кавалерии). Также получает +1 [ICON_Range] к радиусу поражения если занимает позицию на холмах. Не может двигаться после дальнобойной атаки.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
+			<Text>Дальнобойный защитный юнит эпохи Атома. Получает +10 [ICON_Strength] к боевой мощи при обороне.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_HORSEMAN_NAME">
+			<Text>Лёгкая конница</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+			<Text>Индийский уникальный юнит Античности. Враги на соседних клетках получают штраф -5 [ICON_STRENGTH] к боевой мощи.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи на том же континенте, где находится [ICON_Capital] столица.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS_DESC">
+			<Text>+4 [ICON_Strength] к боевой мощи против кавалерии и юнитов ближнего боя.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS_DESC">
+			<Text>+4 [ICON_Strength] к боевой мощи рядом с другим подразделением йоменов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи рядом с легионом или воином.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи в пределах 8 клеток от улучшения Зиккурат.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_8_DESERT_PLAINS_COMBAT_BONUS_DESC">
+			<Text>+8 [ICON_Strength] к боевой мощи в пустыне или на равнине.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи вне вашей территории.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи в лесу или джунглях.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_4_VERSUS_MELEE_COMBAT_BONUS_DESC">
+			<Text>+4 [ICON_Strength] к боевой мощи против юнитов ближнего боя.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC">
+			<Text>+10 [ICON_Strength] к боевой мощи при обороне.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи при атаке.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_HILLS_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи на холмах.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="RECEIVE_SHIGONG_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи от поддержки Шингонга.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_FOREIGN_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи на иностранном континенте.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи против иноверцев.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="RECEIVE_NORWEGIAN_ULFHEDNAR_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] к боевой мощи против неповрежденных юнитов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="RECEIVE_NORWEGIAN_ULFHEDNAR_DAMAGED_UNITS_BONUS_DESC">
+			<Text>+10 [ICON_Strength] к боевой мощи против поврежденных юнитов.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_10_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC">
+			<Text>+10 [ICON_Strength] к боевой мощи против тяжелой кавалерии.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_15_VS_HEAVY_CAVALRY_COMBAT_BONUS_DESC">
+			<Text>+15 [ICON_Strength] к боевой мощи против тяжелой кавалерии.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC">
+			<Text>+20 [ICON_Strength] к боевой мощи против лёгкой кавалерии.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+			<Text>+20 [ICON_Strength] к боевой мощи при защите.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>Хирд — боевая дружина в Скандинавии эпохи викингов. Хирд подчинялся конунгу, ярлу или херсиру. Как правило, дружинники-хирдманны полностью повиновались вождю, представляя собой подобие семьи. Термин происходит от древнескандинавского слова hirð и от древнеаглийского слова hir(e)d, означающее 'домашнее хозяйство, семья, свита, суд'. Также специализированный термин hirð (швед. grið) на датских рунических камнях известен с X века. Когда норвежский королевский хирд превратился в официальный суд, хирдманн стал титулом самого высокого из четырех его рядов, тех магнатов, которым было разрешено находиться в королевском совете (ближайшем феодальном эквиваленте кабинета) и, таким образом, они имели право голоса по правительственным и другим важным вопросам.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_1">
 			<Text>Хинете или Хинеты — обобщённое название всадников, лёгкой кавалерии, а также всего, что связано с верховой ездой в иберо-романских и латиноамериканских странах. Искусство хинете испытало на себе сильное влияние арабских традиций коневодства в период существования мусульманской Испании (Аль-Андалус), когда на Иберийский полуостров проникли кочевые и полукочевые племена арабов и берберов. Этимологически слово восходит к берберскому корню зенета — обобщённому средневековому названию кочевых народов Западной Африки, от которых происходят современные санхаджи. Искусство хинете было перенято христианами и использовалось ими в борьбе с самими маврами в ходе Реконкисты. В качестве военного термина хинет (также обозначаемый гинетом или гинетуром) обозначал испанского лёгкого всадника, вооруженного копьем, мечом и щитом. Это был тип войск, разработанный в раннем средневековье в ответ на массированную легкую конницу мавров. Тактикой хинетов было подскакать к врагу, метнуть дротики и ускакать до того, как он сможет ответить на удар. Также они прикрывали фланги и тылы армии и преследовали бегущего врага. Часто выставлявшиеся в значительных количествах, а порой бывшие самыми многочисленными из испанских конных войск, хинеты играли важную роль в испанской конной войне на протяжении Реконкисты вплоть до шестнадцатого века.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>В британской колонии на Массачусетском заливе все трудоспособные мужчины в возрасте от 16 до 60 лет были обязаны проходить службу в местном ополчении. Уже в 1645 году в колонии Массачусетского залива некоторые мужчины были отобраны из общих рядов населения в основу "учебных групп" для быстрого развёртывания. Они получили название минитмены (англ. minutemen, от minute, "минута" + men, "люди"). Ополчение, как правило, формировалось из поселенцев в каждом городе. В некоторых городах в штате Массачусетс также были сформированы части ополчения. Возраст ополченцев оставлял не больше 30 лет, они отличались энтузиазмом и политической надёжностью. Это было первое в британских американских колониях ополчение, предназначенное для развёртывания в бою. Командиры, как и сами бойцы ополчения, избирались всенародным голосованием, подписывая официальный документ о военной службе. Минитмены вооружались охотничьим оружием, ружьями и мушкетами. Минитмены фактически стали предшественниками американской Революции. Из большего числа минитменов образовалась Континентальная армия. Минитмены стали основой для будущих Вооружённых сил США. Ведя службу во время американской войны за независимость, американские минитмены полагались на партизанскую тактику, перенятую от различных пограничных воин с индейцами. Это были силы быстрого реагирования, обученные задерживать атаки противника, давая регулярной армии (а также остальной части ополчения) возможность перегруппироваться и подготовиться к бою. После выстрела ополченец перемещался, стараясь остаться не обнаруженным. Опирались минитмены в первую очередь на знание местности, чем британцы и французы похвастаться не могли. После войны и обретения независимости, минитмены прекратили своё существование.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_1">
 			<Text>Нанимаемые из дворян и низших аристократических классов римского общества, Эквиты были кавалеристами королевских и ранних республиканских римских армий. Быть членом конного класса означало, что человек был достаточно богат, чтобы содержать лошадь, и обеспечить себя бронёй, щитом и копьём. В каждом Республиканском легионе было обычно около 300 эквитов, организованных в десять турма по тридцать всадников, каждый под командованием трех декурионов. Один из этих людей был префектом или командиром эскадры. В основном это были молодые люди из элитного общества, готовые проявить мужество. Показ доблести на поле боя был важным шагом к получению политического статуса и престижа для их семей. Обычные обязанности, такие как патрулирование или разведка, были  работой эквитов, собранных со всех уголков Италии. Во время Самнитских и Пунических войн, ряды эквитов были пополнены за счёт простолюдинов, имевших статус гражданина. После побед в войнах, новобранцы не получили ни одного социального или политического полномочия эквита-аристократа, но в конечном итоге заменили старую аристократию в рядах римской кавалерии, позволяя старшим эквитам стать старшими офицерами в новых легионах после реформ Гая Мария.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_2">
 			<Text>С древнейших времен и на протяжении всего республиканского периода Римские Эквиты, в роли кавалеристов, олицетворяли собой идеал личного героизма и славы. Это было вызвано желанием оправдать свой привилегированный статус перед низшими классами, которые обеспечивали ряды пехоты, а также повысить известность своей фамилии и увеличить свои шансы на последующее политическое продвижение в обществе. Для эквитов главным героическим этосом был поиск военного декора, доспехов и оружия противника, сражённого в одиночном бою.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_1">
 			<Text>В период древней Руси дружина помогала князю управлять княжеством и являлась основной военной силой в регионе. Русская дружина, как конное боевое формирование, существовала ещё задолго до прихода варяжского князя Рюрика в Новгород. Отношения дружины к князю были основаны на свободном договоре. Вступление в дружину и выход из неё были свободны: недовольный князем дружинник всегда может покинуть его и перейти к другому. Первыми членами дружины были знатные воины славянских племён (Древляне, Поляне, Северяне, Кривичи и др.). Позже к их числу присоединились и выходцы из племён варягов, имевших покровительство у князей из династии Рюриковичей, начиная с IX века.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_2">
 			<Text>Численный состав дружины был различен, но предположительно не превышал нескольких сот человек (по сообщению Ибн-Фадлана от 922 года, вместе с киевским князем «в его замке находятся 400 мужей из числа богатырей, его сподвижников»; Рыбаков Б. А. о княжеском замке XI—XII веков: «всего здесь, по приблизительным подсчётам, могло проживать 250—300 человек»). Со временем авантюристы целого ряда других национальностей (финны, тюрки, поляки, венгры и др.) стали дружинниками. Дружина являлась ядром войска и составляла, вероятно, главную часть конницы. Дружина со временем менялась и просуществовала в той или иной форме до конца XVI века.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>Начиная с периода нормандского завоевания Англии в XI веке, и даже ранее, социальный статус индивидуума очень жёстко привязывается к количеству и степени владения землёй. И само понятие «йомена» начиная с тёмных веков обозначает человека, владеющего своим наделом по праву фригольда, копигольда или аренды. Ядро йоменов составляли свободные крестьяне-фригольдеры (англ. free-holders — «свободные держатели») средневекового манора (см. Фригольд). Однако далеко не все йомены обладали землёй, что не мешало им принадлежать к своему классу. Они были «сервентами» в замках феодалов, но не уровня простой прислуги, а скорее уровня «мажордомов», «интендантов», управляющих. Хотя в целом класс йоменов, согласно раннему англо-саксонскому законодательству, определяется как «аристократическое» крестьянство.Слой йоменов, оставаясь весьма размытым, согласно книге судного дня — первому серьёзному документальному источнику, складывался в своеобразный средний класс раннефеодальной Англии. Верхние слои йоменства поднимались до уровня мелкого дворянства, низшие слои оставались просто крестьянами. При этом, хоть и в разной форме, все йомены находились в манориальной (поместной) службе при короле или крупном феодале. Но, и это принципиально важно, весь класс йоменов являлся классом лично свободных людей.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_2">
 			<Text>Английский длинный лук был создан в 12 веке, во время войны англичан с Уэльсом. Длинный лук был сделан из тиса или вяза и имел высоту от пяти до семи футов (в зависимости от роста и силы пользователя). Длинный лук был чрезвычайно трудным для овладения, но хорошо подготовленные английские йомены могли стрелять дальше, быстрее и точнее, чем арбалетчики. Однако это требовало многолетней подготовки. По мере роста населения страны, дикая местность Англии превращалась в сельскохозяйственные угодья. Возможности для охоты исчезли, и английские йомены стали менее опытными стрелками. Именно отсутствие реального опыта, повлияло на отказ от использования длинных луков даже больше, чем появление пороха.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_1">
 			<Text>Термин «могол» применялся населением в Индии для обозначения всех мусульман Северной Индии и Центральной Азии. Империя Моголов была основана Бабуром, вынужденным вместе со своими соратниками откочевать из Средней Азии на территорию Индостана. В составе войска Бабура были представители разных народов и племён, входивших в состав государства Тимуридов того времени, такие, как, например, тюркские, могольские и другие племена. Название «Великие Моголы» появилось уже при английских колонизаторах, ни основатель Империи, ни его потомки сами себя так не называли.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_2">
 			<Text>О подготовке кавалерии Моголов известно немного, хотя, конечно, новобранцы должны были пройти жесткие испытания своей «профпригодности» и навыков верховой езды. Известно, что подготовка осуществлялась на дому с использованием гирь или тяжелых кусков дерева; в сезон дождей солдаты занимались борьбой. Стрельбе из лука обучались и в пешем строю, и в конном; и индийская конница, особенно индуистские раджпуты, гордились своей способностью сражаться как пехота, когда это было необходимо, и как конница. Обязательным было упражнение с мечом и щитом.Кавалерия всегда была самым важным элементом армии Великих Моголов. Она была разделена на четыре основные части. Лучшими, по крайней мере, самыми высокооплачиваемыми и наиболее хорошо вооруженными, были элитные всадники ашади или «благородные воины». Многие из их потомков до сих пор имеют звание манзааб. Их главной обязанностью было служить непосредственно императору, передавать важные сообщения и охранять дворец.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_1">
 			<Text>Кирасиры были кавалерией, экипированной доспехами и первым огнестрельным оружием, появившимся в конце 15 века в Европе. Этот французский термин означает «один с кирасой»: металлической нагрудной бронёй. Первые кирасиры были сформированы из старых бронированных кавалерийских подразделений с булавами и копьями. Сбросив копья и приняв в качестве основного оружия пистолеты, кирасиры быстро начали набирать популярность в армиях Европейских государств. В конце 17-го века кирасиры перестали носить большую часть тяжёлой брони, которая была экипирована на ногах и руках. Впоследствии они стали носить только кирасы (нагрудник и спинку), а иногда и шлем. К этому времени меч был основным оружием кирасира, пистолеты были отнесены к оружию со второстепенной функцией так как нуждались в перезарядке, занимавшей много времени.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_1">
 			<Text>Пельтасты — разновидность лёгкой пехоты в Древней Греции, часто использовались как застрельщики, метавшие дротики. Получили наименование по названию щита — пелта; в сражениях, как правило, играли вспомогательную роль, но известны случаи (Битва при Лехее), когда при численном превосходстве разбивали фалангу, лишённую прикрытия из конницы и лёгкой пехоты. Вооружение пельтастов состояло из нескольких дротиков, часто с «метательными ремнями», которые позволяли увеличить плечо приложения силы при метании. Как основное средство защиты пельтасты использовали плетёный щит в форме полумесяца, который назывался пелта. Согласно Аристотелю, пелта — это щит без обода, покрытый козьей или овечьей шкурой. Этот тип щита имеет зажим для руки в центре и ремешок для носки. Также пелта появляется в искусстве скифов и мог быть общим типом щита для центральной Европы.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_2">
 			<Text>Стиль боя, использовавшийся пельтастами, появился во Фракии, а первые пельтасты рекрутировались из греческих городов на фракийском побережье. Это доказывается тем, что на покрытых рисунками вазах и других изображениях они носят фракийскую одежду, включающую в себя особую фригийскую шапку. Однако позднее пельтасты начали появляться по всей Греции. Постепенно пельтасты приобрели большее значение в военном искусстве греков, особенно во время Пелопоннесской войны. В составе греческих наёмных войск в битве при Кунаксе были пельтасты. Они описаны Ксенофонтом в бою против персидской кавалерии, в котором у них не было дротиков, так как они сражались мечами. Пельтасты стали основным типом наёмных греческих войск в IV веке до нашей эры. Их экипировка была дешевле, чем традиционная экипировка гоплитов, и была более доступной для бедных слоёв общества. Афинский полководец Ификрат разгромил фалангу спартанцев в битве при Лехее в 390-м году до н. э., используя преимущественно пельтастов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>Винтовка - огнестрельное оружие, предназначенное для стрельбы с плеча. Внутренняя часть ствола имеет «нарезные» канавки, предназначенные для вращения снаряда при стрельбе, давая ему больший радиус действия и большую точность, чем у снаряда, выпущенного из ненарезного ствола старого мушкета. Самые ранние попытки нарезать стволы в Европе производились ещё в 15 веке, но трудности в производстве препятствовали общему использованию нарезных винтовок до 19-го века. Американские революционеры использовали винтовки с нарезными стволами в войне за независимость. Британские и французские стрелки и разведчики были оснащены нарезными мушкетами во время наполеоновских войн и войны 1812 года. Однако долгая перезарядка оружия требовала дальнейших модификаций магазина и патронов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_2">
 			<Text>Изобретение, в 1849 году, пуль Минье с нарезными канавками, значительно увеличило дальность стрельбы, и сократило время перезарядки. После американской Гражданской войны, где впервые использовалось более скорострельное оружие, позволявшее производить один выстрел за рекордные две секунды (против 20-30 секунд при перезарядке традиционного нарезного мушкета) ружейные мушкеты начали сменяться более современными винтовками с затворным механизмом.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_1">
 			<Text>Некоторые арабские племена вели кочевой образ жизни в пустынях Аравийского полуострова. Пересекать огромные расстоянияя и выживать в сухих и бесплодных землях им помогали верблюды - незаменимые животные для караванщиков и воинов-кочевников в этих краях. С давних времён верблюдов использовали в сражениях в качестве ездовых животных наравне с местными  породами лошадей. Как и следовало ожидать, верблюды лучше подходят для пустынных ландшафтов, чем лошади. Присутствие наездников на верблюдах часто оказывало тревожное воздействие на вражеских лошадей, выращенных в Европе, которые ранее не встречались с этими необычными животными.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_2">
 			<Text>Одним из наиболее распространённых видов оружия кочевников был композитный лук, имевший целый ряд существенных преимуществ. Первое достоинство заключалось в том, что такой лук обеспечивал большую дальность полёта стрелы, сравнимую с длинным луком, при гораздо меньшем размере. Это делало его более удобным в носке, при охоте и в боевых условиях. Еще одно достоинство - гораздо большая пробивная мощь. Однако изготавливать такое сложносоставное оружие нужно было очень долго, а процесс этот был чрезвычайно сложным. Кроме того, традиционно такие луки проклеивались животным клеем, который в условиях высокой влажности терял клеющие свойства и стойкость. Из-за этого лук требовалось постоянно просушивать. Правда в условиях жаркого и засушливого климата Аравийского полуострова эта проблема не была столь частой.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_3">
 			<Text>Как правило, лучники на верблюдах предпочитали использовать тактику атаки, схожую с тактикой монгольских конных стрелков. А именно обстреливать пехоту и тяжёлую кавалерию противника с безопасного расстояния не сближаясь с ней, отходя от преследователей за союзные тяжёловооружённые соединения, используя особенности ландшафта по максимуму. Хорошо обученные лучники на верблюдах могли доставить немало проблем тяжеловооружённым рыцарям, не имевшим поддержки со стороны лучников или лёгкой кавалерии.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_1">
 			<Text>Ландскнехты были наёмными немецкими пикинёрами в XVI веке. Изначально они были созданы в попытках скопировать стиль и манеру боя легендарных швейцарских наёмных пикинёров. Однако в последствии Ландскнехты вытеснили их и стали самой лучшей наёмной пехотой в Европе, сражаясь практически во всех крупных сражениях XVI века - часто с обеих сторон. В бой Ландскнехты обычно носили пики длиной до двадцати футов. Некоторые также несли огромные двуручные мечи или алебарды, которые использовались для того, чтобы отрубить наконечники пик у противника.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_1">
 			<Text>Шумеры были одной из первых цивилизаций, использовавших построение Фаланги, где плотно сформированная группа солдат, несущих большие щиты и копья, была способна защитить друг друга от нападения превосходящего числа противника. Защитное построение позволяло воинам двигаться как единое целое и всем вместе теснить врагов. Однако по настоящему популярной и наиболее эффективной фалангу сделала именно победоносная армия Александра Великого. Впоследствии данное боевое построение обретёт большую тактическую важность для армий Македонии, Греческих городов, Фракии, Понта, Селевкидского царства и Египта.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_1">
 			<Text>Чо-Ко-Ну - довольно изящный многозарядный арбалет, изобретенный в Китае в конце второго века нашей эры. Машина выглядит как стандартный европейский арбалет с коробкой, привинченной к ее вершине, над тетивой. Коробка была заполнена арбалетными болтами. Действия по натяжению тетивы, укладке болта и спуску тетивы производились одним движением руки. Благодаря устанавливаемым на оружие магазинам с болтами, многозарядный арбалет позволял значительно увеличить темп стрельбы (примерно 10 болтов за 15 секунд) по сравнению с обычным арбалетом. Однако Чо-Ко-Ну стрелял более легким болтами и имел низкий диапазон поражения, в сравнении с европейским арбалетом. В любом случае превосходство того или иного арбалета могло сильно зависеть от обстоятельств - европейская модель могла бы иметь преимущество на открытой местности против сильно бронированных противников, в то время как Чо-Ко-Ну, вероятно, был бы лучше на коротких дистанциях против большого числа нападавших с лёгким вооружением и экипировкой.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_1">
 			<Text>Сохэй (буквально «воины-монахи») были буддийскими воинами-монахами как средневековой, так и феодальной Японии. Численность Сохэев повышалась параллельно с увеличением влияния школы Тендай между 10-ым и 17-ым столетиями. Воины-монахи защищали землю и запугивали конкурирующие школы буддизма, став важным фактором в распространении буддизма и развитии различных школ в период Камакура. Сохэй имели много общего с европейскими мирянами, членами монашеского ордена, которые, возможно, не были посвящены в сан. Подобно Тевтонскому ордену, монахам-воинам Германии и приказам крестоносцев, сохэй не действовали как отдельные лица или как члены небольших индивидуальных храмов, а скорее вели себя как воины в большом широком братстве или монашеском ордене. В домашнем храме монашеского ордена могло быть несколько, если не десятки или сотни, меньших монастырей, учебных залов и подчиненных храмов, связанных с ним.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_1">
 			<Text>Амазонки были скифскими женщинами-воительницами, получившими мифический ореол в греческой мифологии как раса воинов-женщин. Согласно легенде, амазонки также изобрели кавалерию. С начала эпохи Нового времени их имя стало собирательным термином для всех женских воинов в целом. Геродот писал, что Амазонки изначально не были связаны со скифами и размещал их в регионе, граничащем со Скифией: в Сарматии (современная территория Украины).</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_2">
 			<Text>Амазонки поселившиеся по берегам моря и лиманов, стали нападать на скифские лагеря, уводить коней, грабить. Для скифов это было неожиданно: "Ну, что же это такое! Мы такие могущественные, всех держим в кулаке, а тут вдруг!.." Стали с ними воевать, как рассказывает Геродот. После одного сражения, убив какое-то количество амазонок, скифы стали снимать с врага одежду (добыча!), и увидели, что это женщины, причем очень красивые. Об этом доложили вождям. Они сказали: "Нам такие воинственные женщины нужны. Мы не будем с ними воевать". Отобрали самых молодых и симпатичных воинов и отправили устанавливать связи. Амазонки не отказались вступить в контакт, они же совсем без мужчин не могли, надо же было и род продолжать (обычно мальчиков они делали рабами, а девочек воспитывали в воинском духе).</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_3">
 			<Text>И вот через какое-то время появились пары, которые питали друг к другу теплые чувства. Тогда скифы говорят: "У нас есть родня, есть имущество". Но амазонки ответили: "Нет, мы привыкли жить вольной жизнью, мы к вашей родне, к вашим женщинам, которые занимаются только домашним очагом, не пойдем. Вы возьмите свою долю добра, и мы вместе уйдем из скифских владений". Скифские вожди согласились, выделили им долю, и амазонки ушли за Дон, за пределы скифских владений. Как пишет Геродот, земли на три дня пути на восток и пятнадцать дней на север заселило племя амазонок и скифских юношей, оно стало называться савроматы. С тех пор савроматские женщины сохраняют свои стародавние обычаи: вместе с мужьями и даже без них они верхом выезжают на охоту, выступают в поход и носят одинаковую одежду с мужчинами. Савроматы говорят по скифски, но исстари неправильно, так как амазонки плохо усвоили этот язык. Что касается брачных обычаев, то они вот какие: девушка не выходит замуж, пока не убьет врага. Некоторые умирают старухами, так и не выйдя замуж, потому что не в состоянии выполнить обычай.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_1">
 			<Text>В декабре 1864 года диктатор Парагвая Франсиско Солано Липец приказал захватить бразильский гражданский пароход «Маркес де Олинда», включая его пассажиров и экипаж. Парагвайская армия немедленно вторглась в бразильскую провинцию Мату-Гросу (ныне Мату-Гросу-ду-Сул) без объявления войны. Четыре месяца спустя парагвайские войска вторглись на территорию Аргентины в качестве прелюдии к нападению на бразильскую провинцию Риу-Гранди-ду-Сул. Вторжение в Рио-Гранде-ду-Сул стало известно в столице 30 июня 1865 года. Осознавая анархию в провинции, неспособность и некомпетентность своих военных руководителей противостоять парагвайской армии, Педру II решил лично отправиться на фронт. Он написал графине Баррал: «Риу-Гранди-ду-Сул штурмуют, мое место там». Будучи главой государства, он намеревался взять на себя командование бразильской армией. Кабинет, и Генеральная Ассамблея отказались присоединиться к желанию Императора. После того, как он получил возражения от Государственного совета, Педру II сделал памятное заявление: «Если они могут помешать мне отправиться туда как Императору, то они точно не смогут помешать мне отречься и стать добровольцем Отчизны». Таким образом, те бразильцы, которые подписались на войну в соответствии с Декретом 3,371 от 7 января 1865 года, стали известны во всей стране как «Добровольцы Отечества».</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>Гиксосы (дословно «правители чужеземных стран») были людьми смешанного происхождения из Западной Азии, обосновавшиеся в восточной дельте Нила около 1670 года до нашей эры. Они захватывают Дельту и делают своей столицей крепость Аварис в восточной её части. Их успеху способствовало то, что они, в отличие от египтян того периода, использовали в военном деле лошадей.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_2">
 			<Text>Гиксосы принесли в Египет несколько технологических инноваций, а также произвели широкое культурное влияние. В стране появились новые музыкальные инструменты, а египетский язык обогатился заимствованиями из гиксосского языка. Привнесённые новшества включали новые методы работы с бронзой и гончарными изделиями, новые породы животных и новые растительные культуры. Гиксосы привнесли колесничное военное дело в Египет, технологию изготовления композитных луков, улучшенные боевые топоры и передовые техники фортификации. И наконец они создали новую династию Гиксосских царей-фараонов, правящих в Египте во время Второго переходного периода. Гиксосские цари приняли титул фараона. Однако, им не удается добиться реального подчинения всей долины Нила, под их властью фактически находится только Нижний Египет. На юге Верхнего Египта образуется самостоятельное Фиванское княжество. Лишь в начале XVII века до н. э. гиксосскому фараону Хиану удается установить контроль над всем Верхним Египтом. Но после его смерти Фивы вновь обретают независимость, и фиванские правители провозглашают себя фараонами. Со временем наступил закат династии Гиксосов. Изгнание гиксосов завершается взятием Авариса и последней крепости Шарухен в южной Палестине ок. 1554 до н. э. С этого момента Египтом начинает править новая династия, а Второй перееходный период близится к концу. Тем не менее Гиксосы внесли значимый вклад в развитие культуры и военного дела древнего Египта.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_1">
 			<Text>В Средние века жандармами назывались дворяне, служившие в лейб-гвардии французских королей. В 1445 французский король Карл VII, приступая к организации постоянного войска, сформировал 15 ордонансовых рот (compagnies d’ordonnance), причём в состав каждой роты вошло, между прочим, по 100 тяжеловооружённых конных дворян, под именем жандармов. В поход каждый жандарм выступал в сопровождении 1 пажа (valet), 1 кутильера и 3 стрелков, и в этом составе представлял «полное копье» (lance fournie, 'lance complète). Примеру Франции последовали и другие государства: мало-помалу слово жандарм заменило прежнее название «рыцарь» и распространилось на всех тяжеловооружённых всадников без различия, были они дворяне или простолюдины. Французские жандармы долго хранили свои дворянские традиции, считались лучшими всадниками в Западной Европе и в качестве отборного резервного войска вступали в бой в решительную минуту. Их расцвет был в конце пятнадцатого - середине шестнадцатого столетий, когда они предоставили королям Франции мощную регулярную силу в виде тяжелобронированной кавалерии с копьем, которая при правильном использовании могла доминировать на поле битвы. При Людовике XIV от жандармов были отделены сопровождавшие их легковооружённые всадники, и жандармы были разделены на особые роты, комплектовавшиеся исключительно из дворян и входившие в состав дворцовой гвардии. В других государствах с отделением от жандармов сопровождавших их легких всадников, название «жандармы» исчезло и заменилось словом «кирасиры». С облегчением доспеха французская жандармерия превратились в элитную разновидность кирасиров. Впоследствии этим словом была названа разновидность полиции — Национальная жандармерия Франции.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_1">
 			<Text>Бандейранты (порт. bandeirantes, «знаменосцы») — «охотники за индейцами» — участники экспедиций XVI—XVIII веков на удаленные от побережья территории португальских колоний в Америке. Первоначально бандейрантов интересовали исключительно рабы, однако позднее их походы в основном имели целью разведку золота, серебра, алмазов или других полезных ископаемых. В ходе этих походов были исследованы земли от Тордесильясской черты до современных границ Бразилии. Они обеспечили экономическое благополучие Португалии в XVII—XVIII столетиях.Экспедиции бандейрантов, или бандейры, не были организованы властями, в них участвовали частные лица, обеспечивавшие себя всем необходимым для путешествия самостоятельно. Они уходили в сельву на месяцы и годы. Город Сан-Паулу был базой большинства известных бандейр, в связи с этим бандейранты известны также как паулисты.Кроме угона в рабство индейцев, бандейранты занимались утверждением власти Португалии во внутренних районах Бразилии. Бандейры обеспечивали португальцам контроль над местными минеральными ресурсами. Экспедиции были трудны и опасны, их участники сталкивались с голодом и болезнями. Из-за недостатка продовольствия бандейранты высаживали растения и собирали провизию по ходу пути, они же прокладывали дороги и строили поселения, то есть начали хозяйственное освоение внутренних районов Бразилии.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_2">
 			<Text>Несмотря на то, что иезуиты были главными противниками бандейрантов, вместе с каждой бандейрой отправлялся священник для отпущения грехов умирающим и успокоения совести живых участников. Перед уходом в экспедицию всегда служилась месса. Когда в 1660-х годах португальское правительство назначило награду за разведку месторождений золота и серебра в Бразилии, бандейранты занялись этим наряду с угоном индейцев в рабство, а поскольку количество свободных индейцев заметно уменьшилось, через некоторое время полностью переключились на поиски драгоценных металлов.Бандейранты часто использовали тактику «разделяй и властвуй»: они стравливали индейские племена между собой, а потом захватывали в плен ослабленных враждой индейцев. В ходу у них были и другие способы обратить в рабов много индейцев, неся при этом мало потерь. Иногда бандейранты выдавали себя за иезуитов и служили мессу чтобы выманить индейцев из поселений. Так или иначе бандейранты полагались на внезапность. Если это не удавалось, они окружали индейскую деревню и поджигали, чтобы выгнать из неё индейцев. Схваченных бандейранты помещали в специальные загоны и держали там, пока не набирали достаточное количество пленных для путешествия назад. Этого приходилось ждать неделями и месяцами, за это время сотни будущих рабов умирали. Во время перехода пленных раздевали и привязывали к длинной жерди чтобы избежать побегов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_3">
 			<Text>В 1628 году Антониу Рапозу Тавариш возглавил бандейру, в которой участвовало 2000 союзных индейцев, 900 метисов и 69 белых из Сан-Паулу. В ходе этой экспедиции была разрушена большая часть иезуитских миссий в Гуаире и угнано около 60000 индейцев. С 1648 по 1652 год Тавариш руководил одной из самых продолжительных бандейр, прошедшей от Сан-Паулу до устья Амазонки, исследовал многие из её притоков, в том числе Риу-Негру, преодолел более 10000 км. В 1651 году он добрался до Кито и некоторое время пробыл там. Из 1200 участников экспедиции в Белен дошло только 60 человек. В 1652 году они вернулись в Сан-Паулу. По итогам этого путешествия Португалия предъявила права на огромную территорию в бассейне Амазонки.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_1">
 			<Text>Терция (исп. tercio) — тактическая единица Испанской Империи в эпоху доминирования Габсбургов в европейских сражениях в XVI веке и в первой половине XVII века. В терции были представлены следующие рода войск — пикинёры, мечники и аркебузиры и/или мушкетёры. В теории в составе терции должно было находиться 3000 солдат, хотя на практике зачастую было меньше половины этого числа. Испанские терции были первыми в Европе тактическими единицами, где личный состав был представлен хорошо тренированными добровольцами-профессионалами с отличной строевой дисциплиной, вместо наёмников, которые составляли большинство европейских армий того времени. Иногда терцию называли испанское каре. До битвы при Рокруа терция считалась непобедимой.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_2">
 			<Text>На поле боя терция формируется в зависимости от своего численного состава в одно или несколько каре, названных Cuadro de Terreno. Перегруппировка необходима для того, чтобы повысить эффективность различных типов вооружения во время боя против тех или иных соединений противника. Пикинёры формируются в одно каре, которое как крепость является ядром сопротивления всей терции. Пикинёры стоят плотным строем. Солдаты в наиболее тяжелых доспехах расположены в первых рядах. Вокруг каре пикинёров расположены солдаты с огнестрельным оружием: четыре отряда по 150—300 аркебузиров размещаются с каждой стороны каре пикинёров; остальные распределяются по флангам, в качестве гарнизона основного каре пикинёров; мушкетёры размещались с передней стороны каре. В случае атаки мушкетёры и аркебузиры отходили за ряды пикинёров. Отряды аркебузиров, благодаря своей мобильности, быстро выдвигались вперёд или на фланги и беспокоили врага огнём из аркебуз. Кавалерии сложно было рассеять стрелков, так как те быстро уходили под прикрытие пикинёров. А пикинёры были неуязвимы для кавалерии. Отряды стрелков приближались к врагу, но сохраняли максимально возможную дистанцию. Для ведения огня отряд стрелков строился в 3 ряда. Сделав выстрел, первый ряд отходил назад и уступал место следующему ряду. Таким образом, все ряды делали последовательно по 4 выстрела. После 4 выстрелов оружие начинало перегреваться, и стрелки отходили ближе к пикинёрам. Если необходимо, для продолжения огневого боя выдвигался другой отряд стрелков. На марше терция выстраивалась колонной. 1 рота аркебузиров располагалась в авангарде, другая в арьергарде. Колонна выстраивалась так: впереди часть аркебузиров авангарда, затем мушкетеры, затем остальные аркебузиры авангарда, затем пикинёры, в центре знаменосцы и офицеры, после которых шли опять пикинёры, а затем арьергард из аркебузиров. Позади — обоз. Вдали от вражеской территории обоз мог располагаться впереди колонны, чтобы не запаздывал. Ночью спереди колонны и по флангам располагались факельщики. Одним из преимуществ терции была возможность формировать на поле боя мобильные отряды (tropas) разной величины. Самым слабым местом терции, как и любого построения, подобного каре, были углы, которые могли быть довольно легко прорваны, так как на каждую из сторон в них приходится в два раза меньше пик, чем по фронту, и если противнику удавалось проникнуть в глубину строя, терцию ждала неминуемая гибель.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_1">
 			<Text>Сипаи (от перс. sipâhi, «солдат») — наёмные солдаты в колониальной Индии (XVIII—XX век), рекрутировавшиеся европейскими колонизаторами, чаще всего англичанами, из среды местного населения. Первоначально термин использовался в Британской индийской армии и ранее в Британской Ост-Индской компании для рядовых пехотинцев и до сих пор используется в армиях Индии, Пакистана и Бангладеш для обозначения рядового состава. Сипаи были пехотинцами, как в Могольской империи, так и в Княжестве Майсур. Могольский император Аурангзеб (1658 - 1707), сформировал батальоны сипаев, вооруженные мушкетами, ракетами, и гранатами. Эти войска успешно участвовали в победоносных войнах, в особенности во время битва за Бидар, Биджапур и Голконда. Сипаи были главной движущей силой крупнейшего индийского восстания колониального периода — Сипайского восстания 1857—1859 годов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_1">
 			<Text>Онагр — позднеримская метательная машина торсионного типа, буквально переводится как дикий осёл. Именно онагр чаще всего неправильно именуется катапультой. Онагр представляет собой упрощённый вариант баллисты с одним плечом для метания относительно небольших камней. Метательный рычаг приводится в действие торсионом из скрученных жил или волос животных. На другом конце рычага крепится праща, которая увеличивает начальную скорость ядра. Первые упоминания об онагре появляются с IV века, однако археологические находки отдельных металлических частей позволяют отнести его появления к III веку.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_2">
 			<Text>Описание конструкции машины дал позднеримский офицер и историк Аммиан Марцеллин (IV в.):«Скорпион, который в настоящее время называют онагром (дикий осел), имеет такую форму. Вытёсывают два бревна из обыкновенного или каменного дуба и слегка закругляют, так что они подымаются горбом; затем их скрепляют наподобие козлов для пиления и пробуравливают на обеих сторонах большие дыры; через них пропускают крепкие канаты, которые дают скрепу машине, чтобы она не разошлась. В середине этих канатов воздымается в косом направлении деревянный стержень наподобие дышла. Прикрепленные к нему веревки так его держат, что он может подниматься наверх и опускаться вниз. К его верхушке приделаны железные крючки, на которых вешается пеньковая или железная праща. Под этим деревянным сооружением устраивается толстая подстилка, набитый искрошенной соломой тюфяк, хорошо укрепленный и положенный на груду дёрна или на помост, сложенный из кирпича. Если же поместить эту машину прямо на каменной стене, то она расшатает все, что находится под нею не из-за своей тяжести, но от сильного сотрясения. Когда дело доходит до боя, в пращу кладут круглый камень, и четыре человека по обеим сторонам машины быстро вращают навойни, на которых закреплены канаты, и отгибают назад стержень, приводя его почти в горизонтальное положение. Стоящий наверху машины командир орудия выбивает тогда сильным ударом железного молота ключ, который удерживает все связи машины. Освобожденный быстрым толчком стержень отклоняется вперед и, встретив отпор в эластичном тюфяке, выбрасывает камень, который может сокрушить все, что попадется на его пути. Эта машина называется tormentum, потому что напряжение достигается закручиванием (torquere),— скорпионом, потому что она имеет торчащее вверх жало; новейшее время дало ей ещё название онагра, потому что дикие ослы, будучи преследуемы на охоте, брыкаясь назад, мечут такие камни, что пробивают ими грудь своих преследователей или, пробив кости черепа, размозжают голову.»</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_3">
 			<Text>В современных фильмах и компьютерных играх любят изображать онагры как основное метательное оружие древних, однако в реальности они не были широко распространены. Ложкообразный метательный рычаг является фантазией современных художников, вызванной отсутствием технических описаний онагра кроме вышеприведенного. Исходя из метода метания при помощи пращи, можно сделать вывод, что траектория полёта снаряда была скорее настильная, чем навесная. Таким образом онагры использовались при обороне крепостей или возможно как аналог орудия прямой наводки в полевом бою, но при осаде крепостей требовались уже баллисты, стреляющие с высоким углом возвышения. Современник Марцеллина, древнеримский автор Вегеций отметил, что онагры состояли на штатном вооружении легиона в количестве 10 штук, и для их транспортировки требовались быки. О тактическом применении онагров (или скорпионов) рассказал Марцеллин, описывая оборону римлянами восточной крепости Амиды от персов в 359 году:«Мы решили против тех четырёх баллист [установленных на осадных башнях] выставить скорпионы. Перенеся их с другого места, мы принялись со всей тщательностью за их установку, что требует большого искусства. Из железных пращей скорпионов с зубцов стены полетели круглые камни на башни неприятеля; ими разбиты были скрепы башен, и баллисты вместе со своей прислугой полетели вниз, так что одни погибли от падения, даже не будучи ранены, другие нашли смерть под обрушившимися на них обломками.»</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_1">
 			<Text>«Тигр» - немецкий тяжелый танк Второй мировой войны, поступивший на вооружение с 1942 года в основные танковые корпуса в Европе и Северной Африке. Его полное наименование: Panzerkampfwagen VI Tiger Ausf. E часто сокращается до Тигра. Тигр стал для вермахта первой бронированной боевой машиной вооруженной пушкой KwK 36 8,8 см (не путать с 8,8 см Flak 36). Было выпущено 1,347 единиц танка в период с августа 1942 года по август 1944 года. Танку «Тигр» дал прозвище его создатель Фердинанд Порше, а римская цифра была добавлена после того, как позднее модификация Тигр II вошла в производство.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_2">
 			<Text>Несмотря на то, что Тигр I был признан самым выдающимся танком своего времени, он имел очень сложную архитектуру, состоявшую из дорогих компонетнов и материалов, и в целом был очень сложен в производстве. Кроме того самым слабым местом Тигра оказались его гусеницы и колёса, которые часто ломались. Помимо этого танк отличался высоким потреблением топлива. Из-за больших размеров его было трудно транспортировать. Танк не мог нормально проходить через грязь и снег при минусовых температурах. Рекордное падение температуры вскрыло слабые места в двигательной платформе танка. Лед и снег замерзали между его перекрывающимися и чередующимися дорожными колёсами "Schachtellaufwerk", часто заглушая их. Это было серьёзной проблемой для немцев на Восточном фронте в сезон мутной распутицы и в периоды экстремальных холодов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_1">
 			<Text>«Ямато» — линкор японского императорского флота времен Второй мировой войны класса «Ямато». Был самым тяжелым и наиболее мощным вооруженным линкором из когда-либо построенных. Класс имел самую большую военно-морскую артиллерию, из когда-либо установленную на военном корабле, девять 460-миллиметровых (18,1-дюймовых) военно-морских орудий, каждое из которых способно стрелять снаарядами весом по 1360 кг (3000 фунтов) на расстояние 42 км (26 миль). Два линкора класса «Ямато» (Ямато и Мусаси) были завершены, а третий (Шинано) был преобразован в авианосец во время строительства.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_2">
 			<Text>В качестве флагмана Объединённого флота «Ямато» формально участвовал в сражении у атолла Мидуэй 4-6 июня 1942 года, но фактически не имел столкновений с противником, так как находился на 300 миль позади японских авианосцев. 28 мая 1942 года «Ямато» перебазировался на остров Трук, где провёл около года, выполняя роль плавучего штаба Объединённого флота. 25 декабря 1943 г. находившийся к северу от острова Трук «Ямато» получил попадание торпедой (масса заряда 270 кг) с американской ПЛ «Скейт» (Skate) и принял в пробоину около 3000 тонн воды. Боеспособность корабля серьёзно пострадала из-за затопления погреба кормовой башни главного калибра. В январе — апреле 1944 года «Ямато» прошёл ремонт и модернизацию в Куре. В июне 1944 года «Ямато» принимал участие в сражении в Филиппинском море, причём соединение, включавшее также «Мусаси» и ряд других тяжёлых кораблей, действовало впереди своих авианосцев. 19 июня «Ямато» впервые открыл огонь в боевой обстановке, но позже выяснилось, что линкор обстрелял свою же авиацию. Японское командование берегло свои линкоры для предполагаемого генерального сражения с американским флотом. В реальности война на Тихом океане вылилась в череду небольших, но изнурительных стычек, в которых силы японского флота таяли, пока сильнейшие линкоры отстаивались вдали от зон активных боевых действий. В результате в Императорском флоте сложилось скептическое отношение к этим кораблям, хорошо иллюстрируемое популярной у моряков поговоркой «На свете есть три самые большие и бесполезные вещи — египетские пирамиды, Великая китайская стена и линкор „Ямато“»</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_3">
 			<Text>«Ямато» вернулся к родным берегам только 22 ноября 1944 года и был сразу поставлен на ремонт и модернизацию, которая закончилась в январе 1945 года и оказалась для него последней. Между тем война переместилась к берегам Японии. 1 апреля 1945 года американские войска высадились на Окинаве. Поскольку гарнизон острова не имел шансов отразить десант, японское командование сделало основную ставку на самоубийственные методы борьбы. Не остался в стороне и флот, предложивший использовать «Ямато» для атаки неприятельских десантных судов, несмотря на господство противника в воздухе и на море.Утром 6 апреля 1945 года соединение в составе «Ямато», 1 лёгкого крейсера и 8 эсминцев вышло в море для участия в операции «Тэн-ити-го» («Небеса-1»). Перед соединением была поставлена задача — «атака неприятельского флота и судов снабжения и их уничтожение». В случае затруднений с возвращением на базу «Ямато» предписывалось выброситься на отмель у побережья Окинавы и поддерживать армейские части артиллерийским огнём. Предполагалось также, что этот рейд отвлечёт палубную авиацию противника и облегчит намеченные на 7 апреля массированные атаки камикадзе на десантные средства американского флота у берегов Окинавы. План с самого начала носил самоубийственный характер. Японское соединение было обнаружено противником рано утром 7 апреля. Начиная с полудня «Ямато» и его эскорт подверглись мощным атакам американских палубных самолётов (всего 227 машин). Через два часа линкор, получив до 10 попаданий торпед и 13 попаданий авиабомб, вышел из строя. В 14.23 по местному времени из-за смещения 460-мм снарядов от крена произошёл взрыв носового погреба артиллерии главного калибра, после чего «Ямато» затонул. Спасти удалось лишь 269 человек, 3063 члена экипажа погибли. Потери американцев составили 10 самолётов и 12 лётчиков.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_1">
 			<Text>В эллинистическую эпоху корабли могли достигать огромных размеров. Строительством больших кораблей прославился Деметрий Полиоркет. Самым большим по мощности гребного аппарата судном была тессараконтера (т. е. "сорокакратный корабль") Птолемея IV Филопатора (221-205 гг. до н. э.), упомянутая Плутархом в биографии Деметрия. Длина корабля — ок. 125 м, высота — ок. 22 м, «имел он два носа, две кормы и семь таранов» (Афиней, 203e—204d). Правда, опыт оказался неудачным. Вот что пишет Плутарх в биографии Деметрия: "Каждую из верфей Деметрий посещал сам, давал наставления и советы, работал вместе с плотниками, и все дивились не только числу будущих судов, но и их размерам — ведь никому еще не доводилось видеть корабли с пятнадцатью и шестнадцатью рядами весел. Лишь позднее Птолемей Филопатор выстроил корабль с сорока рядами весел*, длина его была двести восемьдесят локтей, высота (до верха носовой надстройки) — сорок восемь, число моряков — четыреста, гребцов — четыре тысячи, да кроме того в проходах и на палубе размещались почти три тысячи воинов. Но это судно годилось лишь для показа, а не для дела и почти ничем не отличалось от неподвижных сооружений, ибо стронуть его с места было и небезопасно и чрезвычайно трудно, тогда как у судов Деметрия красота не отнимала мощи, устройство их не было настолько громоздким и сложным, чтобы нанести ущерб делу, напротив, их скорость и боевые качества заслуживали еще большего изумления, чем громадные размеры". (*Собственно «рядов весел» было, конечно, меньше, но на каждом было по многу рядов гребцов.)</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_1">
 			<Text>Амазонки были скифскими женщинами-воительницами, получившими мифический ореол в греческой мифологии как раса воинов-женщин. Согласно легенде, амазонки также изобрели кавалерию. С начала эпохи Нового времени их имя стало собирательным термином для всех женских воинов в целом. Геродот писал, что Амазонки изначально не были связаны со скифами и размещал их в регионе, граничащем со Скифией: в Сарматии (современная территория Украины).</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_2">
 			<Text>Не чуждо было амазонкам и искусство разведки. Хотя в основном они предпочитали производить разведку боем. Для более длительного и деликатного сбора информации они посылали ничем не примечательных мужчин, которым отводили второстепенную роль, чтобы не ставить потенциальных жертв в известность о своём присутствии.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_1">
 			<Text>Для городов-государств Нижней Месопотамии война никогда не была в диковинку, однако битва между царем Лагаша и царем Уммы в 2525 г. до н.э. стала особенно кровопролитной, и наиболее важной для мировой истории. Одержав победу над царем Уммы, царь Лагаша велел возвести памятную стелу. Посвятив её своей победе, он создал первое описание войны из известных человечеству. На стеле вырезаны войска Лагаша среди которых копьеносцы, расположенные фалангой по восемь солдат в ряду, глубиной шесть рядов. А возглавляет их шествие сам царь Лагаша вооружённый хопешем - серповидным мечом. Так же на стеле видно, как коршуны уносят головы павших воинов Уммы. В результате победоносные шумерские солдаты стали известны как "шумерские коршуны".</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_2">
 			<Text>Среди воинов-коршунов, как можно предположить, были не только первые фалангиты, но так же элитные подразделения пехоты, вооружённые серповидными мечами - хопешами. Типичный хопеш имел длину 50-60 см (20-24 дюйма) и состоял из серповидной рубяще-режущей части (полукруглого клинка) и рукояти. Существовали и меньшие по размеру экземпляры, имевшие ритуальное значение. Клинок мог иметь как внутреннюю, так и двойную заточку, когда ближняя к рукояти часть клинка имела внешнюю заточку, а дальняя — внутреннюю. Затупленный край наконечника оружия служил эффективной дубинкой, а также крюком. В техническом аспекте хопеш отличался высокой пробивной способностью. Вес этого оружия (до 2 кг.) и уникальная форма позволяли шумерским воинам варьировать стиль атаки в зависимости от условий. Проще говоря, им можно было не только рубить, а также, при особой сноровке, колоть. Имевший форму полумесяца хопеш не являлся мечом (который появился из кинжала) в собственном смысле. Он в большей степени происходил от первых бронзовых боевых топоров. Однако, в отличие от своего прародителя, хопеш оставлял не столько порубы, сколько раны, схожие с сабельными.Это оружие играло важную роль в ближневосточных войнах более чем за два тысячелетия до появления ислама. Изображение хопеша на "Стеле Коршунов" позволяет утверждать, что он активно использовался в 2500 году до н. э. В Египте XVIII Династии (около 1600 года до н. э.) использовали новые технологии оружия, заимствованные у гиксосов, включая общую форму «меча-серпа». Это оружие стало символом Нового царства. Со временем традиционный хопеш вышел из массового использования (около 1300 г. до н. э.). В итоге этот меч преобразовался в копис, использовавшийся в армии Александра Македонского.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_1">
 			<Text>T-34 - советский средний танк, оказавший всеобъемлющее долгосрочное влияние на развитие танковой отрасли машиностроения, во всём мире. Несмотря на то, что характеристики его брони и вооружения со временем удалось превзойти, T-34 заслуженно носил титут наиболее эффективного, простого в эксплуатации и не очень затратного в производстве танка Второй мировой войны. На момент выпуска, T-34 обладал беспрецедентным сочетанием огневой мощи, мобильности, защиты и прочности. Его высокоскоростная танковая пушка калибра 76,2 мм (3 дюйма) обеспечивала значительное превосходство в огневой мощи перед любым иностранным танком. Его тяжёлую броню было трудно пробить даже с помощью самого современного противотанкового оружия. Когда он впервые вступил в танковые бои в 1941 году, немецкий танковый генерал фон Клейст назвал его «лучшим танком в мире», а Хайнц Гудериан подтвердил «огромное превосходство» Т-34 над существующими немецкими танками (особенно по части брони) и призвал немедленно заняться разработкой новых тяжёлых танков, способных противстоять Т-34.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_2">
 			<Text>Т-34 был основой советских бронетанковых войск на протяжении всей Второй мировой войны. Его конструкция позволяла вносить модификации для удовлетворения меняющихся потребностей Восточного фронта. По мере того как война продолжалась, Т-34 становился всё более эффективным, быстрым и дешевым в производстве. Советская промышленность в конечном итоге произвела более 80 000 единиц танка Т-34 в различных модификациях, что позволило знаительно увеличить танковое присутствие на всех направлениях фронта. Заменив множество легких и средних танков на службе в Красной Армии, Т-34 стал самым выпускаемым танком Второй мировой войны, а также занял второе место по количеству выпущенных единиц за всё время мирового танкостроения (после своего преемника, серии Т-54/55). Его эволюционное развитие привело к появлению танков Т-54/55, а уже от них произошли танки Т-62, Т-72 и Т-90, которые вместе с несколькими китайскими танками на базе Т-55 образуют костяк многих современных танковых дивизий. Варианты Т-34 были широко распространены после Второй мировой войны и еще в 1996 году по-прежнему находились в эксплуатации по меньшей мере в 27 странах.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_1">
 			<Text>Арматолы — в период османского владычества в Греции представители местного христианского населения (преимущественно греки), имевшие право на ношение оружия. По поручению османских властей арматолы поддерживали правопорядок на местах, преследовали преступников, боролись с отрядами клефтов и гайдуков. Территории, находившиеся под контролем арматолов, получили название арматоликов. Термин происходит от итальянского armato — «вооруженный».</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_2">
 			<Text>Первые арматолики появились в середине 15 века в труднодоступном горном районе Аграфа в Центральном Эпире. Наибольшее распространение арматолы получили в Фессалии и Македонии. Часто в арматолы переходили бывшие гайдуки, получавшие помилование от османских властей. Во главе отрядов арматолов стояли капитаны и протопаликары (лейтенанты). В период Греческой революции начала 19 века арматолы вместе с клефтами составили основу вооруженных сил восставшей Греции. Яннис Макрияннис назвал отряды арматолов и клефтов «дрожжами свободы».</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_1">
 			<Text>Гази (от араб. «газа» — воевать) — название вольных воинов-добровольцев, защитников веры, правды и справедливости. Понятие встречается в мусульманских источниках c X—XI вв. Первоначально в средние века этот термин обозначал воинов-добровольцев, атаковавших на свой страх и риск поселения неверных (в первую очередь римско-византийских и персидских поселенцев) на начальном этапе создания Халифата. Со временем так себя стали называть почти все без исключения повстанцы, в том числе те, кто боролся против войск Халифата. Наибольшую известность и историческую значимость газии приобрели в эпоху византийско-сельджукских и византийско-османскиx войн ХI-ХV веков. Несколько менее известными были так называемые разья мусульманской Испании, основной задачей которых было тормозить продвижение христианской Реконкисты на юг.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_2">
 			<Text>Жизнь и быт гази отличались заметным своеобразием. Газиями обычно становились молодые парни из бедных семей кочевых народов (тюрки, берберы и проч.), разорившиеся крестьяне, ремесленники и дезертиры из армий Халифата. Газии славились своим искусством верховой езды, отличались крайней неприхотливостью, стремительностью, жестокостью по отношению к противнику, дерзостью и умением работать в группах. В ХI веке тюркские гази появились на службе у многих персидских и арабских султанов, которые вели непрестанную борьбу с Византийской империей и крестоносцами. Под давлением монголов тюркские миграции в страны Передней Азии усилились, поэтому гази стали неотъемлемой частью местного общества. Гази, в отличие от современных моджахедов, не имели чёткой организации. Они не входили в состав регулярных войск, перебиваясь наёмными заданиями временного характера. От местного эмира или султана гази получали оружие и с его помощью, сбиваясь в небольшие банды, как правило, состоящие из братьев или родственников из одного племени, начинали искать себе пропитание, совершая рейды в приграничные христианские регионы Византийской империи, Киликии и государств крестоносцев. Также, в отличие от моджахедов, гази не являлись коренным населением местности, которую они атаковали. Гази не могли захватить сколько-нибудь значительные укрепления или города, но это и не входило в их задачу. Они, как правило, бродили по степями и горам между сельскими крестьянскими поселениями, нападая на невооружённых крестьян и путников вдоль дорог. Основными противниками гази были акриты — военнообязанные крестьяне. Однако гази не имели ни земли, ни имущества, а потому отличались большей маневренностью и бесстрашием. После поражения византийцев при Манцикерте в 1071 году группы тюркских гази наводнили просторы Малой Азии, уничтожая остатки старого имперского аппарата, грабя и терроризируя зажиточные слои населения, но включая в свой состав малоимущих горожан, крестьян и рабов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_3">
 			<Text>Основным предназначением гази было поддерживать дух джихада путём деморализации христианского населения и подчинения его новым мусульманским устоям. Газиев часто сопровождали также и мусульманские проповедники — дервиши. Долгое время это тактика работала безотказно. В условиях столичной анархии в Константинополе и распрей между православными и католиками, результатом которых обычно было повышение налогов, греческие крестьяне Малой Азии оказались в тяжёлом положении. Значительная часть их бежала под защиту стен крупных городов. Но многие оставшиеся, устав от постоянных вылазок гази, переходили в подданство сельджукских султанов Коньи либо в статусе дхимми ("обязанных жизнью"), либо переходили в ислам для сохранения земли и имущества. Нападения гази, таким образом, перемещались всё дальше на запад, туда где открывались новые возможности для ведения газавата. Заброшенные греческие поселения занимали новые волны тюрков. К началу ХIV века гази уже фактически парализовали всю инфраструктуру империи, лишив её пропитания, так как все основные сельскохозяйственные регионы, в том числе и долина Меандра, больше не подчинялись столице.К 1300 году представители зажиточных слоев греческого населения Малой Азии оказались фактически загнанными в несколько прибрежных городских крепостей, лишённых продовольственных запасов и живущих под страхом постоянной осады со стороны регулярной османской армии. Благодаря заслугам гази османы завершили завоевание Малой Азии. В это же время термин гази стал использоваться как особо почётный титул, который различные султаны и эмиры прибавляли к своему имени или же жаловали своим подчинённым (обычно военным), отличившимся в походах против неверных (в основном, христианского вероисповедания). Когда завоевания Османской империи прекратились, гази постепенно трансформировались в новый социальный класс, известный как башибузуки (дословно "безбашенные"), которые наводили ужас на местное христианское население своей приверженностью насилию и бандитизму.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_1">
 			<Text>За долгую историю ее называли по-разному, но предназначение оставалось неизменным – Troupes de la marine — морская пехота Франции всегда на линии огня. Сейчас многие специалисты определяют предназначение морской пехоты Франции, как «силы быстрого реагирования». Форма «сухопутная», но на фуражках, беретах и черных ромбах на рукаве — золотые якоря. У них – отдельные части и подразделения, своя история и фольклор. Родились французские Troupes de la marine по указу небезызвестного кардинала Ришелье в 1622 году.  С самого начала было сформировано 80 отдельных рот по сто человек (compagnies ordinaires de la mer) для службы на французских военных кораблях. Их подчинили госсекретарю по военно-морским делам (Secrétaire d’État de la Marine), который, помимо флота, отвечал и за французские колонии. Но на кораблях морпехи не задерживались – шли вглубь континентов. Уже в 1687 году Людовик XIV заменил морпехами французские гарнизоны в Северной Америке (Новой Франции) и в других колониях. Они завоевывали стране Америку, Индию, Индокитай и еще много чего. Морпехи  отличались неукротимым нравом, стойкостью в бою и отличной выучкой своих артиллеристов и снайперов.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_2">
 			<Text>Утверждают, что именно снайпер морской пехоты Франции 21 октября 1805 года в первый день Трафальгарской битвы смертельно ранил легендарного адмирала Нельсона. Тело адмирала в бочке с брэнди отправили в Лондон, но битву французы все-таки проиграли. Наполеон превратил  Compagnies de la Mer в ударные пехотные полки, но в  1831 и пехоту снова подчинили военно-морскому ведомству (Ministère de la Marine). В 19-м веке Troupes de marines стали основными колониальными войсками Франции. Но их очень хорошо запомнили и в европейских войнах.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_1">
 			<Text>В королевстве Конго термин "Нганга" обозначал человека, обладавшего умением общаться с потусторонним миром. Нганга умел определять причины болезней, несчастья и социального стресса. Для их устранения он использовал все доступные ему средства, часто сверхъестественного характера, но иногда и средства традиционной медицины. Кроме того Нганга был ответственен за зарядку духовной энергией "нкиси" - физических объектов, предназначенных для вместилища духовных сил. Когда жителей Конго обратили в христианство в конце пятнадцатого века, термин Нганга был использован для перевода христианского священника, а также традиционных духовных посредников. В современной Африке, христианских священников на киконго часто называют "Нганга Нзамби" или "священниками Бога." Традиционно Нганга пользовался большим уважением в своём племени, не только из-за своих спиритических способностей, но и из-за обширных знаний в области традиционной медицины.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_2">
 			<Text>Традиционная африканская медицина - это разновидность альтернативной медицины, включающая в себя аборигенное траволечение и африканский спиритуализм, как правило, с участием предсказателей, акушерок и травников. Диагноз ставится с помощью духовных средств и назначается лечение, как правило, состоящее из растительного средства, которое, как считается, обладает не только лечебными свойствамми, но и символическим духовным значением. Традиционная африканская медицина с ее убеждением, что болезнь проистекает не из случайных явлений, а через духовный или социальный дисбаланс, сильно отличается от современной научной медицины, которая опирается на современные технические средства анализа. До создания наукоемкой медицины, традиционная медицина была доминирующей медицинской системой для миллионов людей в Африке, но приход европейцев стал заметным поворотным моментом в истории этой древней традиции и культуры.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_1">
 			<Text>Традиционные китайские школы боевых искусств пользовались общественным признанием и уважением во все эпохи существования Китая. Организация и устройство таких школ напоминали большую семью, связанную общими идеологическими узами, и возглавляемую наставником Шифу. Титул наставника Шифу (или Шигонга) означал "почётный мастер" и "учитель". Генералы китайских армий иногда обращались к ним с просьбами о проведении боевых тренировок для того, что бы повысить общий уровень подготовки своих солдат.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_1">
 			<Text>Эпоха Великих георграфических открытий началась с конца 15-го века и продолжать вплоть до начала 18-го века. Это весьма условное деление так как данный период не был официально утверждён и слабо дифференцировался европейскими истоиками. В течение всей эпохи открытий, зарубежные исследования стали мощным фактором распространения европейской культуры и начали процесс Глобализации. Эта эпоха также ознаменовала собой начало периода широкого распространения в Европе колониализма и меркантилизма. В течение всей эпохи было обнаружено много земель, ранее неизвестных европейцам, хотя большинство из них уже было заселено. С точки зрения коренных жителей Нового света, эпоха открытий ознаменовала приход поселенцев и захватчиков с ранее неизвестного континента.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_2">
 			<Text>Глобальные исследования начались с португальских открытий Атлантического архипелага Мадейры, Азорских островов, побережья Африки и открытия морского пути в Индию в 1498 году. От имени Короны Кастилии (Испания), Христофор Колумб совершил свои знаменитые трансатлантические путешествия в период с 1492 по 1502 год. Так же было совершено первое кругосветное плавание под руководством Фернана Магеллана в 1519-1522 годах. Эти открытия привели к многочисленным военно-морским экспедициям через Атлантический, Индийский и Тихий океаны, что привело в последствии к наземным экспедициям в Северной и Южной Америке, Азии, Африке и Австралии, которые продолжались до конца XIX века и закончились исследованием полярных регионов в XX веке.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_1">
 			<Text>Снайпер - квалифицированный стрелковый специалист, который работает в одиночку, в паре или со снайперской командой. В его задачи входит установка визуального контакта с противником, сбор данных и огонь на поражение со скрытых позиций, на больших расстояниях. Снайперы обычно проходят особые тренировки и способны использовать высокоточное стрелковое оружие со специальной оптикой. Самыми важными навыками считаются умение грамотно выбирать позицию для выстрела и как можно дольше не раскрывать своё местопположение. Ну и естественно, лишний раз не промахиваться. Кроме того снайперы часто производят разведку в боевых условиях, передавая ценную боевую информацию в штаб по зашифрованным коммуникационным линиям.</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>Меченосцы, вооруженные длинными мечами, являются типичными войсками Средневековья. Длинный меч был самым распространенным оружием эпохи Средневековья и Нового времени. Он весил меньше и был легче в обращении по сравнению с пикой. Им можно было работать как одной, так и двумя руками, что в теории позволяло мечнику пользоваться щитом. В ближнем бою против пикинеров мечники оказывались в довольно невыгодном положении и несли большие потери от более длинного оружия, прежде чем успевали подойти к противнику на боевую дистанцию. Тем не менее мечники были более быстрыми и маневренными, чем пикинеры, и, застав своего противника врасплох фланговой атакой, полностью уничтожали его.</Text>
 		</Replace>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_1">
 			<Text>Республиканская гвардия (фр. Garde Republicaine) — военное формирование Демократической Республики Конго, служащее в составе вооружённых сил страны. Гвардия была сформирована после провозглашения независимости от Бельгии и избрания первого президента республики в 1960 году. Основной задачей Республиканской гвардии является защита законно избранного президента и правительства. Так же гвардейцы осуществляют охрану важных государственных лиц и объектов высокой стратегической значимости.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_2">
 			<Text>Несмотря на свой статус, гвардейцам часто приходилось принимать участие в междоусобных войнах между политической элитой новой республики. Кроме того им приходилось участвовать в кропролитных гражданских войнах с войсками политических противников того или иного президента. На протяжении десятилетий независимости молодая республика успела пережить три смены режима, геноцид в Руанде, две волны беженцев (племена тутси и хуту), десятки мятежей и две конголезские войны. Но не смотря на все трудности, нестабильность ситуации и неуверенность в дальнейшем политическом курсе после смены лидеров, республиканские гвардейцы принимали присягу и служили интересам государственной власти. В разные периоды численный состав Республиканской гвардии рознился от 8000 до 20000 тысяч хорошо вооруженных солдат. Помимо армии, разделенной на 18 бригад по 3500 солдат, в современной Республиканской гвардии служит 10000—15000 солдат, и в составе гвардии есть три бригады: 10-я в Киншасе (столица республики Конго), а также 15-я и 16-я, в Лубумбаши (второго по величине города республики).</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>Вплоть до Второй Мировой войны мощь армий определялась не только людским, но и конским составом. Не даром римляне требовали от покоренных народов выдать не только доспехи, но и коней. В средние века конница играла важную роль. Помимо тяжёлой рыцарской конницы во многих странах существовали более мобильные и легко экипированные кавалерийские части. В отличии от тяжелых рыцарей, предпочитавших более крепких и спокойных лошадей, лёгкие кавалеристы всегда отдавали предпочтение более резвым и горячим скакунам. Манера ведения боевых действий была схожа с лучшими маневрами кавалерии Античных времен. Легкие кавалеристы всегда полагались на скорость и маневренность, однако в Средние века их боевой доспех стал заметно тяжелее, по сравнению с легкой кожаной экипировкой, которую носили наездники Античности. На смену лёгкой кожаной броне в XIV веке пришли клепанные кольчужные доспехи, имевшие широкое распространение в странах Восточной европы, Ближнего востока и Азии.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_1">
 			<Text>Boeing AH-64 Apache - американский четырехлопастный вертолет с двойным турбовальным двигателем, с шасси с хвостовым колесом и тандемной кабиной для экипажа из двух человек. Он оснащен сенсорным комплектом для наиболее точного прицеливания и ночного видения. «Апач» вооружен 30-миллиметровым (1.18 дюйма) цепным пулеметом M230, перевозимым между основным шасси, под передним фюзеляжем вертолета. Он имеет четыре жестких точки, установленных на пилообразных пилонах, обычно несущих смесь ракет AGM-114 Hellfire и Hydra 70. AH-64 обладает большим количеством резервирования систем для повышения боевой живучести.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_2">
 			<Text>Первоначально «Апач» именовался как "Модель 77", разработанная Hughes Helicopters для программы Advanced Attack Helicopter армии США для замены AH-1 Cobra. Прототип YAH-64 был впервые представлен 30 сентября 1975 года. Участие в конкурсе принимали пять авиастроительных фирм: Боинг-Вертол, Белл, Хьюз, Локхид, Сикорский. В июне 1973 года двум из этих фирм (Белл и Хьюз) были выданы контракты на разработку и производство прототипов. Фирма Белл предложила YAH-63 (Модель 409), представлявший развитие AH-1; прототип совершил первый полёт 22 ноября 1975 года. Чуть раньше, 30 сентября, впервые взлетел Хьюз YAH-64, пилотировавшийся лётчиками-испытателями Робертом Ферри (Robert Ferry) и Ралеем Флетчером (Raleigh Fletcher). В ходе проведённых армией сравнительных испытаний образец фирмы Хьюз показал своё значительное превосходство над конкурентом в скороподъёмности и манёвренности, и в целом его характеристики превосходили армейские требования. Свою роль сыграла и авария YAH-63 в одном из испытательных полётов. Армия США выбрала Hughes YAH-64 вместо Bell YAH-63 в 1976 году, а позже одобрила полное производство в 1982 году. После покупки Hughes Helicopters в 1984 году, кампания McDonnell Douglas продолжила производство и развитие AH-64. Вертолет был введен в службу армии США в апреле 1986 года. С 1989 года «Апачи» начали поступать в Национальную гвардию США.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_3">
 			<Text>«Боевое крещение» AH-64 состоялось в ходе американского вторжения в Панаму в декабре 1989 года. Полученный боевой опыт был достаточно символическим: в операции приняли участие всего 11 машин. Состоялось несколько успешных пусков ракет AGM-114. Более серьёзным испытанием стала операция «Буря в пустыне» в 1991 году. Именно «Апачи» сделали первые выстрелы этой войны, атаковав в ночь на 17 января две иракские радиолокационные станции в районе Багдада, представлявшие угрозу для коалиционной авиации над иракской столицей. Обе РЛС были уничтожены. В дальнейшем AH-64 приняли участие в ряде пограничных столкновений с иракскими войсками в период воздушной фазы кампании. 24 февраля началось наземное наступление Многонациональных сил; за четыре дня наземной войны AH-64 проявили себя как эффективное противотанковое средство. Также они выполняли непосредственную поддержку войск, иногда взаимодействуя с штурмовиками A-10. По одним американским данным, «Апачи» уничтожили свыше 500 иракских танков, а также множество другой бронетехники. По другим американским данным, было уничтожено 278 танков, при этом проверка на то, что эти цели уже были поражены другими средствами, не проводилась. Был зафиксирован случай, когда «Апач» в одном вылете уничтожил восемь иракских Т-72. Также иногда от «Апачей» доставалось и своим танкам. Ракетой AGM-114 был сбит один иракский вертолёт. Потери в ходе операции составили 3 вертолёта. Серийное производство для нужд американских вооружённых сил было завершено в декабре 1994 года после постройки 827 машин. Средняя стоимость одного вертолёта ранней модификации AH-64A оценивается примерно в 14,5 млн долларов.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMERICAN_AH64_APACHE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_1">
 			<Text>«Железнобокие» (англ. Ironsides) — кавалерия армии парламента (круглоголовых) в английской гражданской войне XVII века, сформированная в 1642 году Оливером Кромвелем. Полк получил боевое крещение 13 мая 1643 года в бою при Грэнтеме, позднее участвовал в боях при Гейнсборо и при Уинсби. Во всех этих боях победа оставалась за парламентаристами, при Уинсби именно атака полка Кромвеля решила исход боя — в плен попало около тысячи роялистов, было захвачено тридцать пять знамён и почти вся артиллерия. Гражданская война завершилась полной победой парламента. Власть короля была ограничена властью парламента, а также были гарантированы гражданские свободы. Революция открыла путь к промышленной революции в Англии и капиталистическому развитию страны. За железную дисциплину и стойкость, проявленную в этих боях, солдаты полка Кромвеля получили прозвище «железнобоких».</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_2">
 			<Text>При формировании в 1645 году Армии Нового Образца, «железнобокие» служили моделью для армии, они же образовали её ядро. «Железнобокие» были пуританами (как и большинство сторонников парламента), не употребляли алкоголь, не играли в азартные игры. Вот что писали о них в газетах того времени: «Что до Кромвеля, то он имеет 2000 храбрых и хорошо дисциплинированных воинов. Если кто из них побожится — платит штраф 12 пенсов. Если кто напьется, его сажают в колодки или ещё хуже; если один назовет другого „круглоголовым“ его увольняют со службы; так что в тех местах, куда они приходят, все от них в восторге и присоединяются к ним. Какое было бы счастье, если бы все наши силы были так же дисциплинированы».</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_3">
 			<Text>По версии, которая противоречит описанной выше, название «железнобокие» произошло от одного из прозвищ Кромвеля (англ. «Old Ironside»). Очевидно, также имеет место игра слов: англ. ironside — отважный; решительный человек, в то же время англ. iron — железо, англ. side — сторона, бок (кавалеристы использовали кирасы в качестве доспехов).</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ENGLISH_IRONSIDE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_1">
 			<Text>Ульфхеднар — не оборотень, а человек, викинг, впадающий в боевое безумие, подобно берсеркам, однако, если последние копировали повадки медведя, ульфхеднары подражали волкам. Про ульфхеднаров известно меньше, чем про берсеркеров. Если сделать дословный перевод названия, то получится «волкоголовый», не редко их так же именуют «воины-волки». Ульфхеднары поклонялись Фенриру, великому волку. Если воин Одина (Берсерки поклонялись именно Одину), одержимый духом медведя, являл собой всесокрушающую мощь, то его волкообразный «брат» был более ловким, более жестоким и более сообразительным. Как олицетворение зверя Одина воины-волки были «более угодны» верховному божеству скандинавов. Не надо забывать о том, что в обычную «свиту» Одина кроме воронов входили волки Гери и Фреки («жадный» и «прожорливый»). Волкоголовые являлись элитными воинами древнескандинавских народов и проходили тот же отбор, что и воины-медведи, пригвождались к дереву вверх ногами и содержались на гране между жизнью и смертью, до тех пор, пока перед ними не открывалось таинство «той стороны». После постижения «потустороннего» воины выбирали путь берсеркера или ульфхеднара, и с момента выбора каждый проходил обучение. Если «медведеподобных» обучали для сражений, как неистового сильного воина, то у ульфхеднаров больше был уклон на скорость и тактику. Оба пути воина подразумевали специальную психологическую подготовку (хоть и различающуюся) и изучение всего рунического футарка. Не даром их прозвали «волкоголовыми», они были мастерами засад, ночных атак, скрытых нападений, не редко действовали сообща, как волчья стая, но и немало случаев, когда воины-волки сражались в одиночку, а специальная подготовка позволяла одиночке проводить бой с несколькими противниками.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_2">
 			<Text>Принято считать, что ульфхеднары могли входить в состояние ярости, подобно берсеркам, с тем лишь отличием, что это был вполне контролируемый процесс, из-за чего задействовалось меньшее количество резервов организма и, как следствие, было менее эффективным. Помимо скрытого боя и внезапного удара, «волкоголовые» участвовали и в открытых сражениях, чем сильно поднимали боевой дух простых воинов, так же не редко именно они и составляли основную силу скары и, что не маловажно, являлись охранниками и личными воинами конунгов и ярлов. Ульфхеднары впервые упомянуты скальдом Торбьёрном Хорнклови в драпе (длинном стихотворении) о победе короля Харальда Прекрасноволосого в битве при Хаврсфьорде, которая происходила предположительно в 872 г. Сказано там следующее: «Берсерки рычали, битва кипела, облаченные в волчьи шкуры выли и потрясали мечами». О них пишут: «Один умел делать так, что в битве его враги слепли или глохли, или их охватывал страх, или их мечи становились не острее, чем палки, а его люди шли в бой без доспехов и были словно бешеные собаки и волки, кусали щиты и сравнивались силой с медведями и быками. Они убивали людей, и их было не взять ни огнем, ни железом. Это называется впасть в ярость берсерка». То есть источники толком не отличают ульфхеднара от берсерка. Похоже, термин «берсерк» гораздо шире, нежели «ульфхеднар». Тем не менее это разные понятия. Объединяет их одно — и те и другие воины во время боя впадали в священную ярость (амок, боевой транс, боевое бешенство) и сражались подобно диким животным многократно превосходя обычного воина в силе, реакции, скорости и нечувствительности к боли.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_3">
 			<Text>В некоторых скандинавских письменах о ульфхеднарах говорится как о волках, что не удивительно, они всегда облачались лишь в волчьи шкуры и не уважали среди своих никаких доспехов, все что им было нужно — это шкуры и оружие. Кто-то утверждает, что они наносили на свое тело изображения рун, кто-то говорит, что они этого не делали. Но явно прослеживается культ оборотничества, посвященный оборотню-волку, со своими традициями и устоями, которые ревностно охранялись от всякого не посвященного. Полностью ульфхеднары исчезают примерно к XII в., и вместе с ними теряются способы тренировок, традиции и устои, характерные исключительно для воинов-волков. Но если вы вдруг услышите волчий вой, вспомните эту статью, ведь волки, благородные животные, и воин который уподобляется им, должен быть не менее благороден. Кто знает, может быть там воет тот, кто не забыл традиций.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NORWEGIAN_ULFHEDNAR_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_1">
 			<Text>Современные снайперы - уже не те, что раньше. Про этих солдат ходит масса слухов, а окажись вы на поле боя, на котором действовал бы профессиональный вражеский снайпер - вы бы слегка испугались. Или не слегка. Они - это результат всей эволюции оружия. Им в руки дают пушки, что могут стрелять на максимально больших расстояниях, с максимальной точностью и кучностью. Их невозможно увидеть на поле боя, но присутствие их вы ощущать будете. Вы задницей будете чувствовать, насколько хорош вражеский стрелок. Что должен уметь снайпер? Хорошо стрелять да быстро прятаться - вполне, казалось бы, достаточно. На деле же снайпер умеет далеко не только точно стрелять и маскироваться. В большинстве заведений, где готовят по такой "специальности", людей учат баллистике, выживанию в диких условиях, наблюдению и слежке, саперному делу, искусству тактики, связи.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_2">
 			<Text>Что есть у современных "самых метких парней в округе" такого, чего не было раньше? Как минимум, приборы ночного видения и лазеры. И то и другое здорово помогает в устранении цели. Потому что очень многие боевые задания этих парней приходятся на то время, когда вы уже сладко спите. То есть, на ночь. Ночью темно, а темнота - это не только друг молодежи по всем известной причине, но и верная подруга снайпера. Потому как ему очень удобно прятаться. А при условии, что он захватил ПНВ, а он его обязательно захватит, ему еще и стрелять будет крайне удобно. Кроме того, в довесок к самым современным винтовкам можно заказать целый комплекс дополнительного оборудования, вплоть до компьютера, который одевается на запястье - весь ворох флюгеров можете грустно выбросить. Работают современные снайперы далеко не в одиночку, как это любят показывать в фильмах - там один-единственный боец может слоняться по захваченному врагом городу, постоянно стрелять, так еще и выжить. В реальности такое возможно в двух случаях: либо это очень и очень крутой профессионал, либо будущий труп. А вообще работают целыми отрядами, после пары выстрелов сразу меняют позицию и на глаза врагу стараются не показываться. Кроме того снайперы часто производят разведку в боевых условиях, передавая ценную боевую информацию в штаб по зашифрованным коммуникационным линиям.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_3">
 			<Text>Прогресс, как и всегда, работает на всех. С одной стороны, снайперы получают новую маскировку, высокоточную оптику и напичканные технологиями пушки, с другой - против них работают тепловизоры, которые распознают стрелка, нацепи он на себя хоть три пары лохмотьев, электронные системы обнаружения противника, которые фиксируют прилетевшую пулю и стрелочками показывают наиболее вероятное направление. Так же есть секретные разработки, которые могут улавливать даже не пулю, а саму оптику стрелка - и указывать на него. В свое время одна такая Советская система обнаружения спасла жизнь президенту Венесуэлы. Кроме того, этот же прибор может ослепить стрелка лазерным пучком. Ему будет особенно печально, если он в этот момент смотрел в оптику - в ближайшие 5-6 часов смотреть хоть на что-то ему будет затруднительно.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_SNIPER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_1">
 			<Text>Военная разведка – комплекс мероприятий по получению и обработке данных о действующем или вероятном противнике, его военных ресурсах, боевых возможностях и уязвимости, а также о театре военных действий. Современная военная разведка делится на тактическую, или оперативную, стратегическую разведку и контрразведку.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_2">
 			<Text>Тактическая разведка обеспечивает боевые действия войск в тактическом звене, т.е. в пределах соединений, частей и подразделений, находящихся в соприкосновении с противником. Она выявляет данные о боевых возможностях противника (включая его планы), его уязвимости и районе боевых действий (включая условия местности и погоды), что облегчает принятие командиром и его штабом оптимальных решений по планированию и проведению боевых действий.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_3">
 			<Text>Стратегическая разведка добывает и изучает сведения о возможностях, уязвимости и планах иностранных государств. Она ведется в интересах высших органов государственной власти и военного руководства, а добываемые ею данные используются для выработки внешнеполитического курса, планирования и осуществления мероприятий по национальной безопасности в мирное время и для проведения стратегических операций во время войны.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_4">
 			<Text>Контрразведка включает все активные и пассивные меры, осуществляемые государственными органами в целях борьбы против разведок других государств. Она обеспечивает безопасность секретной информации, оборудования, объектов и лиц, имеющих отношение к государственной тайне.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_5" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RECON_CHAPTER_HISTORY_PARA_5">
 			<Text>Разведка ведется непрерывно по трехэтапному циклу: сбор разведывательной информации, ее обработка и доведение данных до заинтересованных инстанций. Однако разведывательные данные, как бы они ни были достоверны, со временем теряют свою ценность, и поэтому их необходимо периодически перепроверять и обновлять.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_1">
 			<Text>Пулемет Гатлинга - многоствольное скорострельное стрелковое оружие, один из первых образцов пулемёта. Изобретенный Ричардом Гатлингом, пулемёт был впервые применен в бою союзными войсками во время Гражданской войны в США в 1860-х годах. Позже его снова использовали в многочисленных военных конфликтах, таких как война Бошина, война в Англо-Зулу и нападение на холм Сан-Хуан во время испанско-американской войны. Он также использовался ополченцами и Национальной гвардией в эпизодах Великой железнодорожной забастовки 1877 года, в частности в Питтсбурге, штат Пенсильвания.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_2">
 			<Text>«Гатлинг» снабжен расположенным сверху магазином с гравитационной подачей боеприпасов (без пружины). В течение цикла поворота блока стволов на 360° каждый ствол делает единственный выстрел, освобождается от гильзы и заряжается вновь. За это время происходит естественное охлаждение ствола. Вращение стволов у первых моделей Гатлинга осуществлялось вручную, в более поздних для него использовался электрический привод. Скорострельность моделей с ручным приводом составляла от 200 до 1000 выстрелов в минуту, а при использовании электропривода могла достигать и 3000 выстрелов в минуту. Оригинальная конструкция Гатлинга относится к полевым орудиям, с боеприпасами на дымном порохе, с несколькими стволами, приводимыми во вращение рукоятью, и заряжается посредством металлических кассет с патронами, свободно подающимися в ствол под действием силы тяжести. Экстракция стреляных гильз происходит также под действием силы тяжести, когда ствол оказывается в нижней точке. Стрельба может вестись безостановочно до тех пор, пока не кончаются патроны либо патрон не заклинивает в стволе. Новизна конструкции Гатлинга заключалась не во вращении стволов (подобная система была реализована значительно раньше в револьверах) и не в множественности стволов (митральеза), а именно в системе свободной подачи патронов из бункера, что позволяло неопытному расчёту вести стрельбу в высоком темпе.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_3">
 			<Text>Орудия Гатлинга постоянно совершенствовались, росла их надёжность и скорострельность. К примеру, в 1876 году механическая пятиствольная модель пулемёта калибра 0,45 дюйма позволяла вести огонь с темпом стрельбы 700 выстрелов в минуту, а при стрельбе короткими очередями пулемёт был способен достигнуть немыслимых для того времени 1000 выстрелов в минуту. При этом стволы совершенно не перегревались — на один ствол приходилось не больше 200 выстрелов в минуту, существенную роль играло и охлаждение за счет создаваемого при вращении потока воздуха, обдувающего стволы. На рубеже XIX и XX веков орудия системы Гатлинга начали оснащать электроприводом. Подобная модернизация позволила довести скорострельность орудия до 3000 выстрелов в минуту, но система электропривода делала пулемёт ещё более громоздким.С появлением одноствольных пулемётов, работающих на принципе использования энергии отдачи ствола при его коротком ходе, орудие Гатлинга, подобно другим многоствольным системам, постепенно вышло из употребления. Не оказала существенного влияния на судьбу «гатлингов» и их значительно более высокая скорострельность, поскольку на тот момент в скорострельности выше 400 выстрелов в минуту уже не было особой нужды. Зато одноствольные системы явно выигрывали у пулемёта Гатлинга в весе, манёвренности и простоте заряжания, что в итоге и определило приоритет одноствольной системы. Но окончательно «гатлинги» вытеснены так и не были — их продолжали устанавливать на военных кораблях в качестве средств ПВО. Особенную актуальность многоствольные системы обрели во время Второй мировой войны, когда прогресс авиации потребовал создания автоматических пушек и пулеметов с очень высоким темпом стрельбы. Уже после войны был разработан ряд орудий и пулемётов различного калибра, работавших «по схеме Гатлинга». Данные орудия могли иметь электрический, гидравлический, пневматический либо газовый привод, а питание осуществляется с помощью патронных лент или барабанных магазинов.</Text>
-		</Row>
-		<Replace Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION" Language="ru_RU">
-			<Text>+20 [ICON_Strength] к боевой мощи при защите.</Text>
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="ru_RU" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GATLING_GUN_CHAPTER_HISTORY_PARA_5">
+			<Text />
 		</Replace>
 	</LocalizedText>
 </GameData>

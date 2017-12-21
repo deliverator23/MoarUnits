@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<LocalizedText>
+		<Replace Language="de_DE" Tag="LOC_UNIT_CAMEL_ARCHER_NAME">
+			<Text>Kamelbogenschütze</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_CAMEL_ARCHER_DESCRIPTION">
+			<Text>Arabische Spezialeinheit der Klassik. Erhält beim Kampf auf Wüsten und Ebenen +8 [ICON_Strength] zusätzlich.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_PELTAST_NAME">
+			<Text>Peltast</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_PELTAST_DESCRIPTION">
+			<Text>Griechische Fernkampfeinheit die den Bogenschützen ersetzt. Stärker im Fernkampf und in der Verteidigung, aber lediglich 1 Reichweite.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MINUTEMAN_NAME">
+			<Text>Minuteman</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MINUTEMAN_DESCRIPTION">
+			<Text>Amerikanische Spezialeinheit des Industriezeitalters, die den Musketier ersetzt. Stärker als der Musketier, erhält +5 [ICON_Strength] Kampfstärke, wenn er neben oder auf dem Heimatkontinent kämpft. Zusätzlich erhält er weitere +5 [ICON_Strength] bei Kämpfen in Wäldern oder Dschungeln.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_LANDSKNECHT_NAME">
+			<Text>Landsknecht</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_LANDSKNECHT_DESCRIPTION">
+			<Text>Deutsche Spezialeinheit des Mittelalters, die den Pikenier ersetzt. Halbierte Kosten im Vergleich zum Pikenier, kann aber nur mit Gold erworben werden.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_PHALANX_NAME">
+			<Text>Phalanx</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_PHALANX_DESCRIPTION">
+			<Text>Sumerische Spezialeinheit der Antike, die den Speerkämpfer ersetzt. Der Phalanx ist mit dem Bergbau verfügbar. +8 [ICON_Strength] im Umkreis von 8 Feldern einer Zikkurat-Modernisierung.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_CHOKONU_NAME">
+			<Text>Cho-Ko-Nu</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_CHOKONU_DESCRIPTION">
+			<Text>Chinesische Fernkampfeinheit des Mittelalters, die den Armbrustschützen ersetzt. Etwas schwächer als der Armbrustschütze, kann aber zwei Mal pro Runde feuern.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_RIFLEMAN_NAME">
+			<Text>Schütze</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_RIFLEMAN_DESCRIPTION">
+			<Text>Nahkampfeinheit des Industriezeitalters.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_JINETE_NAME">
+			<Text>Jinete</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_JINETE_DESCRIPTION">
+			<Text>Spanische Reitereinheit, die den Reiter ersetzt. Wandelt 50% der [ICON_Strength] Kampfstärke einer besiegten Einheit, zu Glauben [ICON_Faith] um, wenn auf dem Kontinent der Hauptstadt gekämpft wird.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_EQUITE_NAME">
+			<Text>Eques</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_EQUITE_DESCRIPTION">
+			<Text>Römische Kavallerieeinheit, die den Reiter ersetzt. Erhält +5 [ICON_Strength] Kampfstärke, neben einem Krieger oder Legionär. Wandelt 50% der [ICON_Strength] Kampfstärke einer besiegten Einheit zu Gold [ICON_Gold] um.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_DRUZHINA_NAME">
+			<Text>Druschina</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_DRUZHINA_DESCRIPTION">
+			<Text>Russische Kavallerieeinheit, die den Reiter ersetzt. +5 [ICON_Strength] Kampfstärke gegenüber verletzten Einheiten und +4 [ICON_Strength] Kampfstärke gegen Nahkampfeinheiten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_HIRDMAN_NAME">
+			<Text>Waräger</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_HIRDMAN_DESCRIPTION">
+			<Text>Norwegische Spezialeinheit des Mittelalters, die den Schwertkämpfer ersetzt. +5 [ICON_Strength] Kampfstärke. Wandelt  50 % der [ICON_Strength] Kampfstärke einer besiegten Einheit, in [ICON_Culture] Kultur um, wenn auf dem Kontinent der Hauptstadt gekämpft wird</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MUGHAL_SOWAR_NAME">
+			<Text>Mughal Sowar</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MUGHAL_SOWAR_DESCRIPTION">
+			<Text>Indische schwere Kavallerieeinheit des Mittelalters, die den Ritter ersetzt. Ignoriert Geländekosten. Heilt +15 pro Runde, wenn eine Stufenbrunnen-Modernisierung benachbart ist.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_LONGBOWMAN_NAME">
+			<Text>Langbogenschüze</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_LONGBOWMAN_DESCRIPTION">
+			<Text>Englische Fernkampfeinheit des Mittelalters, die den Armbrustschützen ersetzt. +4 [ICON_Strength] Kampfstärke gegen Nahkampf- und Kavallerieeinheiten. +4 [ICON_Strength] Kampfstärke, wenn ein weiterer Langbogenschütze angrenzt.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_CUIRASSIER_NAME">
+			<Text>Kürassier</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION">
+			<Text>Schwere Kavallerieeinheit des Industriezeitalters.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SOHEI_NAME">
+			<Text>Sohei</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SOHEI_DESCRIPTION">
+			<Text>Japanische Nahkampfeinheit, die mit der Ausrichtung Feudalismus verfügbar ist. Kann mit [ICON_Faith] Glauben gekauft werden. +10 [ICON_Strength] Kampfstärke bei Verteidgung.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_AMAZON_NAME">
+			<Text>Amazonische Kavallerie</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_AMAZON_DESCRIPTION">
+			<Text>Skythische schwere Kavallerieeinheit des Mittelalters, die den Ritter ersetzt. Kann sich nach Angriff bewegen.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_NAME">
+			<Text>Freiwilliger Vaterlandsverteidiger</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_FATHERLAND_VOLUNTEER_DESCRIPTION">
+			<Text>Brasilianische Nahkampfeinheit des Industriezeitalters, die den Schützen ersetzt. Sie ist im Bau und Unterhalt günstiger als der Schütze.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_HYKSOS_BOWMAN_NAME">
+			<Text>Hyksos Bogenschütze</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_HYKSOS_BOWMAN_DESCRIPTION">
+			<Text>Ägyptische Fernkampfeinheit, stärker als der Bogenschütze, den sie ersetzt.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_GENDARME_NAME">
+			<Text>Gendarme</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_GENDARME_DESCRIPTION">
+			<Text>Französiche schwere Kavallerieeinheit des Mittelalters, die den Ritter ersetzt. +5 [ICON_Strength] Kampfstärke beim Angriff.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_GARDE_REPUBLICAINE_NAME">
+			<Text>Republikanische Garde</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_GARDE_REPUBLICAINE_DESCRIPTION">
+			<Text>Kongolesische Nahkampfeinheit des Informationszeitalters, die die mechanisierte Infanterie ersetzt. +10 [ICON_Strength] Kampfstärke, beim Angriff auf oder bei Verteidigung von Bezirken.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_BANDEIRANTE_NAME">
+			<Text>Bandeirante</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_BANDEIRANTE_DESCRIPTION">
+			<Text>Brasilianische Aufklärungseinheit der Renaissance, die den Ranger ersetzt. Verfügbar mit der Technologie Schießpulver. Kann Festungen errichten. Wandelt 25% der [ICON_Strength] Kampfstärke von besiegten Einheiten in [ICON_Culture] Kultur und 25% in [ICON_Gold] Gold um.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_TERCIO_NAME">
+			<Text>Tercio</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_TERCIO_DESCRIPTION">
+			<Text>Spanische Anti-Kavallerieeinheit der Renaissance.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SEPOY_NAME">
+			<Text>Sepoy</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SEPOY_DESCRIPTION">
+			<Text>Indische Nahkampfeinheit des Industriezeitalters, die den Schützen ersetzt. Kämpft mit voller Stärke, wenn die Einheit verwundet ist.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_AMAZON_SCOUT_NAME">
+			<Text>Amazonischer Späher</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_AMAZON_SCOUT_DESCRIPTION">
+			<Text>Skythische Aufklärungseinheit der Antike, die stärker ist als der Späher, der ersetzt wird.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_PANZER_NAME">
+			<Text>Tiger I</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_PANZER_DESCRIPTION">
+			<Text>Deutsche schwere Kavallerieeinheit, die den Panzer ersetzt. Sie erhält +5 [ICON_Strength] Kampfstärke beim Angriff.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_T34_NAME">
+			<Text>T-34</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_T34_DESCRIPTION">
+			<Text>Russische schwere Kavallierieeinheit, die den Panzer ersetzt. Sie ist günstiger im Unterhalt und hat geringere Baukosten. +5 [ICON_Strength] Kampfstärke im oder benachbart zum eigenen Territorium.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_YAMATO_NAME">
+			<Text>Yamato</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_YAMATO_DESCRIPTION">
+			<Text>Japanische Marinefernkampfeinheit. Stärker als das Kriegsschiff, das ersetzt wird.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_WAR_GALLEY_NAME">
+			<Text>Tessarakonteres</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_WAR_GALLEY_DESCRIPTION">
+			<Text>Ägyptische Marinefernkampfeinheit. Stärker als die Quadrireme, die ersetzt wird. Hat eine [ICON_Range] Reichweite von 2 statt 1.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_ONAGER_NAME">
+			<Text>Onager</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_ONAGER_DESCRIPTION">
+			<Text>Römische Belagerungseinheit. Stärker als das Katapult, das ersetzt wird.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_VULTURE_NAME">
+			<Text>Sichelschwertkämpfer</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_VULTURE_DESCRIPTION">
+			<Text>Sumerische Nahkampfeinheit der Klassik. +5 [ICON_Strength] Kampfstärke gegen verwundete Einheiten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_ARMATOLOS_NAME">
+			<Text>Armatolos</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_ARMATOLOS_DESCRIPTION">
+			<Text>Griechische Nahkampfeinheit des Industriezeitalters, die den Schützen ersetzt. +5 [ICON_Strength] Kampfstärke auf Hügeln. Ignoriert Hügelgeländefeldkosten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_FRENCH_MARINE_NAME">
+			<Text>Marinesoldat</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_FRENCH_MARINE_DESCRIPTION">
+			<Text>Französische Nahkampfeinheit der Renaissance, die den Musketier ersetzt. +5 [ICON_Strength] Kampfstärke auf fremden Kontinenten. Amphibisch - keine Kampfmalus beim Angriff über Flüsse oder von der Küste.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_GHAZI_NAME">
+			<Text>Ghazi</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_GHAZI_DESCRIPTION">
+			<Text>Arabische Nahkampfeinheit des Mittelalters, die den Schwertkämpfer ersetzt. +5 [ICON_Strength] Kampfstärke, wenn der Kontrahent einer anderen Religion folgt. Wandelt 50% der [ICON_Strength] Kampfstärke von besiegten Einheiten in [ICON_Faith] Glauben um. Konvertiert Städte bei Eroberung zur Spielerreligion. Kann mit [ICON_Faith] Glauben gekauft werden.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MEDICINE_MAN_NAME">
+			<Text>Medizinmann</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MEDICINE_MAN_DESCRIPTION">
+			<Text>Kongolesische Unterstützungseinheit, die den Sanitäter ersetzt und durch die Ausrichtung Mystik freigeschaltet wird. Kann nur mit [ICON_Faith] Glauben gekauft werden. Heilt alle Einheiten. Nebenstehende Nahkampf-, Kavallerie-, Anti-Kavallerie und Fernkampfeinheiten wandeln 50% der [ICON_Strength] Kampfstärke von besiegten Einheiten in [ICON_Faith] Glauben um.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SHIGONG_NAME">
+			<Text>Shigong</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SHIGONG_DESCRIPTION">
+			<Text>Chinesische Unterstützungseinheit, die durch die Ausrichtung Militärtradition freigeschaltet wird. Benachbarte Nahkampf-, Kavallerie-, Anti-Kavallerie und Fernkampfeinheiten erhalten +5 [ICON_Strength] Kampfstärke und verdienen mehr Erfahrungspunkte. Zum Bau ist eine Kaserne erforderlich.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SPANISH_CONQUISTADOR_DESCRIPTION">
+			<Text>Spanische Spezialeinheit der Renaissance, die den Musketier ersetzt. +9 [ICON_Strength] Kampfstärke mit einer religiösen Einheit auf dem selben Feld. Erobert diese Einheit eine Stadt oder steht während der Eroberung neben der Stadt, wird die Ortschaft mehrheitlich zur Spielerreligion bekehrt.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SNIPER_NAME">
+			<Text>Scharfschütze</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_SNIPER_DESCRIPTION">
+			<Text>Sehr schnelle Aufklärungs- als auch Fernkampfeinheit des Atomzeitalters. Bewegung und Angriff in der selben Runde ist nicht möglich. Erhält +12 [ICON_Ranged] Fernkampfstärke gegen Landeinheiten (außer Schwerer Kavallerie). Erhält auf Hügeln +1 [ICON_Range] Reichweite.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_EXPLORER_NAME">
+			<Text>Erkunder</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_EXPLORER_DESCRIPTION">
+			<Text>Schnelle Aufklärungseinheit der Rennaissance. Ignoriert Flüsse und "Ausschiffen" kostet keine Bewegungspunkte.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MACEMAN_NAME">
+			<Text>Langschwertkämpfer</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MACEMAN_DESCRIPTION">
+			<Text>Nahkampfeinheit des Mittelalters.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_NAME">
+			<Text>Leicht gepanzerter Reiter</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_MEDIEVAL_HORSEMAN_DESCRIPTION">
+			<Text>Leichte Kavallerieeinheit des Mittelalters. Ersetzt den Reiter</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_HORSEMAN_NAME">
+			<Text>Reiter</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+			<Text>Indische Spezialeinheit der Antike. Angrenzende Feindeinheiten erhalten -5 [ICON_STRENGTH] Kampfstärke.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_CAPITAL_CONTINENT_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke auf dem Kontinent der Hauptstadt.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_4_VERSUS_MELEE_CAVALRY_COMBAT_BONUS_DESC">
+			<Text>+4 [ICON_Strength] Kampfstärke gegen Nahkampf- und Kavallerieeinheiten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_4_LONGBOWMAN_ADJACENCY_COMBAT_BONUS_DESC">
+			<Text>+4 [ICON_Strength] Kampfstärke neben einem Langbogenschützen.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_EQUITE_ADJACENCY_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke neben Legion oder Krieger.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_ZIGURRAT_PROXIMITY_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke im Umkreis von 8 Feldern um ein Zikkurat.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_8_DESERT_PLAINS_COMBAT_BONUS_DESC">
+			<Text>+8 [ICON_Strength] Kampfstärke auf Wüsten und Ebenen.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_NOT_OWNER_TERRITORY_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke außerhalb des eigenen Territoriums.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_FOREST_JUNGLE_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke in Wäldern und Dschungeln.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_4_VERSUS_MELEE_COMBAT_BONUS_DESC">
+			<Text>+4 [ICON_Strength] Kampfstärke gegen Nahkampfeinheiten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_10_WHEN_DEFENDING_COMBAT_BONUS_DESC">
+			<Text>+10 [ICON_Strength] Kampfstärke bei Verteidigung.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_WHEN_ATTACKING_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke bei Angriff.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_HILLS_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke auf Hügeln.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="RECEIVE_SHIGONG_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke von Shigong-Einheiten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_FOREIGN_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke auf anderen Kontinenten.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC">
+			<Text>+5 [ICON_Strength] Kampfstärke bei Zivilisationen mit fremden Religionen.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
+			<Text>+20 [ICON_Strength] Kampfstärke bei Verteidigung.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>The hird, in Norwegian history, was originally an informal retinue of personal armed companions, hirdmen or housecarls, but came to mean not only the nucleus ('Guards') of the royal army, but also developed into a more formal royal court household. When the Norwegian royal hird had developed into a formal court, hirdman became the title of the highest of its four ranks, those magnates who were allowed to seat in the royal council (the closest feudal equivalent of a cabinet) and thus had a say in governmental and other important matters.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_1">
+			<Text>As a military term, jinete (also spelled ginete or genitour) means a Spanish light horseman armed with a javelin, sword and a shield, a troop type developed in the early Middle Ages in response to the massed light cavalry of the Moors. Often fielded in significant numbers by the Spanish, and at times the most numerous of the Spanish mounted troops, they played an important role in Spanish mounted warfare throughout the Reconquista until the sixteenth century.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JINETE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>Seeing service during the American Revolutionary War, the American minutemen were select members of the colonial militia. They were a "rapid response" force, trained to respond quickly to enemy attacks, giving the Regular Army (as well as the rest of the militia) time to react and prepare for battle. Minutemen actually predate the American Revolution: the Massachusetts Bay Colony had certain members of its militia designated as minutemen as early as 1645.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MINUTEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_1">
+			<Text>Recruited from the gentry and lower aristocratic classes of Roman society, the equites were the cavalrymen of the royal and early Republican Roman armies. To be a member of the equestrian class meant that a man was rich enough to keep a horse, and provide his own armour, shield and spear. There were usually some 300 equites in each Republican Legion, organised into ten turmae of thirty horsemen each under the command of three decuriones. One of these men would be the praefectus, or commander, of the squadron. Mostly drawn from the young sons of elite society, these were men keen to show their courage. Showing prowess on the battlefield was an important step towards gaining political office and prestige for their families. Mundane duties such as patrol or reconnaissance would be the work of the equites extraordinarii of the Socii, the Romans’ collected Italian allies. During the Samnite and Punic Wars, the equites’ ranks were opened to first class commoners. Although they received none of the equestrians' social and political powers, they eventually replaced the aristocracy in the ranks of the Roman cavalry, allowing the equestrians to become senior officers in the newer Marian Legions.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_2">
+			<Text>From the earliest times and throughout the Republican period, Roman equites subscribed, in their role as Roman cavalrymen, to an ethos of personal heroism and glory. This was motivated by the desire to justify their privileged status to the lower classes that provided the infantry ranks, to enhance the renown of their family name, and to augment their chances of subsequent political advancement in a martial society. For equites, a focus of the heroic ethos was the quest for spolia militaria, the stripped armour and weapons of a foe whom they had killed in single combat.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EQUITE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_1">
+			<Text>In early Rus a druzhina helped the prince administer his principality and constituted the area's military force. The first members of a druzhina in Rus Khaganate were the Varangians, whose princes established control there in the 9th century. Soon members of the local Slavic aristocracy as well as adventurers of a variety of other nationalities became druzhinniki. The druzhina organization varied with time and survived in one form or another until the 16th century.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRUZHINA_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>The English longbow developed during the 12th century, as the English were fighting to conquer Wales. The longbow was made from yew or elm, and was five to seven feet in height (depending upon the height and strength of the user). The longbow was extremely difficult to master, but well-trained English longbowmen could shoot farther, faster and more accurately than the crossbowmen of the day. But this did require years of training. As the country's population grew the English wilderness was transformed into farmland. Opportunities for hunting disappeared  and the English yeomen became less proficient with bow and arrow. This, more so even than the advent of gunpowder, led to the decline of the English longbow.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LONGBOWMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_1">
+			<Text>Sowar meaning "the one who rides" in Kurdish and Persian, was originally a rank during the Mughal period. Cavalry was the superior branch in the Mughal army.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MUGHAL_SOWAR_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_1">
+			<Text>Cuirassiers were cavalry equipped with armour and firearms, first appearing in late 15th-century Europe. This French term means "one with a cuirass", the breastplate armour which they wore. The first cuirassiers were produced as a result of armoured cavalry, such as the man-at-arms and demi-lancer, discarding their lances and adopting the use of pistols as their primary weapon. In the later 17th century, the cuirassier lost his limb armour and subsequently employed only the cuirass (breastplate and backplate), and sometimes a helmet. By this time, the sword was the primary weapon of the cuirassier, pistols being relegated to a secondary function.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CUIRASSIER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_1">
+			<Text>A Peltast was a type of light infantry in Thrace and Paeonia who often served as skirmishers. Peltasts carried a crescent-shaped wicker shield called a pelte  as their main protection, hence their name. According to Aristotle, the pelte was rimless and covered in goat or sheep skin. Some literary sources imply that the shield could be round, but in art it is usually shown as crescent-shaped. It also appears in Scythian art and may have been a common type in Central Europe. The shield could be carried with a central strap and a hand grip near the rim or with just a central hand-grip. It may also have had a carrying strap (or baldric) as Thracian peltasts slung their shields on their backs when evading the enemy. Peltasts' weapons consisted of several javelins (akontia), which may have had throwing straps to allow more force to be applied to a throw.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PELTAST_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>A rifle is a firearm designed to be fired from the shoulder. The inside of the barrel has "rifled" grooves designed to spin the projectile as it is fired, giving it greater range and accuracy than an unrifled projectile. The earliest attempts at rifled barrels in Europe occurred in the 15th century, but difficulties in manufacturing kept it from general use until the 19th. American frontiersmen had rifles in the American War of Independence. British and American skirmishers and scouts were equipped with rifled muskets during the Napoleonic Wars and the War of 1812, but the weapons' slower loading time kept them out of the hands of the regular infantry for some years further.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text>The invention of the "minie ball" greatly reduced loading time, and by the American Civil War rifled muskets were in use in all major European armies. By the end of the Civil War the rifled musket was rendered obsolete by the breech-loading repeating rifle, which had a firing rate of perhaps one shot a second (as fast as one could cock the lever and pull the trigger), compared to the muzzle-loading rifle's firing rate of perhaps 20 to 30 seconds per shot for a well-trained soldier.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RIFLEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_1">
+			<Text>Some Muslim cavalrymen rode camels into battle. This often had an unsettling effect upon European-bred horses that had not before encountered those unusual beasts. As might be expected, camels are better-suited to desert terrain than are horses. Generally, the camel archer employed hit-and-run tactics against the enemy, more similar to Mongol horse archers than to knights or other heavy cavalry units. A well-trained camel archer unit could be extremely difficult for knights to deal with, if those knights were not protected by archers or their own light cavalry.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CAMEL_ARCHER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_1">
+			<Text>The landsknecht were German mercenary pikemen of the 16th century. Created in imitation of the legendary Swiss mercenary pikemen, the landsknecht would eventually supplant them as the best mercenary infantry available in Europe, fighting in almost every major engagement in the 16th century – often on both sides. In battle landsknechts generally carried pikes of up to twenty feet in length. Some few also carried huge two-handed swords or halberds; these were used to chop the heads off of the pikes of their opponents.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSKNECHT_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_1">
+			<Text>The Sumerians were one of the first civilizations to utilize the Phalanx formation, wherein a densely formed group of soldiers carrying large shields and spears were capable of protecting one another from incoming attacks, while also moving as one and pushing back against their foes.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PHALANX_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_1">
+			<Text>The Chu-Ko-Nu is a rather nifty repeating crossbow invented in China at the end of the second century AD. The machine looks something like a standard European crossbow with a box bolted to its top, just above the string. The box was filled with crossbow bolts. In operation, the soldier would pull a lever to cock the string and then push the lever back, causing a bolt to drop out of the box and into place to be fired. This gave the Chu-Ko-Nu a faster rate of fire than a standard European crossbow. However, the Chu-Ko-Nu fired a lighter bolt and had a shorter range than a European machine. Which was the superior weapon would depend upon circumstances - the European model might prevail in open terrain against heavily armored opponents, while the Chu-Ko-Nu would probably be better at short-range against large numbers of lighter-armored attackers.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOKONU_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_1">
+			<Text>Sohei (literally "monk warriors") were Buddhist warrior monks of both medieval and feudal Japan. The prominence of the sohei rose in parallel with the ascendancy of the Tendai school's influence between the 10th and 17th centuries. The warriors protected land and intimidated rival schools of Buddhism, becoming a significant factor in the spread of Buddhism and the development of different schools during the Kamakura period. The sohei shared many similarities with the European lay brothers, members of a monastic order who might not have been ordained. Much like the Teutonic Order, the warrior monks of Germany, and the crusading orders, sohei did not operate as individuals, or even as members of small, individual temples, but rather as warriors in a large extended brotherhood or monastic order. The home temple of a sohei monastic order might have had several, if not dozens or a hundred, smaller monasteries, training halls, and subordinate temples connected to it. </Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SOHEI_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_1">
+			<Text>The Amazons were Scythian women who fought and were mythologized in Greek mythology as a race of female warriors. Herodotus reported that they were related to the Scythians and placed them in a region bordering Scythia in Sarmatia (modern territory of Ukraine). Other historiographers place them in Anatolia, or sometimes Libya. The Amazons have become associated with many historical people throughout the Roman Empire period and Late Antiquity. Amazons were said to have founded several cities and temples. According to legend, the Amazons also invented the cavalry. From the early modern period, their name has become a term for female warriors in general.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_1">
+			<Text>In December 1864 the dictator of Paraguay, Francisco Solano López, ordered the capture of the Brazilian civilian steamship Marquês de Olinda, including its passengers and crew. The Paraguayan army invaded the Brazilian province of Mato Grosso (currently the state of Mato Grosso do Sul) immediately afterward without a declaration of war. Four months later, Paraguayan troops also invaded Argentine territory as a prelude to an attack upon the Brazilian province of Rio Grande do Sul. The invasion of Rio Grande do Sul became known in the capital on 30 June 1865. Aware of the anarchy in the province and the incapacity and incompetence of its military chiefs to resist the Paraguayan army, Pedro II decided to go to the front in person. He wrote to the Countess of Barral: "Rio Grande do Sul has been invaded, my place is there". As Head of State, he intended to assume command of the Brazilian army. Both the Cabinet and the General Assembly refused to accede to the Emperor's wish. After he also received objections from the Council of State, Pedro II made the memorable pronouncement: "If they can prevent me from going as an Emperor, they can not prevent me from abdicating and going as a Fatherland Volunteer". Thus those Brazilians who signed up to go to war under Decree 3,371 of 7 January 1865 became known throughout the nation as the "Fatherland Volunteers."</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FATHERLAND_VOLUNTEER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>The Hyksos ("rulers of the foreign countries") were a people of mixed origins from Western Asia, who settled in the eastern Nile Delta, some time before 1650 BC. The Hyksos brought several technical innovations to Egypt, as well as cultural infusions such as new musical instruments and foreign loanwords. The changes introduced include new techniques of bronze working and pottery, new breeds of animals, and new crops. In warfare, they introduced the horse and chariot, the composite bow, improved battle axes, and advanced fortification techniques. Because of these cultural advances, Hyksos rule became decisive for Egypt’s later empire in the Middle East.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HYKSOS_BOWMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_1">
+			<Text>A gendarme was a heavy cavalryman of noble birth, primarily serving in the French army from the Late Medieval to the Early Modern periods of European history. Their heyday was in the late fifteenth to mid sixteenth centuries, when they provided the Kings of France with a potent regular force of heavily armoured, lance-armed cavalry which, when properly employed, could dominate the battlefield.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GENDARME_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_1">
+			<Text>The Bandeirantes ("those who carry the flag") were 17th-century Portuguese settlers in Brazil and fortune hunters. This group mostly hailed from the São Paulo region, which was known as the Captaincy of São Vicente until 1709 and then as the Captaincy of São Paulo. They led expeditions called bandeiras (Portuguese, "flags") which penetrated the interior of Brazil far south and west of the Tordesillas Line of 1494, which officially divided the Castilian, later Spanish, (west) domain from the Portuguese (east) domain in South America.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_2">
+			<Text>The São Paulo settlement served as the home base for the most famous bandeirantes. Most bandeirantes were descendants of first- and second-generation Portuguese who settled in São Paulo, but their numbers also included many people of mameluco background (people of both European and Native American ancestries). Though they originally aimed to capture and force Indigenous Americans into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver, and diamond mines. As they ventured into unmapped regions in search of profit and adventure, they expanded the effective borders of the Brazilian colony.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BANDEIRANTE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_1">
+			<Text>A Tercio (Spanish for "third") was a Spanish infantry organization during the time that Habsburg Spain dominated Europe in the Early Modern era. The Tercio was an administrative unit with command of up to 3000 soldiers, subdivided originally into ten, later twelve compañías, made up of pikemen, swordsmen and arquebusiers or musketeers. These companies were deployed in battle and were further subdivided into units of thirty soldiers. These smaller units could be deployed individually or brought together to form what were sometimes called Spanish squares. These powerful infantry squares were also much used by other European powers, especially the Imperial Army of the Holy Roman Empire.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_2">
+			<Text>The care that was taken to maintain a high number of "old soldiers" (veterans) in the units, and their professional training, together with the particular personality imprinted on them by the proud hidalgos of the lower nobility that nurtured them, made the Tercios for a century and a half the best infantry in Europe. Moreover, the Tercios were the first to efficiently mix pikes and firearms. Tercio companies dominated European battlefields in the sixteenth century and the first half of the seventeenth century and are seen by historians as a major development of Early Modern combined arms warfare.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TERCIO_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_1">
+			<Text>A Sepoy was formerly the designation given to an Indian soldier. The term "sepoy" is derived from the Persian word sepahi meaning "infantry soldier" in the Mughal Empire. In its most common application, sepoy was the term used in the British Indian Army, and earlier in that of the British East India Company, for an infantry private.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SEPOY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_1">
+			<Text>The Onager was a Roman siege engine that was a type of catapult that uses a torsional force, generally from twisted rope, to store energy for the shot. The Onager consisted of a large frame placed on the ground to whose front end a vertical frame of solid timber was rigidly fixed. A vertical spoke that passed through a rope bundle fastened to the frame had a sling attached which contained a projectile. To fire it, the spoke or arm was forced down, against the tension of twisted ropes or other springs, by a windlass, and then suddenly released. As the sling swung outwards, one end would release, as with a staff-sling, and the projectile would be hurled forward. The arm would then be caught by a padded beam or bed, when it could be winched back again.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ONAGER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_1">
+			<Text>The Tiger I was a German heavy tank of World War II deployed from 1942 in Africa and Europe usually in independent heavy tank battalions. Its final designation was Panzerkampfwagen VI Tiger Ausf. E often shortened to Tiger. The Tiger I gave the Wehrmacht its first armoured fighting vehicle that mounted the 8.8 cm KwK 36 gun (not to be confused with the 8.8 cm Flak 36). 1,347 were built between August 1942 and August 1944. The tank was given its nickname "Tiger" by Ferdinand Porsche, and the Roman numeral was added after the later Tiger II entered production.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_2">
+			<Text>While the Tiger I has been called an outstanding design for its time, it was over-engineered, using expensive materials and labour-intensive production methods. The Tiger was prone to certain types of track failures and breakdowns, and was limited in range by its high fuel consumption. It was also difficult to transport, and vulnerable to immobilisation when mud, ice and snow froze between its overlapping and interleaved Schachtellaufwerk-pattern road wheels, often jamming them solid. This was a problem on the Eastern Front in the muddy rasputitsa season and during extreme periods of cold.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PANZER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_1">
+			<Text>The Yamato-class battleships were battleships of the Imperial Japanese Navy (IJN) constructed and operated during World War II. Displacing 72,000 long tons (73,000 t) at full load, the vessels were the heaviest and most powerfully armed battleships ever constructed. The class carried the largest naval artillery ever fitted to a warship, nine 460-millimetre (18.1 in) naval guns, each capable of firing 1,360 kg (3,000 lb) shells over 42 km (26 mi). Two battleships of the class (Yamato and Musashi) were completed, while a third (Shinano) was converted to an aircraft carrier during construction.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMATO_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_1">
+			<Text>The tessarakonteres ("forty-rowed"), or simply "forty" was a very large galley reportedly built in the Hellenistic period. The name "forty" refers to the number of rowers on each column of oars that propelled it. It would have been the largest ship constructed in antiquity, and possibly the largest human-powered vessel ever built. The "forty" was reportedly built by Ptolemy IV Philopator of Egypt in the 3rd century BC.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WAR_GALLEY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_1">
+			<Text>The Amazons were Scythian women who fought and were mythologized in Greek mythology as a race of female warriors. Herodotus reported that they were related to the Scythians and placed them in a region bordering Scythia in Sarmatia (modern territory of Ukraine). Other historiographers place them in Anatolia, or sometimes Libya. The Amazons have become associated with many historical people throughout the Roman Empire period and Late Antiquity. Amazons were said to have founded several cities and temples. According to legend, the Amazons also invented the cavalry. From the early modern period, their name has become a term for female warriors in general.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_AMAZON_SCOUT_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_1">
+			<Text>The khopesh is a sickle-sword that evolved from battle axes. A typical khopesh is 50–60 cm (20–24 inches) in length, though smaller examples do also exist. The blunted edge of the weapon's tip also served as an effective bludgeon, as well as a hook. The earliest known depiction of a khopesh is from the Stele of Vultures, depicting King Eannatum of Lagash wielding the weapon; this would date the khopesh to at least 2500 BC.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VULTURE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_1">
+			<Text>The T-34 was a Soviet medium tank that had a profound and lasting effect on the field of tank design. Although its armour and armament were surpassed later in the war, it has been often credited as the most effective, efficient and influential tank design of the Second World War. At its introduction, the T-34 possessed an unprecedented combination of firepower, mobility, protection and ruggedness. Its 76.2 mm (3 in) high-velocity tank gun provided a substantial increase in firepower over any of its contemporaries; its heavy sloped armour was difficult to penetrate by most contemporary anti-tank weapons. When first encountered in 1941, the German tank general von Kleist called it "the finest tank in the world" and Heinz Guderian confirmed the T-34's "vast superiority" over existing German armour of the period.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_2">
+			<Text>The T-34 was the mainstay of Soviet armoured forces throughout the Second World War. Its design allowed it to be continuously refined to meet the constantly evolving needs of the Eastern Front: as the war went on it became more capable, but also quicker and cheaper to produce. Soviet industry would eventually produce over 80,000 T-34s of all variants, allowing steadily greater numbers to be fielded as the war progressed despite the loss of thousands in combat against the German Wehrmacht. Replacing many light and medium tanks in Red Army service, it was the most-produced tank of the war, as well as the second-most-produced tank of all time (after its successor, the T-54/55 series). Its evolutionary development led directly to the T-54/55 series of tanks, and from there to the T-62, T-72, and T-90 tanks that, along with several Chinese tanks based on the T-55, form the backbone of many armies even today. T-34 variants were widely exported after World War II and as late as 1996 were still in service in at least 27 countries.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_T34_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_1">
+			<Text>Armatoloi were Christian Greek irregular soldiers, or militia, commissioned by the Ottomans to enforce the Sultan's authority within an administrative district called an Armatoliki. Armatolikia were created in areas of Greece that had high levels of brigandage, or in regions that were difficult for Ottoman authorities to govern due to the inaccessible terrain, such as the Agrafa mountains of Thessaly, where the first armatoliki was established in the 15th century. Over time, the roles of the armatoloi and klephtes became blurred, with both reversing their roles and allegiances as the situation demanded, all the while maintaining the delicate status-quo with the Ottoman authorities. During the Greek War of Independence, the armatoloi, along with the klephts, formed the nucleus of the Greek fighting forces, and played a prominent part throughout its duration. Yannis Makriyannis referred to the armatoloi and klephts as the "yeast of liberty".</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMATOLOS_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_1">
+			<Text>Ghazi is an Arabic term originally referring to an individual who participates in Ghazw, meaning military expeditions or raiding; after the emergence of Islam, it took on new connotations of religious warfare.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GHAZI_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_1">
+			<Text>The Troupes de la Marine, a body founded by Cardinal Richelieu in 1622 were originally intended to form the garrisons of the King of France's ships. It was in 1674 that Jean-Baptiste Colbert decided to make permanent colonial troops and give them the name Compagnies Franches de la Marine. The Compagnies Franches de la Marine were independent companies of the navy and colonial regulars, under the authority of the Ministère de la Marine, who was also responsible for the French navy, overseas trade, and French colonies. In New France, they were the only regular soldiers from 1685 to 1755, when several army battalions were dispatched to North America. The Naval Department of France began using the Compagnies to defend the fur trade and the local civilians from raiding Iroquois. They were superseded by the arrival of large units of the army under Montcalm in 1756. The Compagnies ceased to exist in Canada after the fall of Montreal in 1760.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FRENCH_MARINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_1">
+			<Text>Traditional African medicine is an alternative medicine discipline involving indigenous herbalism and African spirituality, typically involving diviners, midwives, and herbalists. Diagnosis is reached through spiritual means and a treatment is prescribed, usually consisting of a herbal remedy that is considered to have not only healing abilities but also symbolic and spiritual significance. Traditional African medicine, with its belief that illness is not derived from chance occurrences, but through spiritual or social imbalance, differs greatly from modern scientific medicine, which is technically and analytically based. Before the establishment of science-based medicine, traditional medicine was the dominant medical system for millions of people in Africa but the arrival of the Europeans was a noticeable turning point in the history of this ancient tradition and culture.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDICINE_MAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_1">
+			<Text>The traditional Chinese martial arts school is an extended family headed by the Shifu. The Shifu's teacher is the "honorable master" or Shigong.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIGONG_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_1">
+			<Text>The Age of Discovery or the Age of Exploration from the end of the 15th century to the 18th century, was an informal and loosely defined European historical period marking the time period in which extensive overseas exploration emerged as a powerful factor in European culture and the beginning of globalization. It also marks the rise of the period of widespread adoption in Europe of colonialism and mercantilism. Many lands previously unknown to Europeans were discovered during this period, though most were already inhabited. From the perspective of many non-Europeans, the Age of Discovery marked the arrival of settlers and invaders from a previously unknown continent.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_2">
+			<Text>Global exploration started with the Portuguese discoveries of the Atlantic archipelagos of Madeira and the Azores, the coast of Africa, and the discovery of the sea route to India in 1498; and, on behalf of the Crown of Castile (Spain), the trans-Atlantic Voyages of Christopher Columbus between 1492 and 1502, and the first circumnavigation of the globe in 1519–1522. These discoveries led to numerous naval expeditions across the Atlantic, Indian and Pacific oceans, and land expeditions in the Americas, Asia, Africa, and Australia that continued into the late 19th century, and ended with the exploration of the polar regions in the 20th century.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EXPLORER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_1">
+			<Text>A sniper is a marksman or qualified specialist who operates alone, in a pair, or with a sniper team to maintain close visual contact with the enemy and shoot enemies from concealed positions or distances exceeding the detection capabilities of enemy personnel. Snipers typically have highly-selective or specialized training and use crew-served high-precision/special application rifles and optics, and often have sophisticated communication assets to feed valuable combat information back to their units or military bases.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SNIPER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>The longsword was the most versatile weapon of the Medieval/Renaissance battlefield. It was lighter and easier to carry than a pike, and it could be used one or two-handed, making it possible for the swordsman to also carry a shield. In face-to-face combat against pikemen the longswordsmen were at a significant disadvantage, taking many casualties from the longer weapons before they could even get within striking distance. However, longswordsmen units were faster and more maneuverable than pikemen - and if they could hit their opponents in a flank attack, the pikemen were dead meat.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MACEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_1">
+			<Text>The Republican Guard (fr. Garde Republicaine) is the military formation of the Democratic Republic of the Congo, which is part of the armed forces of the country. The Guard was formed after the proclamation of independence from Belgium and the election of the first president of the republic in 1960. The main task of the Republican Guard is to protect the legally elected president and government. Also guardsmen protect important government officials and objects of high strategic importance.</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_2">
+			<Text>Despite its status, guardsmen often had to take part in internecine wars between the political elite of the new republic. In addition, they had to participate in bloody civil wars with troops of political opponents of a president. Over the decades of independence, the young republic managed to survive three regime changes, the genocide in Rwanda, two waves of refugees (the Tutsi and Hutu tribes), dozens of insurgencies and two Congolese wars. But despite all the difficulties, the instability of the situation and the uncertainty in the further political course after the change of leaders, the republic guards took the oath and served the interests of state power. In different periods, the strength of the Republican Guard ranged from 8,000 to 20,000 well-armed soldiers. In addition to the army, divided into 18 brigades of 3,500 soldiers, there are 10,000-15,000 soldiers in the modern Republic Guard, and there are three brigades in the guard: the 10th in Kinshasa (the capital of the Republic of the Congo), and the 15th and 16th, In Lubumbashi (the second largest city of the republic).</Text>
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GARDE_REPUBLICAINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_1">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Replace>
+		<Replace Language="de_DE" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MEDIEVAL_HORSEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Replace>
+	</LocalizedText>
+</GameData>
