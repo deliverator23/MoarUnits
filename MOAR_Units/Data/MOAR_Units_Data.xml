@@ -224,7 +224,7 @@
 		<Row UnitType="UNIT_BANDEIRANTE" BaseMoves="3" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BANDEIRANTE_NAME"
 			 Description="LOC_UNIT_BANDEIRANTE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON"
-			 Maintenance="4" Combat="46" RangedCombat="60" Range="1" PrereqTech="TECH_GUNPOWDER"
+			 Maintenance="4" Combat="46" RangedCombat="60" Range="1" PrereqTech="TECH_GUNPOWDER" BuildCharges="1"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_BANDEIRANTE"/>
 
 		<Row UnitType="UNIT_PHALANX" BaseMoves="2" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
