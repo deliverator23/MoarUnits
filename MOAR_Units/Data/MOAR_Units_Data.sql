@@ -39,22 +39,12 @@ UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC
 /* Anti Cavalry boost */
 DELETE FROM UnitAbilityModifiers WHERE UnitAbilityType = 'ABILITY_ANTI_CAVALRY' AND ModifierId = 'ANTI_CAVALRY_COMBAT_BONUS';
 
-/* Expanded Recon Class */
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EXPLORER' WHERE Unit = 'UNIT_SCOUT';
-
-UPDATE Units SET Combat = 53, RangedCombat = 0, MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
-
-UPDATE Units SET RangedCombat = 65, Cost = 500 WHERE UnitType = 'UNIT_MACHINE_GUN';
 
 UPDATE Units SET BaseSightRange = 2 WHERE UnitType='UNIT_NATURALIST';
 
-/* Expanded Recon Promotions Rework */
-UPDATE UnitPromotions SET Name='LOC_PROMOTION_SPYGLASS_NAME', Description='LOC_PROMOTION_SPYGLASS_DESCRIPTION' WHERE UnitPromotionType='PROMOTION_GUERRILLA';
-UPDATE UnitPromotions SET Name='LOC_PROMOTION_GUERRILLA_NAME', Description='LOC_PROMOTION_GUERRILLA_DESCRIPTION' WHERE UnitPromotionType='PROMOTION_SPYGLASS';
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_PIKE_AND_SHOT' WHERE Unit = 'UNIT_LANDSKNECHT'
+AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
 
-UPDATE UnitPromotionModifiers SET ModifierId = 'FADE_BONUS_MOVE_AFTER_ATTACKING' WHERE UnitPromotionType='PROMOTION_SPYGLASS';
-UPDATE UnitPromotionModifiers SET ModifierId = 'SPYGLASS_BONUS_SIGHT' WHERE UnitPromotionType='PROMOTION_GUERRILLA';
-
-INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES ('AMBUSH_REQUIREMENTS','REQUIREMENTSET_TEST_ALL');
-INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES ('AMBUSH_REQUIREMENTS','PLAYER_IS_DEFENDER_REQUIREMENTS');
-UPDATE Modifiers SET SubjectRequirementSetId = 'AMBUSH_REQUIREMENTS' WHERE ModifierId = 'AMBUSH_INCREASED_COMBAT_STRENGTH';
+UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_PIKE_AND_SHOT' WHERE CivUniqueUnitType = 'UNIT_TERCIO'
+AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
