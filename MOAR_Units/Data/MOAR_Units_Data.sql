@@ -43,8 +43,12 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EXPLORER' WHERE Unit = 'UNIT_SCOUT';
 
 UPDATE Units SET BaseSightRange = 2 WHERE UnitType='UNIT_NATURALIST';
 
+/* Rise & Fall Changes */
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_PIKE_AND_SHOT' WHERE Unit = 'UNIT_LANDSKNECHT'
 AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_SPEC_OPS' WHERE Unit = 'UNIT_BANDEIRANTE'
+AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_SPEC_OPS');
 
 UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_PIKE_AND_SHOT' WHERE CivUniqueUnitType = 'UNIT_TERCIO'
 AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_PIKE_AND_SHOT');
