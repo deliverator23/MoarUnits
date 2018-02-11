@@ -258,7 +258,7 @@
 		<Row UnitType="UNIT_TERCIO" BaseMoves="2" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
 			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TERCIO_NAME"
 			 Description="LOC_UNIT_TERCIO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
-			 Maintenance="4" Combat="51" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_ROCKETRY"
+			 Maintenance="4" Combat="60" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_ROCKETRY"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_TERCIO"/>
 
 		<Row UnitType="UNIT_PANZER" BaseMoves="4" Cost="540" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"

@@ -6,10 +6,15 @@
         <Description>Greetings! This Civilization VI mod adds Maceman, Explorer, Rifleman, Cuirassier and Sniper units and 33 new Unique Units: the American Minuteman, Arabian Camel Archer and Ghazi, Chinese Cho-Ko-Nu and Shigong, German Landsknecht and Panzer, Greek Hetairos (Companion Cavalry) and Armatolos, Spanish Jinete and Tercio, Roman Eques and Onager, Russian Druzhina Cavalry and T-34, Norweigian Hirdman, English Longbowman, Indian Mughal Sowar and Sepoy, Sumerian Phalanx and Sickle Swordsman, Japanese Sohei and Yamato, Scythian Amazon Scout and Amazon Cavalry, Brazilian Bandeirante and Fatherland Volunteer, Egyptian Hyksos Bowman and Tessarakonteres, French Gendarme and Marine and Kongolese Medicine Man and Garde Republicaine.</Description>
         <Authors>Deliverator</Authors>
     </Properties>
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+	</ActionCriteria>
     <FrontEndActions>
         <UpdateDatabase id="MOAR_SETTING">
 			<Properties>
-				<LoadOrder>1</LoadOrder>
+				<LoadOrder>2</LoadOrder>
 			</Properties>
             <File>Data/MOAR_Units_Config.xml</File>
         </UpdateDatabase>
@@ -29,19 +34,24 @@
         </UpdateText>
 		<UpdateIcons id="MOAR_SETTING_Icons">
 			<Properties>
-				<LoadOrder>1</LoadOrder>
+				<LoadOrder>2</LoadOrder>
 			</Properties>
 			<File>Data/MOAR_Units_Icons.xml</File>
 		</UpdateIcons>
     </FrontEndActions>
     <InGameActions>
-        <UpdateDatabase id="MOAR_UpdateDatabase">
+        <UpdateDatabase id="MOAR_UpdateDatabase2">
 			<Properties>
-				<LoadOrder>-1</LoadOrder>
+				<LoadOrder>2</LoadOrder>
 			</Properties>
             <File>Data/MOAR_Units_Data.xml</File>
-            <File>Data/MOAR_Units_Data.sql</File>
         </UpdateDatabase>
+		<UpdateDatabase id="MOAR_UpdateDatabase3">
+			<Properties>
+				<LoadOrder>3</LoadOrder>
+			</Properties>
+			<File>Data/MOAR_Units_Data.sql</File>
+		</UpdateDatabase>
         <UpdateText id="MOAR_LocalizedText">
 			<File>Text/MOAR_Units_LocalisationText_de_DE.xml</File>
 			<File>Text/MOAR_Units_LocalisationText_en_US.xml</File>
@@ -71,8 +81,8 @@
 
 		<!-- Data -->
 		<File>Data/MOAR_Units_Config.xml</File>
+		<File>Data/MOAR_Units_Data.xml</File>
 		<File>Data/MOAR_Units_Data.sql</File>
-        <File>Data/MOAR_Units_Data.xml</File>
         <File>Data/MOAR_Units_Icons.xml</File>
 
 		<!-- ArtDefs -->
