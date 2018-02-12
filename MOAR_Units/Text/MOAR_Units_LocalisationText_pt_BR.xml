@@ -346,9 +346,6 @@
 		<Replace Language="pt_BR" Tag="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC">
 			<Text>+20 [ICON_Strength] de Força de Combate contra Cavalaria Leve.</Text>
 		</Replace>
-		<Replace Language="pt_BR" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
-			<Text>+20 [ICON_Strength] de Força de Combate quando defendendo.</Text>
-		</Replace>
 		<Replace Language="pt_BR" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>o Hird (Escudeiros), na história da Noruega, era originalmente um séquito informal de companheiros armados pessoais, hirdmen ou housecarls, mas significava não só o núcleo da palavra ('Guards') do exército real, mas também se transformou em uma casa formal de corte real. Quando o hird royal Norueguês se tornou uma casa formal, hirdman tornou-se o título da mais alta de suas quatro fileiras, aqueles magnatas que foram autorizados a assentar no conselho real (o equivalente feudal mais próximo de um gabinete) e, portanto, teve uma palavra em assuntos governamentais e outros importantes.</Text>
 		</Replace>

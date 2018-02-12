@@ -328,9 +328,6 @@
 		<Replace Language="es_ES" Tag="PLUS_5_OTHER_RELIGION_COMBAT_BONUS_DESC">
 			<Text>+5 [ICON_Strength] Cuando el oponente practica otra religión.</Text>
 		</Replace>
-		<Replace Language="es_ES" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
-			<Text>+20 [ICON_Strength] Fuerza de Combate cuando defiende.</Text>
-		</Replace>
 		<Replace Language="es_ES" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>El hird , en la historia de Noruega, era un séquito informal de compañeros de armas durante la Edad Media,​ a veces también llamados huscarles, pero lejos de ser un núcleo fuerte de "guardias" al servicio de la corona como ejército real, desarrollaron un tipo de corte noble más cercana a una unidad familiar. Cuando el hird real noruego evolucionó a una corte formal, los hirdman ostentaban el rango más alto y se les permitía compartir asiento en los consejos reales (la forma feudal de un gabinete de consulta) y con derecho a palabra en asuntos de gobierno y otros temas importantes.</Text>
 		</Replace>

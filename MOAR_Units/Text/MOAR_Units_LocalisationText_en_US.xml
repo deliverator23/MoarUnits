@@ -266,7 +266,7 @@
 			<Text>Gatling Gun</Text>
 		</Replace>
 		<Replace Language="en_US" Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION">
-			<Text>Industrial Era Anti-Cavalry unit.</Text>
+			<Text>Industrial Era Ranged unit. +8 [ICON_Strength] Combat Strength against Melee, Anti Cavalry and Light Cavalry units.</Text>
 		</Replace>
 		<Replace Language="en_US" Tag="LOC_UNIT_RECON_NAME">
 			<Text>Recon</Text>
@@ -281,7 +281,7 @@
 			<Text>Information Era Ranged unit. Cannot move and attack on the same turn. Gains +12 [ICON_Ranged] Ranged strength vs. land units (exluding Heavy Cavalry). Gains +1 [ICON_Range] Range when on hills.</Text>
 		</Replace>
 		<Replace Language="en_US" Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
-			<Text>Atomic Era Ranged Support unit. +10 Combat Strength when defending.</Text>
+			<Text>Atomic era Ranged unit. +8 [ICON_Strength] Combat Strength against Melee, Anti Cavalry and Light Cavalry units.</Text>
 		</Replace>
 		<Replace Language="en_US" Tag="LOC_UNIT_HORSEMAN_NAME">
 			<Text>Rider</Text>
@@ -349,8 +349,8 @@
 		<Replace Language="en_US" Tag="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC">
 			<Text>+20 [ICON_Strength] Combat Strength versus Light Cavalry.</Text>
 		</Replace>
-		<Replace Language="en_US" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
-			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
+		<Replace Language="en_US" Tag="PLUS_X_VS_MELEE_ANTICAV_LIGHTCAV_COMBAT_BONUS_DESC">
+			<Text>+8 [ICON_Strength] Combat Strength against Melee, Anti Cavalry and Light Cavalry units.</Text>
 		</Replace>
 		<Replace Language="en_US" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>The hird, in Norwegian history, was originally an informal retinue of personal armed companions, hirdmen or housecarls, but came to mean not only the nucleus ('Guards') of the royal army, but also developed into a more formal royal court household. When the Norwegian royal hird had developed into a formal court, hirdman became the title of the highest of its four ranks, those magnates who were allowed to seat in the royal council (the closest feudal equivalent of a cabinet) and thus had a say in governmental and other important matters.</Text>

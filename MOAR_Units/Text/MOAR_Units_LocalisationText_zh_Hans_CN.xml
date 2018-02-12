@@ -343,9 +343,6 @@
 		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SHIGONG_DESCRIPTION">
 			<Text>中国特色支援单位，研究市政树的“军事训练”解锁，为近战、骑兵、反骑兵单位提供+5战斗力[ICON_Strength]作战能力加成且能收获更多经验值，但每座兵营只能招募一位。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
-			<Text>防御时 +20 [ICON_Strength] 战斗力。</Text>
-		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>赫德（Hird）在挪威的历史上最初是对非正式的私人武装随从或护卫的称呼。但之后，这一词汇不仅指代着皇家军队中的核心成员（御前侍卫），同时也发展成了一个更为正式的宫廷贵族称号。在哈康四世统治期间，挪威的赫德阶层不再仅仅专注于军事领域，其内部也获得了更为细致的划分。整个赫德阶层被分成了四大部分：“士绅”、“卫士”、“骑士”以及出身低微的“游人”。其中的大量赫德上层被招募为王室官员，与此同时，更多的普通官员也被吸纳进了赫德阶层之中。当赫德正式成为挪威贵族阶级中的一员时，“卫士”（Hirdman）成为了四个称号中地位最高的一个。这些豪强们在皇家评议会（类似于封建时代的内阁机构）里拥有席位，能够参与到政治以及其它一些重要事项的决策当中。</Text>
 		</Replace>

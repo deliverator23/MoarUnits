@@ -349,9 +349,6 @@
 		<Replace Language="ja_JP" Tag="PLUS_20_VS_LIGHT_CAVALRY_COMBAT_BONUS_DESC">
 			<Text>+20 [ICON_Strength] Combat Strength versus Light Cavalry.</Text>
 		</Replace>
-		<Replace Language="ja_JP" Tag="LOC_PROMOTION_AMBUSH_DESCRIPTION">
-			<Text>+20 [ICON_Strength] Combat Strength when defending.</Text>
-		</Replace>
 		<Replace Language="ja_JP" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HIRDMAN_CHAPTER_HISTORY_PARA_1">
 			<Text>The hird, in Norwegian history, was originally an informal retinue of personal armed companions, hirdmen or housecarls, but came to mean not only the nucleus ('Guards') of the royal army, but also developed into a more formal royal court household. When the Norwegian royal hird had developed into a formal court, hirdman became the title of the highest of its four ranks, those magnates who were allowed to seat in the royal council (the closest feudal equivalent of a cabinet) and thus had a say in governmental and other important matters.</Text>
 		</Replace>
